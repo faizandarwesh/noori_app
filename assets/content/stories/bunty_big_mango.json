@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "bunty_big_mango",
+  "start": "p1",
+  "characters": {
+    "rabbit": { "en": "Bunty", "ur": "بنٹی" },
+    "turtle": { "en": "Tolu", "ur": "ٹولو" },
+    "parrot": { "en": "Mithu", "ur": "مٹھو" }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "mango_grove",
+      "text": {
+        "en": "Bunty the rabbit hopped to the big mango tree.",
+        "ur": "بنٹی خرگوش اچھلتا کودتا آم کے بڑے درخت کے پاس آیا۔"
+      },
+      "cast": [
+        { "art": "character:rabbit", "x": 0.56, "y": 0.6, "size": 0.17, "mood": "happy", "enter": "left" }
+      ]
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "mango_grove",
+      "text": {
+        "en": "Plop! A big yellow mango fell down. “Yum!” said Bunty.",
+        "ur": "دھپ! ایک بڑا سا پیلا آم نیچے گرا۔ بنٹی بولا، “واہ، مزے دار!”"
+      },
+      "cast": [
+        { "art": "character:rabbit", "x": 0.62, "y": 0.6, "size": 0.17, "mood": "surprised" },
+        { "art": "prop:mango", "x": 0.44, "y": 0.6, "size": 0.06, "enter": "top" }
+      ]
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "mango_grove",
+      "text": {
+        "en": "Then Tolu the turtle came, slowly, slowly. “I am so hungry,” said Tolu.",
+        "ur": "پھر ٹولو کچھوا آہستہ آہستہ آیا۔ ٹولو بولا، “مجھے بہت بھوک لگی ہے۔”"
+      },
+      "cast": [
+        { "art": "prop:mango", "x": 0.4, "y": 0.6, "size": 0.06 },
+        { "art": "character:rabbit", "x": 0.54, "y": 0.6, "size": 0.17, "mood": "idle" },
+        { "art": "character:turtle", "x": 0.83, "y": 0.61, "size": 0.09, "mood": "sad", "flip": true, "enter": "right" }
+      ]
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "choice",
+      "scene": "mango_grove",
+      "text": {
+        "en": "Mithu the parrot flew down too. “Is that a mango?” asked Mithu.",
+        "ur": "مٹھو طوطا بھی اڑ کر نیچے آ گیا۔ مٹھو نے پوچھا، “کیا یہ آم ہے؟”"
+      },
+      "cast": [
+        { "art": "prop:mango", "x": 0.4, "y": 0.6, "size": 0.06 },
+        { "art": "character:parrot", "x": 0.24, "y": 0.6, "size": 0.14, "mood": "surprised", "enter": "top" },
+        { "art": "character:rabbit", "x": 0.56, "y": 0.6, "size": 0.17, "mood": "idle" },
+        { "art": "character:turtle", "x": 0.83, "y": 0.61, "size": 0.09, "mood": "sad", "flip": true }
+      ]
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": {
+        "en": "What should Bunty do with the mango?",
+        "ur": "بنٹی آم کا کیا کرے؟"
+      },
+      "options": [
+        {
+          "id": "share",
+          "label": { "en": "Share it", "ur": "بانٹ لے" },
+          "picture": "prop:mango_slice",
+          "next": "p5_share"
+        },
+        {
+          "id": "keep",
+          "label": { "en": "Keep it all", "ur": "سارا خود رکھ لے" },
+          "picture": "prop:mango",
+          "next": "p5_keep"
+        }
+      ]
+    },
+    {
+      "id": "p5_share",
+      "type": "page",
+      "next": "p6_share",
+      "scene": "mango_grove",
+      "text": {
+        "en": "Bunty smiled. “Let's share!” He gave each friend a piece.",
+        "ur": "بنٹی مسکرایا۔ “آؤ، مل کر کھاتے ہیں!” اس نے ہر دوست کو ایک ٹکڑا دیا۔"
+      },
+      "cast": [
+        { "art": "character:parrot", "x": 0.24, "y": 0.6, "size": 0.14, "mood": "happy" },
+        { "art": "prop:mango_slice", "x": 0.36, "y": 0.61, "size": 0.045 },
+        { "art": "character:rabbit", "x": 0.54, "y": 0.6, "size": 0.17, "mood": "happy" },
+        { "art": "prop:mango_slice", "x": 0.68, "y": 0.61, "size": 0.045 },
+        { "art": "character:turtle", "x": 0.84, "y": 0.61, "size": 0.09, "mood": "happy", "flip": true }
+      ]
+    },
+    {
+      "id": "p6_share",
+      "type": "page",
+      "next": "p7",
+      "scene": "mango_grove",
+      "text": {
+        "en": "They ate and laughed together. The mango tasted extra sweet!",
+        "ur": "سب نے مل کر کھایا اور خوب ہنسے۔ آم اور بھی میٹھا لگا!"
+      },
+      "cast": [
+        { "art": "character:parrot", "x": 0.26, "y": 0.6, "size": 0.14, "mood": "happy" },
+        { "art": "character:rabbit", "x": 0.52, "y": 0.6, "size": 0.17, "mood": "happy" },
+        { "art": "character:turtle", "x": 0.8, "y": 0.61, "size": 0.09, "mood": "happy", "flip": true }
+      ]
+    },
+    {
+      "id": "p5_keep",
+      "type": "page",
+      "next": "p6_keep",
+      "scene": "mango_grove",
+      "text": {
+        "en": "Bunty ate the mango all alone. His friends went away, feeling sad.",
+        "ur": "بنٹی نے اکیلے ہی سارا آم کھا لیا۔ اس کے دوست اداس ہو کر چلے گئے۔"
+      },
+      "cast": [
+        { "art": "character:parrot", "x": 0.16, "y": 0.6, "size": 0.14, "mood": "sad", "flip": true },
+        { "art": "character:rabbit", "x": 0.52, "y": 0.6, "size": 0.17, "mood": "idle" },
+        { "art": "prop:mango", "x": 0.64, "y": 0.6, "size": 0.05 },
+        { "art": "character:turtle", "x": 0.9, "y": 0.61, "size": 0.09, "mood": "sad" }
+      ]
+    },
+    {
+      "id": "p6_keep",
+      "type": "page",
+      "next": "p7",
+      "scene": "mango_grove",
+      "text": {
+        "en": "Bunty felt lonely. “Next time, I will share,” he said.",
+        "ur": "بنٹی کو اکیلا پن محسوس ہوا۔ وہ بولا، “اگلی بار میں ضرور بانٹوں گا۔”"
+      },
+      "cast": [
+        { "art": "character:rabbit", "x": 0.55, "y": 0.6, "size": 0.17, "mood": "sad" }
+      ]
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": null,
+      "scene": "mango_grove",
+      "text": {
+        "en": "Sharing makes every heart happy. The end!",
+        "ur": "مل بانٹ کر کھانے سے سب کا دل خوش ہوتا ہے۔ ختم شد!"
+      },
+      "cast": [
+        { "art": "character:parrot", "x": 0.26, "y": 0.6, "size": 0.14, "mood": "happy" },
+        { "art": "character:rabbit", "x": 0.52, "y": 0.6, "size": 0.17, "mood": "happy" },
+        { "art": "character:turtle", "x": 0.8, "y": 0.61, "size": 0.09, "mood": "happy", "flip": true }
+      ]
+    }
+  ],
+  "glossary": [
+    { "id": "rabbit", "picture": "character:rabbit", "word": { "en": "rabbit", "ur": "خرگوش" }, "forms": { "en": ["rabbits"], "ur": [] } },
+    { "id": "turtle", "picture": "character:turtle", "word": { "en": "turtle", "ur": "کچھوا" }, "forms": { "en": ["turtles"], "ur": ["کچھوے"] } },
+    { "id": "parrot", "picture": "character:parrot", "word": { "en": "parrot", "ur": "طوطا" }, "forms": { "en": ["parrots"], "ur": ["طوطے"] } },
+    { "id": "mango", "picture": "prop:mango", "word": { "en": "mango", "ur": "آم" }, "forms": { "en": ["mangoes"], "ur": ["آموں"] } },
+    { "id": "tree", "word": { "en": "tree", "ur": "درخت" }, "forms": { "en": ["trees"], "ur": [] } },
+    { "id": "big", "word": { "en": "big", "ur": "بڑا" }, "forms": { "en": [], "ur": ["بڑے", "بڑی"] } },
+    { "id": "yellow", "word": { "en": "yellow", "ur": "پیلا" }, "forms": { "en": [], "ur": ["پیلے", "پیلی"] } },
+    { "id": "hungry", "word": { "en": "hungry", "ur": "بھوکا" }, "forms": { "en": [], "ur": ["بھوک"] } },
+    { "id": "slowly", "word": { "en": "slowly", "ur": "آہستہ" }, "forms": { "en": [], "ur": [] } },
+    { "id": "share", "word": { "en": "share", "ur": "بانٹنا" }, "forms": { "en": ["sharing", "shared"], "ur": ["بانٹ", "بانٹوں"] } },
+    { "id": "friend", "word": { "en": "friend", "ur": "دوست" }, "forms": { "en": ["friends"], "ur": [] } },
+    { "id": "sweet", "word": { "en": "sweet", "ur": "میٹھا" }, "forms": { "en": [], "ur": ["میٹھی"] } },
+    { "id": "sad", "word": { "en": "sad", "ur": "اداس" }, "forms": { "en": [], "ur": [] } },
+    { "id": "alone", "word": { "en": "alone", "ur": "اکیلا" }, "forms": { "en": ["lonely"], "ur": ["اکیلے"] } },
+    { "id": "happy", "word": { "en": "happy", "ur": "خوش" }, "forms": { "en": [], "ur": [] } },
+    { "id": "heart", "picture": "prop:heart", "word": { "en": "heart", "ur": "دل" }, "forms": { "en": [], "ur": [] } },
+    { "id": "laughed", "word": { "en": "laugh", "ur": "ہنسنا" }, "forms": { "en": ["laughed"], "ur": ["ہنسے"] } },
+    { "id": "piece", "picture": "prop:mango_slice", "word": { "en": "piece", "ur": "ٹکڑا" }, "forms": { "en": [], "ur": [] } }
+  ],
+  "vocabulary": ["mango", "share", "friend"],
+  "quiz": [
+    {
+      "question": { "en": "Who found the big mango?", "ur": "بڑا آم کس کو ملا؟" },
+      "options": [
+        { "picture": "character:rabbit", "correct": true },
+        { "picture": "character:turtle" },
+        { "picture": "character:elephant" }
+      ]
+    },
+    {
+      "question": { "en": "What fell from the tree?", "ur": "درخت سے کیا گرا؟" },
+      "options": [
+        { "picture": "prop:banana" },
+        { "picture": "prop:flower" },
+        { "picture": "prop:mango", "correct": true }
+      ]
+    },
+    {
+      "question": { "en": "Who came slowly, slowly?", "ur": "کون آہستہ آہستہ آیا؟" },
+      "options": [
+        { "picture": "character:parrot" },
+        { "picture": "character:turtle", "correct": true },
+        { "picture": "character:monkey" }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": { "en": "Give a piece of mango to Tolu!", "ur": "ٹولو کو آم کا ٹکڑا دو!" },
+      "item": "prop:mango_slice",
+      "options": [
+        { "picture": "character:parrot" },
+        { "picture": "character:turtle", "correct": true },
+        { "picture": "character:elephant" }
+      ]
+    }
+  ]
+}

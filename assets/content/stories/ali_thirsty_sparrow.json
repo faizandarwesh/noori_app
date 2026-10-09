@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "id": "ali_thirsty_sparrow",
+  "start": "p1",
+  "characters": {
+    "ali": { "en": "Ali", "ur": "علی" },
+    "baba": { "en": "Baba", "ur": "بابا" },
+    "sparrow": { "en": "sparrow", "ur": "چڑیا" }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "hill_trail",
+      "text": {
+        "en": "It was a hot summer day. Ali and his Baba went for a walk in the green hills.",
+        "ur": "گرمیوں کا ایک گرم دن تھا۔ علی اپنے بابا کے ساتھ ہرے بھرے پہاڑوں پر سیر کرنے گیا۔"
+      },
+      "cast": [
+        { "art": "puppet:ali", "x": 0.38, "y": 0.62, "size": 0.22, "pose": "hold_hand", "act": "walk", "mood": "happy", "enter": "left" },
+        { "art": "puppet:baba", "x": 0.6, "y": 0.62, "size": 0.3, "pose": "hold_hand_l", "act": "walk+talk", "enter": "left" },
+        { "art": "prop:bird", "x": 0.7, "y": 0.26, "size": 0.035, "orbit": { "rx": 0.12, "ry": 0.03, "ms": 5200 } },
+        { "art": "prop:sparkle", "x": 0.86, "y": 0.18, "size": 0.04, "mood": "twinkle" }
+      ]
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "hill_trail",
+      "text": {
+        "en": "Ali had a small water bottle. \"Bismillah,\" he said, and took a sip. Ahh, so cool!",
+        "ur": "علی کے پاس پانی کی ایک چھوٹی سی بوتل تھی۔ \"بسم اللہ\" کہہ کر اس نے ایک گھونٹ پیا۔ آہا، کتنا ٹھنڈا!"
+      },
+      "cast": [
+        { "art": "puppet:baba", "x": 0.78, "y": 0.6, "size": 0.29, "mood": "happy", "act": "nod" },
+        { "art": "puppet:ali", "x": 0.42, "y": 0.63, "size": 0.24, "pose": "drink", "act": "drink", "face": "laugh", "hold": "prop:bottle", "holdSize": 0.28, "holdTurn": 200 },
+        { "art": "prop:sparkle", "x": 0.3, "y": 0.4, "size": 0.035, "mood": "twinkle", "delay": 900 },
+        { "art": "prop:sparkle", "x": 0.58, "y": 0.36, "size": 0.03, "mood": "twinkle", "delay": 1300 }
+      ]
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "hill_trail",
+      "text": {
+        "en": "Then Ali heard a tiny sound. \"Chee… chee…\" A little sparrow sat on a rock. Her beak was open. She was very thirsty.",
+        "ur": "پھر علی نے ایک ننھی سی آواز سنی۔ \"چوں... چوں...\" ایک چھوٹی سی چڑیا پتھر پر بیٹھی تھی۔ اس کی چونچ کھلی تھی۔ وہ بہت پیاسی تھی۔"
+      },
+      "cast": [
+        { "art": "puppet:baba", "x": 0.14, "y": 0.6, "size": 0.29, "act": "breathe" },
+        { "art": "puppet:ali", "x": 0.4, "y": 0.62, "size": 0.23, "pose": "hold", "hold": "prop:bottle_low", "holdSize": 0.24, "face": "surprised", "look": "right" },
+        { "art": "prop:rock", "x": 0.76, "y": 0.63, "size": 0.09 },
+        { "art": "puppet:sparrow", "x": 0.77, "y": 0.585, "size": 0.085, "pose": "tired", "act": "chirp", "flip": true, "mood": "worried" }
+      ]
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "choice",
+      "scene": "hill_trail",
+      "text": {
+        "en": "Ali looked at his bottle. Only a little water was left. What should Ali do?",
+        "ur": "علی نے اپنی بوتل دیکھی۔ تھوڑا سا ہی پانی بچا تھا۔ علی کو کیا کرنا چاہیے؟"
+      },
+      "cast": [
+        { "art": "puppet:ali", "x": 0.4, "y": 0.63, "size": 0.25, "pose": "hold", "hold": "prop:bottle_low", "holdSize": 0.26, "face": "think", "look": "down", "act": "nod" },
+        { "art": "prop:rock", "x": 0.78, "y": 0.63, "size": 0.09 },
+        { "art": "puppet:sparrow", "x": 0.79, "y": 0.585, "size": 0.085, "pose": "tired", "flip": true, "mood": "worried" }
+      ]
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": { "en": "What should Ali do?", "ur": "علی کو کیا کرنا چاہیے؟" },
+      "options": [
+        { "id": "give", "label": { "en": "Give water to the sparrow", "ur": "چڑیا کو پانی دے" }, "picture": "prop:bottle_cap", "next": "choice_a" },
+        { "id": "keep", "label": { "en": "Keep the water", "ur": "پانی اپنے پاس رکھے" }, "picture": "prop:bottle", "next": "choice_b" }
+      ]
+    },
+    {
+      "id": "choice_a",
+      "type": "page",
+      "next": "p5",
+      "scene": "hill_trail",
+      "text": {
+        "en": "Ali poured water into the bottle cap and put it near the sparrow. Sip, sip, sip! The sparrow drank happily.",
+        "ur": "علی نے بوتل کے ڈھکن میں پانی ڈالا اور چڑیا کے پاس رکھ دیا۔ چسکی، چسکی، چسکی! چڑیا نے خوشی خوشی پانی پیا۔"
+      },
+      "help": { "kind": "drag", "item": 1, "to": 2 },
+      "cast": [
+        { "art": "puppet:ali", "x": 0.4, "y": 0.63, "size": 0.24, "pose": "hold", "look": "right", "face": "think", "helpHide": 1 },
+        { "art": "prop:bottle_low", "x": 0.43, "y": 0.575, "size": 0.075, "helpHide": 1 },
+        { "art": "prop:bottle_cap_empty", "x": 0.64, "y": 0.645, "size": 0.06, "enter": "grow", "helpHide": 1 },
+        { "art": "prop:rock", "x": 0.82, "y": 0.63, "size": 0.09 },
+        { "art": "puppet:sparrow", "x": 0.83, "y": 0.585, "size": 0.085, "pose": "tired", "flip": true, "mood": "worried", "helpHide": 1 },
+        { "art": "puppet:ali", "x": 0.4, "y": 0.63, "size": 0.24, "pose": "pour", "act": "pour", "hold": "prop:bottle_low", "holdSize": 0.24, "holdTurn": -70, "mood": "happy", "helpStep": 1 },
+        { "art": "prop:bottle_cap", "x": 0.64, "y": 0.645, "size": 0.075, "helpStep": 1 },
+        { "art": "puppet:sparrow", "x": 0.76, "y": 0.645, "size": 0.075, "pose": "drink", "act": "drink", "flip": true, "delay": 500, "helpStep": 1 },
+        { "art": "prop:sparkle", "x": 0.64, "y": 0.58, "size": 0.04, "mood": "twinkle", "helpStep": 1 }
+      ]
+    },
+    {
+      "id": "choice_b",
+      "type": "page",
+      "next": "p5",
+      "scene": "hill_trail",
+      "text": {
+        "en": "Ali started walking away. But he kept thinking about the little sparrow. He turned back and poured water into the bottle cap. Sip, sip, sip! The sparrow drank happily.",
+        "ur": "علی آگے چل پڑا۔ مگر اسے بار بار ننھی چڑیا کا خیال آتا رہا۔ وہ واپس مڑا اور بوتل کے ڈھکن میں پانی ڈال دیا۔ چسکی، چسکی، چسکی! چڑیا نے خوشی خوشی پانی پیا۔"
+      },
+      "help": { "kind": "drag", "item": 4, "to": 5, "when": "after" },
+      "cast": [
+        { "art": "prop:rock", "x": 0.82, "y": 0.63, "size": 0.09 },
+        { "art": "puppet:sparrow", "x": 0.83, "y": 0.585, "size": 0.085, "pose": "tired", "flip": true, "mood": "worried", "helpHide": 1 },
+        { "art": "puppet:ali", "x": 0.18, "y": 0.62, "size": 0.22, "act": "walk", "face": "worried", "look": "right", "until": 3800 },
+        { "art": "puppet:ali", "x": 0.4, "y": 0.63, "size": 0.24, "pose": "hold", "look": "right", "mood": "happy", "enter": "left", "delay": 3800, "helpHide": 1 },
+        { "art": "prop:bottle_low", "x": 0.43, "y": 0.575, "size": 0.075, "delay": 5000, "helpHide": 1 },
+        { "art": "prop:bottle_cap_empty", "x": 0.64, "y": 0.645, "size": 0.06, "enter": "grow", "delay": 5200, "helpHide": 1 },
+        { "art": "puppet:ali", "x": 0.4, "y": 0.63, "size": 0.24, "pose": "pour", "act": "pour", "hold": "prop:bottle_low", "holdSize": 0.24, "holdTurn": -70, "mood": "happy", "helpStep": 1 },
+        { "art": "prop:bottle_cap", "x": 0.64, "y": 0.645, "size": 0.075, "helpStep": 1 },
+        { "art": "puppet:sparrow", "x": 0.76, "y": 0.645, "size": 0.075, "pose": "drink", "act": "drink", "flip": true, "delay": 500, "helpStep": 1 },
+        { "art": "prop:sparkle", "x": 0.64, "y": 0.58, "size": 0.04, "mood": "twinkle", "helpStep": 1 }
+      ]
+    },
+    {
+      "id": "p5",
+      "type": "page",
+      "next": "p6",
+      "scene": "hill_trail",
+      "text": {
+        "en": "The sparrow flapped her wings. \"Chirp! Chirp!\" She flew around Ali's head, as if saying thank you.",
+        "ur": "چڑیا نے اپنے پر پھڑپھڑائے۔ \"چوں چوں!\" وہ علی کے سر کے گرد اڑنے لگی، جیسے شکریہ کہہ رہی ہو۔"
+      },
+      "cast": [
+        { "art": "puppet:ali", "x": 0.5, "y": 0.63, "size": 0.25, "pose": "cheer", "act": "laugh", "face": "laugh" },
+        { "art": "puppet:sparrow", "x": 0.5, "y": 0.36, "size": 0.07, "pose": "fly", "act": "fly+chirp", "mood": "happy", "orbit": { "rx": 0.2, "ry": 0.035, "ms": 3200 } },
+        { "art": "prop:sparkle", "x": 0.26, "y": 0.34, "size": 0.035, "mood": "twinkle" },
+        { "art": "prop:sparkle", "x": 0.74, "y": 0.3, "size": 0.04, "mood": "twinkle" },
+        { "art": "prop:heart", "x": 0.7, "y": 0.44, "size": 0.035, "mood": "float", "delay": 800 }
+      ]
+    },
+    {
+      "id": "p6",
+      "type": "page",
+      "next": "p7",
+      "scene": "hill_trail",
+      "text": {
+        "en": "Baba smiled. \"Ali, Allah loves those who are kind to His creatures. Even a tiny bird.\"",
+        "ur": "بابا مسکرائے۔ \"علی، اللہ تعالیٰ ان سے محبت کرتے ہیں جو اس کی مخلوق پر رحم کرتے ہیں۔ چاہے وہ ایک ننھی سی چڑیا ہی ہو۔\""
+      },
+      "cast": [
+        { "art": "puppet:baba", "x": 0.36, "y": 0.63, "size": 0.3, "pose": "kneel_pat", "act": "talk", "mood": "happy" },
+        { "art": "puppet:ali", "x": 0.6, "y": 0.63, "size": 0.23, "mood": "shy", "look": "left" },
+        { "art": "prop:rock", "x": 0.86, "y": 0.64, "size": 0.075 },
+        { "art": "puppet:sparrow", "x": 0.87, "y": 0.6, "size": 0.065, "flip": true, "act": "chirp", "mood": "happy" },
+        { "art": "prop:heart", "x": 0.5, "y": 0.3, "size": 0.04, "mood": "float" }
+      ]
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": "p8",
+      "scene": "rooftop_sunset",
+      "text": {
+        "en": "At home, Ali had an idea. He put a bowl of water on the rooftop for all the thirsty birds.",
+        "ur": "گھر آ کر علی کو ایک خیال آیا۔ اس نے چھت پر پیاسے پرندوں کے لیے پانی کا ایک پیالہ رکھ دیا۔"
+      },
+      "cast": [
+        { "art": "puppet:ali", "x": 0.42, "y": 0.63, "size": 0.24, "pose": "carry", "hold": "prop:clay_bowl", "holdSize": 0.3, "act": "walk", "mood": "happy", "enter": "left", "until": 3600 },
+        { "art": "prop:clay_bowl", "x": 0.62, "y": 0.64, "size": 0.0675, "enter": "grow", "delay": 3600 },
+        { "art": "puppet:ali", "x": 0.38, "y": 0.63, "size": 0.24, "pose": "point", "act": "bounce", "face": "happy", "delay": 3600 },
+        { "art": "prop:sparkle", "x": 0.62, "y": 0.55, "size": 0.035, "mood": "twinkle", "delay": 4000 }
+      ]
+    },
+    {
+      "id": "p8",
+      "type": "page",
+      "next": null,
+      "scene": "rooftop_morning",
+      "text": {
+        "en": "Next morning, many birds came to drink. Ali clapped his hands. \"Alhamdulillah!\"",
+        "ur": "اگلی صبح بہت سارے پرندے پانی پینے آئے۔ علی نے خوشی سے تالی بجائی۔ \"الحمدللہ!\""
+      },
+      "cast": [
+        { "art": "puppet:ali", "x": 0.22, "y": 0.63, "size": 0.24, "pose": "clap", "act": "clap", "face": "laugh" },
+        { "art": "prop:clay_bowl", "x": 0.62, "y": 0.65, "size": 0.0975 },
+        { "art": "puppet:sparrow", "x": 0.48, "y": 0.645, "size": 0.065, "pose": "drink", "act": "drink", "enter": "top" },
+        { "art": "puppet:sparrow", "x": 0.77, "y": 0.645, "size": 0.065, "pose": "drink", "act": "drink", "flip": true, "enter": "top", "delay": 500 },
+        { "art": "prop:bird", "x": 0.62, "y": 0.6, "size": 0.04, "enter": "top", "delay": 1000 },
+        { "art": "puppet:sparrow", "x": 0.7, "y": 0.3, "size": 0.05, "pose": "fly", "act": "fly", "orbit": { "rx": 0.18, "ry": 0.04, "ms": 4200 } },
+        { "art": "prop:bird", "x": 0.4, "y": 0.22, "size": 0.035, "orbit": { "rx": 0.14, "ry": 0.03, "ms": 5600 } }
+      ]
+    }
+  ],
+  "glossary": [
+    { "id": "thirsty", "picture": "prop:bottle_cap", "word": { "en": "thirsty", "ur": "پیاسا" }, "forms": { "en": [], "ur": ["پیاسی", "پیاسے"] } },
+    { "id": "sparrow", "picture": "puppet:sparrow", "word": { "en": "sparrow", "ur": "چڑیا" }, "forms": { "en": ["sparrows"], "ur": [] } },
+    { "id": "kind", "picture": "prop:heart", "word": { "en": "kind", "ur": "رحم دل" }, "forms": { "en": ["kindness"], "ur": ["رحم"] } },
+    { "id": "bottle", "picture": "prop:bottle", "word": { "en": "bottle", "ur": "بوتل" }, "forms": { "en": [], "ur": [] } },
+    { "id": "water", "picture": "prop:bottle", "word": { "en": "water", "ur": "پانی" }, "forms": { "en": [], "ur": [] } },
+    { "id": "bird", "picture": "prop:bird", "word": { "en": "bird", "ur": "پرندہ" }, "forms": { "en": ["birds"], "ur": ["پرندے", "پرندوں"] } },
+    { "id": "bowl", "picture": "prop:clay_bowl", "word": { "en": "bowl", "ur": "پیالہ" }, "forms": { "en": [], "ur": [] } },
+    { "id": "rock", "picture": "prop:rock", "word": { "en": "rock", "ur": "پتھر" }, "forms": { "en": [], "ur": [] } },
+    { "id": "hills", "word": { "en": "hills", "ur": "پہاڑ" }, "forms": { "en": ["hill"], "ur": ["پہاڑوں"] } },
+    { "id": "rooftop", "picture": "prop:roof_bowl", "word": { "en": "rooftop", "ur": "چھت" }, "forms": { "en": ["roof"], "ur": [] } },
+    { "id": "cool", "word": { "en": "cool", "ur": "ٹھنڈا" }, "forms": { "en": [], "ur": [] } },
+    { "id": "hot", "word": { "en": "hot", "ur": "گرم" }, "forms": { "en": [], "ur": [] } },
+    { "id": "wings", "word": { "en": "wings", "ur": "پر" }, "forms": { "en": ["wing"], "ur": [] } }
+  ],
+  "vocabulary": ["thirsty", "sparrow", "kind"],
+  "quiz": [
+    {
+      "question": { "en": "Who was thirsty?", "ur": "کون پیاسا تھا؟" },
+      "options": [
+        { "picture": "puppet:sparrow", "correct": true },
+        { "picture": "prop:cat" },
+        { "picture": "character:elephant" }
+      ]
+    },
+    {
+      "question": { "en": "What did Ali say before drinking?", "ur": "پانی پینے سے پہلے علی نے کیا کہا؟" },
+      "options": [
+        { "picture": "prop:moon", "label": { "en": "Good night", "ur": "شب بخیر" } },
+        { "picture": "prop:bismillah", "label": { "en": "Bismillah", "ur": "بسم اللہ" }, "correct": true },
+        { "picture": "prop:wave_hand", "label": { "en": "Bye bye", "ur": "خدا حافظ" } }
+      ]
+    },
+    {
+      "question": { "en": "Where did Ali put water for the birds?", "ur": "علی نے پرندوں کے لیے پانی کہاں رکھا؟" },
+      "options": [
+        { "picture": "prop:bag" },
+        { "picture": "prop:car" },
+        { "picture": "prop:roof_bowl", "correct": true }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": { "en": "Give water to the thirsty sparrow!", "ur": "پیاسی چڑیا کو پانی دو!" },
+      "item": "prop:bottle_cap",
+      "options": [
+        { "picture": "prop:cat" },
+        { "picture": "puppet:sparrow", "correct": true },
+        { "picture": "character:elephant" }
+      ]
+    }
+  ]
+}

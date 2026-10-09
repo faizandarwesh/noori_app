@@ -1,0 +1,145 @@
+{
+  "zones": [
+    {
+      "id": "jungle",
+      "name": {
+        "en": "Jungle",
+        "ur": "جنگل"
+      },
+      "badge": "jungle",
+      "unlockAfter": null,
+      "stories": [
+        {
+          "id": "bunty_big_mango",
+          "title": {
+            "en": "Bunty and the Big Mango",
+            "ur": "بنٹی اور بڑا آم"
+          },
+          "value": "sharing",
+          "character": "rabbit"
+        },
+        {
+          "id": "gulu_gentle_trunk",
+          "title": {
+            "en": "Gulu's Gentle Trunk",
+            "ur": "گولو کی پیاری سونڈ"
+          },
+          "value": "kindness",
+          "character": "elephant"
+        },
+        {
+          "id": "mithu_tells_truth",
+          "title": {
+            "en": "Mithu Tells the Truth",
+            "ur": "مٹھو نے سچ بولا"
+          },
+          "value": "honesty",
+          "character": "parrot"
+        },
+        {
+          "id": "tolu_tiny_seed",
+          "title": {
+            "en": "Tolu and the Tiny Seed",
+            "ur": "ٹولو اور ننھا بیج"
+          },
+          "value": "patience",
+          "character": "turtle"
+        },
+        {
+          "id": "chunnu_crosses_river",
+          "title": {
+            "en": "Chunnu Crosses the River",
+            "ur": "چُنّو نے دریا پار کیا"
+          },
+          "value": "courage",
+          "character": "monkey"
+        },
+        {
+          "id": "ali_thirsty_sparrow",
+          "title": {
+            "en": "Ali and the Thirsty Sparrow",
+            "ur": "علی اور پیاسی چڑیا"
+          },
+          "value": "kindness",
+          "character": "ali"
+        },
+        {
+          "id": "bunty_bismillah",
+          "title": {
+            "en": "Bunty Monkey Learns Bismillah",
+            "ur": "بنٹی بندر کی بسم اللہ"
+          },
+          "value": "sharing",
+          "character": "bunty"
+        },
+        {
+          "id": "dodo_tells_truth",
+          "title": {
+            "en": "Dodo Elephant Tells the Truth",
+            "ur": "ڈوڈو ہاتھی کا سچ"
+          },
+          "value": "honesty",
+          "character": "dodo"
+        },
+        {
+          "id": "tippu_seed",
+          "title": {
+            "en": "Tippu Turtle's Seed",
+            "ur": "ٹیپو کچھوے کا بیج"
+          },
+          "value": "patience",
+          "character": "tippu"
+        },
+        {
+          "id": "hamza_salam",
+          "title": {
+            "en": "Hamza and the Magic of Salam",
+            "ur": "حمزہ اور سلام کا جادو"
+          },
+          "value": "courage",
+          "character": "hamza"
+        }
+      ]
+    },
+    {
+      "id": "samandar",
+      "name": {
+        "en": "Sea",
+        "ur": "سمندر"
+      },
+      "badge": "sea",
+      "unlockAfter": "jungle",
+      "stories": []
+    },
+    {
+      "id": "gaon",
+      "name": {
+        "en": "Village",
+        "ur": "گاؤں"
+      },
+      "badge": "village",
+      "unlockAfter": "jungle",
+      "stories": []
+    },
+    {
+      "id": "aasman",
+      "name": {
+        "en": "Sky",
+        "ur": "آسمان"
+      },
+      "badge": "sky",
+      "unlockAfter": "jungle",
+      "stories": []
+    },
+    {
+      "id": "space",
+      "name": {
+        "en": "Space",
+        "ur": "خلا"
+      },
+      "badge": "space",
+      "unlockAfter": "jungle",
+      "stories": []
+    }
+  ]
+}

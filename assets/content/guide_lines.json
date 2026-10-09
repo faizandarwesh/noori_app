@@ -1,0 +1,54 @@
+{
+  "home_first_visit": {
+    "en": "Hi! I'm Noori! Swipe to see the stories, then tap one!",
+    "ur": "السلام علیکم! میں نوری ہوں! کہانیاں دیکھنے کے لیے انگلی پھیرو، پھر ایک پر ٹیپ کرو!"
+  },
+  "lang_sample_en": {
+    "en": "Let's read!",
+    "ur": "Let's read!"
+  },
+  "lang_sample_ur": {
+    "en": "چلو پڑھیں!",
+    "ur": "چلو پڑھیں!"
+  },
+  "choice_ask": {
+    "en": "What would you do?",
+    "ur": "تم کیا کرو گے؟"
+  },
+  "quiz_start": {
+    "en": "Picture game time! Tap the right picture.",
+    "ur": "تصویروں کا کھیل! صحیح تصویر پر ٹیپ کرو۔"
+  },
+  "quiz_order": {
+    "en": "Tap the pictures in story order: first, next, last!",
+    "ur": "کہانی کی ترتیب سے تصویروں پر ٹیپ کرو: پہلے، پھر، آخر میں!"
+  },
+  "quiz_find": {
+    "en": "Where is {name}? Tap!",
+    "ur": "{name} کہاں ہے؟ ٹیپ کرو!"
+  },
+  "quiz_correct": {
+    "en": "Yay! You got it!",
+    "ur": "واہ! بالکل ٹھیک!"
+  },
+  "quiz_try_again": {
+    "en": "Try again!",
+    "ur": "پھر سے کوشش کرو!"
+  },
+  "reward_great": {
+    "en": "Wow! Look at all your fireflies!",
+    "ur": "واہ! دیکھو کتنے سارے جگنو!"
+  },
+  "reward_word": {
+    "en": "You found a new word for your Word Jar!",
+    "ur": "تمہیں ایک نیا لفظ ملا! یہ لفظوں کے مرتبان میں جائے گا!"
+  },
+  "demo_hello": {
+    "en": "Hi! I am Noori! Tap me!",
+    "ur": "السلام علیکم! میں نوری ہوں! مجھے ٹیپ کرو!"
+  },
+  "demo_hint": {
+    "en": "Tap the big yellow button!",
+    "ur": "بڑا پیلا بٹن دباؤ!"
+  }
+}

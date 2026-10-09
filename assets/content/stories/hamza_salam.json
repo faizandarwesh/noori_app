@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "id": "hamza_salam",
+  "start": "p1",
+  "characters": {
+    "hamza": { "en": "Hamza", "ur": "حمزہ" },
+    "mithu": { "en": "Mithu", "ur": "مٹھو" },
+    "zainab": { "en": "Zainab", "ur": "زینب" },
+    "bilal": { "en": "Bilal", "ur": "بلال" },
+    "ammi": { "en": "Ammi", "ur": "امی" }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "new_house",
+      "text": {
+        "en": "Hamza and his family moved to a new house near the jungle. Hamza didn't know anyone. He felt shy.",
+        "ur": "حمزہ اور اس کے گھر والے جنگل کے پاس ایک نئے گھر میں آ گئے۔ حمزہ کسی کو نہیں جانتا تھا۔ اسے بہت شرم آ رہی تھی۔"
+      },
+      "cast": [
+        { "art": "prop:box", "x": 0.82, "y": 0.645, "size": 0.07 },
+        { "art": "prop:box", "x": 0.9, "y": 0.66, "size": 0.06 },
+        { "art": "prop:box", "x": 0.86, "y": 0.59, "size": 0.055 },
+        { "art": "puppet:hamza", "x": 0.6, "y": 0.645, "size": 0.21, "pose": "shy", "act": "shy", "mood": "shy", "look": "right" },
+        { "art": "puppet:ammi", "x": 0.46, "y": 0.64, "size": 0.29, "pose": "hand_on_shoulder", "act": "talk", "mood": "happy" }
+      ]
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "banyan",
+      "text": {
+        "en": "Some children were playing under the big banyan tree. Hamza wanted to play too, but he just stood quietly.",
+        "ur": "کچھ بچے برگد کے بڑے درخت کے نیچے کھیل رہے تھے۔ حمزہ بھی کھیلنا چاہتا تھا، مگر وہ چپ چاپ کھڑا رہا۔"
+      },
+      "cast": [
+        { "art": "puppet:zainab", "x": 0.22, "y": 0.62, "size": 0.19, "pose": "walk", "act": "run", "face": "laugh" },
+        { "art": "puppet:bilal", "x": 0.46, "y": 0.62, "size": 0.19, "pose": "cheer", "act": "bounce", "face": "laugh" },
+        { "art": "prop:ball", "x": 0.34, "y": 0.5, "size": 0.0525, "mood": "float" },
+        { "art": "puppet:hamza", "x": 0.84, "y": 0.66, "size": 0.21, "pose": "shy", "mood": "shy", "look": "left" }
+      ]
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "banyan",
+      "text": {
+        "en": "A green parrot landed on his shoulder. \"I'm Mithu! Why so quiet? Want to learn a magic word?\"",
+        "ur": "ایک ہرا طوطا اس کے کندھے پر آ بیٹھا۔ \"میں مٹھو ہوں! اتنے چپ کیوں ہو؟ ایک جادوئی لفظ سیکھو گے؟\""
+      },
+      "cast": [
+        { "art": "puppet:zainab", "x": 0.12, "y": 0.6, "size": 0.15, "act": "run", "face": "laugh" },
+        { "art": "puppet:bilal", "x": 0.28, "y": 0.6, "size": 0.15, "act": "bounce", "face": "laugh" },
+        { "art": "puppet:hamza", "x": 0.58, "y": 0.66, "size": 0.26, "face": "surprised", "look": "upRight" },
+        { "art": "puppet:mithu", "x": 0.65, "y": 0.485, "size": 0.08, "act": "talk+flap", "mood": "happy", "flip": true, "enter": "top" }
+      ]
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "p5",
+      "scene": "banyan",
+      "text": {
+        "en": "\"The magic word is Assalam o Alaikum! It means 'peace be upon you.' It opens every heart!\"",
+        "ur": "\"جادوئی لفظ ہے السلام علیکم! اس کا مطلب ہے 'تم پر سلامتی ہو'۔ یہ ہر دل کھول دیتا ہے!\""
+      },
+      "cast": [
+        { "art": "puppet:hamza", "x": 0.26, "y": 0.66, "size": 0.24, "face": "happy", "look": "upRight", "act": "nod" },
+        { "art": "puppet:mithu", "x": 0.64, "y": 0.5, "size": 0.17, "pose": "spread", "act": "talk", "mood": "happy", "flip": true },
+        { "art": "prop:sparkle", "x": 0.46, "y": 0.3, "size": 0.04, "mood": "twinkle" },
+        { "art": "prop:sparkle", "x": 0.86, "y": 0.26, "size": 0.035, "mood": "twinkle", "delay": 300 },
+        { "art": "prop:sparkle", "x": 0.6, "y": 0.22, "size": 0.03, "mood": "twinkle", "delay": 600 },
+        { "art": "prop:heart", "x": 0.82, "y": 0.42, "size": 0.035, "mood": "float", "delay": 900 }
+      ]
+    },
+    {
+      "id": "p5",
+      "type": "page",
+      "next": "choice",
+      "scene": "banyan",
+      "text": {
+        "en": "Hamza looked at the children. What should Hamza do?",
+        "ur": "حمزہ نے بچوں کی طرف دیکھا۔ حمزہ کو کیا کرنا چاہیے؟"
+      },
+      "cast": [
+        { "art": "puppet:zainab", "x": 0.14, "y": 0.6, "size": 0.15, "act": "run", "face": "laugh" },
+        { "art": "puppet:bilal", "x": 0.3, "y": 0.6, "size": 0.15, "act": "bounce", "face": "laugh" },
+        { "art": "puppet:hamza", "x": 0.6, "y": 0.66, "size": 0.24, "pose": "think", "act": "look" },
+        { "art": "prop:house", "x": 0.9, "y": 0.6, "size": 0.09 },
+        { "art": "puppet:mithu", "x": 0.69, "y": 0.475, "size": 0.075, "flip": true, "act": "flap" }
+      ]
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": { "en": "What should Hamza do?", "ur": "حمزہ کو کیا کرنا چاہیے؟" },
+      "options": [
+        { "id": "salam", "label": { "en": "Go and say Salam", "ur": "جا کر سلام کرے" }, "picture": "prop:salam", "next": "choice_a" },
+        { "id": "home", "label": { "en": "Go back home", "ur": "واپس گھر چلا جائے" }, "picture": "prop:house", "next": "choice_b" }
+      ]
+    },
+    {
+      "id": "choice_a",
+      "type": "page",
+      "next": "p6",
+      "scene": "banyan",
+      "text": {
+        "en": "Hamza took a deep breath, walked up to them, and said, \"Assalam o Alaikum!\"",
+        "ur": "حمزہ نے گہری سانس لی، آگے بڑھا اور کہا، \"السلام علیکم!\""
+      },
+      "help": { "kind": "drag", "item": 2, "to": 1 },
+      "cast": [
+        { "art": "puppet:zainab", "x": 0.18, "y": 0.63, "size": 0.2, "act": "bounce", "mood": "happy", "look": "left", "helpHide": 1 },
+        { "art": "puppet:bilal", "x": 0.38, "y": 0.63, "size": 0.2, "act": "bounce", "mood": "happy", "look": "left", "helpHide": 1 },
+        { "art": "puppet:hamza", "x": 0.84, "y": 0.645, "size": 0.21, "pose": "shy", "act": "shy", "enter": "right", "helpHide": 1 },
+        { "art": "puppet:zainab", "x": 0.18, "y": 0.63, "size": 0.2, "face": "surprised", "look": "right", "helpStep": 1 },
+        { "art": "puppet:bilal", "x": 0.38, "y": 0.63, "size": 0.2, "face": "surprised", "look": "right", "helpStep": 1 },
+        { "art": "puppet:hamza", "x": 0.62, "y": 0.645, "size": 0.22, "pose": "wave", "act": "wave+talk", "mood": "happy", "helpStep": 1 },
+        { "art": "prop:salam", "x": 0.8, "y": 0.36, "size": 0.07, "mood": "float", "delay": 600, "helpStep": 1 },
+        { "art": "puppet:mithu", "x": 0.6, "y": 0.28, "size": 0.07, "pose": "fly", "act": "fly", "orbit": { "rx": 0.16, "ry": 0.03, "ms": 4000 } }
+      ]
+    },
+    {
+      "id": "choice_b",
+      "type": "page",
+      "next": "p6",
+      "scene": "banyan",
+      "text": {
+        "en": "Hamza turned to go home. Mithu flew in front of him. \"Just try once, Hamza!\" So Hamza walked back and said, \"Assalam o Alaikum!\"",
+        "ur": "حمزہ گھر کی طرف مڑا۔ مٹھو اڑ کر اس کے سامنے آ گیا۔ \"بس ایک بار کوشش کرو، حمزہ!\" حمزہ واپس آیا اور بولا، \"السلام علیکم!\""
+      },
+      "help": { "kind": "drag", "item": 6, "to": 5, "when": "after" },
+      "cast": [
+        { "art": "puppet:zainab", "x": 0.18, "y": 0.63, "size": 0.2, "act": "run", "face": "laugh", "until": 4500 },
+        { "art": "puppet:bilal", "x": 0.38, "y": 0.63, "size": 0.2, "act": "bounce", "face": "laugh", "until": 4500 },
+        { "art": "puppet:hamza", "x": 0.84, "y": 0.645, "size": 0.21, "act": "walk", "face": "sad", "until": 4500 },
+        { "art": "puppet:mithu", "x": 0.76, "y": 0.4, "size": 0.1, "pose": "spread", "act": "talk+flap", "mood": "happy", "enter": "left", "delay": 1200, "helpHide": 1 },
+        { "art": "puppet:zainab", "x": 0.18, "y": 0.63, "size": 0.2, "act": "bounce", "mood": "happy", "look": "left", "delay": 4500, "helpHide": 1 },
+        { "art": "puppet:bilal", "x": 0.38, "y": 0.63, "size": 0.2, "act": "bounce", "mood": "happy", "look": "left", "delay": 4500, "helpHide": 1 },
+        { "art": "puppet:hamza", "x": 0.84, "y": 0.645, "size": 0.21, "pose": "shy", "act": "shy", "delay": 4500, "helpHide": 1 },
+        { "art": "puppet:zainab", "x": 0.18, "y": 0.63, "size": 0.2, "face": "surprised", "look": "right", "helpStep": 1 },
+        { "art": "puppet:bilal", "x": 0.38, "y": 0.63, "size": 0.2, "face": "surprised", "look": "right", "helpStep": 1 },
+        { "art": "puppet:hamza", "x": 0.62, "y": 0.645, "size": 0.22, "pose": "wave", "act": "wave+talk", "mood": "happy", "helpStep": 1 },
+        { "art": "prop:salam", "x": 0.8, "y": 0.36, "size": 0.07, "mood": "float", "delay": 600, "helpStep": 1 },
+        { "art": "puppet:mithu", "x": 0.6, "y": 0.28, "size": 0.07, "pose": "fly", "act": "fly", "orbit": { "rx": 0.16, "ry": 0.03, "ms": 4000 }, "helpStep": 1 }
+      ]
+    },
+    {
+      "id": "p6",
+      "type": "page",
+      "next": "p7",
+      "scene": "banyan",
+      "text": {
+        "en": "The children smiled. \"Wa Alaikum Assalam! I'm Zainab.\" \"And I'm Bilal! Come and play with us!\"",
+        "ur": "بچے مسکرانے لگے۔ \"وعلیکم السلام! میں زینب ہوں۔\" \"اور میں بلال ہوں! آؤ، ہمارے ساتھ کھیلو!\""
+      },
+      "cast": [
+        { "art": "puppet:zainab", "x": 0.2, "y": 0.63, "size": 0.2, "pose": "wave", "act": "wave+talk", "mood": "happy" },
+        { "art": "puppet:bilal", "x": 0.44, "y": 0.63, "size": 0.2, "pose": "welcome", "act": "bounce+talk", "face": "laugh" },
+        { "art": "puppet:hamza", "x": 0.74, "y": 0.645, "size": 0.22, "mood": "shy", "act": "shy", "face": "happy" },
+        { "art": "prop:heart", "x": 0.6, "y": 0.36, "size": 0.035, "mood": "float" }
+      ]
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": "p8",
+      "scene": "banyan_evening",
+      "text": {
+        "en": "They played hide and seek until Maghrib. Hamza laughed the loudest of all!",
+        "ur": "وہ مغرب تک چھپن چھپائی کھیلتے رہے۔ حمزہ سب سے زیادہ ہنس رہا تھا!"
+      },
+      "cast": [
+        { "art": "puppet:bilal", "x": 0.4, "y": 0.6, "size": 0.19, "pose": "cover_eyes", "act": "nod" },
+        { "art": "puppet:zainab", "x": 0.1, "y": 0.66, "size": 0.19, "face": "laugh", "look": "right", "act": "fidget" },
+        { "art": "prop:bush", "x": 0.12, "y": 0.67, "size": 0.09 },
+        { "art": "puppet:hamza", "x": 0.76, "y": 0.66, "size": 0.21, "pose": "cheer", "act": "run+laugh", "face": "laugh" }
+      ]
+    },
+    {
+      "id": "p8",
+      "type": "page",
+      "next": null,
+      "scene": "bedroom_night",
+      "text": {
+        "en": "That night, Hamza told Ammi, \"Salam really is magic! Now I have new friends. Alhamdulillah!\"",
+        "ur": "اس رات حمزہ نے امی سے کہا، \"سلام سچ مچ جادو ہے! اب میرے نئے دوست ہیں۔ الحمدللہ!\""
+      },
+      "cast": [
+        { "art": "prop:window_night", "x": 0.3, "y": 0.42, "size": 0.17 },
+        { "art": "puppet:mithu", "x": 0.3, "y": 0.415, "size": 0.07, "pose": "sleep", "act": "sleep" },
+        { "art": "puppet:ammi", "x": 0.78, "y": 0.6, "size": 0.29, "pose": "tuck", "act": "tuck", "mood": "happy", "look": "downLeft" },
+        { "art": "prop:bed", "x": 0.45, "y": 0.69, "size": 0.13 },
+        { "art": "puppet:hamza", "x": 0.4, "y": 0.73, "size": 0.21, "turn": -90, "pose": "lie", "act": "talk", "face": "happy" },
+        { "art": "prop:blanket", "x": 0.52, "y": 0.69, "size": 0.075 }
+      ]
+    }
+  ],
+  "glossary": [
+    { "id": "friend", "picture": "puppet:bilal", "word": { "en": "friend", "ur": "دوست" }, "forms": { "en": ["friends"], "ur": [] } },
+    { "id": "shy", "picture": "puppet:hamza", "word": { "en": "shy", "ur": "شرمیلا" }, "forms": { "en": [], "ur": ["شرم"] } },
+    { "id": "peace", "picture": "prop:salam", "word": { "en": "peace", "ur": "سلامتی" }, "forms": { "en": [], "ur": [] } },
+    { "id": "parrot", "picture": "puppet:mithu", "word": { "en": "parrot", "ur": "طوطا" }, "forms": { "en": [], "ur": [] } },
+    { "id": "magic", "picture": "prop:sparkle", "word": { "en": "magic", "ur": "جادو" }, "forms": { "en": [], "ur": ["جادوئی"] } },
+    { "id": "house", "picture": "prop:house", "word": { "en": "house", "ur": "گھر" }, "forms": { "en": ["home"], "ur": [] } },
+    { "id": "children", "word": { "en": "children", "ur": "بچے" }, "forms": { "en": [], "ur": ["بچوں"] } },
+    { "id": "tree", "picture": "prop:tree", "word": { "en": "tree", "ur": "درخت" }, "forms": { "en": [], "ur": [] } },
+    { "id": "shoulder", "word": { "en": "shoulder", "ur": "کندھا" }, "forms": { "en": [], "ur": ["کندھے"] } },
+    { "id": "heart", "picture": "prop:heart", "word": { "en": "heart", "ur": "دل" }, "forms": { "en": [], "ur": [] } },
+    { "id": "play", "picture": "prop:ball", "word": { "en": "play", "ur": "کھیلنا" }, "forms": { "en": ["played", "playing"], "ur": ["کھیلو", "کھیل"] } },
+    { "id": "night", "picture": "prop:moon", "word": { "en": "night", "ur": "رات" }, "forms": { "en": [], "ur": [] } }
+  ],
+  "vocabulary": ["friend", "shy", "peace"],
+  "quiz": [
+    {
+      "question": { "en": "Who taught Hamza the magic word?", "ur": "حمزہ کو جادوئی لفظ کس نے سکھایا؟" },
+      "options": [
+        { "picture": "prop:cat" },
+        { "picture": "puppet:mithu", "correct": true },
+        { "picture": "prop:fish" }
+      ]
+    },
+    {
+      "question": { "en": "What is the magic word?", "ur": "جادوئی لفظ کیا ہے؟" },
+      "options": [
+        { "picture": "prop:wave_hand", "label": { "en": "Bye bye", "ur": "خدا حافظ" } },
+        { "picture": "prop:hand_stop", "label": { "en": "Go away", "ur": "جاؤ یہاں سے" } },
+        { "picture": "prop:salam", "label": { "en": "Assalam o Alaikum", "ur": "السلام علیکم" }, "correct": true }
+      ]
+    },
+    {
+      "question": { "en": "What game did they play?", "ur": "انہوں نے کون سا کھیل کھیلا؟" },
+      "options": [
+        { "picture": "prop:hide_seek", "correct": true },
+        { "picture": "prop:cricket_bat" },
+        { "picture": "prop:dice" }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": { "en": "Help Mithu fly to Hamza!", "ur": "مٹھو کو حمزہ کے پاس پہنچاؤ!" },
+      "item": "puppet:mithu",
+      "options": [
+        { "picture": "puppet:zainab" },
+        { "picture": "puppet:hamza", "correct": true },
+        { "picture": "puppet:bilal" }
+      ]
+    }
+  ]
+}

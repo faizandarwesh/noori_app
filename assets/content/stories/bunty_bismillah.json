@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "id": "bunty_bismillah",
+  "start": "p1",
+  "characters": {
+    "bunty": { "en": "Bunty", "ur": "بنٹی" },
+    "ayesha": { "en": "Ayesha", "ur": "عائشہ" },
+    "nani": { "en": "Nani", "ur": "نانی" },
+    "chiku": { "en": "rabbit", "ur": "خرگوش" },
+    "squirrel": { "en": "squirrel", "ur": "گلہری" },
+    "mithu": { "en": "parrot", "ur": "طوطا" }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "mango_orchard",
+      "text": {
+        "en": "Ayesha's Nani had a big mango garden at the edge of the jungle. The mangoes were yellow and so sweet.",
+        "ur": "عائشہ کی نانی کا جنگل کے کنارے آموں کا ایک بڑا باغ تھا۔ آم پیلے پیلے اور بہت میٹھے تھے۔"
+      },
+      "cast": [
+        { "art": "puppet:nani", "x": 0.32, "y": 0.62, "size": 0.28, "pose": "hold_hand", "act": "walk+talk", "mood": "happy", "enter": "left" },
+        { "art": "puppet:ayesha", "x": 0.55, "y": 0.63, "size": 0.21, "pose": "hold_hand_l", "act": "walk", "mood": "happy", "enter": "left" },
+        { "art": "prop:mango", "x": 0.74, "y": 0.64, "size": 0.0525 },
+        { "art": "prop:mango", "x": 0.82, "y": 0.66, "size": 0.0525 },
+        { "art": "prop:sparkle", "x": 0.7, "y": 0.28, "size": 0.035, "mood": "twinkle" },
+        { "art": "prop:sparkle", "x": 0.88, "y": 0.2, "size": 0.03, "mood": "twinkle", "delay": 600 }
+      ]
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "mango_orchard",
+      "text": {
+        "en": "Up in the tree lived Bunty the monkey. He loved mangoes more than anything!",
+        "ur": "درخت کے اوپر بنٹی بندر رہتا تھا۔ اسے آم سب سے زیادہ پسند تھے!"
+      },
+      "cast": [
+        { "art": "puppet:bunty", "x": 0.56, "y": 0.47, "size": 0.19, "turn": 180, "pose": "hold_both", "hold": "prop:mango", "holdSize": 0.32, "act": "sway+tail", "mood": "happy", "enter": "top" },
+        { "art": "prop:branch", "x": 0.6, "y": 0.3, "size": 0.07 },
+        { "art": "prop:mango", "x": 0.2, "y": 0.33, "size": 0.0525, "mood": "float" },
+        { "art": "prop:mango", "x": 0.8, "y": 0.34, "size": 0.0525, "mood": "float" }
+      ]
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "mango_orchard",
+      "text": {
+        "en": "Bunty grabbed one, two, three mangoes. Gulp, gulp, gulp! He ate so fast, he did not even say Bismillah.",
+        "ur": "بنٹی نے ایک، دو، تین آم پکڑ لیے۔ گپ، گپ، گپ! وہ اتنی جلدی کھا رہا تھا کہ اس نے بسم اللہ بھی نہیں کہی۔"
+      },
+      "cast": [
+        { "art": "prop:mango", "x": 0.3, "y": 0.64, "size": 0.06, "enter": "top" },
+        { "art": "prop:mango", "x": 0.36, "y": 0.655, "size": 0.06, "enter": "top", "delay": 300 },
+        { "art": "puppet:bunty", "x": 0.55, "y": 0.64, "size": 0.21, "pose": "eat", "act": "eat+tail", "face": "full", "hold": "prop:mango", "holdSize": 0.25 },
+        { "art": "prop:juice", "x": 0.58, "y": 0.47, "size": 0.07, "mood": "twinkle" },
+        { "art": "prop:juice", "x": 0.4, "y": 0.52, "size": 0.05, "mood": "twinkle", "delay": 500 }
+      ]
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "p5",
+      "scene": "mango_orchard",
+      "text": {
+        "en": "Soon Bunty's tummy started to hurt. \"Ooh, my tummy!\" And his friends looked sad, because no mangoes were left for them.",
+        "ur": "تھوڑی دیر میں بنٹی کے پیٹ میں درد ہونے لگا۔ \"اوئی، میرا پیٹ!\" اور اس کے دوست اداس ہو گئے، کیونکہ ان کے لیے کوئی آم نہیں بچا تھا۔"
+      },
+      "cast": [
+        { "art": "prop:branch", "x": 0.6, "y": 0.4, "size": 0.07 },
+        { "art": "puppet:bunty", "x": 0.48, "y": 0.385, "size": 0.15, "pose": "tummy", "act": "fidget", "face": "ouch", "mood": "worried" },
+        { "art": "prop:ouch", "x": 0.33, "y": 0.27, "size": 0.05, "mood": "twinkle" },
+        { "art": "puppet:squirrel", "x": 0.5, "y": 0.64, "size": 0.12, "mood": "sad", "look": "up" },
+        { "art": "puppet:chiku", "x": 0.68, "y": 0.645, "size": 0.15, "mood": "sad", "look": "upLeft" },
+        { "art": "puppet:mithu", "x": 0.86, "y": 0.64, "size": 0.13, "pose": "tired", "mood": "sad", "look": "upLeft" }
+      ]
+    },
+    {
+      "id": "p5",
+      "type": "page",
+      "next": "p6",
+      "scene": "mango_orchard",
+      "text": {
+        "en": "Ayesha came with Nani. \"Bunty, we say Bismillah before eating. We eat slowly, and we share with our friends.\"",
+        "ur": "عائشہ نانی کے ساتھ آئی۔ \"بنٹی، ہم کھانے سے پہلے بسم اللہ کہتے ہیں۔ آرام آرام سے کھاتے ہیں، اور دوستوں کے ساتھ مل کر کھاتے ہیں۔\""
+      },
+      "cast": [
+        { "art": "prop:branch", "x": 0.6, "y": 0.36, "size": 0.07 },
+        { "art": "puppet:bunty", "x": 0.68, "y": 0.345, "size": 0.14, "pose": "tummy", "face": "sad", "look": "downLeft" },
+        { "art": "puppet:nani", "x": 0.2, "y": 0.62, "size": 0.28, "mood": "happy", "act": "nod", "enter": "left" },
+        { "art": "puppet:ayesha", "x": 0.44, "y": 0.63, "size": 0.21, "pose": "point", "act": "talk", "look": "upRight", "mood": "happy", "enter": "left" }
+      ]
+    },
+    {
+      "id": "p6",
+      "type": "page",
+      "next": "choice",
+      "scene": "mango_orchard",
+      "text": {
+        "en": "Nani gave Bunty one big mango. What should Bunty do?",
+        "ur": "نانی نے بنٹی کو ایک بڑا سا آم دیا۔ بنٹی کو کیا کرنا چاہیے؟"
+      },
+      "cast": [
+        { "art": "puppet:nani", "x": 0.28, "y": 0.62, "size": 0.28, "pose": "give", "act": "give", "hold": "prop:mango", "holdSize": 0.28, "mood": "happy" },
+        { "art": "puppet:bunty", "x": 0.55, "y": 0.64, "size": 0.18, "pose": "welcome", "face": "surprised", "act": "tail" },
+        { "art": "puppet:squirrel", "x": 0.74, "y": 0.645, "size": 0.11, "look": "left", "act": "tail" },
+        { "art": "puppet:chiku", "x": 0.88, "y": 0.65, "size": 0.14, "look": "left" },
+        { "art": "puppet:mithu", "x": 0.82, "y": 0.42, "size": 0.11, "look": "left", "act": "flap" }
+      ]
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": { "en": "What should Bunty do?", "ur": "بنٹی کو کیا کرنا چاہیے؟" },
+      "options": [
+        { "id": "share", "label": { "en": "Share with friends", "ur": "دوستوں کے ساتھ بانٹے" }, "picture": "prop:mango_slice", "next": "choice_a" },
+        { "id": "alone", "label": { "en": "Eat it all alone", "ur": "اکیلے سارا کھا لے" }, "picture": "prop:mango", "next": "choice_b" }
+      ]
+    },
+    {
+      "id": "choice_a",
+      "type": "page",
+      "next": "p7",
+      "scene": "mango_orchard",
+      "text": {
+        "en": "Bunty said \"Bismillah\" and cut the mango into pieces, one for each friend. Everyone smiled.",
+        "ur": "بنٹی نے \"بسم اللہ\" کہا اور آم کے ٹکڑے کر کے ہر دوست کو ایک ایک ٹکڑا دیا۔ سب مسکرانے لگے۔"
+      },
+      "help": { "kind": "tap", "item": 2, "steps": 3 },
+      "cast": [
+        { "art": "puppet:bunty", "x": 0.32, "y": 0.64, "size": 0.19, "pose": "point", "act": "tail", "mood": "happy", "helpHide": 3 },
+        { "art": "prop:mango_plate", "x": 0.5, "y": 0.675, "size": 0.075, "enter": "grow" },
+        { "art": "prop:mango", "x": 0.5, "y": 0.655, "size": 0.085, "helpHide": 3 },
+        { "art": "puppet:squirrel", "x": 0.66, "y": 0.645, "size": 0.11, "look": "left", "act": "fidget", "helpHide": 1 },
+        { "art": "puppet:squirrel", "x": 0.66, "y": 0.645, "size": 0.11, "pose": "hold", "hold": "prop:mango_slice", "holdSize": 0.35, "mood": "happy", "helpStep": 1 },
+        { "art": "puppet:chiku", "x": 0.82, "y": 0.65, "size": 0.14, "look": "left", "act": "fidget", "helpHide": 2 },
+        { "art": "puppet:chiku", "x": 0.82, "y": 0.65, "size": 0.14, "pose": "hold", "hold": "prop:mango_slice", "holdSize": 0.3, "mood": "happy", "helpStep": 2 },
+        { "art": "puppet:mithu", "x": 0.82, "y": 0.42, "size": 0.1, "pose": "fly", "act": "fly", "look": "left", "helpHide": 3 },
+        { "art": "puppet:mithu", "x": 0.82, "y": 0.42, "size": 0.11, "pose": "spread", "act": "flap+chirp", "mood": "happy", "helpStep": 3 },
+        { "art": "prop:mango_slice", "x": 0.72, "y": 0.4, "size": 0.05, "mood": "float", "helpStep": 3 },
+        { "art": "puppet:bunty", "x": 0.32, "y": 0.64, "size": 0.19, "pose": "give", "act": "give+tail", "hold": "prop:mango_slice", "holdSize": 0.22, "mood": "happy", "helpStep": 3 }
+      ]
+    },
+    {
+      "id": "choice_b",
+      "type": "page",
+      "next": "p7",
+      "scene": "mango_orchard",
+      "text": {
+        "en": "Bunty hugged the mango tight. Then he saw his friends' sad faces and remembered his tummy ache. \"No, let's share!\" He said \"Bismillah\" and gave everyone a piece.",
+        "ur": "بنٹی نے آم کو زور سے پکڑ لیا۔ پھر اس نے دوستوں کے اداس چہرے دیکھے اور اسے اپنا پیٹ درد یاد آیا۔ \"نہیں، مل کر کھاتے ہیں!\" اس نے \"بسم اللہ\" کہا اور سب کو ایک ایک ٹکڑا دیا۔"
+      },
+      "help": { "kind": "tap", "item": 5, "steps": 3, "when": "after" },
+      "cast": [
+        { "art": "puppet:bunty", "x": 0.32, "y": 0.64, "size": 0.19, "pose": "hold_both", "hold": "prop:mango", "holdSize": 0.3, "face": "worried", "look": "right", "until": 4500 },
+        { "art": "puppet:squirrel", "x": 0.64, "y": 0.645, "size": 0.11, "mood": "sad", "look": "left", "until": 4500 },
+        { "art": "puppet:chiku", "x": 0.8, "y": 0.65, "size": 0.14, "mood": "sad", "look": "left", "until": 4500 },
+        { "art": "puppet:bunty", "x": 0.32, "y": 0.64, "size": 0.19, "pose": "point", "act": "tail", "mood": "happy", "delay": 4500, "helpHide": 3 },
+        { "art": "prop:mango_plate", "x": 0.5, "y": 0.675, "size": 0.075, "enter": "grow", "delay": 4800 },
+        { "art": "prop:mango", "x": 0.5, "y": 0.655, "size": 0.085, "delay": 4800, "helpHide": 3 },
+        { "art": "puppet:squirrel", "x": 0.66, "y": 0.645, "size": 0.11, "look": "left", "act": "fidget", "delay": 4500, "helpHide": 1 },
+        { "art": "puppet:squirrel", "x": 0.66, "y": 0.645, "size": 0.11, "pose": "hold", "hold": "prop:mango_slice", "holdSize": 0.35, "mood": "happy", "helpStep": 1 },
+        { "art": "puppet:chiku", "x": 0.82, "y": 0.65, "size": 0.14, "look": "left", "act": "fidget", "delay": 4500, "helpHide": 2 },
+        { "art": "puppet:chiku", "x": 0.82, "y": 0.65, "size": 0.14, "pose": "hold", "hold": "prop:mango_slice", "holdSize": 0.3, "mood": "happy", "helpStep": 2 },
+        { "art": "puppet:mithu", "x": 0.82, "y": 0.42, "size": 0.1, "pose": "fly", "act": "fly", "look": "left", "delay": 4500, "helpHide": 3 },
+        { "art": "puppet:mithu", "x": 0.82, "y": 0.42, "size": 0.11, "pose": "spread", "act": "flap+chirp", "mood": "happy", "helpStep": 3 },
+        { "art": "prop:mango_slice", "x": 0.72, "y": 0.4, "size": 0.05, "mood": "float", "helpStep": 3 },
+        { "art": "puppet:bunty", "x": 0.32, "y": 0.64, "size": 0.19, "pose": "give", "act": "give+tail", "hold": "prop:mango_slice", "holdSize": 0.22, "mood": "happy", "helpStep": 3 }
+      ]
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": "p8",
+      "scene": "mango_orchard",
+      "text": {
+        "en": "Nani smiled. \"When we share, Allah puts barakah in our food.\" One mango was enough for everyone!",
+        "ur": "نانی مسکرائیں۔ \"جب ہم مل کر کھاتے ہیں تو اللہ تعالیٰ کھانے میں برکت ڈال دیتے ہیں۔\" ایک آم سب کے لیے کافی ہو گیا!"
+      },
+      "cast": [
+        { "art": "prop:branch", "x": 0.6, "y": 0.42, "size": 0.075 },
+        { "art": "puppet:bunty", "x": 0.4, "y": 0.405, "size": 0.14, "pose": "eat", "act": "eat+tail", "hold": "prop:mango_slice", "holdSize": 0.22, "mood": "happy" },
+        { "art": "puppet:squirrel", "x": 0.56, "y": 0.405, "size": 0.09, "pose": "eat", "act": "eat", "hold": "prop:mango_slice", "holdSize": 0.32, "mood": "happy" },
+        { "art": "puppet:chiku", "x": 0.7, "y": 0.405, "size": 0.11, "pose": "eat", "act": "eat", "hold": "prop:mango_slice", "holdSize": 0.28, "mood": "happy" },
+        { "art": "puppet:mithu", "x": 0.86, "y": 0.405, "size": 0.1, "act": "chirp", "mood": "happy", "flip": true },
+        { "art": "puppet:nani", "x": 0.22, "y": 0.63, "size": 0.27, "act": "talk", "mood": "happy", "look": "upRight" },
+        { "art": "puppet:ayesha", "x": 0.74, "y": 0.64, "size": 0.2, "pose": "clap", "act": "clap", "face": "laugh" }
+      ]
+    },
+    {
+      "id": "p8",
+      "type": "page",
+      "next": null,
+      "scene": "mango_orchard",
+      "text": {
+        "en": "The mango tasted even sweeter together. \"Alhamdulillah!\" said Bunty, rubbing his happy tummy.",
+        "ur": "مل کر کھانے سے آم اور بھی میٹھا لگا۔ بنٹی نے اپنے خوش پیٹ پر ہاتھ پھیرتے ہوئے کہا، \"الحمدللہ!\""
+      },
+      "cast": [
+        { "art": "puppet:bunty", "x": 0.5, "y": 0.64, "size": 0.24, "pose": "thumbs_up", "act": "bounce+tail", "face": "laugh" },
+        { "art": "prop:sparkle", "x": 0.3, "y": 0.4, "size": 0.04, "mood": "twinkle" },
+        { "art": "prop:sparkle", "x": 0.72, "y": 0.36, "size": 0.035, "mood": "twinkle", "delay": 400 },
+        { "art": "prop:heart", "x": 0.66, "y": 0.46, "size": 0.035, "mood": "float", "delay": 800 }
+      ]
+    }
+  ],
+  "glossary": [
+    { "id": "mango", "picture": "prop:mango", "word": { "en": "mango", "ur": "آم" }, "forms": { "en": ["mangoes"], "ur": ["آموں"] } },
+    { "id": "monkey", "picture": "puppet:bunty", "word": { "en": "monkey", "ur": "بندر" }, "forms": { "en": [], "ur": [] } },
+    { "id": "share", "picture": "prop:mango_plate", "word": { "en": "share", "ur": "بانٹنا" }, "forms": { "en": ["shared", "sharing"], "ur": ["بانٹے"] } },
+    { "id": "sweet", "word": { "en": "sweet", "ur": "میٹھا" }, "forms": { "en": ["sweeter"], "ur": ["میٹھے", "میٹھی"] } },
+    { "id": "barakah", "word": { "en": "barakah", "ur": "برکت" }, "forms": { "en": [], "ur": [] } },
+    { "id": "tummy", "word": { "en": "tummy", "ur": "پیٹ" }, "forms": { "en": [], "ur": [] } },
+    { "id": "friend", "word": { "en": "friend", "ur": "دوست" }, "forms": { "en": ["friends", "friends'"], "ur": ["دوستوں"] } },
+    { "id": "garden", "word": { "en": "garden", "ur": "باغ" }, "forms": { "en": [], "ur": [] } },
+    { "id": "tree", "picture": "prop:tree", "word": { "en": "tree", "ur": "درخت" }, "forms": { "en": [], "ur": [] } },
+    { "id": "yellow", "word": { "en": "yellow", "ur": "پیلا" }, "forms": { "en": [], "ur": ["پیلے"] } },
+    { "id": "slowly", "word": { "en": "slowly", "ur": "آرام آرام سے" }, "forms": { "en": [], "ur": ["آرام"] } },
+    { "id": "pieces", "picture": "prop:mango_slice", "word": { "en": "piece", "ur": "ٹکڑا" }, "forms": { "en": ["pieces"], "ur": ["ٹکڑے"] } }
+  ],
+  "vocabulary": ["share", "sweet", "barakah"],
+  "quiz": [
+    {
+      "question": { "en": "Which fruit did Bunty love?", "ur": "بنٹی کو کون سا پھل پسند تھا؟" },
+      "options": [
+        { "picture": "prop:banana" },
+        { "picture": "prop:mango", "correct": true },
+        { "picture": "prop:apple" }
+      ]
+    },
+    {
+      "question": { "en": "What do we say before eating?", "ur": "کھانے سے پہلے ہم کیا کہتے ہیں؟" },
+      "options": [
+        { "picture": "prop:bismillah", "label": { "en": "Bismillah", "ur": "بسم اللہ" }, "correct": true },
+        { "picture": "prop:hurry", "label": { "en": "Hurry up", "ur": "جلدی کرو" } },
+        { "picture": "prop:wave_hand", "label": { "en": "Hello", "ur": "ہیلو" } }
+      ]
+    },
+    {
+      "question": { "en": "What did Bunty do at the end?", "ur": "آخر میں بنٹی نے کیا کیا؟" },
+      "options": [
+        { "picture": "prop:pillow" },
+        { "picture": "prop:footprints" },
+        { "picture": "prop:mango_plate", "correct": true }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": { "en": "Give the mango to Bunty!", "ur": "آم بنٹی کو دو!" },
+      "item": "prop:mango",
+      "options": [
+        { "picture": "puppet:chiku" },
+        { "picture": "puppet:mithu" },
+        { "picture": "puppet:bunty", "correct": true }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,814 @@
+{
+  "scenes": {
+    "mango_grove": {
+      "ambient": "birds",
+      "layers": [
+        {
+          "art": "scenes/mango_grove/sky.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/mango_grove/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/mango_grove/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/mango_grove/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "caterpillar",
+          "x": 0.13,
+          "y": 0.36,
+          "size": 0.04
+        },
+        {
+          "kind": "frog",
+          "x": 0.88,
+          "y": 0.76,
+          "size": 0.05
+        }
+      ]
+    },
+    "river_crossing": {
+      "ambient": "river",
+      "layers": [
+        {
+          "art": "scenes/river_crossing/sky.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/river_crossing/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/river_crossing/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/river_crossing/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "fish",
+          "x": 0.7,
+          "y": 0.585,
+          "size": 0.05
+        },
+        {
+          "kind": "snail",
+          "x": 0.12,
+          "y": 0.77,
+          "size": 0.035
+        }
+      ]
+    },
+    "jungle_nest": {
+      "ambient": "birds",
+      "layers": [
+        {
+          "art": "scenes/jungle_nest/sky.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/jungle_nest/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/jungle_nest/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/jungle_nest/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "ladybird",
+          "x": 0.86,
+          "y": 0.585,
+          "size": 0.05
+        },
+        {
+          "kind": "caterpillar",
+          "x": 0.1,
+          "y": 0.76,
+          "size": 0.04
+        }
+      ]
+    },
+    "flower_garden": {
+      "ambient": "birds",
+      "layers": [
+        {
+          "art": "scenes/flower_garden/sky.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/flower_garden/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/flower_garden/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/flower_garden/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "butterfly",
+          "x": 0.9,
+          "y": 0.56,
+          "size": 0.035
+        },
+        {
+          "kind": "snail",
+          "x": 0.14,
+          "y": 0.77,
+          "size": 0.035
+        }
+      ]
+    },
+    "sunrise_farm": {
+      "ambient": "wind",
+      "layers": [
+        {
+          "art": "scenes/sunrise_farm/sky.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/sunrise_farm/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/sunrise_farm/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/sunrise_farm/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "mouse",
+          "x": 0.88,
+          "y": 0.77,
+          "size": 0.045
+        },
+        {
+          "kind": "ladybird",
+          "x": 0.1,
+          "y": 0.76,
+          "size": 0.045
+        }
+      ]
+    },
+    "hill_trail": {
+      "ambient": "birds",
+      "layers": [
+        {
+          "art": "scenes/skies/day.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/hills/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/hills/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/hills/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "frog",
+          "x": 0.12,
+          "y": 0.77,
+          "size": 0.05
+        },
+        {
+          "kind": "butterfly",
+          "x": 0.9,
+          "y": 0.75,
+          "size": 0.035
+        }
+      ]
+    },
+    "rooftop_sunset": {
+      "ambient": "wind",
+      "layers": [
+        {
+          "art": "scenes/skies/sunset.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/rooftop/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/rooftop/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/rooftop/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        },
+        {
+          "art": "scenes/skies/wash_sunset.svg",
+          "depth": 0,
+          "drift": 0
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "mouse",
+          "x": 0.12,
+          "y": 0.78,
+          "size": 0.045
+        }
+      ]
+    },
+    "rooftop_morning": {
+      "ambient": "birds",
+      "layers": [
+        {
+          "art": "scenes/skies/morning.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/rooftop/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/rooftop/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/rooftop/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        },
+        {
+          "art": "scenes/skies/wash_morning.svg",
+          "depth": 0,
+          "drift": 0
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "mouse",
+          "x": 0.12,
+          "y": 0.78,
+          "size": 0.045
+        },
+        {
+          "kind": "butterfly",
+          "x": 0.08,
+          "y": 0.5,
+          "size": 0.03
+        }
+      ]
+    },
+    "mango_orchard": {
+      "ambient": "birds",
+      "layers": [
+        {
+          "art": "scenes/skies/day.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/orchard/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/orchard/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/orchard/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "caterpillar",
+          "x": 0.86,
+          "y": 0.26,
+          "size": 0.04
+        },
+        {
+          "kind": "snail",
+          "x": 0.12,
+          "y": 0.77,
+          "size": 0.035
+        }
+      ]
+    },
+    "honey_cave": {
+      "ambient": "birds",
+      "layers": [
+        {
+          "art": "scenes/skies/day.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/cave/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/cave/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/cave/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "ladybird",
+          "x": 0.08,
+          "y": 0.77,
+          "size": 0.045
+        },
+        {
+          "kind": "frog",
+          "x": 0.9,
+          "y": 0.77,
+          "size": 0.05
+        }
+      ]
+    },
+    "honey_cave_sunset": {
+      "ambient": "wind",
+      "layers": [
+        {
+          "art": "scenes/skies/sunset.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/cave/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/cave/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/cave/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        },
+        {
+          "art": "scenes/skies/wash_sunset.svg",
+          "depth": 0,
+          "drift": 0
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "frog",
+          "x": 0.9,
+          "y": 0.77,
+          "size": 0.05
+        }
+      ]
+    },
+    "seed_garden": {
+      "ambient": "birds",
+      "layers": [
+        {
+          "art": "scenes/skies/day.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/garden/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/garden/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/garden/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "butterfly",
+          "x": 0.1,
+          "y": 0.56,
+          "size": 0.035
+        },
+        {
+          "kind": "snail",
+          "x": 0.88,
+          "y": 0.77,
+          "size": 0.035
+        }
+      ]
+    },
+    "seed_garden_night": {
+      "ambient": "wind",
+      "layers": [
+        {
+          "art": "scenes/skies/night.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/garden/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/garden/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/garden/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        },
+        {
+          "art": "scenes/skies/wash_night.svg",
+          "depth": 0,
+          "drift": 0
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "snail",
+          "x": 0.88,
+          "y": 0.77,
+          "size": 0.035
+        },
+        {
+          "kind": "frog",
+          "x": 0.12,
+          "y": 0.77,
+          "size": 0.05
+        }
+      ]
+    },
+    "seed_garden_morning": {
+      "ambient": "birds",
+      "layers": [
+        {
+          "art": "scenes/skies/morning.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/garden/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/garden/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/garden/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        },
+        {
+          "art": "scenes/skies/wash_morning.svg",
+          "depth": 0,
+          "drift": 0
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "ladybird",
+          "x": 0.88,
+          "y": 0.77,
+          "size": 0.045
+        },
+        {
+          "kind": "caterpillar",
+          "x": 0.12,
+          "y": 0.77,
+          "size": 0.04
+        }
+      ]
+    },
+    "new_house": {
+      "ambient": "birds",
+      "layers": [
+        {
+          "art": "scenes/skies/day.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/newhouse/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/newhouse/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/newhouse/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "butterfly",
+          "x": 0.16,
+          "y": 0.47,
+          "size": 0.03
+        },
+        {
+          "kind": "snail",
+          "x": 0.86,
+          "y": 0.77,
+          "size": 0.035
+        }
+      ]
+    },
+    "banyan": {
+      "ambient": "birds",
+      "layers": [
+        {
+          "art": "scenes/skies/day.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/banyan/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/banyan/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/banyan/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "caterpillar",
+          "x": 0.18,
+          "y": 0.3,
+          "size": 0.04
+        },
+        {
+          "kind": "frog",
+          "x": 0.9,
+          "y": 0.77,
+          "size": 0.05
+        }
+      ]
+    },
+    "banyan_evening": {
+      "ambient": "wind",
+      "layers": [
+        {
+          "art": "scenes/skies/evening.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/banyan/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/banyan/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/banyan/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        },
+        {
+          "art": "scenes/skies/wash_sunset.svg",
+          "depth": 0,
+          "drift": 0
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "snail",
+          "x": 0.88,
+          "y": 0.77,
+          "size": 0.035
+        }
+      ]
+    },
+    "bedroom_night": {
+      "layers": [
+        {
+          "art": "scenes/bedroom/wall.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/bedroom/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/bedroom/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "mouse",
+          "x": 0.9,
+          "y": 0.6,
+          "size": 0.045
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "id": "mithu_tells_truth",
+  "start": "p1",
+  "characters": {
+    "parrot": { "en": "Mithu", "ur": "مٹھو" },
+    "elephant": { "en": "Gulu", "ur": "گولو" }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "flower_garden",
+      "text": {
+        "en": "Mithu the parrot loved to play with his red ball.",
+        "ur": "مٹھو طوطے کو اپنی لال گیند سے کھیلنا بہت پسند تھا۔"
+      },
+      "cast": [
+        { "art": "character:parrot", "x": 0.4, "y": 0.6, "size": 0.14, "mood": "happy", "enter": "left" },
+        { "art": "prop:ball", "x": 0.58, "y": 0.6, "size": 0.045, "mood": "happy" },
+        { "art": "prop:pot", "x": 0.82, "y": 0.6, "size": 0.07 }
+      ]
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "flower_garden",
+      "text": {
+        "en": "Bounce, bounce! Oops! The ball hit Gulu's flower pot.",
+        "ur": "ٹپ، ٹپ! اوہو! گیند گولو کے پھولوں والے گملے سے جا ٹکرائی۔"
+      },
+      "cast": [
+        { "art": "character:parrot", "x": 0.36, "y": 0.6, "size": 0.14, "mood": "surprised" },
+        { "art": "prop:pot", "x": 0.82, "y": 0.6, "size": 0.07 },
+        { "art": "prop:ball", "x": 0.72, "y": 0.56, "size": 0.045, "enter": "left" }
+      ]
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "flower_garden",
+      "text": {
+        "en": "Crash! The pot broke into pieces. Mithu felt scared.",
+        "ur": "چھن! گملا ٹوٹ کر ٹکڑے ٹکڑے ہو گیا۔ مٹھو ڈر گیا۔"
+      },
+      "cast": [
+        { "art": "character:parrot", "x": 0.36, "y": 0.6, "size": 0.14, "mood": "sad" },
+        { "art": "prop:broken_pot", "x": 0.8, "y": 0.61, "size": 0.07, "mood": "surprised" },
+        { "art": "prop:ball", "x": 0.64, "y": 0.6, "size": 0.04 }
+      ]
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "choice",
+      "scene": "flower_garden",
+      "text": {
+        "en": "Gulu the elephant came by. “Oh no! Who broke my pot?”",
+        "ur": "گولو ہاتھی وہاں آیا۔ “ارے! میرا گملا کس نے توڑا؟”"
+      },
+      "cast": [
+        { "art": "character:parrot", "x": 0.26, "y": 0.6, "size": 0.14, "mood": "sad" },
+        { "art": "prop:broken_pot", "x": 0.52, "y": 0.61, "size": 0.07 },
+        { "art": "character:elephant", "x": 0.78, "y": 0.6, "size": 0.19, "mood": "surprised", "flip": true, "enter": "right" }
+      ]
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": {
+        "en": "What should Mithu do?",
+        "ur": "مٹھو کو کیا کرنا چاہیے؟"
+      },
+      "options": [
+        {
+          "id": "truth",
+          "label": { "en": "Tell the truth", "ur": "سچ بتا دے" },
+          "picture": "prop:heart",
+          "next": "p5_truth"
+        },
+        {
+          "id": "hide",
+          "label": { "en": "Hide", "ur": "چھپ جائے" },
+          "picture": "prop:bush",
+          "next": "p5_hide"
+        }
+      ]
+    },
+    {
+      "id": "p5_truth",
+      "type": "page",
+      "next": "p6_truth",
+      "scene": "flower_garden",
+      "text": {
+        "en": "“It was me. I'm sorry, Gulu,” said Mithu softly.",
+        "ur": "مٹھو نے آہستہ سے کہا، “یہ میں نے کیا۔ معاف کرنا، گولو۔”"
+      },
+      "cast": [
+        { "art": "character:parrot", "x": 0.34, "y": 0.6, "size": 0.14, "mood": "idle" },
+        { "art": "prop:broken_pot", "x": 0.52, "y": 0.61, "size": 0.07 },
+        { "art": "character:elephant", "x": 0.76, "y": 0.6, "size": 0.19, "mood": "idle", "flip": true }
+      ]
+    },
+    {
+      "id": "p6_truth",
+      "type": "page",
+      "next": "p7",
+      "scene": "flower_garden",
+      "text": {
+        "en": "Gulu smiled. “Thank you for telling the truth. Let's fix it together!”",
+        "ur": "گولو مسکرایا۔ “سچ بتانے کا شکریہ۔ آؤ مل کر ٹھیک کرتے ہیں!”"
+      },
+      "cast": [
+        { "art": "character:parrot", "x": 0.34, "y": 0.6, "size": 0.14, "mood": "happy" },
+        { "art": "prop:broken_pot", "x": 0.52, "y": 0.61, "size": 0.07 },
+        { "art": "character:elephant", "x": 0.76, "y": 0.6, "size": 0.19, "mood": "happy", "flip": true }
+      ]
+    },
+    {
+      "id": "p5_hide",
+      "type": "page",
+      "next": "p6_hide",
+      "scene": "flower_garden",
+      "text": {
+        "en": "Mithu hid behind a bush. His tummy felt funny and sad.",
+        "ur": "مٹھو ایک جھاڑی کے پیچھے چھپ گیا۔ اس کا دل عجیب سا اور اداس ہو گیا۔"
+      },
+      "cast": [
+        { "art": "character:parrot", "x": 0.2, "y": 0.58, "size": 0.12, "mood": "sad" },
+        { "art": "prop:bush", "x": 0.22, "y": 0.61, "size": 0.09 },
+        { "art": "prop:broken_pot", "x": 0.52, "y": 0.61, "size": 0.07 },
+        { "art": "character:elephant", "x": 0.78, "y": 0.6, "size": 0.19, "mood": "sad", "flip": true }
+      ]
+    },
+    {
+      "id": "p6_hide",
+      "type": "page",
+      "next": "p7",
+      "scene": "flower_garden",
+      "text": {
+        "en": "Then he came out. “It was me. I'm sorry.” Gulu gave him a big hug.",
+        "ur": "پھر وہ باہر آیا۔ “یہ میں نے کیا۔ معاف کرنا۔” گولو نے اسے گلے لگا لیا۔"
+      },
+      "cast": [
+        { "art": "prop:bush", "x": 0.14, "y": 0.61, "size": 0.09 },
+        { "art": "character:parrot", "x": 0.42, "y": 0.6, "size": 0.14, "mood": "idle", "enter": "left" },
+        { "art": "character:elephant", "x": 0.72, "y": 0.6, "size": 0.19, "mood": "happy", "flip": true }
+      ]
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": null,
+      "scene": "flower_garden",
+      "text": {
+        "en": "They planted the flowers in a new pot. Telling the truth feels good. The end!",
+        "ur": "دونوں نے پھول نئے گملے میں لگائے۔ سچ بولنے سے دل ہلکا ہو جاتا ہے۔ ختم شد!"
+      },
+      "cast": [
+        { "art": "character:parrot", "x": 0.3, "y": 0.6, "size": 0.14, "mood": "happy" },
+        { "art": "prop:pot", "x": 0.52, "y": 0.6, "size": 0.07, "enter": "top" },
+        { "art": "character:elephant", "x": 0.78, "y": 0.6, "size": 0.19, "mood": "happy", "flip": true }
+      ]
+    }
+  ],
+  "glossary": [
+    { "id": "parrot", "picture": "character:parrot", "word": { "en": "parrot", "ur": "طوطا" }, "forms": { "en": [], "ur": ["طوطے"] } },
+    { "id": "ball", "picture": "prop:ball", "word": { "en": "ball", "ur": "گیند" }, "forms": { "en": [], "ur": [] } },
+    { "id": "red", "word": { "en": "red", "ur": "لال" }, "forms": { "en": [], "ur": [] } },
+    { "id": "play", "word": { "en": "play", "ur": "کھیلنا" }, "forms": { "en": [], "ur": [] } },
+    { "id": "pot", "picture": "prop:pot", "word": { "en": "flower pot", "ur": "گملا" }, "forms": { "en": ["pot"], "ur": ["گملے"] } },
+    { "id": "flower", "picture": "prop:flower", "word": { "en": "flower", "ur": "پھول" }, "forms": { "en": ["flowers"], "ur": ["پھولوں"] } },
+    { "id": "broke", "picture": "prop:broken_pot", "word": { "en": "broke", "ur": "ٹوٹ گیا" }, "forms": { "en": ["broken"], "ur": ["ٹوٹ", "توڑا"] } },
+    { "id": "scared", "word": { "en": "scared", "ur": "ڈرا ہوا" }, "forms": { "en": [], "ur": ["ڈر"] } },
+    { "id": "truth", "word": { "en": "truth", "ur": "سچ" }, "forms": { "en": [], "ur": [] } },
+    { "id": "sorry", "word": { "en": "sorry", "ur": "معاف کرنا" }, "forms": { "en": [], "ur": ["معاف"] } },
+    { "id": "hide", "word": { "en": "hide", "ur": "چھپنا" }, "forms": { "en": ["hid"], "ur": ["چھپ"] } },
+    { "id": "bush", "picture": "prop:bush", "word": { "en": "bush", "ur": "جھاڑی" }, "forms": { "en": [], "ur": [] } },
+    { "id": "hug", "word": { "en": "hug", "ur": "گلے لگانا" }, "forms": { "en": [], "ur": ["گلے"] } },
+    { "id": "together", "word": { "en": "together", "ur": "مل کر" }, "forms": { "en": [], "ur": [] } },
+    { "id": "new", "word": { "en": "new", "ur": "نیا" }, "forms": { "en": [], "ur": ["نئے", "نئی"] } }
+  ],
+  "vocabulary": ["truth", "sorry", "ball"],
+  "quiz": [
+    {
+      "question": { "en": "What did Mithu play with?", "ur": "مٹھو کس چیز سے کھیل رہا تھا؟" },
+      "options": [
+        { "picture": "prop:banana" },
+        { "picture": "prop:ball", "correct": true },
+        { "picture": "prop:seed" }
+      ]
+    },
+    {
+      "question": { "en": "What broke?", "ur": "کیا ٹوٹ گیا؟" },
+      "options": [
+        { "picture": "prop:mango" },
+        { "picture": "prop:hut" },
+        { "picture": "prop:broken_pot", "correct": true }
+      ]
+    },
+    {
+      "question": { "en": "Whose pot was it?", "ur": "یہ گملا کس کا تھا؟" },
+      "options": [
+        { "picture": "character:elephant", "correct": true },
+        { "picture": "character:rabbit" },
+        { "picture": "character:monkey" }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": { "en": "Give the red ball back to Mithu!", "ur": "لال گیند واپس مٹھو کو دو!" },
+      "item": "prop:ball",
+      "options": [
+        { "picture": "character:parrot", "correct": true },
+        { "picture": "character:rabbit" },
+        { "picture": "character:elephant" }
+      ]
+    }
+  ]
+}

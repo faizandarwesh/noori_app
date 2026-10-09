@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "gulu_gentle_trunk",
+  "start": "p1",
+  "characters": {
+    "elephant": { "en": "Gulu", "ur": "گولو" }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "jungle_nest",
+      "text": {
+        "en": "Gulu the elephant was walking by the river. Stomp, stomp!",
+        "ur": "گولو ہاتھی دریا کے کنارے دھم دھم چلا جا رہا تھا۔"
+      },
+      "cast": [
+        { "art": "character:elephant", "x": 0.5, "y": 0.6, "size": 0.19, "mood": "idle", "enter": "left" }
+      ]
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "jungle_nest",
+      "text": {
+        "en": "“Peep! Peep!” A baby bird had fallen from its nest.",
+        "ur": "“چوں چوں!” چڑیا کا ننھا بچہ اپنے گھونسلے سے نیچے گر گیا تھا۔"
+      },
+      "cast": [
+        { "art": "prop:nest", "x": 0.3, "y": 0.37, "size": 0.05 },
+        { "art": "prop:chick", "x": 0.44, "y": 0.6, "size": 0.05, "mood": "sad", "enter": "top" },
+        { "art": "character:elephant", "x": 0.74, "y": 0.6, "size": 0.19, "mood": "surprised", "flip": true }
+      ]
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "jungle_nest",
+      "text": {
+        "en": "Mama Bird flew round and round. “My baby can't fly yet!”",
+        "ur": "امی چڑیا گول گول اڑنے لگی۔ “میرا بچہ ابھی اڑ نہیں سکتا!”"
+      },
+      "cast": [
+        { "art": "prop:nest", "x": 0.3, "y": 0.37, "size": 0.05 },
+        { "art": "prop:bird", "x": 0.46, "y": 0.44, "size": 0.06, "mood": "happy", "enter": "top" },
+        { "art": "prop:chick", "x": 0.44, "y": 0.6, "size": 0.05, "mood": "sad" },
+        { "art": "character:elephant", "x": 0.74, "y": 0.6, "size": 0.19, "mood": "idle", "flip": true }
+      ]
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "choice",
+      "scene": "jungle_nest",
+      "text": {
+        "en": "The nest was high up in the tree. Too high for the little bird!",
+        "ur": "گھونسلا درخت پر بہت اونچا تھا۔ ننھے بچے کے لیے بہت ہی اونچا!"
+      },
+      "cast": [
+        { "art": "prop:nest", "x": 0.3, "y": 0.37, "size": 0.05, "mood": "surprised" },
+        { "art": "prop:bird", "x": 0.4, "y": 0.4, "size": 0.06, "mood": "sad" },
+        { "art": "prop:chick", "x": 0.44, "y": 0.6, "size": 0.05, "mood": "sad" },
+        { "art": "character:elephant", "x": 0.74, "y": 0.6, "size": 0.19, "mood": "idle", "flip": true }
+      ]
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": {
+        "en": "What should Gulu do?",
+        "ur": "گولو کو کیا کرنا چاہیے؟"
+      },
+      "options": [
+        {
+          "id": "help",
+          "label": { "en": "Help the baby bird", "ur": "بچے کی مدد کرے" },
+          "picture": "prop:chick",
+          "next": "p5_help"
+        },
+        {
+          "id": "away",
+          "label": { "en": "Walk away", "ur": "آگے چلا جائے" },
+          "picture": "prop:footprints",
+          "next": "p5_away"
+        }
+      ]
+    },
+    {
+      "id": "p5_help",
+      "type": "page",
+      "next": "p6_help",
+      "scene": "jungle_nest",
+      "text": {
+        "en": "Gulu lifted the baby bird with his soft trunk. Gently, gently.",
+        "ur": "گولو نے اپنی نرم سونڈ سے بچے کو اٹھایا۔ آرام سے، آرام سے۔"
+      },
+      "cast": [
+        { "art": "prop:nest", "x": 0.3, "y": 0.37, "size": 0.05 },
+        { "art": "prop:bird", "x": 0.42, "y": 0.4, "size": 0.06, "mood": "happy" },
+        { "art": "prop:chick", "x": 0.5, "y": 0.48, "size": 0.05, "mood": "happy", "enter": "top" },
+        { "art": "character:elephant", "x": 0.66, "y": 0.6, "size": 0.19, "mood": "happy", "flip": true }
+      ]
+    },
+    {
+      "id": "p6_help",
+      "type": "page",
+      "next": "p7",
+      "scene": "jungle_nest",
+      "text": {
+        "en": "He put it back in its nest. “Thank you, Gulu!” sang Mama Bird.",
+        "ur": "اس نے بچے کو واپس گھونسلے میں رکھ دیا۔ امی چڑیا گا کر بولی، “شکریہ گولو!”"
+      },
+      "cast": [
+        { "art": "prop:nest", "x": 0.3, "y": 0.37, "size": 0.05 },
+        { "art": "prop:chick", "x": 0.3, "y": 0.35, "size": 0.04, "mood": "happy" },
+        { "art": "prop:bird", "x": 0.44, "y": 0.42, "size": 0.06, "mood": "happy" },
+        { "art": "character:elephant", "x": 0.66, "y": 0.6, "size": 0.19, "mood": "happy", "flip": true }
+      ]
+    },
+    {
+      "id": "p5_away",
+      "type": "page",
+      "next": "p6_away",
+      "scene": "jungle_nest",
+      "text": {
+        "en": "Gulu walked away. But he kept thinking about the little bird.",
+        "ur": "گولو آگے چلا گیا۔ لیکن اسے ننھے بچے کا خیال آتا رہا۔"
+      },
+      "cast": [
+        { "art": "prop:nest", "x": 0.3, "y": 0.37, "size": 0.05 },
+        { "art": "prop:chick", "x": 0.44, "y": 0.6, "size": 0.05, "mood": "sad" },
+        { "art": "character:elephant", "x": 0.88, "y": 0.6, "size": 0.19, "mood": "sad" }
+      ]
+    },
+    {
+      "id": "p6_away",
+      "type": "page",
+      "next": "p7",
+      "scene": "jungle_nest",
+      "text": {
+        "en": "He turned back and lifted it home with his trunk. Being kind felt good!",
+        "ur": "وہ واپس آیا اور سونڈ سے بچے کو گھونسلے تک پہنچا دیا۔ مہربانی کر کے بہت اچھا لگا!"
+      },
+      "cast": [
+        { "art": "prop:nest", "x": 0.3, "y": 0.37, "size": 0.05 },
+        { "art": "prop:chick", "x": 0.3, "y": 0.35, "size": 0.04, "mood": "happy" },
+        { "art": "prop:bird", "x": 0.44, "y": 0.42, "size": 0.06, "mood": "happy" },
+        { "art": "character:elephant", "x": 0.66, "y": 0.6, "size": 0.19, "mood": "happy", "flip": true, "enter": "right" }
+      ]
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": null,
+      "scene": "jungle_nest",
+      "text": {
+        "en": "A kind heart makes the whole jungle smile. The end!",
+        "ur": "مہربان دل سے سارا جنگل مسکرا اٹھتا ہے۔ ختم شد!"
+      },
+      "cast": [
+        { "art": "prop:nest", "x": 0.3, "y": 0.37, "size": 0.05 },
+        { "art": "prop:chick", "x": 0.3, "y": 0.35, "size": 0.04, "mood": "happy" },
+        { "art": "prop:bird", "x": 0.46, "y": 0.44, "size": 0.06, "mood": "happy" },
+        { "art": "character:elephant", "x": 0.64, "y": 0.6, "size": 0.19, "mood": "happy", "flip": true }
+      ]
+    }
+  ],
+  "glossary": [
+    { "id": "elephant", "picture": "character:elephant", "word": { "en": "elephant", "ur": "ہاتھی" }, "forms": { "en": ["elephants"], "ur": [] } },
+    { "id": "river", "word": { "en": "river", "ur": "دریا" }, "forms": { "en": [], "ur": [] } },
+    { "id": "bird", "picture": "prop:bird", "word": { "en": "bird", "ur": "چڑیا" }, "forms": { "en": ["birds"], "ur": [] } },
+    { "id": "baby", "picture": "prop:chick", "word": { "en": "baby", "ur": "بچہ" }, "forms": { "en": [], "ur": ["بچے"] } },
+    { "id": "nest", "picture": "prop:nest", "word": { "en": "nest", "ur": "گھونسلا" }, "forms": { "en": [], "ur": ["گھونسلے"] } },
+    { "id": "tree", "word": { "en": "tree", "ur": "درخت" }, "forms": { "en": [], "ur": [] } },
+    { "id": "high", "word": { "en": "high", "ur": "اونچا" }, "forms": { "en": [], "ur": [] } },
+    { "id": "fly", "word": { "en": "fly", "ur": "اڑنا" }, "forms": { "en": ["flew"], "ur": ["اڑ", "اڑنے"] } },
+    { "id": "trunk", "word": { "en": "trunk", "ur": "سونڈ" }, "forms": { "en": [], "ur": [] } },
+    { "id": "soft", "word": { "en": "soft", "ur": "نرم" }, "forms": { "en": [], "ur": [] } },
+    { "id": "gently", "word": { "en": "gently", "ur": "آرام سے" }, "forms": { "en": [], "ur": ["آرام"] } },
+    { "id": "kind", "word": { "en": "kind", "ur": "مہربان" }, "forms": { "en": [], "ur": ["مہربانی"] } },
+    { "id": "thank_you", "word": { "en": "thank you", "ur": "شکریہ" }, "forms": { "en": ["thank"], "ur": [] } },
+    { "id": "heart", "picture": "prop:heart", "word": { "en": "heart", "ur": "دل" }, "forms": { "en": [], "ur": [] } },
+    { "id": "smile", "word": { "en": "smile", "ur": "مسکرانا" }, "forms": { "en": [], "ur": ["مسکرا"] } }
+  ],
+  "vocabulary": ["kind", "nest", "trunk"],
+  "quiz": [
+    {
+      "question": { "en": "Who helped the baby bird?", "ur": "ننھے بچے کی مدد کس نے کی؟" },
+      "options": [
+        { "picture": "character:monkey" },
+        { "picture": "character:elephant", "correct": true },
+        { "picture": "character:rabbit" }
+      ]
+    },
+    {
+      "question": { "en": "Where does the baby bird live?", "ur": "ننھا بچہ کہاں رہتا ہے؟" },
+      "options": [
+        { "picture": "prop:nest", "correct": true },
+        { "picture": "prop:pot" },
+        { "picture": "prop:hut" }
+      ]
+    },
+    {
+      "question": { "en": "Who was worried about her baby?", "ur": "اپنے بچے کے لیے کون پریشان تھی؟" },
+      "options": [
+        { "picture": "character:turtle" },
+        { "picture": "character:parrot" },
+        { "picture": "prop:bird", "correct": true }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": { "en": "Put the baby bird back in its nest!", "ur": "ننھے پرندے کو واپس گھونسلے میں رکھو!" },
+      "item": "prop:chick",
+      "options": [
+        { "picture": "prop:pot" },
+        { "picture": "prop:stone" },
+        { "picture": "prop:nest", "correct": true }
+      ]
+    }
+  ]
+}

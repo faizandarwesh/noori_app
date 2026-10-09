@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "chunnu_crosses_river",
+  "start": "p1",
+  "characters": {
+    "monkey": { "en": "Chunnu", "ur": "چُنّو" },
+    "elephant": { "en": "Gulu", "ur": "گولو" }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "river_crossing",
+      "text": {
+        "en": "Chunnu the monkey wanted to visit Gulu across the river.",
+        "ur": "چُنّو بندر دریا کے پار گولو سے ملنا چاہتا تھا۔"
+      },
+      "cast": [
+        { "art": "character:elephant", "x": 0.76, "y": 0.47, "size": 0.1, "mood": "idle", "flip": true },
+        { "art": "character:monkey", "x": 0.3, "y": 0.61, "size": 0.15, "mood": "happy", "enter": "left" }
+      ]
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "river_crossing",
+      "text": {
+        "en": "But the river was wide, and the water went whoosh, whoosh!",
+        "ur": "لیکن دریا بہت چوڑا تھا، اور پانی شوں شوں کر کے بہہ رہا تھا!"
+      },
+      "cast": [
+        { "art": "character:elephant", "x": 0.76, "y": 0.47, "size": 0.1, "mood": "idle", "flip": true },
+        { "art": "character:monkey", "x": 0.3, "y": 0.61, "size": 0.15, "mood": "surprised" }
+      ]
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "river_crossing",
+      "text": {
+        "en": "There were big stones in the water. One, two, three!",
+        "ur": "پانی میں بڑے بڑے پتھر تھے۔ ایک، دو، تین!"
+      },
+      "cast": [
+        { "art": "character:elephant", "x": 0.76, "y": 0.47, "size": 0.1, "mood": "happy", "flip": true },
+        { "art": "character:monkey", "x": 0.28, "y": 0.61, "size": 0.15, "mood": "idle" }
+      ]
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "choice",
+      "scene": "river_crossing",
+      "text": {
+        "en": "Chunnu's knees went wobble, wobble. “I'm scared,” he said.",
+        "ur": "چُنّو کے گھٹنے کانپنے لگے۔ وہ بولا، “مجھے ڈر لگ رہا ہے۔”"
+      },
+      "cast": [
+        { "art": "character:elephant", "x": 0.76, "y": 0.47, "size": 0.1, "mood": "idle", "flip": true },
+        { "art": "character:monkey", "x": 0.28, "y": 0.61, "size": 0.15, "mood": "sad" }
+      ]
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": {
+        "en": "What should Chunnu do?",
+        "ur": "چُنّو کو کیا کرنا چاہیے؟"
+      },
+      "options": [
+        {
+          "id": "try",
+          "label": { "en": "Try, step by step", "ur": "ایک ایک قدم کوشش کرے" },
+          "picture": "prop:stone",
+          "next": "p5_try"
+        },
+        {
+          "id": "home",
+          "label": { "en": "Go back home", "ur": "گھر واپس چلا جائے" },
+          "picture": "prop:hut",
+          "next": "p5_home"
+        }
+      ]
+    },
+    {
+      "id": "p5_try",
+      "type": "page",
+      "next": "p6_try",
+      "scene": "river_crossing",
+      "text": {
+        "en": "Chunnu took a big breath. Hop! Hop! Hop! Over the stones he went.",
+        "ur": "چُنّو نے لمبی سانس لی۔ پھدک! پھدک! پھدک! وہ پتھروں پر سے گزرنے لگا۔"
+      },
+      "cast": [
+        { "art": "character:elephant", "x": 0.76, "y": 0.47, "size": 0.1, "mood": "happy", "flip": true },
+        { "art": "character:monkey", "x": 0.5, "y": 0.555, "size": 0.13, "mood": "happy", "enter": "left" }
+      ]
+    },
+    {
+      "id": "p6_try",
+      "type": "page",
+      "next": "p7",
+      "scene": "river_crossing",
+      "text": {
+        "en": "He made it! Gulu flapped his big ears. “You were so brave!”",
+        "ur": "وہ پہنچ گیا! گولو نے اپنے بڑے کان ہلائے۔ “تم تو بہت بہادر ہو!”"
+      },
+      "cast": [
+        { "art": "character:monkey", "x": 0.6, "y": 0.47, "size": 0.11, "mood": "happy" },
+        { "art": "character:elephant", "x": 0.8, "y": 0.47, "size": 0.1, "mood": "happy", "flip": true }
+      ]
+    },
+    {
+      "id": "p5_home",
+      "type": "page",
+      "next": "p6_home",
+      "scene": "river_crossing",
+      "text": {
+        "en": "Chunnu went home. But he still wanted to see his friend.",
+        "ur": "چُنّو گھر چلا گیا۔ لیکن اس کا اپنے دوست سے ملنے کو بہت دل چاہ رہا تھا۔"
+      },
+      "cast": [
+        { "art": "character:elephant", "x": 0.76, "y": 0.47, "size": 0.1, "mood": "sad", "flip": true },
+        { "art": "character:monkey", "x": 0.12, "y": 0.61, "size": 0.15, "mood": "sad", "flip": true }
+      ]
+    },
+    {
+      "id": "p6_home",
+      "type": "page",
+      "next": "p7",
+      "scene": "river_crossing",
+      "text": {
+        "en": "The next day, he came back, took a big breath, and hopped across!",
+        "ur": "اگلے دن وہ واپس آیا، لمبی سانس لی، اور پھدک پھدک کر پار ہو گیا!"
+      },
+      "cast": [
+        { "art": "character:elephant", "x": 0.76, "y": 0.47, "size": 0.1, "mood": "happy", "flip": true },
+        { "art": "character:monkey", "x": 0.5, "y": 0.555, "size": 0.13, "mood": "happy", "enter": "left" }
+      ]
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": null,
+      "scene": "river_crossing",
+      "text": {
+        "en": "Being brave means trying, even when you feel scared. The end!",
+        "ur": "بہادری کا مطلب ہے ڈر لگے تب بھی کوشش کرنا۔ ختم شد!"
+      },
+      "cast": [
+        { "art": "character:monkey", "x": 0.6, "y": 0.47, "size": 0.11, "mood": "happy" },
+        { "art": "character:elephant", "x": 0.8, "y": 0.47, "size": 0.1, "mood": "happy", "flip": true }
+      ]
+    }
+  ],
+  "glossary": [
+    { "id": "monkey", "picture": "character:monkey", "word": { "en": "monkey", "ur": "بندر" }, "forms": { "en": [], "ur": [] } },
+    { "id": "river", "word": { "en": "river", "ur": "دریا" }, "forms": { "en": [], "ur": [] } },
+    { "id": "wide", "word": { "en": "wide", "ur": "چوڑا" }, "forms": { "en": [], "ur": [] } },
+    { "id": "water", "word": { "en": "water", "ur": "پانی" }, "forms": { "en": [], "ur": [] } },
+    { "id": "stone", "picture": "prop:stone", "word": { "en": "stone", "ur": "پتھر" }, "forms": { "en": ["stones"], "ur": ["پتھروں"] } },
+    { "id": "big", "word": { "en": "big", "ur": "بڑا" }, "forms": { "en": [], "ur": ["بڑے"] } },
+    { "id": "scared", "word": { "en": "scared", "ur": "ڈر" }, "forms": { "en": [], "ur": [] } },
+    { "id": "knees", "word": { "en": "knees", "ur": "گھٹنے" }, "forms": { "en": ["knee"], "ur": [] } },
+    { "id": "breath", "word": { "en": "breath", "ur": "سانس" }, "forms": { "en": [], "ur": [] } },
+    { "id": "hop", "word": { "en": "hop", "ur": "پھدکنا" }, "forms": { "en": ["hopped"], "ur": ["پھدک"] } },
+    { "id": "brave", "word": { "en": "brave", "ur": "بہادر" }, "forms": { "en": [], "ur": ["بہادری"] } },
+    { "id": "ears", "word": { "en": "ears", "ur": "کان" }, "forms": { "en": ["ear"], "ur": [] } },
+    { "id": "friend", "word": { "en": "friend", "ur": "دوست" }, "forms": { "en": [], "ur": [] } },
+    { "id": "home", "picture": "prop:hut", "word": { "en": "home", "ur": "گھر" }, "forms": { "en": [], "ur": [] } },
+    { "id": "try", "word": { "en": "try", "ur": "کوشش" }, "forms": { "en": ["trying"], "ur": [] } }
+  ],
+  "vocabulary": ["brave", "river", "stone"],
+  "quiz": [
+    {
+      "question": { "en": "Who crossed the river?", "ur": "دریا کس نے پار کیا؟" },
+      "options": [
+        { "picture": "character:turtle" },
+        { "picture": "character:monkey", "correct": true },
+        { "picture": "character:parrot" }
+      ]
+    },
+    {
+      "question": { "en": "What did Chunnu hop on?", "ur": "چُنّو کس چیز پر پھدکا؟" },
+      "options": [
+        { "picture": "prop:stone", "correct": true },
+        { "picture": "prop:ball" },
+        { "picture": "prop:pot" }
+      ]
+    },
+    {
+      "question": { "en": "Who was waiting across the river?", "ur": "دریا کے پار کون انتظار کر رہا تھا؟" },
+      "options": [
+        { "picture": "character:rabbit" },
+        { "picture": "character:parrot" },
+        { "picture": "character:elephant", "correct": true }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": { "en": "Help Chunnu get across to Gulu!", "ur": "چُنّو کو گولو تک پہنچاؤ!" },
+      "item": "character:monkey",
+      "options": [
+        { "picture": "character:turtle" },
+        { "picture": "character:elephant", "correct": true },
+        { "picture": "character:parrot" }
+      ]
+    }
+  ]
+}

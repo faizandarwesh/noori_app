@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "id": "tippu_seed",
+  "start": "p1",
+  "characters": {
+    "tippu": { "en": "Tippu", "ur": "ٹیپو" },
+    "chiku": { "en": "Chiku", "ur": "چیکو" },
+    "squirrel": { "en": "squirrel", "ur": "گلہری" },
+    "mithu": { "en": "parrot", "ur": "طوطا" }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "seed_garden",
+      "text": {
+        "en": "Tippu the turtle found a little seed. \"I will plant it!\" he said. \"Bismillah!\"",
+        "ur": "ٹیپو کچھوے کو ایک چھوٹا سا بیج ملا۔ \"میں اسے لگاؤں گا!\" اس نے کہا۔ \"بسم اللہ!\""
+      },
+      "cast": [
+        { "art": "puppet:tippu", "x": 0.46, "y": 0.64, "size": 0.2, "pose": "hold", "hold": "prop:seed", "holdSize": 0.16, "act": "talk", "mood": "happy", "look": "downRight", "enter": "left" },
+        { "art": "prop:sparkle", "x": 0.62, "y": 0.5, "size": 0.035, "mood": "twinkle", "delay": 1200 },
+        { "art": "prop:sparkle", "x": 0.56, "y": 0.44, "size": 0.025, "mood": "twinkle", "delay": 1500 }
+      ]
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "seed_garden",
+      "text": {
+        "en": "He dug a hole, put the seed inside, and gave it water. Slowly, slowly, just like Tippu.",
+        "ur": "اس نے ایک گڑھا کھودا، بیج اندر رکھا اور پانی ڈالا۔ آہستہ آہستہ، بالکل ٹیپو کی طرح۔"
+      },
+      "cast": [
+        { "art": "puppet:tippu", "x": 0.38, "y": 0.64, "size": 0.2, "pose": "dig", "act": "dig", "hold": "prop:shovel", "holdSize": 0.3, "holdTurn": 20, "mood": "happy", "look": "downRight", "until": 3500 },
+        { "art": "prop:hole", "x": 0.6, "y": 0.655, "size": 0.0675, "until": 3500 },
+        { "art": "prop:soil", "x": 0.6, "y": 0.655, "size": 0.0675, "delay": 3500 },
+        { "art": "puppet:tippu", "x": 0.38, "y": 0.64, "size": 0.2, "pose": "pour", "act": "pour", "hold": "prop:watering_can", "holdSize": 0.28, "holdTurn": -30, "mood": "happy", "look": "downRight", "delay": 3500 },
+        { "art": "prop:water_spray", "x": 0.6, "y": 0.6, "size": 0.05, "mood": "twinkle", "delay": 3900 },
+        { "art": "prop:watering_can", "x": 0.82, "y": 0.645, "size": 0.075, "until": 3500 }
+      ]
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "seed_garden",
+      "text": {
+        "en": "Chiku the rabbit hopped by. \"Where is your tree, Tippu? I don't see anything!\"",
+        "ur": "چیکو خرگوش اچھلتا کودتا آیا۔ \"ٹیپو، تمہارا درخت کہاں ہے؟ مجھے تو کچھ نظر نہیں آ رہا!\""
+      },
+      "cast": [
+        { "art": "puppet:tippu", "x": 0.26, "y": 0.64, "size": 0.2, "mood": "happy", "look": "right" },
+        { "art": "prop:soil", "x": 0.5, "y": 0.655, "size": 0.0675 },
+        { "art": "puppet:chiku", "x": 0.74, "y": 0.645, "size": 0.18, "pose": "shocked", "act": "hop+talk", "face": "think", "look": "downLeft", "enter": "right" }
+      ]
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "choice",
+      "scene": "seed_garden_night",
+      "text": {
+        "en": "\"Trees take time,\" said Tippu. \"I will wait with sabr.\" Every day he watered the seed and made dua.",
+        "ur": "\"درخت بننے میں وقت لگتا ہے،\" ٹیپو نے کہا۔ \"میں صبر سے انتظار کروں گا۔\" وہ روز بیج کو پانی دیتا اور دعا کرتا۔"
+      },
+      "cast": [
+        { "art": "prop:star", "x": 0.2, "y": 0.18, "size": 0.03, "mood": "twinkle" },
+        { "art": "prop:star", "x": 0.5, "y": 0.1, "size": 0.025, "mood": "twinkle", "delay": 400 },
+        { "art": "prop:star", "x": 0.82, "y": 0.3, "size": 0.03, "mood": "twinkle", "delay": 800 },
+        { "art": "prop:soil", "x": 0.6, "y": 0.655, "size": 0.0675 },
+        { "art": "prop:watering_can", "x": 0.78, "y": 0.645, "size": 0.075 },
+        { "art": "puppet:tippu", "x": 0.38, "y": 0.64, "size": 0.21, "pose": "dua", "act": "dua", "mood": "happy" }
+      ]
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": { "en": "What should Tippu do?", "ur": "ٹیپو کو کیا کرنا چاہیے؟" },
+      "options": [
+        { "id": "wait", "label": { "en": "Wait with sabr", "ur": "صبر سے انتظار کرے" }, "picture": "prop:hourglass", "next": "choice_a" },
+        { "id": "dig", "label": { "en": "Dig it up", "ur": "کھود کر دیکھ لے" }, "picture": "prop:shovel", "next": "choice_b" }
+      ]
+    },
+    {
+      "id": "choice_a",
+      "type": "page",
+      "next": "p6",
+      "scene": "seed_garden",
+      "text": {
+        "en": "\"No, Chiku. If we dig it up, it can't grow. Let's wait.\" So they waited together.",
+        "ur": "\"نہیں چیکو، اگر ہم اسے کھودیں گے تو یہ اُگ نہیں سکے گا۔ چلو انتظار کرتے ہیں۔\" اور دونوں مل کر انتظار کرنے لگے۔"
+      },
+      "cast": [
+        { "art": "puppet:tippu", "x": 0.28, "y": 0.645, "size": 0.2, "pose": "sit", "act": "talk", "mood": "happy" },
+        { "art": "prop:soil", "x": 0.5, "y": 0.655, "size": 0.0675 },
+        { "art": "puppet:chiku", "x": 0.72, "y": 0.645, "size": 0.17, "pose": "sit", "act": "nod", "mood": "happy" },
+        { "art": "prop:hourglass", "x": 0.5, "y": 0.5, "size": 0.075, "mood": "float", "delay": 1500 }
+      ]
+    },
+    {
+      "id": "choice_b",
+      "type": "page",
+      "next": "p6",
+      "scene": "seed_garden",
+      "text": {
+        "en": "Tippu started to dig… then stopped. \"Wait! If I dig it up, it can't grow.\" He gently covered the seed again.",
+        "ur": "ٹیپو نے کھودنا شروع کیا... پھر رک گیا۔ \"رکو! اگر میں نے اسے نکال لیا تو یہ اُگ نہیں سکے گا۔\" اس نے پیار سے بیج کو دوبارہ مٹی سے ڈھک دیا۔"
+      },
+      "cast": [
+        { "art": "puppet:tippu", "x": 0.32, "y": 0.64, "size": 0.2, "pose": "dig", "act": "dig", "hold": "prop:shovel", "holdSize": 0.3, "holdTurn": 20, "until": 3000 },
+        { "art": "puppet:tippu", "x": 0.32, "y": 0.64, "size": 0.2, "pose": "shocked", "face": "surprised", "delay": 3000, "until": 5000 },
+        { "art": "puppet:tippu", "x": 0.32, "y": 0.64, "size": 0.2, "pose": "dig", "act": "dig", "mood": "happy", "delay": 5000 },
+        { "art": "prop:soil", "x": 0.55, "y": 0.655, "size": 0.0675 },
+        { "art": "puppet:chiku", "x": 0.78, "y": 0.645, "size": 0.17, "pose": "hold", "hold": "prop:shovel", "holdSize": 0.35, "look": "left", "act": "bounce" }
+      ]
+    },
+    {
+      "id": "p6",
+      "type": "page",
+      "next": "p7",
+      "scene": "seed_garden_morning",
+      "text": {
+        "en": "One morning — pop! A tiny green leaf peeked out of the soil. \"Look, Chiku!\"",
+        "ur": "ایک صبح — پوپ! مٹی سے ایک ننھا سا ہرا پتا جھانکنے لگا۔ \"دیکھو چیکو!\""
+      },
+      "help": { "kind": "rub", "item": 1, "steps": 3 },
+      "cast": [
+        { "art": "puppet:tippu", "x": 0.26, "y": 0.64, "size": 0.2, "pose": "dua", "act": "dua", "look": "down", "helpHide": 3 },
+        { "art": "prop:soil", "x": 0.5, "y": 0.67, "size": 0.07 },
+        { "art": "prop:sparkle", "x": 0.45, "y": 0.6, "size": 0.035, "mood": "twinkle", "helpStep": 1 },
+        { "art": "prop:sparkle", "x": 0.56, "y": 0.58, "size": 0.03, "mood": "twinkle", "helpStep": 2 },
+        { "art": "prop:sprout", "x": 0.5, "y": 0.66, "size": 0.09, "enter": "grow", "helpStep": 3 },
+        { "art": "prop:sparkle", "x": 0.55, "y": 0.56, "size": 0.04, "mood": "twinkle", "delay": 400, "helpStep": 3 },
+        { "art": "puppet:tippu", "x": 0.26, "y": 0.64, "size": 0.2, "pose": "point", "face": "surprised", "act": "bounce", "helpStep": 3 },
+        { "art": "puppet:chiku", "x": 0.74, "y": 0.645, "size": 0.18, "face": "think", "look": "left", "act": "fidget", "helpHide": 3 },
+        { "art": "puppet:chiku", "x": 0.74, "y": 0.645, "size": 0.18, "pose": "cheer", "act": "hop", "face": "surprised", "look": "left", "helpStep": 3 }
+      ]
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": "p8",
+      "scene": "seed_garden",
+      "text": {
+        "en": "Days and days went by. The leaf became a plant, and the plant became a big tree full of guavas!",
+        "ur": "دن پر دن گزرتے گئے۔ پتا پودا بنا، اور پودا امرودوں سے بھرا ایک بڑا درخت بن گیا!"
+      },
+      "cast": [
+        { "art": "prop:sprout", "x": 0.5, "y": 0.66, "size": 0.09, "until": 2200 },
+        { "art": "prop:plant", "x": 0.5, "y": 0.66, "size": 0.13, "enter": "grow", "delay": 2200, "until": 4800 },
+        { "art": "prop:guava_tree", "x": 0.5, "y": 0.665, "size": 0.42, "enter": "grow", "delay": 4800 },
+        { "art": "puppet:tippu", "x": 0.16, "y": 0.645, "size": 0.18, "face": "surprised", "look": "upRight", "act": "bounce" },
+        { "art": "puppet:chiku", "x": 0.86, "y": 0.645, "size": 0.16, "face": "surprised", "look": "upLeft", "act": "hop" }
+      ]
+    },
+    {
+      "id": "p8",
+      "type": "page",
+      "next": null,
+      "scene": "seed_garden",
+      "text": {
+        "en": "\"Alhamdulillah!\" said Tippu, and he shared the guavas with all his friends. The fruit of sabr is always sweet!",
+        "ur": "\"الحمدللہ!\" ٹیپو نے کہا، اور سب دوستوں کے ساتھ امرود بانٹے۔ صبر کا پھل میٹھا ہوتا ہے!"
+      },
+      "cast": [
+        { "art": "prop:guava_tree", "x": 0.5, "y": 0.6, "size": 0.42 },
+        { "art": "puppet:tippu", "x": 0.3, "y": 0.66, "size": 0.19, "pose": "give", "act": "give", "hold": "prop:guava", "holdSize": 0.18, "face": "laugh" },
+        { "art": "puppet:chiku", "x": 0.52, "y": 0.665, "size": 0.16, "pose": "eat", "act": "eat", "hold": "prop:guava", "holdSize": 0.22, "mood": "happy" },
+        { "art": "puppet:squirrel", "x": 0.7, "y": 0.665, "size": 0.11, "pose": "eat", "act": "eat+tail", "hold": "prop:guava", "holdSize": 0.3, "mood": "happy" },
+        { "art": "puppet:mithu", "x": 0.86, "y": 0.665, "size": 0.12, "act": "chirp", "mood": "happy", "flip": true }
+      ]
+    }
+  ],
+  "glossary": [
+    { "id": "seed", "picture": "prop:seed", "word": { "en": "seed", "ur": "بیج" }, "forms": { "en": [], "ur": [] } },
+    { "id": "patience", "picture": "prop:hourglass", "word": { "en": "patience", "ur": "صبر" }, "forms": { "en": ["sabr"], "ur": [] } },
+    { "id": "plant", "picture": "prop:plant", "word": { "en": "plant", "ur": "پودا" }, "forms": { "en": [], "ur": [] } },
+    { "id": "tree", "picture": "prop:guava_tree", "word": { "en": "tree", "ur": "درخت" }, "forms": { "en": ["trees"], "ur": [] } },
+    { "id": "guava", "picture": "prop:guava", "word": { "en": "guava", "ur": "امرود" }, "forms": { "en": ["guavas"], "ur": ["امرودوں"] } },
+    { "id": "turtle", "picture": "puppet:tippu", "word": { "en": "turtle", "ur": "کچھوا" }, "forms": { "en": [], "ur": ["کچھوے"] } },
+    { "id": "rabbit", "picture": "puppet:chiku", "word": { "en": "rabbit", "ur": "خرگوش" }, "forms": { "en": [], "ur": [] } },
+    { "id": "water", "picture": "prop:watering_can", "word": { "en": "water", "ur": "پانی" }, "forms": { "en": ["watered"], "ur": [] } },
+    { "id": "dig", "picture": "prop:shovel", "word": { "en": "dig", "ur": "کھودنا" }, "forms": { "en": ["dug"], "ur": ["کھودا", "کھود", "کھودیں"] } },
+    { "id": "leaf", "picture": "prop:sprout", "word": { "en": "leaf", "ur": "پتا" }, "forms": { "en": [], "ur": [] } },
+    { "id": "soil", "picture": "prop:soil", "word": { "en": "soil", "ur": "مٹی" }, "forms": { "en": [], "ur": [] } },
+    { "id": "dua", "word": { "en": "dua", "ur": "دعا" }, "forms": { "en": [], "ur": [] } },
+    { "id": "wait", "word": { "en": "wait", "ur": "انتظار" }, "forms": { "en": ["waited"], "ur": [] } }
+  ],
+  "vocabulary": ["seed", "patience", "plant"],
+  "quiz": [
+    {
+      "question": { "en": "What did Tippu plant?", "ur": "ٹیپو نے کیا لگایا؟" },
+      "options": [
+        { "picture": "prop:stone" },
+        { "picture": "prop:teddy" },
+        { "picture": "prop:seed", "correct": true }
+      ]
+    },
+    {
+      "question": { "en": "What grew on the tree?", "ur": "درخت پر کیا لگا؟" },
+      "options": [
+        { "picture": "prop:guava", "correct": true },
+        { "picture": "prop:balloons" },
+        { "picture": "prop:candy" }
+      ]
+    },
+    {
+      "question": { "en": "Who was in a hurry?", "ur": "کس کو جلدی تھی؟" },
+      "options": [
+        { "picture": "puppet:tippu" },
+        { "picture": "puppet:chiku", "correct": true },
+        { "picture": "prop:owl" }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": { "en": "Give the watering can to Tippu!", "ur": "پانی کا فوارہ ٹیپو کو دو!" },
+      "item": "prop:watering_can",
+      "options": [
+        { "picture": "puppet:chiku" },
+        { "picture": "puppet:squirrel" },
+        { "picture": "puppet:tippu", "correct": true }
+      ]
+    }
+  ]
+}

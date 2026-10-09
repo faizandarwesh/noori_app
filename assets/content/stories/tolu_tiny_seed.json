@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "tolu_tiny_seed",
+  "start": "p1",
+  "characters": {
+    "turtle": { "en": "Tolu", "ur": "ٹولو" },
+    "rabbit": { "en": "Bunty", "ur": "بنٹی" }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "sunrise_farm",
+      "text": {
+        "en": "Tolu the turtle found a tiny brown seed.",
+        "ur": "ٹولو کچھوے کو ایک ننھا سا بھورا بیج ملا۔"
+      },
+      "cast": [
+        { "art": "character:turtle", "x": 0.32, "y": 0.61, "size": 0.09, "mood": "happy", "enter": "left" },
+        { "art": "prop:seed", "x": 0.52, "y": 0.6, "size": 0.035, "mood": "happy" }
+      ]
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "sunrise_farm",
+      "text": {
+        "en": "He planted it in the soil and gave it some water.",
+        "ur": "اس نے بیج کو مٹی میں بویا اور تھوڑا سا پانی دیا۔"
+      },
+      "cast": [
+        { "art": "character:turtle", "x": 0.3, "y": 0.61, "size": 0.09, "mood": "idle" },
+        { "art": "prop:watering_can", "x": 0.6, "y": 0.57, "size": 0.06, "enter": "top" }
+      ]
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "sunrise_farm",
+      "text": {
+        "en": "The next morning, Tolu looked and looked. No plant yet!",
+        "ur": "اگلی صبح ٹولو نے خوب دیکھا۔ پودا تو ابھی نکلا ہی نہیں!"
+      },
+      "cast": [
+        { "art": "character:turtle", "x": 0.3, "y": 0.61, "size": 0.09, "mood": "surprised" }
+      ]
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "choice",
+      "scene": "sunrise_farm",
+      "text": {
+        "en": "“When will it grow?” asked Tolu. “Seeds need time,” said Bunty.",
+        "ur": "ٹولو نے پوچھا، “یہ کب اگے گا؟” بنٹی بولا، “بیج کو وقت چاہیے۔”"
+      },
+      "cast": [
+        { "art": "character:turtle", "x": 0.3, "y": 0.61, "size": 0.09, "mood": "sad" },
+        { "art": "character:rabbit", "x": 0.78, "y": 0.6, "size": 0.16, "mood": "idle", "enter": "right" }
+      ]
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": {
+        "en": "What should Tolu do?",
+        "ur": "ٹولو کو کیا کرنا چاہیے؟"
+      },
+      "options": [
+        {
+          "id": "wait",
+          "label": { "en": "Wait and water it", "ur": "انتظار کرے اور پانی دے" },
+          "picture": "prop:watering_can",
+          "next": "p5_wait"
+        },
+        {
+          "id": "dig",
+          "label": { "en": "Dig it up to look", "ur": "کھود کر دیکھ لے" },
+          "picture": "prop:shovel",
+          "next": "p5_dig"
+        }
+      ]
+    },
+    {
+      "id": "p5_wait",
+      "type": "page",
+      "next": "p6_wait",
+      "scene": "sunrise_farm",
+      "text": {
+        "en": "Tolu waited. Every day, he gave the seed a little water.",
+        "ur": "ٹولو نے انتظار کیا۔ وہ ہر روز بیج کو تھوڑا سا پانی دیتا۔"
+      },
+      "cast": [
+        { "art": "character:turtle", "x": 0.3, "y": 0.61, "size": 0.09, "mood": "happy" },
+        { "art": "prop:watering_can", "x": 0.6, "y": 0.57, "size": 0.06, "mood": "idle" }
+      ]
+    },
+    {
+      "id": "p6_wait",
+      "type": "page",
+      "next": "p7",
+      "scene": "sunrise_farm",
+      "text": {
+        "en": "One day, a tiny green sprout popped up! Tolu was so happy.",
+        "ur": "ایک دن ایک ننھی سی ہری کونپل نکل آئی! ٹولو بہت خوش ہوا۔"
+      },
+      "cast": [
+        { "art": "prop:sprout", "x": 0.5, "y": 0.61, "size": 0.06, "mood": "surprised" },
+        { "art": "character:turtle", "x": 0.28, "y": 0.61, "size": 0.09, "mood": "happy" }
+      ]
+    },
+    {
+      "id": "p5_dig",
+      "type": "page",
+      "next": "p6_dig",
+      "scene": "sunrise_farm",
+      "text": {
+        "en": "Tolu dug up the seed to look. It was still just a seed!",
+        "ur": "ٹولو نے بیج کھود کر دیکھا۔ وہ تو ابھی بھی بس ایک بیج تھا!"
+      },
+      "cast": [
+        { "art": "character:turtle", "x": 0.3, "y": 0.61, "size": 0.09, "mood": "surprised" },
+        { "art": "prop:seed", "x": 0.48, "y": 0.6, "size": 0.035 },
+        { "art": "prop:shovel", "x": 0.6, "y": 0.6, "size": 0.07, "enter": "top" }
+      ]
+    },
+    {
+      "id": "p6_dig",
+      "type": "page",
+      "next": "p7",
+      "scene": "sunrise_farm",
+      "text": {
+        "en": "He planted it again and waited. Soon, a little sprout came up.",
+        "ur": "اس نے بیج دوبارہ بویا اور انتظار کیا۔ جلد ہی ایک ننھی کونپل نکل آئی۔"
+      },
+      "cast": [
+        { "art": "prop:sprout", "x": 0.5, "y": 0.61, "size": 0.06, "mood": "surprised" },
+        { "art": "character:turtle", "x": 0.28, "y": 0.61, "size": 0.09, "mood": "happy" }
+      ]
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": null,
+      "scene": "sunrise_farm",
+      "text": {
+        "en": "Now a big flower grows there. Good things take time. The end!",
+        "ur": "اب وہاں ایک بڑا سا پھول کھلتا ہے۔ اچھی چیزوں میں وقت لگتا ہے۔ ختم شد!"
+      },
+      "cast": [
+        { "art": "prop:flower", "x": 0.5, "y": 0.61, "size": 0.14, "mood": "happy", "enter": "top" },
+        { "art": "character:turtle", "x": 0.27, "y": 0.61, "size": 0.09, "mood": "happy" },
+        { "art": "character:rabbit", "x": 0.76, "y": 0.6, "size": 0.16, "mood": "happy" }
+      ]
+    }
+  ],
+  "glossary": [
+    { "id": "turtle", "picture": "character:turtle", "word": { "en": "turtle", "ur": "کچھوا" }, "forms": { "en": [], "ur": ["کچھوے"] } },
+    { "id": "seed", "picture": "prop:seed", "word": { "en": "seed", "ur": "بیج" }, "forms": { "en": ["seeds"], "ur": [] } },
+    { "id": "tiny", "word": { "en": "tiny", "ur": "ننھا" }, "forms": { "en": ["little"], "ur": ["ننھی"] } },
+    { "id": "brown", "word": { "en": "brown", "ur": "بھورا" }, "forms": { "en": [], "ur": [] } },
+    { "id": "soil", "word": { "en": "soil", "ur": "مٹی" }, "forms": { "en": [], "ur": [] } },
+    { "id": "water", "picture": "prop:watering_can", "word": { "en": "water", "ur": "پانی" }, "forms": { "en": [], "ur": [] } },
+    { "id": "plant", "word": { "en": "plant", "ur": "پودا" }, "forms": { "en": ["planted"], "ur": ["بویا"] } },
+    { "id": "morning", "word": { "en": "morning", "ur": "صبح" }, "forms": { "en": [], "ur": [] } },
+    { "id": "grow", "word": { "en": "grow", "ur": "اگنا" }, "forms": { "en": ["grows"], "ur": ["اگے"] } },
+    { "id": "time", "word": { "en": "time", "ur": "وقت" }, "forms": { "en": [], "ur": [] } },
+    { "id": "wait", "word": { "en": "wait", "ur": "انتظار" }, "forms": { "en": ["waited"], "ur": [] } },
+    { "id": "sprout", "picture": "prop:sprout", "word": { "en": "sprout", "ur": "کونپل" }, "forms": { "en": [], "ur": [] } },
+    { "id": "green", "word": { "en": "green", "ur": "ہرا" }, "forms": { "en": [], "ur": ["ہری"] } },
+    { "id": "flower", "picture": "prop:flower", "word": { "en": "flower", "ur": "پھول" }, "forms": { "en": [], "ur": [] } },
+    { "id": "happy", "word": { "en": "happy", "ur": "خوش" }, "forms": { "en": [], "ur": [] } }
+  ],
+  "vocabulary": ["seed", "water", "wait"],
+  "quiz": [
+    {
+      "question": { "en": "What did Tolu find?", "ur": "ٹولو کو کیا ملا؟" },
+      "options": [
+        { "picture": "prop:ball" },
+        { "picture": "prop:stone" },
+        { "picture": "prop:seed", "correct": true }
+      ]
+    },
+    {
+      "question": { "en": "What did the seed need?", "ur": "بیج کو کیا چاہیے تھا؟" },
+      "options": [
+        { "picture": "prop:watering_can", "correct": true },
+        { "picture": "prop:banana" },
+        { "picture": "prop:ball" }
+      ]
+    },
+    {
+      "question": { "en": "What grew at the end?", "ur": "آخر میں کیا اگا؟" },
+      "options": [
+        { "picture": "prop:mango" },
+        { "picture": "prop:flower", "correct": true },
+        { "picture": "prop:bush" }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": { "en": "Give the tiny seed some water!", "ur": "ننھے بیج کو پانی دو!" },
+      "item": "prop:watering_can",
+      "options": [
+        { "picture": "prop:stone" },
+        { "picture": "prop:seed", "correct": true },
+        { "picture": "prop:ball" }
+      ]
+    }
+  ]
+}

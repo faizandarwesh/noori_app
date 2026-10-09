@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 860">
+  <g fill="#2F8F5B">
+    <path d="M400 0 C350 30 330 90 340 150 C356 110 380 80 400 70 Z"/>
+    <path d="M400 70 C360 100 344 150 350 210 C366 170 386 140 400 130 Z" fill="#3E9A63"/>
+  </g>
+  <g fill="#D4F2E2" opacity="0.5">
+    <path d="M372 40 L360 80 L366 82 Z"/><path d="M380 110 L366 150 L372 152 Z"/>
+  </g>
+  <path d="M300 0 C306 50 298 90 304 130" stroke="#2F7F5B" stroke-width="2.5" fill="none"/>
+  <g fill="#4FAE6A"><ellipse cx="300" cy="50" rx="8" ry="5"/><ellipse cx="306" cy="90" rx="8" ry="5"/><ellipse cx="302" cy="124" rx="7" ry="4"/></g>
+  <g fill="#3E9A63">
+    <path d="M0 552 C10 520 30 500 56 494 C40 510 30 530 28 552 Z"/>
+    <path d="M0 552 C0 510 12 480 30 466 C22 492 18 520 20 552 Z" fill="#4FAE6A"/>
+    <path d="M400 552 C390 516 370 500 344 494 C360 512 370 530 372 552 Z"/>
+    <path d="M400 552 C400 512 388 484 372 470 C380 496 382 524 380 552 Z" fill="#4FAE6A"/>
+  </g>
+  <g>
+    <path d="M220 360 C214 352 204 352 204 360 C204 368 214 368 220 360 Z" fill="#FFB703"/>
+    <path d="M220 360 C226 352 236 352 236 360 C236 368 226 368 220 360 Z" fill="#FF8C42"/>
+    <rect x="219" y="353" width="2" height="14" rx="1" fill="#3B2F3F"/>
+  </g>
+</svg>

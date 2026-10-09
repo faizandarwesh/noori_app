@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "id": "dodo_tells_truth",
+  "start": "p1",
+  "characters": {
+    "dodo": { "en": "Dodo", "ur": "ڈوڈو" },
+    "bhalu": { "en": "Bhalu", "ur": "بھالو" }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "honey_cave",
+      "text": {
+        "en": "Dodo was a little elephant with big floppy ears. He loved playing football with his trunk.",
+        "ur": "ڈوڈو ایک ننھا سا ہاتھی تھا جس کے بڑے بڑے کان تھے۔ اسے اپنی سونڈ سے فٹبال کھیلنا بہت پسند تھا۔"
+      },
+      "cast": [
+        { "art": "prop:honey_pot", "x": 0.86, "y": 0.62, "size": 0.09 },
+        { "art": "puppet:dodo", "x": 0.36, "y": 0.64, "size": 0.18, "act": "trunk+ears+tail", "mood": "happy", "enter": "left" },
+        { "art": "prop:football", "x": 0.6, "y": 0.6, "size": 0.0675, "mood": "happy" }
+      ]
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "honey_cave",
+      "text": {
+        "en": "Thump! Dodo kicked the ball too hard. It flew… and crashed into Bhalu Chacha's honey pot. Crack!",
+        "ur": "دھم! ڈوڈو نے گیند کو بہت زور سے مارا۔ گیند اڑتی ہوئی گئی... اور بھالو چچا کے شہد کے مٹکے سے جا ٹکرائی۔ چٹاخ!"
+      },
+      "cast": [
+        { "art": "prop:honey_pot", "x": 0.86, "y": 0.62, "size": 0.09, "until": 1800 },
+        { "art": "prop:broken_honey", "x": 0.85, "y": 0.63, "size": 0.09, "delay": 1800 },
+        { "art": "puppet:dodo", "x": 0.3, "y": 0.64, "size": 0.18, "pose": "kick", "act": "kick", "face": "surprised" },
+        { "art": "prop:football", "x": 0.78, "y": 0.6, "size": 0.0675, "enter": "left", "until": 1800 },
+        { "art": "prop:sparkle", "x": 0.84, "y": 0.55, "size": 0.06, "mood": "twinkle", "delay": 1700, "until": 2600 },
+        { "art": "prop:football", "x": 0.7, "y": 0.64, "size": 0.06, "delay": 1800 }
+      ]
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "honey_cave",
+      "text": {
+        "en": "Sticky honey spilled everywhere. Nobody saw what happened. Dodo's heart went thump, thump.",
+        "ur": "چپچپا شہد ہر طرف بکھر گیا۔ کسی نے نہیں دیکھا تھا۔ ڈوڈو کا دل دھک دھک کرنے لگا۔"
+      },
+      "cast": [
+        { "art": "prop:broken_honey", "x": 0.68, "y": 0.645, "size": 0.12 },
+        { "art": "prop:honey_drops", "x": 0.68, "y": 0.58, "size": 0.075, "mood": "twinkle" },
+        { "art": "puppet:dodo", "x": 0.32, "y": 0.64, "size": 0.19, "pose": "worried", "act": "ears", "face": "worried", "mood": "worried", "look": "right" },
+        { "art": "prop:heart", "x": 0.25, "y": 0.43, "size": 0.035, "mood": "twinkle" }
+      ]
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "p5",
+      "scene": "honey_cave",
+      "text": {
+        "en": "Bhalu Chacha came home. \"Oh no! Who broke my honey pot?\"",
+        "ur": "بھالو چچا گھر آئے۔ \"ارے نہیں! میرا شہد کا مٹکا کس نے توڑا؟\""
+      },
+      "cast": [
+        { "art": "puppet:dodo", "x": 0.18, "y": 0.64, "size": 0.17, "pose": "worried", "face": "worried", "mood": "worried" },
+        { "art": "prop:broken_honey", "x": 0.5, "y": 0.645, "size": 0.105 },
+        { "art": "puppet:bhalu", "x": 0.76, "y": 0.63, "size": 0.3, "pose": "shocked", "face": "surprised", "act": "talk", "enter": "right" }
+      ]
+    },
+    {
+      "id": "p5",
+      "type": "page",
+      "next": "choice",
+      "scene": "honey_cave",
+      "text": {
+        "en": "Dodo could hide behind the tree, or he could tell the truth. What should Dodo do?",
+        "ur": "ڈوڈو درخت کے پیچھے چھپ سکتا تھا، یا سچ بتا سکتا تھا۔ ڈوڈو کو کیا کرنا چاہیے؟"
+      },
+      "cast": [
+        { "art": "prop:tree", "x": 0.14, "y": 0.64, "size": 0.32 },
+        { "art": "puppet:dodo", "x": 0.46, "y": 0.645, "size": 0.17, "pose": "worried", "face": "think", "look": "left", "act": "ears" },
+        { "art": "prop:broken_honey", "x": 0.62, "y": 0.65, "size": 0.09 },
+        { "art": "puppet:bhalu", "x": 0.82, "y": 0.63, "size": 0.29, "mood": "sad", "look": "left" }
+      ]
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": { "en": "What should Dodo do?", "ur": "ڈوڈو کو کیا کرنا چاہیے؟" },
+      "options": [
+        { "id": "truth", "label": { "en": "Tell the truth", "ur": "سچ بتائے" }, "picture": "prop:heart", "next": "choice_a" },
+        { "id": "hide", "label": { "en": "Hide behind the tree", "ur": "درخت کے پیچھے چھپ جائے" }, "picture": "prop:tree", "next": "choice_b" }
+      ]
+    },
+    {
+      "id": "choice_a",
+      "type": "page",
+      "next": "p6",
+      "scene": "honey_cave",
+      "text": {
+        "en": "Dodo stepped forward. \"Bhalu Chacha, it was me. I'm sorry. It was a mistake.\"",
+        "ur": "ڈوڈو آگے آیا۔ \"بھالو چچا، یہ مجھ سے ہوا ہے۔ مجھے معاف کر دیں۔ غلطی سے ہو گیا۔\""
+      },
+      "cast": [
+        { "art": "puppet:dodo", "x": 0.44, "y": 0.645, "size": 0.18, "pose": "worried", "act": "nod", "face": "sad", "enter": "left" },
+        { "art": "puppet:bhalu", "x": 0.8, "y": 0.63, "size": 0.29, "act": "nod", "look": "left" }
+      ]
+    },
+    {
+      "id": "choice_b",
+      "type": "page",
+      "next": "p6",
+      "scene": "honey_cave",
+      "text": {
+        "en": "Dodo hid behind the tree. But his big ears were sticking out! And his heart felt heavy. So he came out and said, \"Bhalu Chacha, it was me. I'm sorry.\"",
+        "ur": "ڈوڈو درخت کے پیچھے چھپ گیا۔ مگر اس کے بڑے بڑے کان باہر نظر آ رہے تھے! اور اس کا دل بھی بھاری ہو گیا۔ وہ باہر آیا اور بولا، \"بھالو چچا، یہ مجھ سے ہوا ہے۔ مجھے معاف کر دیں۔\""
+      },
+      "cast": [
+        { "art": "puppet:dodo", "x": 0.2, "y": 0.63, "size": 0.18, "pose": "hide", "act": "ears", "face": "worried", "until": 4500 },
+        { "art": "prop:tree", "x": 0.2, "y": 0.64, "size": 0.32 },
+        { "art": "puppet:dodo", "x": 0.46, "y": 0.645, "size": 0.18, "pose": "worried", "act": "nod", "face": "sad", "enter": "left", "delay": 4500 },
+        { "art": "puppet:bhalu", "x": 0.8, "y": 0.63, "size": 0.29, "mood": "sad", "look": "left" }
+      ]
+    },
+    {
+      "id": "p6",
+      "type": "page",
+      "next": "p7",
+      "scene": "honey_cave",
+      "text": {
+        "en": "Bhalu Chacha gave Dodo a big hug. \"Thank you for telling the truth, Dodo. Allah loves those who speak the truth.\"",
+        "ur": "بھالو چچا نے ڈوڈو کو گلے لگا لیا۔ \"سچ بتانے کا شکریہ، ڈوڈو۔ اللہ تعالیٰ سچ بولنے والوں کو پسند کرتے ہیں۔\""
+      },
+      "cast": [
+        { "art": "puppet:dodo", "x": 0.44, "y": 0.645, "size": 0.18, "face": "laugh", "act": "ears+tail" },
+        { "art": "puppet:bhalu", "x": 0.64, "y": 0.64, "size": 0.3, "pose": "hug", "act": "hug+talk", "mood": "happy" },
+        { "art": "prop:heart", "x": 0.52, "y": 0.36, "size": 0.045, "mood": "float" },
+        { "art": "prop:heart", "x": 0.7, "y": 0.3, "size": 0.03, "mood": "float", "delay": 500 }
+      ]
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": "p8",
+      "scene": "honey_cave",
+      "text": {
+        "en": "Then Dodo helped clean up. With his strong trunk, he sprayed water and made everything shiny clean!",
+        "ur": "پھر ڈوڈو نے صفائی میں مدد کی۔ اپنی مضبوط سونڈ سے پانی چھڑک کر اس نے سب کچھ چمکا دیا!"
+      },
+      "help": { "kind": "rub", "item": 2, "steps": 3 },
+      "cast": [
+        { "art": "puppet:dodo", "x": 0.34, "y": 0.645, "size": 0.19, "pose": "spray", "act": "spray+ears", "mood": "happy" },
+        { "art": "prop:water_spray", "x": 0.6, "y": 0.52, "size": 0.16, "mood": "twinkle", "helpHide": 3 },
+        { "art": "prop:broken_honey", "x": 0.66, "y": 0.655, "size": 0.1, "helpHide": 3 },
+        { "art": "prop:honey_drops", "x": 0.66, "y": 0.6, "size": 0.07, "helpHide": 1 },
+        { "art": "prop:sparkle", "x": 0.6, "y": 0.62, "size": 0.035, "mood": "twinkle", "helpStep": 1 },
+        { "art": "prop:sparkle", "x": 0.72, "y": 0.6, "size": 0.03, "mood": "twinkle", "helpStep": 2 },
+        { "art": "prop:honey_pot", "x": 0.68, "y": 0.645, "size": 0.09, "enter": "grow", "helpStep": 3 },
+        { "art": "prop:sparkle", "x": 0.62, "y": 0.6, "size": 0.04, "mood": "twinkle", "delay": 300, "helpStep": 3 },
+        { "art": "prop:sparkle", "x": 0.76, "y": 0.56, "size": 0.035, "mood": "twinkle", "delay": 600, "helpStep": 3 },
+        { "art": "puppet:bhalu", "x": 0.88, "y": 0.63, "size": 0.27, "look": "left", "act": "nod", "helpHide": 3 },
+        { "art": "puppet:bhalu", "x": 0.88, "y": 0.63, "size": 0.27, "pose": "clap", "act": "clap", "face": "laugh", "helpStep": 3 }
+      ]
+    },
+    {
+      "id": "p8",
+      "type": "page",
+      "next": null,
+      "scene": "honey_cave_sunset",
+      "text": {
+        "en": "Dodo felt light and happy inside. Telling the truth feels so good!",
+        "ur": "ڈوڈو کو اندر سے ہلکا پھلکا اور خوش محسوس ہوا۔ سچ بولنا کتنا اچھا لگتا ہے!"
+      },
+      "cast": [
+        { "art": "puppet:dodo", "x": 0.34, "y": 0.645, "size": 0.18, "mood": "happy", "act": "sway+ears" },
+        { "art": "prop:honey_pot", "x": 0.52, "y": 0.65, "size": 0.075 },
+        { "art": "puppet:bhalu", "x": 0.72, "y": 0.65, "size": 0.3, "pose": "sit", "act": "sway", "mood": "happy" },
+        { "art": "prop:heart", "x": 0.4, "y": 0.4, "size": 0.035, "mood": "float" }
+      ]
+    }
+  ],
+  "glossary": [
+    { "id": "truth", "picture": "prop:heart", "word": { "en": "truth", "ur": "سچ" }, "forms": { "en": [], "ur": [] } },
+    { "id": "mistake", "picture": "prop:broken_honey", "word": { "en": "mistake", "ur": "غلطی" }, "forms": { "en": [], "ur": [] } },
+    { "id": "sorry", "word": { "en": "sorry", "ur": "معافی" }, "forms": { "en": [], "ur": ["معاف"] } },
+    { "id": "honey", "picture": "prop:honey_pot", "word": { "en": "honey", "ur": "شہد" }, "forms": { "en": [], "ur": [] } },
+    { "id": "pot", "picture": "prop:honey_pot", "word": { "en": "pot", "ur": "مٹکا" }, "forms": { "en": [], "ur": ["مٹکے"] } },
+    { "id": "ball", "picture": "prop:football", "word": { "en": "ball", "ur": "گیند" }, "forms": { "en": ["football"], "ur": ["فٹبال"] } },
+    { "id": "elephant", "picture": "puppet:dodo", "word": { "en": "elephant", "ur": "ہاتھی" }, "forms": { "en": [], "ur": [] } },
+    { "id": "trunk", "word": { "en": "trunk", "ur": "سونڈ" }, "forms": { "en": [], "ur": [] } },
+    { "id": "ears", "word": { "en": "ears", "ur": "کان" }, "forms": { "en": ["ear"], "ur": [] } },
+    { "id": "tree", "picture": "prop:tree", "word": { "en": "tree", "ur": "درخت" }, "forms": { "en": [], "ur": [] } },
+    { "id": "hug", "word": { "en": "hug", "ur": "گلے لگانا" }, "forms": { "en": [], "ur": ["گلے"] } },
+    { "id": "water", "picture": "prop:water_spray", "word": { "en": "water", "ur": "پانی" }, "forms": { "en": [], "ur": [] } },
+    { "id": "clean", "word": { "en": "clean", "ur": "صفائی" }, "forms": { "en": [], "ur": [] } }
+  ],
+  "vocabulary": ["truth", "mistake", "sorry"],
+  "quiz": [
+    {
+      "question": { "en": "What did Dodo break?", "ur": "ڈوڈو نے کیا توڑا؟" },
+      "options": [
+        { "picture": "prop:honey_pot", "correct": true },
+        { "picture": "prop:window" },
+        { "picture": "prop:chair" }
+      ]
+    },
+    {
+      "question": { "en": "How did Dodo feel after telling the truth?", "ur": "سچ بتا کر ڈوڈو کو کیسا لگا؟" },
+      "options": [
+        { "picture": "prop:face_sad" },
+        { "picture": "prop:face_happy", "correct": true },
+        { "picture": "prop:face_angry" }
+      ]
+    },
+    {
+      "question": { "en": "What did Dodo play with his trunk?", "ur": "ڈوڈو سونڈ سے کیا کھیلتا تھا؟" },
+      "options": [
+        { "picture": "prop:kite" },
+        { "picture": "prop:cricket_bat" },
+        { "picture": "prop:football", "correct": true }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": { "en": "Give the honey pot back to Bhalu Chacha!", "ur": "شہد کا مٹکا بھالو چچا کو واپس دو!" },
+      "item": "prop:honey_pot",
+      "options": [
+        { "picture": "puppet:dodo" },
+        { "picture": "puppet:bhalu", "correct": true },
+        { "picture": "puppet:bunty" }
+      ]
+    }
+  ]
+}
