@@ -21,13 +21,84 @@
         "ur": "عائشہ کی نانی کا جنگل کے کنارے آموں کا ایک بڑا باغ تھا۔ آم پیلے پیلے اور بہت میٹھے تھے۔"
       },
       "cast": [
-        { "art": "puppet:nani", "x": 0.32, "y": 0.62, "size": 0.28, "pose": "hold_hand", "act": "walk+talk", "mood": "happy", "enter": "left" },
-        { "art": "puppet:ayesha", "x": 0.55, "y": 0.63, "size": 0.21, "pose": "hold_hand_l", "act": "walk", "mood": "happy", "enter": "left" },
+        {
+          "art": "puppet:nani",
+          "x": 0.32,
+          "y": 0.62,
+          "size": 0.28,
+          "pose": "hold_hand",
+          "act": "walk+talk",
+          "mood": "happy",
+          "enter": "left"
+        },
+        {
+          "art": "puppet:ayesha",
+          "x": 0.55,
+          "y": 0.63,
+          "size": 0.21,
+          "pose": "hold_hand_l",
+          "act": "walk",
+          "mood": "happy",
+          "enter": "left"
+        },
         { "art": "prop:mango", "x": 0.74, "y": 0.64, "size": 0.0525 },
         { "art": "prop:mango", "x": 0.82, "y": 0.66, "size": 0.0525 },
         { "art": "prop:sparkle", "x": 0.7, "y": 0.28, "size": 0.035, "mood": "twinkle" },
-        { "art": "prop:sparkle", "x": 0.88, "y": 0.2, "size": 0.03, "mood": "twinkle", "delay": 600 }
-      ]
+        {
+          "art": "prop:sparkle",
+          "x": 0.88,
+          "y": 0.2,
+          "size": 0.03,
+          "mood": "twinkle",
+          "delay": 600
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "عائشہ", "start": 74, "end": 444 },
+          { "w": "کی", "start": 444, "end": 644 },
+          { "w": "نانی", "start": 644, "end": 1044 },
+          { "w": "کا", "start": 1044, "end": 1224 },
+          { "w": "جنگل", "start": 1224, "end": 1594 },
+          { "w": "کے", "start": 1594, "end": 1794 },
+          { "w": "کنارے", "start": 1794, "end": 2434 },
+          { "w": "آموں", "start": 2434, "end": 2804 },
+          { "w": "کا", "start": 2804, "end": 2974 },
+          { "w": "ایک", "start": 2974, "end": 3274 },
+          { "w": "بڑا", "start": 3274, "end": 3684 },
+          { "w": "باغ", "start": 3684, "end": 4074 },
+          { "w": "تھا۔", "start": 4074, "end": 4414 },
+          { "w": "آم", "start": 4414, "end": 4674 },
+          { "w": "پیلے", "start": 4674, "end": 5194 },
+          { "w": "پیلے", "start": 5194, "end": 5714 },
+          { "w": "اور", "start": 5714, "end": 6114 },
+          { "w": "بہت", "start": 6114, "end": 6504 },
+          { "w": "میٹھے", "start": 6504, "end": 7154 },
+          { "w": "تھے۔", "start": 7154, "end": 7614 }
+        ],
+        "en": [
+          { "w": "Ayesha's", "start": 54, "end": 624 },
+          { "w": "Nani", "start": 624, "end": 1034 },
+          { "w": "had", "start": 1034, "end": 1284 },
+          { "w": "a", "start": 1284, "end": 1544 },
+          { "w": "big", "start": 1544, "end": 1614 },
+          { "w": "mango", "start": 1614, "end": 2024 },
+          { "w": "garden", "start": 2024, "end": 2574 },
+          { "w": "at", "start": 2574, "end": 2714 },
+          { "w": "the", "start": 2714, "end": 3064 },
+          { "w": "edge", "start": 3064, "end": 3224 },
+          { "w": "of", "start": 3224, "end": 3424 },
+          { "w": "the", "start": 3424, "end": 3584 },
+          { "w": "jungle.", "start": 3584, "end": 4134 },
+          { "w": "The", "start": 4134, "end": 4454 },
+          { "w": "mangoes", "start": 4454, "end": 5194 },
+          { "w": "were", "start": 5194, "end": 5714 },
+          { "w": "yellow", "start": 5714, "end": 6244 },
+          { "w": "and", "start": 6244, "end": 6564 },
+          { "w": "so", "start": 6564, "end": 6774 },
+          { "w": "sweet.", "start": 6774, "end": 7654 }
+        ]
+      }
     },
     {
       "id": "p2",
@@ -39,11 +110,57 @@
         "ur": "درخت کے اوپر بنٹی بندر رہتا تھا۔ اسے آم سب سے زیادہ پسند تھے!"
       },
       "cast": [
-        { "art": "puppet:bunty", "x": 0.56, "y": 0.47, "size": 0.19, "turn": 180, "pose": "hold_both", "hold": "prop:mango", "holdSize": 0.32, "act": "sway+tail", "mood": "happy", "enter": "top" },
+        {
+          "art": "puppet:bunty",
+          "x": 0.56,
+          "y": 0.47,
+          "size": 0.19,
+          "turn": 180,
+          "pose": "hold_both",
+          "hold": "prop:mango",
+          "holdSize": 0.32,
+          "act": "sway+tail",
+          "mood": "happy",
+          "enter": "top"
+        },
         { "art": "prop:branch", "x": 0.6, "y": 0.3, "size": 0.07 },
         { "art": "prop:mango", "x": 0.2, "y": 0.33, "size": 0.0525, "mood": "float" },
         { "art": "prop:mango", "x": 0.8, "y": 0.34, "size": 0.0525, "mood": "float" }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "درخت", "start": 12, "end": 422 },
+          { "w": "کے", "start": 422, "end": 632 },
+          { "w": "اوپر", "start": 632, "end": 1082 },
+          { "w": "بنٹی", "start": 1082, "end": 1432 },
+          { "w": "بندر", "start": 1432, "end": 1842 },
+          { "w": "رہتا", "start": 1842, "end": 2242 },
+          { "w": "تھا۔", "start": 2242, "end": 2732 },
+          { "w": "اسے", "start": 2732, "end": 3092 },
+          { "w": "آم", "start": 3092, "end": 3332 },
+          { "w": "سب", "start": 3332, "end": 3562 },
+          { "w": "سے", "start": 3562, "end": 3812 },
+          { "w": "زیادہ", "start": 3812, "end": 4412 },
+          { "w": "پسند", "start": 4412, "end": 4892 },
+          { "w": "تھے!", "start": 4892, "end": 5292 }
+        ],
+        "en": [
+          { "w": "Up", "start": 26, "end": 176 },
+          { "w": "in", "start": 176, "end": 326 },
+          { "w": "the", "start": 326, "end": 606 },
+          { "w": "tree", "start": 606, "end": 866 },
+          { "w": "lived", "start": 866, "end": 1246 },
+          { "w": "Bunty", "start": 1246, "end": 1626 },
+          { "w": "the", "start": 1626, "end": 1856 },
+          { "w": "monkey.", "start": 1856, "end": 2586 },
+          { "w": "He", "start": 2586, "end": 2776 },
+          { "w": "loved", "start": 2776, "end": 3256 },
+          { "w": "mangoes", "start": 3256, "end": 4156 },
+          { "w": "more", "start": 4156, "end": 4306 },
+          { "w": "than", "start": 4306, "end": 4686 },
+          { "w": "anything!", "start": 4686, "end": 5786 }
+        ]
+      }
     },
     {
       "id": "p3",
@@ -57,10 +174,70 @@
       "cast": [
         { "art": "prop:mango", "x": 0.3, "y": 0.64, "size": 0.06, "enter": "top" },
         { "art": "prop:mango", "x": 0.36, "y": 0.655, "size": 0.06, "enter": "top", "delay": 300 },
-        { "art": "puppet:bunty", "x": 0.55, "y": 0.64, "size": 0.21, "pose": "eat", "act": "eat+tail", "face": "full", "hold": "prop:mango", "holdSize": 0.25 },
+        {
+          "art": "puppet:bunty",
+          "x": 0.55,
+          "y": 0.64,
+          "size": 0.21,
+          "pose": "eat",
+          "act": "eat+tail",
+          "face": "full",
+          "hold": "prop:mango",
+          "holdSize": 0.25
+        },
         { "art": "prop:juice", "x": 0.58, "y": 0.47, "size": 0.07, "mood": "twinkle" },
         { "art": "prop:juice", "x": 0.4, "y": 0.52, "size": 0.05, "mood": "twinkle", "delay": 500 }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "بنٹی", "start": 16, "end": 546 },
+          { "w": "نے", "start": 546, "end": 806 },
+          { "w": "ایک،", "start": 806, "end": 1206 },
+          { "w": "دو،", "start": 1206, "end": 1466 },
+          { "w": "تین", "start": 1466, "end": 1866 },
+          { "w": "آم", "start": 1866, "end": 2126 },
+          { "w": "پکڑ", "start": 2126, "end": 2646 },
+          { "w": "لیے۔", "start": 2646, "end": 3136 },
+          { "w": "گپ،", "start": 3136, "end": 3516 },
+          { "w": "گپ،", "start": 3516, "end": 3896 },
+          { "w": "گپ!", "start": 3896, "end": 4296 },
+          { "w": "وہ", "start": 4296, "end": 4496 },
+          { "w": "اتنی", "start": 4496, "end": 4896 },
+          { "w": "جلدی", "start": 4896, "end": 5296 },
+          { "w": "کھا", "start": 5296, "end": 5596 },
+          { "w": "رہا", "start": 5596, "end": 5896 },
+          { "w": "تھا", "start": 5896, "end": 6256 },
+          { "w": "کہ", "start": 6256, "end": 6426 },
+          { "w": "اس", "start": 6426, "end": 6596 },
+          { "w": "نے", "start": 6596, "end": 6766 },
+          { "w": "بسم", "start": 6766, "end": 7006 },
+          { "w": "اللہ", "start": 7006, "end": 7386 },
+          { "w": "بھی", "start": 7386, "end": 7596 },
+          { "w": "نہیں", "start": 7596, "end": 7916 },
+          { "w": "کہی۔", "start": 7916, "end": 8216 }
+        ],
+        "en": [
+          { "w": "Bunty", "start": 13, "end": 423 },
+          { "w": "grabbed", "start": 423, "end": 1013 },
+          { "w": "one,", "start": 1013, "end": 1583 },
+          { "w": "two,", "start": 1583, "end": 1903 },
+          { "w": "three", "start": 1903, "end": 2353 },
+          { "w": "mangoes.", "start": 2353, "end": 3013 },
+          { "w": "Gulp,", "start": 3013, "end": 3463 },
+          { "w": "gulp,", "start": 3463, "end": 3913 },
+          { "w": "gulp!", "start": 3913, "end": 4493 },
+          { "w": "He", "start": 4493, "end": 4753 },
+          { "w": "ate", "start": 4753, "end": 5153 },
+          { "w": "so", "start": 5153, "end": 5413 },
+          { "w": "fast,", "start": 5413, "end": 6133 },
+          { "w": "he", "start": 6133, "end": 6293 },
+          { "w": "did", "start": 6293, "end": 6533 },
+          { "w": "not", "start": 6533, "end": 6773 },
+          { "w": "even", "start": 6773, "end": 7093 },
+          { "w": "say", "start": 7093, "end": 7333 },
+          { "w": "Bismillah.", "start": 7333, "end": 8333 }
+        ]
+      }
     },
     {
       "id": "p4",
@@ -73,12 +250,92 @@
       },
       "cast": [
         { "art": "prop:branch", "x": 0.6, "y": 0.4, "size": 0.07 },
-        { "art": "puppet:bunty", "x": 0.48, "y": 0.385, "size": 0.15, "pose": "tummy", "act": "fidget", "face": "ouch", "mood": "worried" },
+        {
+          "art": "puppet:bunty",
+          "x": 0.48,
+          "y": 0.385,
+          "size": 0.15,
+          "pose": "tummy",
+          "act": "fidget",
+          "face": "ouch",
+          "mood": "worried"
+        },
         { "art": "prop:ouch", "x": 0.33, "y": 0.27, "size": 0.05, "mood": "twinkle" },
         { "art": "puppet:squirrel", "x": 0.5, "y": 0.64, "size": 0.12, "mood": "sad", "look": "up" },
-        { "art": "puppet:chiku", "x": 0.68, "y": 0.645, "size": 0.15, "mood": "sad", "look": "upLeft" },
-        { "art": "puppet:mithu", "x": 0.86, "y": 0.64, "size": 0.13, "pose": "tired", "mood": "sad", "look": "upLeft" }
-      ]
+        {
+          "art": "puppet:chiku",
+          "x": 0.68,
+          "y": 0.645,
+          "size": 0.15,
+          "mood": "sad",
+          "look": "upLeft"
+        },
+        {
+          "art": "puppet:mithu",
+          "x": 0.86,
+          "y": 0.64,
+          "size": 0.13,
+          "pose": "tired",
+          "mood": "sad",
+          "look": "upLeft"
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "تھوڑی", "start": 13, "end": 573 },
+          { "w": "دیر", "start": 573, "end": 833 },
+          { "w": "میں", "start": 833, "end": 1123 },
+          { "w": "بنٹی", "start": 1123, "end": 1483 },
+          { "w": "کے", "start": 1483, "end": 1673 },
+          { "w": "پیٹ", "start": 1673, "end": 1943 },
+          { "w": "میں", "start": 1943, "end": 2233 },
+          { "w": "درد", "start": 2233, "end": 2503 },
+          { "w": "ہونے", "start": 2503, "end": 2873 },
+          { "w": "لگا۔", "start": 2873, "end": 3333 },
+          { "w": "\"اوئی،", "start": 3333, "end": 4173 },
+          { "w": "میرا", "start": 4173, "end": 5013 },
+          { "w": "پیٹ!\"", "start": 5013, "end": 5653 },
+          { "w": "اور", "start": 5653, "end": 5973 },
+          { "w": "اس", "start": 5973, "end": 6183 },
+          { "w": "کے", "start": 6183, "end": 6393 },
+          { "w": "دوست", "start": 6393, "end": 6803 },
+          { "w": "اداس", "start": 6803, "end": 7213 },
+          { "w": "ہو", "start": 7213, "end": 7433 },
+          { "w": "گئے،", "start": 7433, "end": 7813 },
+          { "w": "کیونکہ", "start": 7923, "end": 8373 },
+          { "w": "ان", "start": 8373, "end": 8533 },
+          { "w": "کے", "start": 8533, "end": 8713 },
+          { "w": "لیے", "start": 8713, "end": 8983 },
+          { "w": "کوئی", "start": 8983, "end": 9343 },
+          { "w": "آم", "start": 9343, "end": 9523 },
+          { "w": "نہیں", "start": 9523, "end": 9883 },
+          { "w": "بچا", "start": 9883, "end": 10153 },
+          { "w": "تھا۔", "start": 10153, "end": 10433 }
+        ],
+        "en": [
+          { "w": "Soon", "start": 26, "end": 606 },
+          { "w": "Bunty's", "start": 606, "end": 1216 },
+          { "w": "tummy", "start": 1216, "end": 1686 },
+          { "w": "started", "start": 1686, "end": 2366 },
+          { "w": "to", "start": 2366, "end": 2516 },
+          { "w": "hurt.", "start": 2516, "end": 2946 },
+          { "w": "\"Ooh,", "start": 2946, "end": 3746 },
+          { "w": "my", "start": 3746, "end": 4006 },
+          { "w": "tummy!\"", "start": 4006, "end": 5226 },
+          { "w": "And", "start": 5226, "end": 5476 },
+          { "w": "his", "start": 5476, "end": 5806 },
+          { "w": "friends", "start": 5806, "end": 6316 },
+          { "w": "looked", "start": 6316, "end": 6826 },
+          { "w": "sad,", "start": 6826, "end": 7106 },
+          { "w": "because", "start": 7196, "end": 7686 },
+          { "w": "no", "start": 7686, "end": 7776 },
+          { "w": "mangoes", "start": 7776, "end": 8296 },
+          { "w": "were", "start": 8296, "end": 8676 },
+          { "w": "left", "start": 8676, "end": 8896 },
+          { "w": "for", "start": 8896, "end": 9116 },
+          { "w": "them.", "start": 9116, "end": 9666 }
+        ]
+      }
     },
     {
       "id": "p5",
@@ -91,10 +348,88 @@
       },
       "cast": [
         { "art": "prop:branch", "x": 0.6, "y": 0.36, "size": 0.07 },
-        { "art": "puppet:bunty", "x": 0.68, "y": 0.345, "size": 0.14, "pose": "tummy", "face": "sad", "look": "downLeft" },
-        { "art": "puppet:nani", "x": 0.2, "y": 0.62, "size": 0.28, "mood": "happy", "act": "nod", "enter": "left" },
-        { "art": "puppet:ayesha", "x": 0.44, "y": 0.63, "size": 0.21, "pose": "point", "act": "talk", "look": "upRight", "mood": "happy", "enter": "left" }
-      ]
+        {
+          "art": "puppet:bunty",
+          "x": 0.68,
+          "y": 0.345,
+          "size": 0.14,
+          "pose": "tummy",
+          "face": "sad",
+          "look": "downLeft"
+        },
+        {
+          "art": "puppet:nani",
+          "x": 0.2,
+          "y": 0.62,
+          "size": 0.28,
+          "mood": "happy",
+          "act": "nod",
+          "enter": "left"
+        },
+        {
+          "art": "puppet:ayesha",
+          "x": 0.44,
+          "y": 0.63,
+          "size": 0.21,
+          "pose": "point",
+          "act": "talk",
+          "look": "upRight",
+          "mood": "happy",
+          "enter": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "عائشہ", "start": 10, "end": 540 },
+          { "w": "نانی", "start": 540, "end": 910 },
+          { "w": "کے", "start": 910, "end": 1110 },
+          { "w": "ساتھ", "start": 1110, "end": 1510 },
+          { "w": "آئی۔", "start": 1510, "end": 1850 },
+          { "w": "\"بنٹی،", "start": 1850, "end": 2290 },
+          { "w": "ہم", "start": 2290, "end": 2510 },
+          { "w": "کھانے", "start": 2510, "end": 3070 },
+          { "w": "سے", "start": 3070, "end": 3300 },
+          { "w": "پہلے", "start": 3300, "end": 3770 },
+          { "w": "بسم", "start": 3770, "end": 4080 },
+          { "w": "اللہ", "start": 4080, "end": 4530 },
+          { "w": "کہتے", "start": 4530, "end": 5150 },
+          { "w": "ہیں۔", "start": 5150, "end": 5450 },
+          { "w": "آرام", "start": 5450, "end": 5860 },
+          { "w": "آرام", "start": 5860, "end": 6270 },
+          { "w": "سے", "start": 6270, "end": 6520 },
+          { "w": "کھاتے", "start": 6520, "end": 6990 },
+          { "w": "ہیں،", "start": 6990, "end": 7370 },
+          { "w": "اور", "start": 7370, "end": 7630 },
+          { "w": "دوستوں", "start": 7630, "end": 8130 },
+          { "w": "کے", "start": 8130, "end": 8300 },
+          { "w": "ساتھ", "start": 8300, "end": 8630 },
+          { "w": "مل", "start": 8630, "end": 8790 },
+          { "w": "کر", "start": 8790, "end": 8960 },
+          { "w": "کھاتے", "start": 8960, "end": 9370 },
+          { "w": "ہیں۔\"", "start": 9370, "end": 9710 }
+        ],
+        "en": [
+          { "w": "Ayesha", "start": 1, "end": 581 },
+          { "w": "came", "start": 581, "end": 901 },
+          { "w": "with", "start": 901, "end": 1261 },
+          { "w": "Nani.", "start": 1261, "end": 1721 },
+          { "w": "\"Bunty,", "start": 1721, "end": 2681 },
+          { "w": "we", "start": 2681, "end": 2821 },
+          { "w": "say", "start": 2821, "end": 3031 },
+          { "w": "Bismillah", "start": 3031, "end": 3681 },
+          { "w": "before", "start": 3681, "end": 4111 },
+          { "w": "eating.", "start": 4111, "end": 4801 },
+          { "w": "We", "start": 4801, "end": 5031 },
+          { "w": "eat", "start": 5031, "end": 5371 },
+          { "w": "slowly,", "start": 5371, "end": 6081 },
+          { "w": "and", "start": 6081, "end": 6371 },
+          { "w": "we", "start": 6371, "end": 6441 },
+          { "w": "share", "start": 6441, "end": 6811 },
+          { "w": "with", "start": 6811, "end": 7101 },
+          { "w": "our", "start": 7101, "end": 7321 },
+          { "w": "friends.\"", "start": 7321, "end": 8161 }
+        ]
+      }
     },
     {
       "id": "p6",
@@ -106,20 +441,85 @@
         "ur": "نانی نے بنٹی کو ایک بڑا سا آم دیا۔ بنٹی کو کیا کرنا چاہیے؟"
       },
       "cast": [
-        { "art": "puppet:nani", "x": 0.28, "y": 0.62, "size": 0.28, "pose": "give", "act": "give", "hold": "prop:mango", "holdSize": 0.28, "mood": "happy" },
-        { "art": "puppet:bunty", "x": 0.55, "y": 0.64, "size": 0.18, "pose": "welcome", "face": "surprised", "act": "tail" },
-        { "art": "puppet:squirrel", "x": 0.74, "y": 0.645, "size": 0.11, "look": "left", "act": "tail" },
+        {
+          "art": "puppet:nani",
+          "x": 0.28,
+          "y": 0.62,
+          "size": 0.28,
+          "pose": "give",
+          "act": "give",
+          "hold": "prop:mango",
+          "holdSize": 0.28,
+          "mood": "happy"
+        },
+        {
+          "art": "puppet:bunty",
+          "x": 0.55,
+          "y": 0.64,
+          "size": 0.18,
+          "pose": "welcome",
+          "face": "surprised",
+          "act": "tail"
+        },
+        {
+          "art": "puppet:squirrel",
+          "x": 0.74,
+          "y": 0.645,
+          "size": 0.11,
+          "look": "left",
+          "act": "tail"
+        },
         { "art": "puppet:chiku", "x": 0.88, "y": 0.65, "size": 0.14, "look": "left" },
         { "art": "puppet:mithu", "x": 0.82, "y": 0.42, "size": 0.11, "look": "left", "act": "flap" }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "نانی", "start": 19, "end": 469 },
+          { "w": "نے", "start": 469, "end": 699 },
+          { "w": "بنٹی", "start": 699, "end": 1139 },
+          { "w": "کو", "start": 1139, "end": 1419 },
+          { "w": "ایک", "start": 1419, "end": 1729 },
+          { "w": "بڑا", "start": 1729, "end": 2129 },
+          { "w": "سا", "start": 2129, "end": 2329 },
+          { "w": "آم", "start": 2329, "end": 2529 },
+          { "w": "دیا۔", "start": 2529, "end": 2899 },
+          { "w": "بنٹی", "start": 2899, "end": 3299 },
+          { "w": "کو", "start": 3299, "end": 3509 },
+          { "w": "کیا", "start": 3509, "end": 3819 },
+          { "w": "کرنا", "start": 3819, "end": 4239 },
+          { "w": "چاہیے؟", "start": 4239, "end": 4799 }
+        ],
+        "en": [
+          { "w": "Nani", "start": 11, "end": 591 },
+          { "w": "gave", "start": 591, "end": 1021 },
+          { "w": "Bunty", "start": 1021, "end": 1591 },
+          { "w": "one", "start": 1591, "end": 1921 },
+          { "w": "big", "start": 1921, "end": 2261 },
+          { "w": "mango.", "start": 2261, "end": 3211 },
+          { "w": "What", "start": 3211, "end": 3601 },
+          { "w": "should", "start": 3601, "end": 4071 },
+          { "w": "Bunty", "start": 4071, "end": 4461 },
+          { "w": "do?", "start": 4461, "end": 4971 }
+        ]
+      }
     },
     {
       "id": "choice",
       "type": "choice",
       "prompt": { "en": "What should Bunty do?", "ur": "بنٹی کو کیا کرنا چاہیے؟" },
       "options": [
-        { "id": "share", "label": { "en": "Share with friends", "ur": "دوستوں کے ساتھ بانٹے" }, "picture": "prop:mango_slice", "next": "choice_a" },
-        { "id": "alone", "label": { "en": "Eat it all alone", "ur": "اکیلے سارا کھا لے" }, "picture": "prop:mango", "next": "choice_b" }
+        {
+          "id": "share",
+          "label": { "en": "Share with friends", "ur": "دوستوں کے ساتھ بانٹے" },
+          "picture": "prop:mango_slice",
+          "next": "choice_a"
+        },
+        {
+          "id": "alone",
+          "label": { "en": "Eat it all alone", "ur": "اکیلے سارا کھا لے" },
+          "picture": "prop:mango",
+          "next": "choice_b"
+        }
       ]
     },
     {
@@ -133,18 +533,141 @@
       },
       "help": { "kind": "tap", "item": 2, "steps": 3 },
       "cast": [
-        { "art": "puppet:bunty", "x": 0.32, "y": 0.64, "size": 0.19, "pose": "point", "act": "tail", "mood": "happy", "helpHide": 3 },
+        {
+          "art": "puppet:bunty",
+          "x": 0.32,
+          "y": 0.64,
+          "size": 0.19,
+          "pose": "point",
+          "act": "tail",
+          "mood": "happy",
+          "helpHide": 3
+        },
         { "art": "prop:mango_plate", "x": 0.5, "y": 0.675, "size": 0.075, "enter": "grow" },
         { "art": "prop:mango", "x": 0.5, "y": 0.655, "size": 0.085, "helpHide": 3 },
-        { "art": "puppet:squirrel", "x": 0.66, "y": 0.645, "size": 0.11, "look": "left", "act": "fidget", "helpHide": 1 },
-        { "art": "puppet:squirrel", "x": 0.66, "y": 0.645, "size": 0.11, "pose": "hold", "hold": "prop:mango_slice", "holdSize": 0.35, "mood": "happy", "helpStep": 1 },
-        { "art": "puppet:chiku", "x": 0.82, "y": 0.65, "size": 0.14, "look": "left", "act": "fidget", "helpHide": 2 },
-        { "art": "puppet:chiku", "x": 0.82, "y": 0.65, "size": 0.14, "pose": "hold", "hold": "prop:mango_slice", "holdSize": 0.3, "mood": "happy", "helpStep": 2 },
-        { "art": "puppet:mithu", "x": 0.82, "y": 0.42, "size": 0.1, "pose": "fly", "act": "fly", "look": "left", "helpHide": 3 },
-        { "art": "puppet:mithu", "x": 0.82, "y": 0.42, "size": 0.11, "pose": "spread", "act": "flap+chirp", "mood": "happy", "helpStep": 3 },
-        { "art": "prop:mango_slice", "x": 0.72, "y": 0.4, "size": 0.05, "mood": "float", "helpStep": 3 },
-        { "art": "puppet:bunty", "x": 0.32, "y": 0.64, "size": 0.19, "pose": "give", "act": "give+tail", "hold": "prop:mango_slice", "holdSize": 0.22, "mood": "happy", "helpStep": 3 }
-      ]
+        {
+          "art": "puppet:squirrel",
+          "x": 0.66,
+          "y": 0.645,
+          "size": 0.11,
+          "look": "left",
+          "act": "fidget",
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:squirrel",
+          "x": 0.66,
+          "y": 0.645,
+          "size": 0.11,
+          "pose": "hold",
+          "hold": "prop:mango_slice",
+          "holdSize": 0.35,
+          "mood": "happy",
+          "helpStep": 1
+        },
+        {
+          "art": "puppet:chiku",
+          "x": 0.82,
+          "y": 0.65,
+          "size": 0.14,
+          "look": "left",
+          "act": "fidget",
+          "helpHide": 2
+        },
+        {
+          "art": "puppet:chiku",
+          "x": 0.82,
+          "y": 0.65,
+          "size": 0.14,
+          "pose": "hold",
+          "hold": "prop:mango_slice",
+          "holdSize": 0.3,
+          "mood": "happy",
+          "helpStep": 2
+        },
+        {
+          "art": "puppet:mithu",
+          "x": 0.82,
+          "y": 0.42,
+          "size": 0.1,
+          "pose": "fly",
+          "act": "fly",
+          "look": "left",
+          "helpHide": 3
+        },
+        {
+          "art": "puppet:mithu",
+          "x": 0.82,
+          "y": 0.42,
+          "size": 0.11,
+          "pose": "spread",
+          "act": "flap+chirp",
+          "mood": "happy",
+          "helpStep": 3
+        },
+        {
+          "art": "prop:mango_slice",
+          "x": 0.72,
+          "y": 0.4,
+          "size": 0.05,
+          "mood": "float",
+          "helpStep": 3
+        },
+        {
+          "art": "puppet:bunty",
+          "x": 0.32,
+          "y": 0.64,
+          "size": 0.19,
+          "pose": "give",
+          "act": "give+tail",
+          "hold": "prop:mango_slice",
+          "holdSize": 0.22,
+          "mood": "happy",
+          "helpStep": 3
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "بنٹی", "start": 18, "end": 268 },
+          { "w": "نے", "start": 268, "end": 518 },
+          { "w": "\"بسم", "start": 268, "end": 548 },
+          { "w": "اللہ\"", "start": 548, "end": 1178 },
+          { "w": "کہا", "start": 1178, "end": 1713 },
+          { "w": "اور", "start": 1713, "end": 2248 },
+          { "w": "آم", "start": 2248, "end": 2378 },
+          { "w": "کے", "start": 2378, "end": 2568 },
+          { "w": "ٹکڑے", "start": 2568, "end": 3108 },
+          { "w": "کر", "start": 3108, "end": 3538 },
+          { "w": "کے", "start": 3538, "end": 3808 },
+          { "w": "ہر", "start": 3808, "end": 3988 },
+          { "w": "دوست", "start": 3988, "end": 4348 },
+          { "w": "کو", "start": 4348, "end": 4528 },
+          { "w": "ایک", "start": 4528, "end": 4798 },
+          { "w": "ایک", "start": 4798, "end": 5068 },
+          { "w": "ٹکڑا", "start": 5068, "end": 5608 },
+          { "w": "دیا۔", "start": 5608, "end": 5938 },
+          { "w": "سب", "start": 5938, "end": 6268 },
+          { "w": "مسکرانے", "start": 6268, "end": 7418 },
+          { "w": "لگے۔", "start": 7418, "end": 7978 }
+        ],
+        "en": [
+          { "w": "Bunty", "start": 7, "end": 257 },
+          { "w": "said", "start": 257, "end": 507 },
+          { "w": "\"Bismillah\"", "start": 257, "end": 1087 },
+          { "w": "and", "start": 2087, "end": 2327 },
+          { "w": "cut", "start": 2487, "end": 2727 },
+          { "w": "the", "start": 2727, "end": 2967 },
+          { "w": "mango", "start": 2967, "end": 3367 },
+          { "w": "into", "start": 3367, "end": 3687 },
+          { "w": "pieces,", "start": 3687, "end": 4207 },
+          { "w": "one", "start": 4207, "end": 4597 },
+          { "w": "for", "start": 4597, "end": 4987 },
+          { "w": "each", "start": 4987, "end": 5517 },
+          { "w": "friend.", "start": 5517, "end": 6727 },
+          { "w": "Everyone", "start": 6727, "end": 7547 },
+          { "w": "smiled.", "start": 7547, "end": 8487 }
+        ]
+      }
     },
     {
       "id": "choice_b",
@@ -157,21 +680,214 @@
       },
       "help": { "kind": "tap", "item": 5, "steps": 3, "when": "after" },
       "cast": [
-        { "art": "puppet:bunty", "x": 0.32, "y": 0.64, "size": 0.19, "pose": "hold_both", "hold": "prop:mango", "holdSize": 0.3, "face": "worried", "look": "right", "until": 4500 },
-        { "art": "puppet:squirrel", "x": 0.64, "y": 0.645, "size": 0.11, "mood": "sad", "look": "left", "until": 4500 },
-        { "art": "puppet:chiku", "x": 0.8, "y": 0.65, "size": 0.14, "mood": "sad", "look": "left", "until": 4500 },
-        { "art": "puppet:bunty", "x": 0.32, "y": 0.64, "size": 0.19, "pose": "point", "act": "tail", "mood": "happy", "delay": 4500, "helpHide": 3 },
-        { "art": "prop:mango_plate", "x": 0.5, "y": 0.675, "size": 0.075, "enter": "grow", "delay": 4800 },
+        {
+          "art": "puppet:bunty",
+          "x": 0.32,
+          "y": 0.64,
+          "size": 0.19,
+          "pose": "hold_both",
+          "hold": "prop:mango",
+          "holdSize": 0.3,
+          "face": "worried",
+          "look": "right",
+          "until": 4500
+        },
+        {
+          "art": "puppet:squirrel",
+          "x": 0.64,
+          "y": 0.645,
+          "size": 0.11,
+          "mood": "sad",
+          "look": "left",
+          "until": 4500
+        },
+        {
+          "art": "puppet:chiku",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 0.14,
+          "mood": "sad",
+          "look": "left",
+          "until": 4500
+        },
+        {
+          "art": "puppet:bunty",
+          "x": 0.32,
+          "y": 0.64,
+          "size": 0.19,
+          "pose": "point",
+          "act": "tail",
+          "mood": "happy",
+          "delay": 4500,
+          "helpHide": 3
+        },
+        {
+          "art": "prop:mango_plate",
+          "x": 0.5,
+          "y": 0.675,
+          "size": 0.075,
+          "enter": "grow",
+          "delay": 4800
+        },
         { "art": "prop:mango", "x": 0.5, "y": 0.655, "size": 0.085, "delay": 4800, "helpHide": 3 },
-        { "art": "puppet:squirrel", "x": 0.66, "y": 0.645, "size": 0.11, "look": "left", "act": "fidget", "delay": 4500, "helpHide": 1 },
-        { "art": "puppet:squirrel", "x": 0.66, "y": 0.645, "size": 0.11, "pose": "hold", "hold": "prop:mango_slice", "holdSize": 0.35, "mood": "happy", "helpStep": 1 },
-        { "art": "puppet:chiku", "x": 0.82, "y": 0.65, "size": 0.14, "look": "left", "act": "fidget", "delay": 4500, "helpHide": 2 },
-        { "art": "puppet:chiku", "x": 0.82, "y": 0.65, "size": 0.14, "pose": "hold", "hold": "prop:mango_slice", "holdSize": 0.3, "mood": "happy", "helpStep": 2 },
-        { "art": "puppet:mithu", "x": 0.82, "y": 0.42, "size": 0.1, "pose": "fly", "act": "fly", "look": "left", "delay": 4500, "helpHide": 3 },
-        { "art": "puppet:mithu", "x": 0.82, "y": 0.42, "size": 0.11, "pose": "spread", "act": "flap+chirp", "mood": "happy", "helpStep": 3 },
-        { "art": "prop:mango_slice", "x": 0.72, "y": 0.4, "size": 0.05, "mood": "float", "helpStep": 3 },
-        { "art": "puppet:bunty", "x": 0.32, "y": 0.64, "size": 0.19, "pose": "give", "act": "give+tail", "hold": "prop:mango_slice", "holdSize": 0.22, "mood": "happy", "helpStep": 3 }
-      ]
+        {
+          "art": "puppet:squirrel",
+          "x": 0.66,
+          "y": 0.645,
+          "size": 0.11,
+          "look": "left",
+          "act": "fidget",
+          "delay": 4500,
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:squirrel",
+          "x": 0.66,
+          "y": 0.645,
+          "size": 0.11,
+          "pose": "hold",
+          "hold": "prop:mango_slice",
+          "holdSize": 0.35,
+          "mood": "happy",
+          "helpStep": 1
+        },
+        {
+          "art": "puppet:chiku",
+          "x": 0.82,
+          "y": 0.65,
+          "size": 0.14,
+          "look": "left",
+          "act": "fidget",
+          "delay": 4500,
+          "helpHide": 2
+        },
+        {
+          "art": "puppet:chiku",
+          "x": 0.82,
+          "y": 0.65,
+          "size": 0.14,
+          "pose": "hold",
+          "hold": "prop:mango_slice",
+          "holdSize": 0.3,
+          "mood": "happy",
+          "helpStep": 2
+        },
+        {
+          "art": "puppet:mithu",
+          "x": 0.82,
+          "y": 0.42,
+          "size": 0.1,
+          "pose": "fly",
+          "act": "fly",
+          "look": "left",
+          "delay": 4500,
+          "helpHide": 3
+        },
+        {
+          "art": "puppet:mithu",
+          "x": 0.82,
+          "y": 0.42,
+          "size": 0.11,
+          "pose": "spread",
+          "act": "flap+chirp",
+          "mood": "happy",
+          "helpStep": 3
+        },
+        {
+          "art": "prop:mango_slice",
+          "x": 0.72,
+          "y": 0.4,
+          "size": 0.05,
+          "mood": "float",
+          "helpStep": 3
+        },
+        {
+          "art": "puppet:bunty",
+          "x": 0.32,
+          "y": 0.64,
+          "size": 0.19,
+          "pose": "give",
+          "act": "give+tail",
+          "hold": "prop:mango_slice",
+          "holdSize": 0.22,
+          "mood": "happy",
+          "helpStep": 3
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "بنٹی", "start": 11, "end": 421 },
+          { "w": "نے", "start": 421, "end": 641 },
+          { "w": "آم", "start": 641, "end": 841 },
+          { "w": "کو", "start": 841, "end": 1081 },
+          { "w": "زور", "start": 1081, "end": 1401 },
+          { "w": "سے", "start": 1401, "end": 1611 },
+          { "w": "پکڑ", "start": 1611, "end": 2021 },
+          { "w": "لیا۔", "start": 2021, "end": 2431 },
+          { "w": "پھر", "start": 2521, "end": 2701 },
+          { "w": "اس", "start": 2701, "end": 2891 },
+          { "w": "نے", "start": 2891, "end": 3081 },
+          { "w": "دوستوں", "start": 3081, "end": 3621 },
+          { "w": "کے", "start": 3621, "end": 3811 },
+          { "w": "اداس", "start": 3811, "end": 4171 },
+          { "w": "چہرے", "start": 4171, "end": 4531 },
+          { "w": "دیکھے", "start": 4531, "end": 5091 },
+          { "w": "اور", "start": 5091, "end": 5381 },
+          { "w": "اسے", "start": 5381, "end": 5661 },
+          { "w": "اپنا", "start": 5661, "end": 6031 },
+          { "w": "پیٹ", "start": 6031, "end": 6301 },
+          { "w": "درد", "start": 6301, "end": 6571 },
+          { "w": "یاد", "start": 6571, "end": 6851 },
+          { "w": "آیا۔", "start": 6851, "end": 7251 },
+          { "w": "\"نہیں،", "start": 7251, "end": 7911 },
+          { "w": "مل", "start": 7911, "end": 8141 },
+          { "w": "کر", "start": 8141, "end": 8381 },
+          { "w": "کھاتے", "start": 8381, "end": 8951 },
+          { "w": "ہیں!\"", "start": 8951, "end": 9351 },
+          { "w": "اس", "start": 9351, "end": 9601 },
+          { "w": "نے", "start": 9601, "end": 9851 },
+          { "w": "\"بسم", "start": 9601, "end": 9921 },
+          { "w": "اللہ\"", "start": 9921, "end": 10711 },
+          { "w": "کہا", "start": 10711, "end": 11136 },
+          { "w": "اور", "start": 11136, "end": 11561 },
+          { "w": "سب", "start": 11561, "end": 11781 },
+          { "w": "کو", "start": 11781, "end": 11931 },
+          { "w": "ایک", "start": 11931, "end": 12211 },
+          { "w": "ایک", "start": 12211, "end": 12491 },
+          { "w": "ٹکڑا", "start": 12491, "end": 13031 },
+          { "w": "دیا۔", "start": 13031, "end": 13411 }
+        ],
+        "en": [
+          { "w": "Bunty", "start": 24, "end": 494 },
+          { "w": "hugged", "start": 494, "end": 1054 },
+          { "w": "the", "start": 1054, "end": 1334 },
+          { "w": "mango", "start": 1334, "end": 1814 },
+          { "w": "tight.", "start": 1814, "end": 2624 },
+          { "w": "Then", "start": 2624, "end": 2914 },
+          { "w": "he", "start": 2914, "end": 3054 },
+          { "w": "saw", "start": 3054, "end": 3274 },
+          { "w": "his", "start": 3274, "end": 3494 },
+          { "w": "friends'", "start": 3494, "end": 4194 },
+          { "w": "sad", "start": 4194, "end": 4294 },
+          { "w": "faces", "start": 4294, "end": 4704 },
+          { "w": "and", "start": 4794, "end": 4914 },
+          { "w": "remembered", "start": 4914, "end": 5634 },
+          { "w": "his", "start": 5634, "end": 5844 },
+          { "w": "tummy", "start": 5844, "end": 6274 },
+          { "w": "ache.", "start": 6274, "end": 6744 },
+          { "w": "\"No,", "start": 6744, "end": 7584 },
+          { "w": "let's", "start": 7584, "end": 7964 },
+          { "w": "share!\"", "start": 7964, "end": 8664 },
+          { "w": "He", "start": 9744, "end": 9954 },
+          { "w": "said", "start": 9954, "end": 10384 },
+          { "w": "\"Bismillah\"", "start": 10384, "end": 10634 },
+          { "w": "and", "start": 10384, "end": 10604 },
+          { "w": "gave", "start": 10604, "end": 10904 },
+          { "w": "everyone", "start": 10904, "end": 11504 },
+          { "w": "a", "start": 11504, "end": 11564 },
+          { "w": "piece.", "start": 11564, "end": 12184 }
+        ]
+      }
     },
     {
       "id": "p7",
@@ -184,13 +900,115 @@
       },
       "cast": [
         { "art": "prop:branch", "x": 0.6, "y": 0.42, "size": 0.075 },
-        { "art": "puppet:bunty", "x": 0.4, "y": 0.405, "size": 0.14, "pose": "eat", "act": "eat+tail", "hold": "prop:mango_slice", "holdSize": 0.22, "mood": "happy" },
-        { "art": "puppet:squirrel", "x": 0.56, "y": 0.405, "size": 0.09, "pose": "eat", "act": "eat", "hold": "prop:mango_slice", "holdSize": 0.32, "mood": "happy" },
-        { "art": "puppet:chiku", "x": 0.7, "y": 0.405, "size": 0.11, "pose": "eat", "act": "eat", "hold": "prop:mango_slice", "holdSize": 0.28, "mood": "happy" },
-        { "art": "puppet:mithu", "x": 0.86, "y": 0.405, "size": 0.1, "act": "chirp", "mood": "happy", "flip": true },
-        { "art": "puppet:nani", "x": 0.22, "y": 0.63, "size": 0.27, "act": "talk", "mood": "happy", "look": "upRight" },
-        { "art": "puppet:ayesha", "x": 0.74, "y": 0.64, "size": 0.2, "pose": "clap", "act": "clap", "face": "laugh" }
-      ]
+        {
+          "art": "puppet:bunty",
+          "x": 0.4,
+          "y": 0.405,
+          "size": 0.14,
+          "pose": "eat",
+          "act": "eat+tail",
+          "hold": "prop:mango_slice",
+          "holdSize": 0.22,
+          "mood": "happy"
+        },
+        {
+          "art": "puppet:squirrel",
+          "x": 0.56,
+          "y": 0.405,
+          "size": 0.09,
+          "pose": "eat",
+          "act": "eat",
+          "hold": "prop:mango_slice",
+          "holdSize": 0.32,
+          "mood": "happy"
+        },
+        {
+          "art": "puppet:chiku",
+          "x": 0.7,
+          "y": 0.405,
+          "size": 0.11,
+          "pose": "eat",
+          "act": "eat",
+          "hold": "prop:mango_slice",
+          "holdSize": 0.28,
+          "mood": "happy"
+        },
+        {
+          "art": "puppet:mithu",
+          "x": 0.86,
+          "y": 0.405,
+          "size": 0.1,
+          "act": "chirp",
+          "mood": "happy",
+          "flip": true
+        },
+        {
+          "art": "puppet:nani",
+          "x": 0.22,
+          "y": 0.63,
+          "size": 0.27,
+          "act": "talk",
+          "mood": "happy",
+          "look": "upRight"
+        },
+        {
+          "art": "puppet:ayesha",
+          "x": 0.74,
+          "y": 0.64,
+          "size": 0.2,
+          "pose": "clap",
+          "act": "clap",
+          "face": "laugh"
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "نانی", "start": 10, "end": 460 },
+          { "w": "مسکرائیں۔", "start": 460, "end": 1430 },
+          { "w": "\"جب", "start": 1430, "end": 1650 },
+          { "w": "ہم", "start": 1650, "end": 1870 },
+          { "w": "مل", "start": 1870, "end": 2090 },
+          { "w": "کر", "start": 2090, "end": 2310 },
+          { "w": "کھاتے", "start": 2310, "end": 2860 },
+          { "w": "ہیں", "start": 2860, "end": 3210 },
+          { "w": "تو", "start": 3210, "end": 3370 },
+          { "w": "اللہ", "start": 3370, "end": 3740 },
+          { "w": "تعالیٰ", "start": 3740, "end": 4100 },
+          { "w": "کھانے", "start": 4100, "end": 4500 },
+          { "w": "میں", "start": 4500, "end": 4750 },
+          { "w": "برکت", "start": 4750, "end": 5070 },
+          { "w": "ڈال", "start": 5070, "end": 5390 },
+          { "w": "دیتے", "start": 5390, "end": 5710 },
+          { "w": "ہیں۔\"", "start": 5710, "end": 6050 },
+          { "w": "ایک", "start": 6050, "end": 6380 },
+          { "w": "آم", "start": 6380, "end": 6610 },
+          { "w": "سب", "start": 6610, "end": 6820 },
+          { "w": "کے", "start": 6820, "end": 7040 },
+          { "w": "لیے", "start": 7040, "end": 7370 },
+          { "w": "کافی", "start": 7370, "end": 7830 },
+          { "w": "ہو", "start": 7830, "end": 8030 },
+          { "w": "گیا!", "start": 8030, "end": 8370 }
+        ],
+        "en": [
+          { "w": "Nani", "start": 11, "end": 591 },
+          { "w": "smiled.", "start": 591, "end": 1491 },
+          { "w": "\"When", "start": 1491, "end": 1961 },
+          { "w": "we", "start": 1961, "end": 2151 },
+          { "w": "share,", "start": 2151, "end": 2681 },
+          { "w": "Allah", "start": 2681, "end": 3061 },
+          { "w": "puts", "start": 3061, "end": 3321 },
+          { "w": "barakah", "start": 3321, "end": 3831 },
+          { "w": "in", "start": 3831, "end": 3951 },
+          { "w": "our", "start": 3951, "end": 4161 },
+          { "w": "food.\"", "start": 4161, "end": 4731 },
+          { "w": "One", "start": 4731, "end": 4971 },
+          { "w": "mango", "start": 4971, "end": 5371 },
+          { "w": "was", "start": 5371, "end": 5611 },
+          { "w": "enough", "start": 5611, "end": 6301 },
+          { "w": "for", "start": 6301, "end": 6361 },
+          { "w": "everyone!", "start": 6331, "end": 7251 }
+        ]
+      }
     },
     {
       "id": "p8",
@@ -202,26 +1020,121 @@
         "ur": "مل کر کھانے سے آم اور بھی میٹھا لگا۔ بنٹی نے اپنے خوش پیٹ پر ہاتھ پھیرتے ہوئے کہا، \"الحمدللہ!\""
       },
       "cast": [
-        { "art": "puppet:bunty", "x": 0.5, "y": 0.64, "size": 0.24, "pose": "thumbs_up", "act": "bounce+tail", "face": "laugh" },
+        {
+          "art": "puppet:bunty",
+          "x": 0.5,
+          "y": 0.64,
+          "size": 0.24,
+          "pose": "thumbs_up",
+          "act": "bounce+tail",
+          "face": "laugh"
+        },
         { "art": "prop:sparkle", "x": 0.3, "y": 0.4, "size": 0.04, "mood": "twinkle" },
-        { "art": "prop:sparkle", "x": 0.72, "y": 0.36, "size": 0.035, "mood": "twinkle", "delay": 400 },
+        {
+          "art": "prop:sparkle",
+          "x": 0.72,
+          "y": 0.36,
+          "size": 0.035,
+          "mood": "twinkle",
+          "delay": 400
+        },
         { "art": "prop:heart", "x": 0.66, "y": 0.46, "size": 0.035, "mood": "float", "delay": 800 }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "مل", "start": 11, "end": 251 },
+          { "w": "کر", "start": 251, "end": 541 },
+          { "w": "کھانے", "start": 541, "end": 1111 },
+          { "w": "سے", "start": 1111, "end": 1411 },
+          { "w": "آم", "start": 1411, "end": 1631 },
+          { "w": "اور", "start": 1631, "end": 1981 },
+          { "w": "بھی", "start": 1981, "end": 2321 },
+          { "w": "میٹھا", "start": 2321, "end": 2881 },
+          { "w": "لگا۔", "start": 2881, "end": 3291 },
+          { "w": "بنٹی", "start": 3291, "end": 3691 },
+          { "w": "نے", "start": 3691, "end": 3901 },
+          { "w": "اپنے", "start": 3901, "end": 4361 },
+          { "w": "خوش", "start": 4361, "end": 4601 },
+          { "w": "پیٹ", "start": 4601, "end": 4901 },
+          { "w": "پر", "start": 4901, "end": 5101 },
+          { "w": "ہاتھ", "start": 5101, "end": 5501 },
+          { "w": "پھیرتے", "start": 5501, "end": 6221 },
+          { "w": "ہوئے", "start": 6221, "end": 6631 },
+          { "w": "کہا،", "start": 6631, "end": 7111 },
+          { "w": "\"الحمدللہ!\"", "start": 7111, "end": 9071 }
+        ],
+        "en": [
+          { "w": "The", "start": 15, "end": 265 },
+          { "w": "mango", "start": 265, "end": 685 },
+          { "w": "tasted", "start": 685, "end": 1205 },
+          { "w": "even", "start": 1205, "end": 1595 },
+          { "w": "sweeter", "start": 1595, "end": 2125 },
+          { "w": "together.", "start": 2125, "end": 3095 },
+          { "w": "\"Alhamdulillah!\"", "start": 3095, "end": 3345 },
+          { "w": "said", "start": 3345, "end": 3595 },
+          { "w": "Bunty,", "start": 3345, "end": 3675 },
+          { "w": "rubbing", "start": 3675, "end": 4225 },
+          { "w": "his", "start": 4225, "end": 4665 },
+          { "w": "happy", "start": 4665, "end": 5055 },
+          { "w": "tummy.", "start": 5055, "end": 5935 }
+        ]
+      }
     }
   ],
   "glossary": [
-    { "id": "mango", "picture": "prop:mango", "word": { "en": "mango", "ur": "آم" }, "forms": { "en": ["mangoes"], "ur": ["آموں"] } },
-    { "id": "monkey", "picture": "puppet:bunty", "word": { "en": "monkey", "ur": "بندر" }, "forms": { "en": [], "ur": [] } },
-    { "id": "share", "picture": "prop:mango_plate", "word": { "en": "share", "ur": "بانٹنا" }, "forms": { "en": ["shared", "sharing"], "ur": ["بانٹے"] } },
-    { "id": "sweet", "word": { "en": "sweet", "ur": "میٹھا" }, "forms": { "en": ["sweeter"], "ur": ["میٹھے", "میٹھی"] } },
+    {
+      "id": "mango",
+      "picture": "prop:mango",
+      "word": { "en": "mango", "ur": "آم" },
+      "forms": { "en": ["mangoes"], "ur": ["آموں"] }
+    },
+    {
+      "id": "monkey",
+      "picture": "puppet:bunty",
+      "word": { "en": "monkey", "ur": "بندر" },
+      "forms": { "en": [], "ur": [] }
+    },
+    {
+      "id": "share",
+      "picture": "prop:mango_plate",
+      "word": { "en": "share", "ur": "بانٹنا" },
+      "forms": { "en": ["shared", "sharing"], "ur": ["بانٹے"] }
+    },
+    {
+      "id": "sweet",
+      "word": { "en": "sweet", "ur": "میٹھا" },
+      "forms": { "en": ["sweeter"], "ur": ["میٹھے", "میٹھی"] }
+    },
     { "id": "barakah", "word": { "en": "barakah", "ur": "برکت" }, "forms": { "en": [], "ur": [] } },
     { "id": "tummy", "word": { "en": "tummy", "ur": "پیٹ" }, "forms": { "en": [], "ur": [] } },
-    { "id": "friend", "word": { "en": "friend", "ur": "دوست" }, "forms": { "en": ["friends", "friends'"], "ur": ["دوستوں"] } },
+    {
+      "id": "friend",
+      "word": { "en": "friend", "ur": "دوست" },
+      "forms": { "en": ["friends", "friends'"], "ur": ["دوستوں"] }
+    },
     { "id": "garden", "word": { "en": "garden", "ur": "باغ" }, "forms": { "en": [], "ur": [] } },
-    { "id": "tree", "picture": "prop:tree", "word": { "en": "tree", "ur": "درخت" }, "forms": { "en": [], "ur": [] } },
-    { "id": "yellow", "word": { "en": "yellow", "ur": "پیلا" }, "forms": { "en": [], "ur": ["پیلے"] } },
-    { "id": "slowly", "word": { "en": "slowly", "ur": "آرام آرام سے" }, "forms": { "en": [], "ur": ["آرام"] } },
-    { "id": "pieces", "picture": "prop:mango_slice", "word": { "en": "piece", "ur": "ٹکڑا" }, "forms": { "en": ["pieces"], "ur": ["ٹکڑے"] } }
+    {
+      "id": "tree",
+      "picture": "prop:tree",
+      "word": { "en": "tree", "ur": "درخت" },
+      "forms": { "en": [], "ur": [] }
+    },
+    {
+      "id": "yellow",
+      "word": { "en": "yellow", "ur": "پیلا" },
+      "forms": { "en": [], "ur": ["پیلے"] }
+    },
+    {
+      "id": "slowly",
+      "word": { "en": "slowly", "ur": "آرام آرام سے" },
+      "forms": { "en": [], "ur": ["آرام"] }
+    },
+    {
+      "id": "pieces",
+      "picture": "prop:mango_slice",
+      "word": { "en": "piece", "ur": "ٹکڑا" },
+      "forms": { "en": ["pieces"], "ur": ["ٹکڑے"] }
+    }
   ],
   "vocabulary": ["share", "sweet", "barakah"],
   "quiz": [
@@ -236,7 +1149,11 @@
     {
       "question": { "en": "What do we say before eating?", "ur": "کھانے سے پہلے ہم کیا کہتے ہیں؟" },
       "options": [
-        { "picture": "prop:bismillah", "label": { "en": "Bismillah", "ur": "بسم اللہ" }, "correct": true },
+        {
+          "picture": "prop:bismillah",
+          "label": { "en": "Bismillah", "ur": "بسم اللہ" },
+          "correct": true
+        },
         { "picture": "prop:hurry", "label": { "en": "Hurry up", "ur": "جلدی کرو" } },
         { "picture": "prop:wave_hand", "label": { "en": "Hello", "ur": "ہیلو" } }
       ]

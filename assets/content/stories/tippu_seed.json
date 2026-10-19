@@ -19,10 +19,73 @@
         "ur": "ٹیپو کچھوے کو ایک چھوٹا سا بیج ملا۔ \"میں اسے لگاؤں گا!\" اس نے کہا۔ \"بسم اللہ!\""
       },
       "cast": [
-        { "art": "puppet:tippu", "x": 0.46, "y": 0.64, "size": 0.2, "pose": "hold", "hold": "prop:seed", "holdSize": 0.16, "act": "talk", "mood": "happy", "look": "downRight", "enter": "left" },
-        { "art": "prop:sparkle", "x": 0.62, "y": 0.5, "size": 0.035, "mood": "twinkle", "delay": 1200 },
-        { "art": "prop:sparkle", "x": 0.56, "y": 0.44, "size": 0.025, "mood": "twinkle", "delay": 1500 }
-      ]
+        {
+          "art": "puppet:tippu",
+          "x": 0.46,
+          "y": 0.64,
+          "size": 0.2,
+          "pose": "hold",
+          "hold": "prop:seed",
+          "holdSize": 0.16,
+          "act": "talk",
+          "mood": "happy",
+          "look": "downRight",
+          "enter": "left"
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.62,
+          "y": 0.5,
+          "size": 0.035,
+          "mood": "twinkle",
+          "delay": 1200
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.56,
+          "y": 0.44,
+          "size": 0.025,
+          "mood": "twinkle",
+          "delay": 1500
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "ٹیپو", "start": 44, "end": 474 },
+          { "w": "کچھوے", "start": 474, "end": 974 },
+          { "w": "کو", "start": 974, "end": 1184 },
+          { "w": "ایک", "start": 1184, "end": 1494 },
+          { "w": "چھوٹا", "start": 1494, "end": 1994 },
+          { "w": "سا", "start": 1994, "end": 2194 },
+          { "w": "بیج", "start": 2194, "end": 2494 },
+          { "w": "ملا۔", "start": 2494, "end": 2934 },
+          { "w": "\"میں", "start": 3014, "end": 3264 },
+          { "w": "اسے", "start": 3264, "end": 3524 },
+          { "w": "لگاؤں", "start": 3524, "end": 3994 },
+          { "w": "گا!\"", "start": 3994, "end": 4154 },
+          { "w": "اس", "start": 4334, "end": 4584 },
+          { "w": "نے", "start": 4584, "end": 4934 },
+          { "w": "کہا۔", "start": 4934, "end": 5334 },
+          { "w": "\"بسم", "start": 5484, "end": 5934 },
+          { "w": "اللہ!\"", "start": 5934, "end": 6534 }
+        ],
+        "en": [
+          { "w": "Tippu", "start": 74, "end": 424 },
+          { "w": "the", "start": 424, "end": 604 },
+          { "w": "turtle", "start": 604, "end": 1094 },
+          { "w": "found", "start": 1094, "end": 1464 },
+          { "w": "a", "start": 1464, "end": 1534 },
+          { "w": "little", "start": 1534, "end": 2014 },
+          { "w": "seed.", "start": 2014, "end": 2594 },
+          { "w": "\"I", "start": 2594, "end": 2734 },
+          { "w": "will", "start": 2734, "end": 3034 },
+          { "w": "plant", "start": 3034, "end": 3384 },
+          { "w": "it!\"", "start": 3384, "end": 3804 },
+          { "w": "he", "start": 3804, "end": 3954 },
+          { "w": "said.", "start": 3954, "end": 4474 },
+          { "w": "\"Bismillah!\"", "start": 4474, "end": 5774 }
+        ]
+      }
     },
     {
       "id": "p2",
@@ -34,13 +97,86 @@
         "ur": "اس نے ایک گڑھا کھودا، بیج اندر رکھا اور پانی ڈالا۔ آہستہ آہستہ، بالکل ٹیپو کی طرح۔"
       },
       "cast": [
-        { "art": "puppet:tippu", "x": 0.38, "y": 0.64, "size": 0.2, "pose": "dig", "act": "dig", "hold": "prop:shovel", "holdSize": 0.3, "holdTurn": 20, "mood": "happy", "look": "downRight", "until": 3500 },
+        {
+          "art": "puppet:tippu",
+          "x": 0.38,
+          "y": 0.64,
+          "size": 0.2,
+          "pose": "dig",
+          "act": "dig",
+          "hold": "prop:shovel",
+          "holdSize": 0.3,
+          "holdTurn": 20,
+          "mood": "happy",
+          "look": "downRight",
+          "until": 3500
+        },
         { "art": "prop:hole", "x": 0.6, "y": 0.655, "size": 0.0675, "until": 3500 },
         { "art": "prop:soil", "x": 0.6, "y": 0.655, "size": 0.0675, "delay": 3500 },
-        { "art": "puppet:tippu", "x": 0.38, "y": 0.64, "size": 0.2, "pose": "pour", "act": "pour", "hold": "prop:watering_can", "holdSize": 0.28, "holdTurn": -30, "mood": "happy", "look": "downRight", "delay": 3500 },
-        { "art": "prop:water_spray", "x": 0.6, "y": 0.6, "size": 0.05, "mood": "twinkle", "delay": 3900 },
+        {
+          "art": "puppet:tippu",
+          "x": 0.38,
+          "y": 0.64,
+          "size": 0.2,
+          "pose": "pour",
+          "act": "pour",
+          "hold": "prop:watering_can",
+          "holdSize": 0.28,
+          "holdTurn": -30,
+          "mood": "happy",
+          "look": "downRight",
+          "delay": 3500
+        },
+        {
+          "art": "prop:water_spray",
+          "x": 0.6,
+          "y": 0.6,
+          "size": 0.05,
+          "mood": "twinkle",
+          "delay": 3900
+        },
         { "art": "prop:watering_can", "x": 0.82, "y": 0.645, "size": 0.075, "until": 3500 }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "اس", "start": 85, "end": 345 },
+          { "w": "نے", "start": 345, "end": 545 },
+          { "w": "ایک", "start": 545, "end": 745 },
+          { "w": "گڑھا", "start": 745, "end": 1195 },
+          { "w": "کھودا،", "start": 1195, "end": 1765 },
+          { "w": "بیج", "start": 1765, "end": 2225 },
+          { "w": "اندر", "start": 2225, "end": 2675 },
+          { "w": "رکھا", "start": 2675, "end": 3165 },
+          { "w": "اور", "start": 3165, "end": 3575 },
+          { "w": "پانی", "start": 3575, "end": 4035 },
+          { "w": "ڈالا۔", "start": 4035, "end": 4685 },
+          { "w": "آہستہ", "start": 4685, "end": 6085 },
+          { "w": "آہستہ،", "start": 6085, "end": 7445 },
+          { "w": "بالکل", "start": 7445, "end": 8185 },
+          { "w": "ٹیپو", "start": 8185, "end": 8865 },
+          { "w": "کی", "start": 8865, "end": 9155 },
+          { "w": "طرح۔", "start": 9155, "end": 9645 }
+        ],
+        "en": [
+          { "w": "He", "start": 1, "end": 281 },
+          { "w": "dug", "start": 281, "end": 471 },
+          { "w": "a", "start": 471, "end": 591 },
+          { "w": "hole,", "start": 591, "end": 1131 },
+          { "w": "put", "start": 1131, "end": 1411 },
+          { "w": "the", "start": 1411, "end": 1691 },
+          { "w": "seed", "start": 1691, "end": 2071 },
+          { "w": "inside,", "start": 2071, "end": 2831 },
+          { "w": "and", "start": 2831, "end": 3111 },
+          { "w": "gave", "start": 3111, "end": 3491 },
+          { "w": "it", "start": 3491, "end": 3801 },
+          { "w": "water.", "start": 3801, "end": 4621 },
+          { "w": "Slowly,", "start": 4621, "end": 5961 },
+          { "w": "slowly,", "start": 5961, "end": 7211 },
+          { "w": "just", "start": 7211, "end": 7601 },
+          { "w": "like", "start": 7601, "end": 8121 },
+          { "w": "Tippu.", "start": 8121, "end": 8841 }
+        ]
+      }
     },
     {
       "id": "p3",
@@ -52,10 +188,64 @@
         "ur": "چیکو خرگوش اچھلتا کودتا آیا۔ \"ٹیپو، تمہارا درخت کہاں ہے؟ مجھے تو کچھ نظر نہیں آ رہا!\""
       },
       "cast": [
-        { "art": "puppet:tippu", "x": 0.26, "y": 0.64, "size": 0.2, "mood": "happy", "look": "right" },
+        {
+          "art": "puppet:tippu",
+          "x": 0.26,
+          "y": 0.64,
+          "size": 0.2,
+          "mood": "happy",
+          "look": "right"
+        },
         { "art": "prop:soil", "x": 0.5, "y": 0.655, "size": 0.0675 },
-        { "art": "puppet:chiku", "x": 0.74, "y": 0.645, "size": 0.18, "pose": "shocked", "act": "hop+talk", "face": "think", "look": "downLeft", "enter": "right" }
-      ]
+        {
+          "art": "puppet:chiku",
+          "x": 0.74,
+          "y": 0.645,
+          "size": 0.18,
+          "pose": "shocked",
+          "act": "hop+talk",
+          "face": "think",
+          "look": "downLeft",
+          "enter": "right"
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "چیکو", "start": 6, "end": 466 },
+          { "w": "خرگوش", "start": 466, "end": 996 },
+          { "w": "اچھلتا", "start": 996, "end": 1656 },
+          { "w": "کودتا", "start": 1656, "end": 2216 },
+          { "w": "آیا۔", "start": 2216, "end": 2646 },
+          { "w": "\"ٹیپو،", "start": 2646, "end": 3386 },
+          { "w": "تمہارا", "start": 3386, "end": 4036 },
+          { "w": "درخت", "start": 4036, "end": 4316 },
+          { "w": "کہاں", "start": 4316, "end": 4696 },
+          { "w": "ہے؟", "start": 4696, "end": 4966 },
+          { "w": "مجھے", "start": 4966, "end": 5426 },
+          { "w": "تو", "start": 5426, "end": 5596 },
+          { "w": "کچھ", "start": 5596, "end": 5906 },
+          { "w": "نظر", "start": 5906, "end": 6366 },
+          { "w": "نہیں", "start": 6366, "end": 6646 },
+          { "w": "آ", "start": 6646, "end": 6776 },
+          { "w": "رہا!\"", "start": 6776, "end": 7166 }
+        ],
+        "en": [
+          { "w": "Chiku", "start": 11, "end": 381 },
+          { "w": "the", "start": 381, "end": 611 },
+          { "w": "rabbit", "start": 611, "end": 1131 },
+          { "w": "hopped", "start": 1131, "end": 1521 },
+          { "w": "by.", "start": 1521, "end": 1931 },
+          { "w": "\"Where", "start": 1931, "end": 2381 },
+          { "w": "is", "start": 2381, "end": 2611 },
+          { "w": "your", "start": 2611, "end": 2671 },
+          { "w": "tree,", "start": 2631, "end": 3071 },
+          { "w": "Tippu?", "start": 3071, "end": 3451 },
+          { "w": "I", "start": 3451, "end": 3521 },
+          { "w": "don't", "start": 3521, "end": 3871 },
+          { "w": "see", "start": 3871, "end": 4081 },
+          { "w": "anything!\"", "start": 4081, "end": 4931 }
+        ]
+      }
     },
     {
       "id": "p4",
@@ -72,16 +262,83 @@
         { "art": "prop:star", "x": 0.82, "y": 0.3, "size": 0.03, "mood": "twinkle", "delay": 800 },
         { "art": "prop:soil", "x": 0.6, "y": 0.655, "size": 0.0675 },
         { "art": "prop:watering_can", "x": 0.78, "y": 0.645, "size": 0.075 },
-        { "art": "puppet:tippu", "x": 0.38, "y": 0.64, "size": 0.21, "pose": "dua", "act": "dua", "mood": "happy" }
-      ]
+        {
+          "art": "puppet:tippu",
+          "x": 0.38,
+          "y": 0.64,
+          "size": 0.21,
+          "pose": "dua",
+          "act": "dua",
+          "mood": "happy"
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "\"درخت", "start": 8, "end": 468 },
+          { "w": "بننے", "start": 468, "end": 918 },
+          { "w": "میں", "start": 918, "end": 1218 },
+          { "w": "وقت", "start": 1218, "end": 1548 },
+          { "w": "لگتا", "start": 1548, "end": 2008 },
+          { "w": "ہے،\"", "start": 2008, "end": 2248 },
+          { "w": "ٹیپو", "start": 2248, "end": 2838 },
+          { "w": "نے", "start": 2838, "end": 3018 },
+          { "w": "کہا۔", "start": 3018, "end": 3368 },
+          { "w": "\"میں", "start": 3368, "end": 3708 },
+          { "w": "صبر", "start": 3708, "end": 4038 },
+          { "w": "سے", "start": 4038, "end": 4278 },
+          { "w": "انتظار", "start": 4278, "end": 4998 },
+          { "w": "کروں", "start": 4998, "end": 5368 },
+          { "w": "گا۔\"", "start": 5368, "end": 5648 },
+          { "w": "وہ", "start": 5718, "end": 5908 },
+          { "w": "روز", "start": 5908, "end": 6238 },
+          { "w": "بیج", "start": 6238, "end": 6568 },
+          { "w": "کو", "start": 6568, "end": 6798 },
+          { "w": "پانی", "start": 6798, "end": 7278 },
+          { "w": "دیتا", "start": 7278, "end": 7808 },
+          { "w": "اور", "start": 7808, "end": 8268 },
+          { "w": "دعا", "start": 8268, "end": 8598 },
+          { "w": "کرتا۔", "start": 8598, "end": 9168 }
+        ],
+        "en": [
+          { "w": "\"Trees", "start": 20, "end": 520 },
+          { "w": "take", "start": 520, "end": 860 },
+          { "w": "time,\"", "start": 860, "end": 1460 },
+          { "w": "said", "start": 1460, "end": 1800 },
+          { "w": "Tippu.", "start": 1800, "end": 2620 },
+          { "w": "\"I", "start": 2620, "end": 2700 },
+          { "w": "will", "start": 2700, "end": 3080 },
+          { "w": "wait", "start": 3080, "end": 3360 },
+          { "w": "with", "start": 3360, "end": 3630 },
+          { "w": "sabr.\"", "start": 3630, "end": 4320 },
+          { "w": "Every", "start": 4320, "end": 4770 },
+          { "w": "day", "start": 4770, "end": 5040 },
+          { "w": "he", "start": 5040, "end": 5220 },
+          { "w": "watered", "start": 5220, "end": 5850 },
+          { "w": "the", "start": 5850, "end": 6120 },
+          { "w": "seed", "start": 6120, "end": 6480 },
+          { "w": "and", "start": 6480, "end": 6940 },
+          { "w": "made", "start": 6940, "end": 7130 },
+          { "w": "dua.", "start": 7130, "end": 7720 }
+        ]
+      }
     },
     {
       "id": "choice",
       "type": "choice",
       "prompt": { "en": "What should Tippu do?", "ur": "ٹیپو کو کیا کرنا چاہیے؟" },
       "options": [
-        { "id": "wait", "label": { "en": "Wait with sabr", "ur": "صبر سے انتظار کرے" }, "picture": "prop:hourglass", "next": "choice_a" },
-        { "id": "dig", "label": { "en": "Dig it up", "ur": "کھود کر دیکھ لے" }, "picture": "prop:shovel", "next": "choice_b" }
+        {
+          "id": "wait",
+          "label": { "en": "Wait with sabr", "ur": "صبر سے انتظار کرے" },
+          "picture": "prop:hourglass",
+          "next": "choice_a"
+        },
+        {
+          "id": "dig",
+          "label": { "en": "Dig it up", "ur": "کھود کر دیکھ لے" },
+          "picture": "prop:shovel",
+          "next": "choice_b"
+        }
       ]
     },
     {
@@ -94,11 +351,80 @@
         "ur": "\"نہیں چیکو، اگر ہم اسے کھودیں گے تو یہ اُگ نہیں سکے گا۔ چلو انتظار کرتے ہیں۔\" اور دونوں مل کر انتظار کرنے لگے۔"
       },
       "cast": [
-        { "art": "puppet:tippu", "x": 0.28, "y": 0.645, "size": 0.2, "pose": "sit", "act": "talk", "mood": "happy" },
+        {
+          "art": "puppet:tippu",
+          "x": 0.28,
+          "y": 0.645,
+          "size": 0.2,
+          "pose": "sit",
+          "act": "talk",
+          "mood": "happy"
+        },
         { "art": "prop:soil", "x": 0.5, "y": 0.655, "size": 0.0675 },
-        { "art": "puppet:chiku", "x": 0.72, "y": 0.645, "size": 0.17, "pose": "sit", "act": "nod", "mood": "happy" },
-        { "art": "prop:hourglass", "x": 0.5, "y": 0.5, "size": 0.075, "mood": "float", "delay": 1500 }
-      ]
+        {
+          "art": "puppet:chiku",
+          "x": 0.72,
+          "y": 0.645,
+          "size": 0.17,
+          "pose": "sit",
+          "act": "nod",
+          "mood": "happy"
+        },
+        {
+          "art": "prop:hourglass",
+          "x": 0.5,
+          "y": 0.5,
+          "size": 0.075,
+          "mood": "float",
+          "delay": 1500
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "\"نہیں", "start": 4945, "end": 5535 },
+          { "w": "چیکو،", "start": 5535, "end": 6105 },
+          { "w": "اگر", "start": 6105, "end": 6365 },
+          { "w": "ہم", "start": 6365, "end": 6565 },
+          { "w": "اسے", "start": 6565, "end": 6755 },
+          { "w": "کھودیں", "start": 6755, "end": 7255 },
+          { "w": "گے", "start": 7255, "end": 7465 },
+          { "w": "تو", "start": 7465, "end": 7725 },
+          { "w": "یہ", "start": 7725, "end": 7925 },
+          { "w": "اُگ", "start": 7925, "end": 8125 },
+          { "w": "نہیں", "start": 8125, "end": 8565 },
+          { "w": "سکے", "start": 8565, "end": 8895 },
+          { "w": "گا۔", "start": 8895, "end": 9145 },
+          { "w": "چلو", "start": 9145, "end": 9625 },
+          { "w": "انتظار", "start": 9625, "end": 10225 },
+          { "w": "کرتے", "start": 10225, "end": 10625 },
+          { "w": "ہیں۔\"", "start": 10625, "end": 10945 },
+          { "w": "اور", "start": 10945, "end": 11225 },
+          { "w": "دونوں", "start": 11225, "end": 11685 },
+          { "w": "مل", "start": 11685, "end": 11855 },
+          { "w": "کر", "start": 11855, "end": 12055 },
+          { "w": "انتظار", "start": 12055, "end": 12755 },
+          { "w": "کرنے", "start": 12755, "end": 13215 },
+          { "w": "لگے۔", "start": 13215, "end": 13625 }
+        ],
+        "en": [
+          { "w": "\"No,", "start": 1616, "end": 2036 },
+          { "w": "Chiku.", "start": 2036, "end": 2776 },
+          { "w": "If", "start": 2776, "end": 3036 },
+          { "w": "we", "start": 3036, "end": 3116 },
+          { "w": "dig", "start": 3116, "end": 3376 },
+          { "w": "it", "start": 3376, "end": 3576 },
+          { "w": "up,", "start": 3576, "end": 3916 },
+          { "w": "it", "start": 3916, "end": 4086 },
+          { "w": "can't", "start": 4086, "end": 4596 },
+          { "w": "grow.", "start": 4596, "end": 5116 },
+          { "w": "Let's", "start": 5116, "end": 5836 },
+          { "w": "wait.\"", "start": 5836, "end": 6176 },
+          { "w": "So", "start": 6176, "end": 6456 },
+          { "w": "they", "start": 6456, "end": 6766 },
+          { "w": "waited", "start": 6766, "end": 7296 },
+          { "w": "together.", "start": 7296, "end": 8176 }
+        ]
+      }
     },
     {
       "id": "choice_b",
@@ -110,12 +436,110 @@
         "ur": "ٹیپو نے کھودنا شروع کیا... پھر رک گیا۔ \"رکو! اگر میں نے اسے نکال لیا تو یہ اُگ نہیں سکے گا۔\" اس نے پیار سے بیج کو دوبارہ مٹی سے ڈھک دیا۔"
       },
       "cast": [
-        { "art": "puppet:tippu", "x": 0.32, "y": 0.64, "size": 0.2, "pose": "dig", "act": "dig", "hold": "prop:shovel", "holdSize": 0.3, "holdTurn": 20, "until": 3000 },
-        { "art": "puppet:tippu", "x": 0.32, "y": 0.64, "size": 0.2, "pose": "shocked", "face": "surprised", "delay": 3000, "until": 5000 },
-        { "art": "puppet:tippu", "x": 0.32, "y": 0.64, "size": 0.2, "pose": "dig", "act": "dig", "mood": "happy", "delay": 5000 },
+        {
+          "art": "puppet:tippu",
+          "x": 0.32,
+          "y": 0.64,
+          "size": 0.2,
+          "pose": "dig",
+          "act": "dig",
+          "hold": "prop:shovel",
+          "holdSize": 0.3,
+          "holdTurn": 20,
+          "until": 3000
+        },
+        {
+          "art": "puppet:tippu",
+          "x": 0.32,
+          "y": 0.64,
+          "size": 0.2,
+          "pose": "shocked",
+          "face": "surprised",
+          "delay": 3000,
+          "until": 5000
+        },
+        {
+          "art": "puppet:tippu",
+          "x": 0.32,
+          "y": 0.64,
+          "size": 0.2,
+          "pose": "dig",
+          "act": "dig",
+          "mood": "happy",
+          "delay": 5000
+        },
         { "art": "prop:soil", "x": 0.55, "y": 0.655, "size": 0.0675 },
-        { "art": "puppet:chiku", "x": 0.78, "y": 0.645, "size": 0.17, "pose": "hold", "hold": "prop:shovel", "holdSize": 0.35, "look": "left", "act": "bounce" }
-      ]
+        {
+          "art": "puppet:chiku",
+          "x": 0.78,
+          "y": 0.645,
+          "size": 0.17,
+          "pose": "hold",
+          "hold": "prop:shovel",
+          "holdSize": 0.35,
+          "look": "left",
+          "act": "bounce"
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "ٹیپو", "start": 16, "end": 526 },
+          { "w": "نے", "start": 526, "end": 756 },
+          { "w": "کھودنا", "start": 756, "end": 1416 },
+          { "w": "شروع", "start": 1416, "end": 1826 },
+          { "w": "کیا...", "start": 1826, "end": 2216 },
+          { "w": "پھر", "start": 2216, "end": 2676 },
+          { "w": "رک", "start": 2676, "end": 2836 },
+          { "w": "گیا۔", "start": 2836, "end": 3256 },
+          { "w": "\"رکو!", "start": 3776, "end": 4656 },
+          { "w": "اگر", "start": 4656, "end": 4916 },
+          { "w": "میں", "start": 4916, "end": 5156 },
+          { "w": "نے", "start": 5156, "end": 5326 },
+          { "w": "اسے", "start": 5326, "end": 5576 },
+          { "w": "نکال", "start": 5576, "end": 5986 },
+          { "w": "لیا", "start": 5986, "end": 6256 },
+          { "w": "تو", "start": 6256, "end": 6516 },
+          { "w": "یہ", "start": 6516, "end": 6716 },
+          { "w": "اُگ", "start": 6716, "end": 6916 },
+          { "w": "نہیں", "start": 6916, "end": 7356 },
+          { "w": "سکے", "start": 7356, "end": 7686 },
+          { "w": "گا۔\"", "start": 7686, "end": 7936 },
+          { "w": "اس", "start": 7936, "end": 8196 },
+          { "w": "نے", "start": 8196, "end": 8396 },
+          { "w": "پیار", "start": 8396, "end": 8716 },
+          { "w": "سے", "start": 8716, "end": 8936 },
+          { "w": "بیج", "start": 8936, "end": 9336 },
+          { "w": "کو", "start": 9336, "end": 9536 },
+          { "w": "دوبارہ", "start": 9606, "end": 10016 },
+          { "w": "مٹی", "start": 10016, "end": 10276 },
+          { "w": "سے", "start": 10276, "end": 10416 },
+          { "w": "ڈھک", "start": 10416, "end": 10736 },
+          { "w": "دیا۔", "start": 10736, "end": 10996 }
+        ],
+        "en": [
+          { "w": "Tippu", "start": 26, "end": 646 },
+          { "w": "started", "start": 646, "end": 1086 },
+          { "w": "to", "start": 1086, "end": 1216 },
+          { "w": "dig…", "start": 1216, "end": 1636 },
+          { "w": "then", "start": 1636, "end": 1976 },
+          { "w": "stopped.", "start": 1976, "end": 2866 },
+          { "w": "\"Wait!", "start": 2866, "end": 3676 },
+          { "w": "If", "start": 3676, "end": 3966 },
+          { "w": "I", "start": 3966, "end": 4026 },
+          { "w": "dig", "start": 3986, "end": 4296 },
+          { "w": "it", "start": 4296, "end": 4496 },
+          { "w": "up,", "start": 4496, "end": 4896 },
+          { "w": "it", "start": 4896, "end": 5086 },
+          { "w": "can't", "start": 5086, "end": 5606 },
+          { "w": "grow.\"", "start": 5606, "end": 6466 },
+          { "w": "He", "start": 6466, "end": 6666 },
+          { "w": "gently", "start": 6666, "end": 7126 },
+          { "w": "covered", "start": 7126, "end": 7676 },
+          { "w": "the", "start": 7676, "end": 7896 },
+          { "w": "seed", "start": 7896, "end": 8206 },
+          { "w": "again.", "start": 8206, "end": 8886 }
+        ]
+      }
     },
     {
       "id": "p6",
@@ -128,16 +552,109 @@
       },
       "help": { "kind": "rub", "item": 1, "steps": 3 },
       "cast": [
-        { "art": "puppet:tippu", "x": 0.26, "y": 0.64, "size": 0.2, "pose": "dua", "act": "dua", "look": "down", "helpHide": 3 },
+        {
+          "art": "puppet:tippu",
+          "x": 0.26,
+          "y": 0.64,
+          "size": 0.2,
+          "pose": "dua",
+          "act": "dua",
+          "look": "down",
+          "helpHide": 3
+        },
         { "art": "prop:soil", "x": 0.5, "y": 0.67, "size": 0.07 },
-        { "art": "prop:sparkle", "x": 0.45, "y": 0.6, "size": 0.035, "mood": "twinkle", "helpStep": 1 },
-        { "art": "prop:sparkle", "x": 0.56, "y": 0.58, "size": 0.03, "mood": "twinkle", "helpStep": 2 },
+        {
+          "art": "prop:sparkle",
+          "x": 0.45,
+          "y": 0.6,
+          "size": 0.035,
+          "mood": "twinkle",
+          "helpStep": 1
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.56,
+          "y": 0.58,
+          "size": 0.03,
+          "mood": "twinkle",
+          "helpStep": 2
+        },
         { "art": "prop:sprout", "x": 0.5, "y": 0.66, "size": 0.09, "enter": "grow", "helpStep": 3 },
-        { "art": "prop:sparkle", "x": 0.55, "y": 0.56, "size": 0.04, "mood": "twinkle", "delay": 400, "helpStep": 3 },
-        { "art": "puppet:tippu", "x": 0.26, "y": 0.64, "size": 0.2, "pose": "point", "face": "surprised", "act": "bounce", "helpStep": 3 },
-        { "art": "puppet:chiku", "x": 0.74, "y": 0.645, "size": 0.18, "face": "think", "look": "left", "act": "fidget", "helpHide": 3 },
-        { "art": "puppet:chiku", "x": 0.74, "y": 0.645, "size": 0.18, "pose": "cheer", "act": "hop", "face": "surprised", "look": "left", "helpStep": 3 }
-      ]
+        {
+          "art": "prop:sparkle",
+          "x": 0.55,
+          "y": 0.56,
+          "size": 0.04,
+          "mood": "twinkle",
+          "delay": 400,
+          "helpStep": 3
+        },
+        {
+          "art": "puppet:tippu",
+          "x": 0.26,
+          "y": 0.64,
+          "size": 0.2,
+          "pose": "point",
+          "face": "surprised",
+          "act": "bounce",
+          "helpStep": 3
+        },
+        {
+          "art": "puppet:chiku",
+          "x": 0.74,
+          "y": 0.645,
+          "size": 0.18,
+          "face": "think",
+          "look": "left",
+          "act": "fidget",
+          "helpHide": 3
+        },
+        {
+          "art": "puppet:chiku",
+          "x": 0.74,
+          "y": 0.645,
+          "size": 0.18,
+          "pose": "cheer",
+          "act": "hop",
+          "face": "surprised",
+          "look": "left",
+          "helpStep": 3
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "ایک", "start": 24, "end": 534 },
+          { "w": "صبح", "start": 534, "end": 1064 },
+          { "w": "پوپ!", "start": 1064, "end": 1314 },
+          { "w": "مٹی", "start": 1064, "end": 2024 },
+          { "w": "سے", "start": 2024, "end": 2694 },
+          { "w": "ایک", "start": 2694, "end": 3064 },
+          { "w": "ننھا", "start": 3064, "end": 3524 },
+          { "w": "سا", "start": 3524, "end": 3804 },
+          { "w": "ہرا", "start": 3804, "end": 4134 },
+          { "w": "پتا", "start": 4134, "end": 4444 },
+          { "w": "جھانکنے", "start": 4444, "end": 4934 },
+          { "w": "لگا۔", "start": 4934, "end": 5164 },
+          { "w": "\"دیکھو", "start": 5164, "end": 5754 },
+          { "w": "چیکو!\"", "start": 5754, "end": 6244 }
+        ],
+        "en": [
+          { "w": "One", "start": 4, "end": 314 },
+          { "w": "morning", "start": 314, "end": 1124 },
+          { "w": "pop!", "start": 1124, "end": 1664 },
+          { "w": "A", "start": 1664, "end": 1764 },
+          { "w": "tiny", "start": 1764, "end": 2074 },
+          { "w": "green", "start": 2074, "end": 2624 },
+          { "w": "leaf", "start": 2624, "end": 2814 },
+          { "w": "peeked", "start": 2814, "end": 3354 },
+          { "w": "out", "start": 3354, "end": 3544 },
+          { "w": "of", "start": 3544, "end": 3804 },
+          { "w": "the", "start": 3804, "end": 3944 },
+          { "w": "soil.", "start": 3944, "end": 4624 },
+          { "w": "\"Look,", "start": 4624, "end": 5054 },
+          { "w": "Chiku!\"", "start": 5054, "end": 5724 }
+        ]
+      }
     },
     {
       "id": "p7",
@@ -150,11 +667,86 @@
       },
       "cast": [
         { "art": "prop:sprout", "x": 0.5, "y": 0.66, "size": 0.09, "until": 2200 },
-        { "art": "prop:plant", "x": 0.5, "y": 0.66, "size": 0.13, "enter": "grow", "delay": 2200, "until": 4800 },
-        { "art": "prop:guava_tree", "x": 0.5, "y": 0.665, "size": 0.42, "enter": "grow", "delay": 4800 },
-        { "art": "puppet:tippu", "x": 0.16, "y": 0.645, "size": 0.18, "face": "surprised", "look": "upRight", "act": "bounce" },
-        { "art": "puppet:chiku", "x": 0.86, "y": 0.645, "size": 0.16, "face": "surprised", "look": "upLeft", "act": "hop" }
-      ]
+        {
+          "art": "prop:plant",
+          "x": 0.5,
+          "y": 0.66,
+          "size": 0.13,
+          "enter": "grow",
+          "delay": 2200,
+          "until": 4800
+        },
+        {
+          "art": "prop:guava_tree",
+          "x": 0.5,
+          "y": 0.665,
+          "size": 0.42,
+          "enter": "grow",
+          "delay": 4800
+        },
+        {
+          "art": "puppet:tippu",
+          "x": 0.16,
+          "y": 0.645,
+          "size": 0.18,
+          "face": "surprised",
+          "look": "upRight",
+          "act": "bounce"
+        },
+        {
+          "art": "puppet:chiku",
+          "x": 0.86,
+          "y": 0.645,
+          "size": 0.16,
+          "face": "surprised",
+          "look": "upLeft",
+          "act": "hop"
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "دن", "start": 1, "end": 311 },
+          { "w": "پر", "start": 311, "end": 621 },
+          { "w": "دن", "start": 621, "end": 931 },
+          { "w": "گزرتے", "start": 931, "end": 1701 },
+          { "w": "گئے۔", "start": 1701, "end": 2241 },
+          { "w": "پتا", "start": 2241, "end": 2541 },
+          { "w": "پودا", "start": 2541, "end": 2931 },
+          { "w": "بنا،", "start": 2931, "end": 3281 },
+          { "w": "اور", "start": 3281, "end": 3591 },
+          { "w": "پودا", "start": 3591, "end": 4021 },
+          { "w": "امرودوں", "start": 4021, "end": 4691 },
+          { "w": "سے", "start": 4691, "end": 4901 },
+          { "w": "بھرا", "start": 4901, "end": 5361 },
+          { "w": "ایک", "start": 5361, "end": 5671 },
+          { "w": "بڑا", "start": 5671, "end": 6101 },
+          { "w": "درخت", "start": 6101, "end": 6471 },
+          { "w": "بن", "start": 6471, "end": 6761 },
+          { "w": "گیا!", "start": 6761, "end": 7081 }
+        ],
+        "en": [
+          { "w": "Days", "start": 3, "end": 453 },
+          { "w": "and", "start": 453, "end": 723 },
+          { "w": "days", "start": 723, "end": 1133 },
+          { "w": "went", "start": 1133, "end": 1543 },
+          { "w": "by.", "start": 1543, "end": 2083 },
+          { "w": "The", "start": 2083, "end": 2593 },
+          { "w": "leaf", "start": 2593, "end": 2653 },
+          { "w": "became", "start": 2623, "end": 3063 },
+          { "w": "a", "start": 3063, "end": 3123 },
+          { "w": "plant,", "start": 3093, "end": 3613 },
+          { "w": "and", "start": 3613, "end": 3873 },
+          { "w": "the", "start": 3873, "end": 4123 },
+          { "w": "plant", "start": 4123, "end": 4623 },
+          { "w": "became", "start": 4623, "end": 5063 },
+          { "w": "a", "start": 5063, "end": 5143 },
+          { "w": "big", "start": 5143, "end": 5383 },
+          { "w": "tree", "start": 5383, "end": 5913 },
+          { "w": "full", "start": 5913, "end": 6113 },
+          { "w": "of", "start": 6113, "end": 6243 },
+          { "w": "guavas!", "start": 6243, "end": 7083 }
+        ]
+      }
     },
     {
       "id": "p8",
@@ -167,27 +759,166 @@
       },
       "cast": [
         { "art": "prop:guava_tree", "x": 0.5, "y": 0.6, "size": 0.42 },
-        { "art": "puppet:tippu", "x": 0.3, "y": 0.66, "size": 0.19, "pose": "give", "act": "give", "hold": "prop:guava", "holdSize": 0.18, "face": "laugh" },
-        { "art": "puppet:chiku", "x": 0.52, "y": 0.665, "size": 0.16, "pose": "eat", "act": "eat", "hold": "prop:guava", "holdSize": 0.22, "mood": "happy" },
-        { "art": "puppet:squirrel", "x": 0.7, "y": 0.665, "size": 0.11, "pose": "eat", "act": "eat+tail", "hold": "prop:guava", "holdSize": 0.3, "mood": "happy" },
-        { "art": "puppet:mithu", "x": 0.86, "y": 0.665, "size": 0.12, "act": "chirp", "mood": "happy", "flip": true }
-      ]
+        {
+          "art": "puppet:tippu",
+          "x": 0.3,
+          "y": 0.66,
+          "size": 0.19,
+          "pose": "give",
+          "act": "give",
+          "hold": "prop:guava",
+          "holdSize": 0.18,
+          "face": "laugh"
+        },
+        {
+          "art": "puppet:chiku",
+          "x": 0.52,
+          "y": 0.665,
+          "size": 0.16,
+          "pose": "eat",
+          "act": "eat",
+          "hold": "prop:guava",
+          "holdSize": 0.22,
+          "mood": "happy"
+        },
+        {
+          "art": "puppet:squirrel",
+          "x": 0.7,
+          "y": 0.665,
+          "size": 0.11,
+          "pose": "eat",
+          "act": "eat+tail",
+          "hold": "prop:guava",
+          "holdSize": 0.3,
+          "mood": "happy"
+        },
+        {
+          "art": "puppet:mithu",
+          "x": 0.86,
+          "y": 0.665,
+          "size": 0.12,
+          "act": "chirp",
+          "mood": "happy",
+          "flip": true
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "\"الحمدللہ!\"", "start": 2, "end": 1402 },
+          { "w": "ٹیپو", "start": 1402, "end": 1992 },
+          { "w": "نے", "start": 1992, "end": 2172 },
+          { "w": "کہا،", "start": 2172, "end": 2542 },
+          { "w": "اور", "start": 2542, "end": 2842 },
+          { "w": "سب", "start": 2842, "end": 3042 },
+          { "w": "دوستوں", "start": 3042, "end": 3642 },
+          { "w": "کے", "start": 3642, "end": 3942 },
+          { "w": "ساتھ", "start": 3942, "end": 4262 },
+          { "w": "امرود", "start": 4262, "end": 4682 },
+          { "w": "بانٹے۔", "start": 4682, "end": 5122 },
+          { "w": "صبر", "start": 5122, "end": 5582 },
+          { "w": "کا", "start": 5582, "end": 5722 },
+          { "w": "پھل", "start": 5722, "end": 6082 },
+          { "w": "میٹھا", "start": 6082, "end": 6742 },
+          { "w": "ہوتا", "start": 6742, "end": 7162 },
+          { "w": "ہے!", "start": 7162, "end": 7442 }
+        ],
+        "en": [
+          { "w": "\"Alhamdulillah!\"", "start": 48, "end": 1288 },
+          { "w": "said", "start": 1288, "end": 1558 },
+          { "w": "Tippu,", "start": 1558, "end": 2078 },
+          { "w": "and", "start": 2078, "end": 2198 },
+          { "w": "he", "start": 2198, "end": 2598 },
+          { "w": "shared", "start": 2598, "end": 3038 },
+          { "w": "the", "start": 3038, "end": 3108 },
+          { "w": "guavas", "start": 3108, "end": 3578 },
+          { "w": "with", "start": 3578, "end": 3828 },
+          { "w": "all", "start": 3828, "end": 4058 },
+          { "w": "his", "start": 4058, "end": 4598 },
+          { "w": "friends.", "start": 4598, "end": 5138 },
+          { "w": "The", "start": 5138, "end": 5258 },
+          { "w": "fruit", "start": 5258, "end": 5478 },
+          { "w": "of", "start": 5478, "end": 5758 },
+          { "w": "sabr", "start": 5758, "end": 6068 },
+          { "w": "is", "start": 6068, "end": 6198 },
+          { "w": "always", "start": 6198, "end": 6748 },
+          { "w": "sweet!", "start": 6748, "end": 7518 }
+        ]
+      }
     }
   ],
   "glossary": [
-    { "id": "seed", "picture": "prop:seed", "word": { "en": "seed", "ur": "بیج" }, "forms": { "en": [], "ur": [] } },
-    { "id": "patience", "picture": "prop:hourglass", "word": { "en": "patience", "ur": "صبر" }, "forms": { "en": ["sabr"], "ur": [] } },
-    { "id": "plant", "picture": "prop:plant", "word": { "en": "plant", "ur": "پودا" }, "forms": { "en": [], "ur": [] } },
-    { "id": "tree", "picture": "prop:guava_tree", "word": { "en": "tree", "ur": "درخت" }, "forms": { "en": ["trees"], "ur": [] } },
-    { "id": "guava", "picture": "prop:guava", "word": { "en": "guava", "ur": "امرود" }, "forms": { "en": ["guavas"], "ur": ["امرودوں"] } },
-    { "id": "turtle", "picture": "puppet:tippu", "word": { "en": "turtle", "ur": "کچھوا" }, "forms": { "en": [], "ur": ["کچھوے"] } },
-    { "id": "rabbit", "picture": "puppet:chiku", "word": { "en": "rabbit", "ur": "خرگوش" }, "forms": { "en": [], "ur": [] } },
-    { "id": "water", "picture": "prop:watering_can", "word": { "en": "water", "ur": "پانی" }, "forms": { "en": ["watered"], "ur": [] } },
-    { "id": "dig", "picture": "prop:shovel", "word": { "en": "dig", "ur": "کھودنا" }, "forms": { "en": ["dug"], "ur": ["کھودا", "کھود", "کھودیں"] } },
-    { "id": "leaf", "picture": "prop:sprout", "word": { "en": "leaf", "ur": "پتا" }, "forms": { "en": [], "ur": [] } },
-    { "id": "soil", "picture": "prop:soil", "word": { "en": "soil", "ur": "مٹی" }, "forms": { "en": [], "ur": [] } },
+    {
+      "id": "seed",
+      "picture": "prop:seed",
+      "word": { "en": "seed", "ur": "بیج" },
+      "forms": { "en": [], "ur": [] }
+    },
+    {
+      "id": "patience",
+      "picture": "prop:hourglass",
+      "word": { "en": "patience", "ur": "صبر" },
+      "forms": { "en": ["sabr"], "ur": [] }
+    },
+    {
+      "id": "plant",
+      "picture": "prop:plant",
+      "word": { "en": "plant", "ur": "پودا" },
+      "forms": { "en": [], "ur": [] }
+    },
+    {
+      "id": "tree",
+      "picture": "prop:guava_tree",
+      "word": { "en": "tree", "ur": "درخت" },
+      "forms": { "en": ["trees"], "ur": [] }
+    },
+    {
+      "id": "guava",
+      "picture": "prop:guava",
+      "word": { "en": "guava", "ur": "امرود" },
+      "forms": { "en": ["guavas"], "ur": ["امرودوں"] }
+    },
+    {
+      "id": "turtle",
+      "picture": "puppet:tippu",
+      "word": { "en": "turtle", "ur": "کچھوا" },
+      "forms": { "en": [], "ur": ["کچھوے"] }
+    },
+    {
+      "id": "rabbit",
+      "picture": "puppet:chiku",
+      "word": { "en": "rabbit", "ur": "خرگوش" },
+      "forms": { "en": [], "ur": [] }
+    },
+    {
+      "id": "water",
+      "picture": "prop:watering_can",
+      "word": { "en": "water", "ur": "پانی" },
+      "forms": { "en": ["watered"], "ur": [] }
+    },
+    {
+      "id": "dig",
+      "picture": "prop:shovel",
+      "word": { "en": "dig", "ur": "کھودنا" },
+      "forms": { "en": ["dug"], "ur": ["کھودا", "کھود", "کھودیں"] }
+    },
+    {
+      "id": "leaf",
+      "picture": "prop:sprout",
+      "word": { "en": "leaf", "ur": "پتا" },
+      "forms": { "en": [], "ur": [] }
+    },
+    {
+      "id": "soil",
+      "picture": "prop:soil",
+      "word": { "en": "soil", "ur": "مٹی" },
+      "forms": { "en": [], "ur": [] }
+    },
     { "id": "dua", "word": { "en": "dua", "ur": "دعا" }, "forms": { "en": [], "ur": [] } },
-    { "id": "wait", "word": { "en": "wait", "ur": "انتظار" }, "forms": { "en": ["waited"], "ur": [] } }
+    {
+      "id": "wait",
+      "word": { "en": "wait", "ur": "انتظار" },
+      "forms": { "en": ["waited"], "ur": [] }
+    }
   ],
   "vocabulary": ["seed", "patience", "plant"],
   "quiz": [

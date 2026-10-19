@@ -56,6 +56,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  image: ">=4.2.0 <4.11.0"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -136,3 +138,14 @@ flutter:
     - family: NotoNastaliqUrdu
       fonts:
         - asset: assets/fonts/NotoNastaliqUrdu.ttf
+
+# Launcher icons: `dart run flutter_launcher_icons` regenerates them.
+# The inset keeps Noori's wings inside Android's round icon mask.
+flutter_launcher_icons:
+  image_path: PlayStore-assets/noori-playstore-512.png
+  android: true
+  adaptive_icon_background: PlayStore-assets/ic_launcher_background.png
+  adaptive_icon_foreground: PlayStore-assets/noori-playstore-512.png
+  adaptive_icon_foreground_inset: 10
+  ios: true
+  remove_alpha_ios: true

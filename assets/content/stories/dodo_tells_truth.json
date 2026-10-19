@@ -2,10 +2,7 @@
   "schemaVersion": 1,
   "id": "dodo_tells_truth",
   "start": "p1",
-  "characters": {
-    "dodo": { "en": "Dodo", "ur": "ڈوڈو" },
-    "bhalu": { "en": "Bhalu", "ur": "بھالو" }
-  },
+  "characters": { "dodo": { "en": "Dodo", "ur": "ڈوڈو" }, "bhalu": { "en": "Bhalu", "ur": "بھالو" } },
   "nodes": [
     {
       "id": "p1",
@@ -18,9 +15,60 @@
       },
       "cast": [
         { "art": "prop:honey_pot", "x": 0.86, "y": 0.62, "size": 0.09 },
-        { "art": "puppet:dodo", "x": 0.36, "y": 0.64, "size": 0.18, "act": "trunk+ears+tail", "mood": "happy", "enter": "left" },
+        {
+          "art": "puppet:dodo",
+          "x": 0.36,
+          "y": 0.64,
+          "size": 0.18,
+          "act": "trunk+ears+tail",
+          "mood": "happy",
+          "enter": "left"
+        },
         { "art": "prop:football", "x": 0.6, "y": 0.6, "size": 0.0675, "mood": "happy" }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "ڈوڈو", "start": 0, "end": 540 },
+          { "w": "ایک", "start": 540, "end": 820 },
+          { "w": "ننھا", "start": 820, "end": 1180 },
+          { "w": "سا", "start": 1180, "end": 1440 },
+          { "w": "ہاتھی", "start": 1440, "end": 1830 },
+          { "w": "تھا", "start": 1830, "end": 2380 },
+          { "w": "جس", "start": 2380, "end": 2480 },
+          { "w": "کے", "start": 2480, "end": 2690 },
+          { "w": "بڑے", "start": 2690, "end": 3090 },
+          { "w": "بڑے", "start": 3090, "end": 3490 },
+          { "w": "کان", "start": 3490, "end": 3800 },
+          { "w": "تھے۔", "start": 3800, "end": 4200 },
+          { "w": "اسے", "start": 4500, "end": 4560 },
+          { "w": "اپنی", "start": 4550, "end": 4900 },
+          { "w": "سونڈ", "start": 4900, "end": 5400 },
+          { "w": "سے", "start": 5400, "end": 5600 },
+          { "w": "فٹبال", "start": 5600, "end": 6260 },
+          { "w": "کھیلنا", "start": 6260, "end": 6900 },
+          { "w": "بہت", "start": 6900, "end": 7110 },
+          { "w": "پسند", "start": 7110, "end": 7500 },
+          { "w": "تھا۔", "start": 7500, "end": 7900 }
+        ],
+        "en": [
+          { "w": "Dodo", "start": 64, "end": 344 },
+          { "w": "was", "start": 344, "end": 624 },
+          { "w": "a", "start": 624, "end": 714 },
+          { "w": "little", "start": 714, "end": 1284 },
+          { "w": "elephant", "start": 1284, "end": 2234 },
+          { "w": "with", "start": 2234, "end": 2434 },
+          { "w": "big", "start": 2434, "end": 2734 },
+          { "w": "floppy", "start": 2734, "end": 3284 },
+          { "w": "ears.", "start": 3284, "end": 3954 },
+          { "w": "He", "start": 3954, "end": 4034 },
+          { "w": "loved", "start": 4034, "end": 4314 },
+          { "w": "playing", "start": 4314, "end": 4814 },
+          { "w": "football", "start": 4814, "end": 5414 },
+          { "w": "with", "start": 5414, "end": 5674 },
+          { "w": "his", "start": 5674, "end": 5874 },
+          { "w": "trunk.", "start": 5874, "end": 6534 }
+        ]
+      }
     },
     {
       "id": "p2",
@@ -34,11 +82,81 @@
       "cast": [
         { "art": "prop:honey_pot", "x": 0.86, "y": 0.62, "size": 0.09, "until": 1800 },
         { "art": "prop:broken_honey", "x": 0.85, "y": 0.63, "size": 0.09, "delay": 1800 },
-        { "art": "puppet:dodo", "x": 0.3, "y": 0.64, "size": 0.18, "pose": "kick", "act": "kick", "face": "surprised" },
-        { "art": "prop:football", "x": 0.78, "y": 0.6, "size": 0.0675, "enter": "left", "until": 1800 },
-        { "art": "prop:sparkle", "x": 0.84, "y": 0.55, "size": 0.06, "mood": "twinkle", "delay": 1700, "until": 2600 },
+        {
+          "art": "puppet:dodo",
+          "x": 0.3,
+          "y": 0.64,
+          "size": 0.18,
+          "pose": "kick",
+          "act": "kick",
+          "face": "surprised"
+        },
+        {
+          "art": "prop:football",
+          "x": 0.78,
+          "y": 0.6,
+          "size": 0.0675,
+          "enter": "left",
+          "until": 1800
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.84,
+          "y": 0.55,
+          "size": 0.06,
+          "mood": "twinkle",
+          "delay": 1700,
+          "until": 2600
+        },
         { "art": "prop:football", "x": 0.7, "y": 0.64, "size": 0.06, "delay": 1800 }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "دھم!", "start": 207, "end": 1167 },
+          { "w": "ڈوڈو", "start": 1167, "end": 1647 },
+          { "w": "نے", "start": 1647, "end": 1817 },
+          { "w": "گیند", "start": 1817, "end": 2157 },
+          { "w": "کو", "start": 2157, "end": 2317 },
+          { "w": "بہت", "start": 2317, "end": 2617 },
+          { "w": "زور", "start": 2617, "end": 2877 },
+          { "w": "سے", "start": 2877, "end": 3007 },
+          { "w": "مارا۔", "start": 3007, "end": 3507 },
+          { "w": "گیند", "start": 3807, "end": 3967 },
+          { "w": "اڑتی", "start": 3967, "end": 4547 },
+          { "w": "ہوئی", "start": 4547, "end": 4957 },
+          { "w": "گئی...", "start": 4957, "end": 5307 },
+          { "w": "اور", "start": 6207, "end": 6267 },
+          { "w": "بھالو", "start": 6207, "end": 6267 },
+          { "w": "چچا", "start": 6257, "end": 6517 },
+          { "w": "کے", "start": 6517, "end": 6737 },
+          { "w": "شہد", "start": 6737, "end": 7067 },
+          { "w": "کے", "start": 7067, "end": 7287 },
+          { "w": "مٹکے", "start": 7287, "end": 7727 },
+          { "w": "سے", "start": 7727, "end": 7967 },
+          { "w": "جا", "start": 7967, "end": 8167 },
+          { "w": "ٹکرائی۔", "start": 8167, "end": 9007 },
+          { "w": "چٹاخ!", "start": 9207, "end": 10007 }
+        ],
+        "en": [
+          { "w": "Thump!", "start": 3, "end": 1003 },
+          { "w": "Dodo", "start": 1003, "end": 1303 },
+          { "w": "kicked", "start": 1303, "end": 1773 },
+          { "w": "the", "start": 1773, "end": 2263 },
+          { "w": "ball", "start": 2263, "end": 2323 },
+          { "w": "too", "start": 2313, "end": 2763 },
+          { "w": "hard.", "start": 2763, "end": 3123 },
+          { "w": "It", "start": 3123, "end": 4063 },
+          { "w": "flew…", "start": 4063, "end": 4523 },
+          { "w": "and", "start": 4523, "end": 4803 },
+          { "w": "crashed", "start": 4803, "end": 5363 },
+          { "w": "into", "start": 5363, "end": 5613 },
+          { "w": "Bhalu", "start": 5613, "end": 6031 },
+          { "w": "Chacha's", "start": 6031, "end": 6448 },
+          { "w": "honey", "start": 6448, "end": 6866 },
+          { "w": "pot.", "start": 6866, "end": 7283 },
+          { "w": "Crack!", "start": 7283, "end": 8403 }
+        ]
+      }
     },
     {
       "id": "p3",
@@ -52,9 +170,56 @@
       "cast": [
         { "art": "prop:broken_honey", "x": 0.68, "y": 0.645, "size": 0.12 },
         { "art": "prop:honey_drops", "x": 0.68, "y": 0.58, "size": 0.075, "mood": "twinkle" },
-        { "art": "puppet:dodo", "x": 0.32, "y": 0.64, "size": 0.19, "pose": "worried", "act": "ears", "face": "worried", "mood": "worried", "look": "right" },
+        {
+          "art": "puppet:dodo",
+          "x": 0.32,
+          "y": 0.64,
+          "size": 0.19,
+          "pose": "worried",
+          "act": "ears",
+          "face": "worried",
+          "mood": "worried",
+          "look": "right"
+        },
         { "art": "prop:heart", "x": 0.25, "y": 0.43, "size": 0.035, "mood": "twinkle" }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "چپچپا", "start": 223, "end": 593 },
+          { "w": "شہد", "start": 593, "end": 963 },
+          { "w": "ہر", "start": 963, "end": 1223 },
+          { "w": "طرف", "start": 1223, "end": 1663 },
+          { "w": "بکھر", "start": 1663, "end": 2143 },
+          { "w": "گیا۔", "start": 2143, "end": 2623 },
+          { "w": "کسی", "start": 2923, "end": 2983 },
+          { "w": "نے", "start": 2973, "end": 3133 },
+          { "w": "نہیں", "start": 3133, "end": 3553 },
+          { "w": "دیکھا", "start": 3553, "end": 4073 },
+          { "w": "تھا۔", "start": 4073, "end": 4423 },
+          { "w": "ڈوڈو", "start": 4723, "end": 5023 },
+          { "w": "کا", "start": 5023, "end": 5233 },
+          { "w": "دل", "start": 5233, "end": 5463 },
+          { "w": "دھک", "start": 5463, "end": 5743 },
+          { "w": "دھک", "start": 5743, "end": 6053 },
+          { "w": "کرنے", "start": 6053, "end": 6483 },
+          { "w": "لگا۔", "start": 6483, "end": 6923 }
+        ],
+        "en": [
+          { "w": "Sticky", "start": 18, "end": 538 },
+          { "w": "honey", "start": 538, "end": 1158 },
+          { "w": "spilled", "start": 1158, "end": 1658 },
+          { "w": "everywhere.", "start": 1658, "end": 2958 },
+          { "w": "Nobody", "start": 2958, "end": 3238 },
+          { "w": "saw", "start": 3238, "end": 3488 },
+          { "w": "what", "start": 3488, "end": 3818 },
+          { "w": "happened.", "start": 3818, "end": 4778 },
+          { "w": "Dodo's", "start": 4778, "end": 5168 },
+          { "w": "heart", "start": 5168, "end": 5748 },
+          { "w": "went", "start": 5748, "end": 5938 },
+          { "w": "thump,", "start": 5938, "end": 6718 },
+          { "w": "thump.", "start": 6718, "end": 6978 }
+        ]
+      }
     },
     {
       "id": "p4",
@@ -66,10 +231,57 @@
         "ur": "بھالو چچا گھر آئے۔ \"ارے نہیں! میرا شہد کا مٹکا کس نے توڑا؟\""
       },
       "cast": [
-        { "art": "puppet:dodo", "x": 0.18, "y": 0.64, "size": 0.17, "pose": "worried", "face": "worried", "mood": "worried" },
+        {
+          "art": "puppet:dodo",
+          "x": 0.18,
+          "y": 0.64,
+          "size": 0.17,
+          "pose": "worried",
+          "face": "worried",
+          "mood": "worried"
+        },
         { "art": "prop:broken_honey", "x": 0.5, "y": 0.645, "size": 0.105 },
-        { "art": "puppet:bhalu", "x": 0.76, "y": 0.63, "size": 0.3, "pose": "shocked", "face": "surprised", "act": "talk", "enter": "right" }
-      ]
+        {
+          "art": "puppet:bhalu",
+          "x": 0.76,
+          "y": 0.63,
+          "size": 0.3,
+          "pose": "shocked",
+          "face": "surprised",
+          "act": "talk",
+          "enter": "right"
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "بھالو", "start": 218, "end": 418 },
+          { "w": "چچا", "start": 418, "end": 778 },
+          { "w": "گھر", "start": 778, "end": 1138 },
+          { "w": "آئے۔", "start": 1138, "end": 1518 },
+          { "w": "\"ارے", "start": 1768, "end": 2138 },
+          { "w": "نہیں!", "start": 2138, "end": 2718 },
+          { "w": "میرا", "start": 2718, "end": 3058 },
+          { "w": "شہد", "start": 3058, "end": 3298 },
+          { "w": "کا", "start": 3298, "end": 3478 },
+          { "w": "مٹکا", "start": 3478, "end": 3788 },
+          { "w": "کس", "start": 3788, "end": 4118 },
+          { "w": "نے", "start": 4118, "end": 4178 },
+          { "w": "توڑا؟\"", "start": 4128, "end": 4618 }
+        ],
+        "en": [
+          { "w": "Bhalu", "start": 725, "end": 815 },
+          { "w": "Chacha", "start": 815, "end": 875 },
+          { "w": "came", "start": 835, "end": 1215 },
+          { "w": "home.", "start": 1215, "end": 1925 },
+          { "w": "\"Oh", "start": 1925, "end": 2135 },
+          { "w": "no!", "start": 2135, "end": 2665 },
+          { "w": "Who", "start": 2665, "end": 2995 },
+          { "w": "broke", "start": 2995, "end": 3525 },
+          { "w": "my", "start": 3525, "end": 3755 },
+          { "w": "honey", "start": 3755, "end": 4005 },
+          { "w": "pot?\"", "start": 4005, "end": 4255 }
+        ]
+      }
     },
     {
       "id": "p5",
@@ -82,18 +294,76 @@
       },
       "cast": [
         { "art": "prop:tree", "x": 0.14, "y": 0.64, "size": 0.32 },
-        { "art": "puppet:dodo", "x": 0.46, "y": 0.645, "size": 0.17, "pose": "worried", "face": "think", "look": "left", "act": "ears" },
+        {
+          "art": "puppet:dodo",
+          "x": 0.46,
+          "y": 0.645,
+          "size": 0.17,
+          "pose": "worried",
+          "face": "think",
+          "look": "left",
+          "act": "ears"
+        },
         { "art": "prop:broken_honey", "x": 0.62, "y": 0.65, "size": 0.09 },
         { "art": "puppet:bhalu", "x": 0.82, "y": 0.63, "size": 0.29, "mood": "sad", "look": "left" }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "ڈوڈو", "start": 164, "end": 404 },
+          { "w": "درخت", "start": 404, "end": 784 },
+          { "w": "کے", "start": 784, "end": 984 },
+          { "w": "پیچھے", "start": 984, "end": 1444 },
+          { "w": "چھپ", "start": 1444, "end": 1724 },
+          { "w": "سکتا", "start": 1724, "end": 2094 },
+          { "w": "تھا،", "start": 2094, "end": 2564 },
+          { "w": "یا", "start": 2864, "end": 2924 },
+          { "w": "سچ", "start": 2914, "end": 3144 },
+          { "w": "بتا", "start": 3144, "end": 3604 },
+          { "w": "سکتا", "start": 3604, "end": 4154 },
+          { "w": "تھا۔", "start": 4154, "end": 4664 },
+          { "w": "ڈوڈو", "start": 4964, "end": 5204 },
+          { "w": "کو", "start": 5204, "end": 5394 },
+          { "w": "کیا", "start": 5394, "end": 5704 },
+          { "w": "کرنا", "start": 5704, "end": 6044 },
+          { "w": "چاہیے؟", "start": 6044, "end": 6564 }
+        ],
+        "en": [
+          { "w": "Dodo", "start": 1229, "end": 1589 },
+          { "w": "could", "start": 1589, "end": 2099 },
+          { "w": "hide", "start": 2099, "end": 2419 },
+          { "w": "behind", "start": 2419, "end": 2989 },
+          { "w": "the", "start": 2989, "end": 3839 },
+          { "w": "tree,", "start": 3839, "end": 4029 },
+          { "w": "or", "start": 4139, "end": 4199 },
+          { "w": "he", "start": 4179, "end": 4329 },
+          { "w": "could", "start": 4329, "end": 4759 },
+          { "w": "tell", "start": 4759, "end": 5009 },
+          { "w": "the", "start": 5009, "end": 5229 },
+          { "w": "truth.", "start": 5229, "end": 5819 },
+          { "w": "What", "start": 5819, "end": 6289 },
+          { "w": "should", "start": 6289, "end": 6579 },
+          { "w": "Dodo", "start": 6579, "end": 6869 },
+          { "w": "do?", "start": 6869, "end": 7309 }
+        ]
+      }
     },
     {
       "id": "choice",
       "type": "choice",
       "prompt": { "en": "What should Dodo do?", "ur": "ڈوڈو کو کیا کرنا چاہیے؟" },
       "options": [
-        { "id": "truth", "label": { "en": "Tell the truth", "ur": "سچ بتائے" }, "picture": "prop:heart", "next": "choice_a" },
-        { "id": "hide", "label": { "en": "Hide behind the tree", "ur": "درخت کے پیچھے چھپ جائے" }, "picture": "prop:tree", "next": "choice_b" }
+        {
+          "id": "truth",
+          "label": { "en": "Tell the truth", "ur": "سچ بتائے" },
+          "picture": "prop:heart",
+          "next": "choice_a"
+        },
+        {
+          "id": "hide",
+          "label": { "en": "Hide behind the tree", "ur": "درخت کے پیچھے چھپ جائے" },
+          "picture": "prop:tree",
+          "next": "choice_b"
+        }
       ]
     },
     {
@@ -106,9 +376,56 @@
         "ur": "ڈوڈو آگے آیا۔ \"بھالو چچا، یہ مجھ سے ہوا ہے۔ مجھے معاف کر دیں۔ غلطی سے ہو گیا۔\""
       },
       "cast": [
-        { "art": "puppet:dodo", "x": 0.44, "y": 0.645, "size": 0.18, "pose": "worried", "act": "nod", "face": "sad", "enter": "left" },
+        {
+          "art": "puppet:dodo",
+          "x": 0.44,
+          "y": 0.645,
+          "size": 0.18,
+          "pose": "worried",
+          "act": "nod",
+          "face": "sad",
+          "enter": "left"
+        },
         { "art": "puppet:bhalu", "x": 0.8, "y": 0.63, "size": 0.29, "act": "nod", "look": "left" }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "ڈوڈو", "start": 150, "end": 570 },
+          { "w": "آگے", "start": 570, "end": 940 },
+          { "w": "آیا۔", "start": 940, "end": 1350 },
+          { "w": "\"بھالو", "start": 1550, "end": 2070 },
+          { "w": "چچا،", "start": 2070, "end": 2550 },
+          { "w": "یہ", "start": 2550, "end": 2750 },
+          { "w": "مجھ", "start": 2750, "end": 3030 },
+          { "w": "سے", "start": 3030, "end": 3230 },
+          { "w": "ہوا", "start": 3230, "end": 3520 },
+          { "w": "ہے۔", "start": 3520, "end": 3750 },
+          { "w": "مجھے", "start": 4050, "end": 4210 },
+          { "w": "معاف", "start": 4210, "end": 4530 },
+          { "w": "کر", "start": 4530, "end": 4790 },
+          { "w": "دیں۔", "start": 4790, "end": 5150 },
+          { "w": "غلطی", "start": 5350, "end": 5630 },
+          { "w": "سے", "start": 5630, "end": 5880 },
+          { "w": "ہو", "start": 5880, "end": 6140 },
+          { "w": "گیا۔\"", "start": 6140, "end": 6550 }
+        ],
+        "en": [
+          { "w": "Dodo", "start": 21, "end": 801 },
+          { "w": "stepped", "start": 801, "end": 1141 },
+          { "w": "forward.", "start": 1141, "end": 2181 },
+          { "w": "\"Bhalu", "start": 2181, "end": 3011 },
+          { "w": "Chacha,", "start": 3011, "end": 4051 },
+          { "w": "it", "start": 4051, "end": 4331 },
+          { "w": "was", "start": 4331, "end": 4391 },
+          { "w": "me.", "start": 4341, "end": 4501 },
+          { "w": "I'm", "start": 5141, "end": 5251 },
+          { "w": "sorry.", "start": 5251, "end": 5561 },
+          { "w": "It", "start": 5561, "end": 5751 },
+          { "w": "was", "start": 5751, "end": 6041 },
+          { "w": "a", "start": 6041, "end": 6131 },
+          { "w": "mistake.\"", "start": 6131, "end": 7111 }
+        ]
+      }
     },
     {
       "id": "choice_b",
@@ -120,11 +437,107 @@
         "ur": "ڈوڈو درخت کے پیچھے چھپ گیا۔ مگر اس کے بڑے بڑے کان باہر نظر آ رہے تھے! اور اس کا دل بھی بھاری ہو گیا۔ وہ باہر آیا اور بولا، \"بھالو چچا، یہ مجھ سے ہوا ہے۔ مجھے معاف کر دیں۔\""
       },
       "cast": [
-        { "art": "puppet:dodo", "x": 0.2, "y": 0.63, "size": 0.18, "pose": "hide", "act": "ears", "face": "worried", "until": 4500 },
+        {
+          "art": "puppet:dodo",
+          "x": 0.2,
+          "y": 0.63,
+          "size": 0.18,
+          "pose": "hide",
+          "act": "ears",
+          "face": "worried",
+          "until": 4500
+        },
         { "art": "prop:tree", "x": 0.2, "y": 0.64, "size": 0.32 },
-        { "art": "puppet:dodo", "x": 0.46, "y": 0.645, "size": 0.18, "pose": "worried", "act": "nod", "face": "sad", "enter": "left", "delay": 4500 },
+        {
+          "art": "puppet:dodo",
+          "x": 0.46,
+          "y": 0.645,
+          "size": 0.18,
+          "pose": "worried",
+          "act": "nod",
+          "face": "sad",
+          "enter": "left",
+          "delay": 4500
+        },
         { "art": "puppet:bhalu", "x": 0.8, "y": 0.63, "size": 0.29, "mood": "sad", "look": "left" }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "ڈوڈو", "start": 115, "end": 395 },
+          { "w": "درخت", "start": 395, "end": 725 },
+          { "w": "کے", "start": 725, "end": 905 },
+          { "w": "پیچھے", "start": 905, "end": 1295 },
+          { "w": "چھپ", "start": 1295, "end": 1555 },
+          { "w": "گیا۔", "start": 1555, "end": 1915 },
+          { "w": "مگر", "start": 2915, "end": 2975 },
+          { "w": "اس", "start": 2915, "end": 2975 },
+          { "w": "کے", "start": 2945, "end": 3005 },
+          { "w": "بڑے", "start": 2965, "end": 3515 },
+          { "w": "بڑے", "start": 3515, "end": 4085 },
+          { "w": "کان", "start": 4085, "end": 4675 },
+          { "w": "باہر", "start": 4675, "end": 4975 },
+          { "w": "نظر", "start": 4975, "end": 5325 },
+          { "w": "آ", "start": 5325, "end": 5385 },
+          { "w": "رہے", "start": 5335, "end": 5595 },
+          { "w": "تھے!", "start": 5595, "end": 5915 },
+          { "w": "اور", "start": 6115, "end": 6195 },
+          { "w": "اس", "start": 6195, "end": 6385 },
+          { "w": "کا", "start": 6385, "end": 6575 },
+          { "w": "دل", "start": 6575, "end": 6755 },
+          { "w": "بھی", "start": 6755, "end": 7035 },
+          { "w": "بھاری", "start": 7035, "end": 7555 },
+          { "w": "ہو", "start": 7555, "end": 7685 },
+          { "w": "گیا۔", "start": 7685, "end": 8015 },
+          { "w": "وہ", "start": 8315, "end": 8375 },
+          { "w": "باہر", "start": 8365, "end": 8925 },
+          { "w": "آیا", "start": 8925, "end": 9415 },
+          { "w": "اور", "start": 9415, "end": 9755 },
+          { "w": "بولا،", "start": 9755, "end": 10115 },
+          { "w": "\"بھالو", "start": 10365, "end": 10835 },
+          { "w": "چچا،", "start": 10835, "end": 11145 },
+          { "w": "یہ", "start": 11145, "end": 11365 },
+          { "w": "مجھ", "start": 11365, "end": 11755 },
+          { "w": "سے", "start": 11755, "end": 11895 },
+          { "w": "ہوا", "start": 11895, "end": 12235 },
+          { "w": "ہے۔", "start": 12235, "end": 12515 },
+          { "w": "مجھے", "start": 12715, "end": 12955 },
+          { "w": "معاف", "start": 12955, "end": 13295 },
+          { "w": "کر", "start": 13295, "end": 13525 },
+          { "w": "دیں۔\"", "start": 13525, "end": 13915 }
+        ],
+        "en": [
+          { "w": "Dodo", "start": 6, "end": 386 },
+          { "w": "hid", "start": 386, "end": 796 },
+          { "w": "behind", "start": 796, "end": 1266 },
+          { "w": "the", "start": 1266, "end": 1556 },
+          { "w": "tree.", "start": 1556, "end": 2356 },
+          { "w": "But", "start": 2356, "end": 2846 },
+          { "w": "his", "start": 2846, "end": 3346 },
+          { "w": "big", "start": 3346, "end": 3826 },
+          { "w": "ears", "start": 3826, "end": 4756 },
+          { "w": "were", "start": 4756, "end": 4886 },
+          { "w": "sticking", "start": 4886, "end": 5216 },
+          { "w": "out!", "start": 5216, "end": 5956 },
+          { "w": "And", "start": 5956, "end": 6246 },
+          { "w": "his", "start": 6246, "end": 6536 },
+          { "w": "heart", "start": 6536, "end": 7026 },
+          { "w": "felt", "start": 7026, "end": 7406 },
+          { "w": "heavy.", "start": 7406, "end": 8226 },
+          { "w": "So", "start": 8226, "end": 8366 },
+          { "w": "he", "start": 8366, "end": 8716 },
+          { "w": "came", "start": 8716, "end": 8996 },
+          { "w": "out", "start": 8996, "end": 9236 },
+          { "w": "and", "start": 9236, "end": 9506 },
+          { "w": "said,", "start": 9506, "end": 10106 },
+          { "w": "\"Bhalu", "start": 10106, "end": 10486 },
+          { "w": "Chacha,", "start": 10486, "end": 11156 },
+          { "w": "it", "start": 11156, "end": 11346 },
+          { "w": "was", "start": 11346, "end": 11636 },
+          { "w": "me.", "start": 11636, "end": 12226 },
+          { "w": "I'm", "start": 12226, "end": 12646 },
+          { "w": "sorry.\"", "start": 12646, "end": 12836 }
+        ]
+      }
     },
     {
       "id": "p6",
@@ -136,11 +549,75 @@
         "ur": "بھالو چچا نے ڈوڈو کو گلے لگا لیا۔ \"سچ بتانے کا شکریہ، ڈوڈو۔ اللہ تعالیٰ سچ بولنے والوں کو پسند کرتے ہیں۔\""
       },
       "cast": [
-        { "art": "puppet:dodo", "x": 0.44, "y": 0.645, "size": 0.18, "face": "laugh", "act": "ears+tail" },
-        { "art": "puppet:bhalu", "x": 0.64, "y": 0.64, "size": 0.3, "pose": "hug", "act": "hug+talk", "mood": "happy" },
+        {
+          "art": "puppet:dodo",
+          "x": 0.44,
+          "y": 0.645,
+          "size": 0.18,
+          "face": "laugh",
+          "act": "ears+tail"
+        },
+        {
+          "art": "puppet:bhalu",
+          "x": 0.64,
+          "y": 0.64,
+          "size": 0.3,
+          "pose": "hug",
+          "act": "hug+talk",
+          "mood": "happy"
+        },
         { "art": "prop:heart", "x": 0.52, "y": 0.36, "size": 0.045, "mood": "float" },
         { "art": "prop:heart", "x": 0.7, "y": 0.3, "size": 0.03, "mood": "float", "delay": 500 }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "بھالو", "start": 113, "end": 383 },
+          { "w": "چچا", "start": 383, "end": 673 },
+          { "w": "نے", "start": 673, "end": 863 },
+          { "w": "ڈوڈو", "start": 863, "end": 1403 },
+          { "w": "کو", "start": 1403, "end": 1603 },
+          { "w": "گلے", "start": 1603, "end": 1873 },
+          { "w": "لگا", "start": 1873, "end": 2163 },
+          { "w": "لیا۔", "start": 2163, "end": 2613 },
+          { "w": "\"سچ", "start": 2813, "end": 2873 },
+          { "w": "بتانے", "start": 2863, "end": 3323 },
+          { "w": "کا", "start": 3323, "end": 3553 },
+          { "w": "شکریہ،", "start": 3553, "end": 4033 },
+          { "w": "ڈوڈو۔", "start": 4033, "end": 4713 },
+          { "w": "اللہ", "start": 4913, "end": 5073 },
+          { "w": "تعالیٰ", "start": 5073, "end": 5523 },
+          { "w": "سچ", "start": 5523, "end": 5703 },
+          { "w": "بولنے", "start": 5703, "end": 6153 },
+          { "w": "والوں", "start": 6153, "end": 6603 },
+          { "w": "کو", "start": 6603, "end": 6783 },
+          { "w": "پسند", "start": 6783, "end": 7323 },
+          { "w": "کرتے", "start": 7323, "end": 7523 },
+          { "w": "ہیں۔\"", "start": 7523, "end": 7813 }
+        ],
+        "en": [
+          { "w": "Bhalu", "start": 465, "end": 575 },
+          { "w": "Chacha", "start": 575, "end": 715 },
+          { "w": "gave", "start": 715, "end": 1075 },
+          { "w": "Dodo", "start": 1075, "end": 1435 },
+          { "w": "a", "start": 1435, "end": 1535 },
+          { "w": "big", "start": 1535, "end": 1795 },
+          { "w": "hug.", "start": 1795, "end": 2345 },
+          { "w": "\"Thank", "start": 2345, "end": 2785 },
+          { "w": "you", "start": 2785, "end": 3225 },
+          { "w": "for", "start": 3225, "end": 3325 },
+          { "w": "telling", "start": 3325, "end": 3945 },
+          { "w": "the", "start": 3945, "end": 4515 },
+          { "w": "truth,", "start": 4515, "end": 4855 },
+          { "w": "Dodo.", "start": 4855, "end": 5575 },
+          { "w": "Allah", "start": 5575, "end": 5935 },
+          { "w": "loves", "start": 5935, "end": 6465 },
+          { "w": "those", "start": 6575, "end": 6705 },
+          { "w": "who", "start": 6705, "end": 6855 },
+          { "w": "speak", "start": 6855, "end": 7095 },
+          { "w": "the", "start": 7095, "end": 7245 },
+          { "w": "truth.\"", "start": 7245, "end": 7665 }
+        ]
+      }
     },
     {
       "id": "p7",
@@ -153,18 +630,130 @@
       },
       "help": { "kind": "rub", "item": 2, "steps": 3 },
       "cast": [
-        { "art": "puppet:dodo", "x": 0.34, "y": 0.645, "size": 0.19, "pose": "spray", "act": "spray+ears", "mood": "happy" },
-        { "art": "prop:water_spray", "x": 0.6, "y": 0.52, "size": 0.16, "mood": "twinkle", "helpHide": 3 },
+        {
+          "art": "puppet:dodo",
+          "x": 0.34,
+          "y": 0.645,
+          "size": 0.19,
+          "pose": "spray",
+          "act": "spray+ears",
+          "mood": "happy"
+        },
+        {
+          "art": "prop:water_spray",
+          "x": 0.6,
+          "y": 0.52,
+          "size": 0.16,
+          "mood": "twinkle",
+          "helpHide": 3
+        },
         { "art": "prop:broken_honey", "x": 0.66, "y": 0.655, "size": 0.1, "helpHide": 3 },
         { "art": "prop:honey_drops", "x": 0.66, "y": 0.6, "size": 0.07, "helpHide": 1 },
-        { "art": "prop:sparkle", "x": 0.6, "y": 0.62, "size": 0.035, "mood": "twinkle", "helpStep": 1 },
-        { "art": "prop:sparkle", "x": 0.72, "y": 0.6, "size": 0.03, "mood": "twinkle", "helpStep": 2 },
-        { "art": "prop:honey_pot", "x": 0.68, "y": 0.645, "size": 0.09, "enter": "grow", "helpStep": 3 },
-        { "art": "prop:sparkle", "x": 0.62, "y": 0.6, "size": 0.04, "mood": "twinkle", "delay": 300, "helpStep": 3 },
-        { "art": "prop:sparkle", "x": 0.76, "y": 0.56, "size": 0.035, "mood": "twinkle", "delay": 600, "helpStep": 3 },
-        { "art": "puppet:bhalu", "x": 0.88, "y": 0.63, "size": 0.27, "look": "left", "act": "nod", "helpHide": 3 },
-        { "art": "puppet:bhalu", "x": 0.88, "y": 0.63, "size": 0.27, "pose": "clap", "act": "clap", "face": "laugh", "helpStep": 3 }
-      ]
+        {
+          "art": "prop:sparkle",
+          "x": 0.6,
+          "y": 0.62,
+          "size": 0.035,
+          "mood": "twinkle",
+          "helpStep": 1
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.72,
+          "y": 0.6,
+          "size": 0.03,
+          "mood": "twinkle",
+          "helpStep": 2
+        },
+        {
+          "art": "prop:honey_pot",
+          "x": 0.68,
+          "y": 0.645,
+          "size": 0.09,
+          "enter": "grow",
+          "helpStep": 3
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.62,
+          "y": 0.6,
+          "size": 0.04,
+          "mood": "twinkle",
+          "delay": 300,
+          "helpStep": 3
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.76,
+          "y": 0.56,
+          "size": 0.035,
+          "mood": "twinkle",
+          "delay": 600,
+          "helpStep": 3
+        },
+        {
+          "art": "puppet:bhalu",
+          "x": 0.88,
+          "y": 0.63,
+          "size": 0.27,
+          "look": "left",
+          "act": "nod",
+          "helpHide": 3
+        },
+        {
+          "art": "puppet:bhalu",
+          "x": 0.88,
+          "y": 0.63,
+          "size": 0.27,
+          "pose": "clap",
+          "act": "clap",
+          "face": "laugh",
+          "helpStep": 3
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "پھر", "start": 172, "end": 232 },
+          { "w": "ڈوڈو", "start": 172, "end": 682 },
+          { "w": "نے", "start": 682, "end": 912 },
+          { "w": "صفائی", "start": 912, "end": 1332 },
+          { "w": "میں", "start": 1332, "end": 1612 },
+          { "w": "مدد", "start": 1612, "end": 1932 },
+          { "w": "کی۔", "start": 1932, "end": 2172 },
+          { "w": "اپنی", "start": 2372, "end": 2572 },
+          { "w": "مضبوط", "start": 2572, "end": 3112 },
+          { "w": "سونڈ", "start": 3112, "end": 3582 },
+          { "w": "سے", "start": 3582, "end": 3872 },
+          { "w": "پانی", "start": 3872, "end": 4192 },
+          { "w": "چھڑک", "start": 4192, "end": 4772 },
+          { "w": "کر", "start": 4772, "end": 4832 },
+          { "w": "اس", "start": 4782, "end": 4992 },
+          { "w": "نے", "start": 4992, "end": 5212 },
+          { "w": "سب", "start": 5212, "end": 5432 },
+          { "w": "کچھ", "start": 5432, "end": 5762 },
+          { "w": "چمکا", "start": 5762, "end": 6202 },
+          { "w": "دیا!", "start": 6202, "end": 6572 }
+        ],
+        "en": [
+          { "w": "Then", "start": 11, "end": 261 },
+          { "w": "Dodo", "start": 11, "end": 581 },
+          { "w": "helped", "start": 1131, "end": 1571 },
+          { "w": "clean", "start": 1571, "end": 1931 },
+          { "w": "up.", "start": 1931, "end": 2361 },
+          { "w": "With", "start": 2361, "end": 2861 },
+          { "w": "his", "start": 2861, "end": 2941 },
+          { "w": "strong", "start": 2941, "end": 3601 },
+          { "w": "trunk,", "start": 3601, "end": 4121 },
+          { "w": "he", "start": 4121, "end": 4251 },
+          { "w": "sprayed", "start": 4251, "end": 4731 },
+          { "w": "water", "start": 4731, "end": 5111 },
+          { "w": "and", "start": 5111, "end": 5291 },
+          { "w": "made", "start": 5291, "end": 5621 },
+          { "w": "everything", "start": 5621, "end": 6451 },
+          { "w": "shiny", "start": 6451, "end": 6901 },
+          { "w": "clean!", "start": 6901, "end": 7561 }
+        ]
+      }
     },
     {
       "id": "p8",
@@ -176,26 +765,123 @@
         "ur": "ڈوڈو کو اندر سے ہلکا پھلکا اور خوش محسوس ہوا۔ سچ بولنا کتنا اچھا لگتا ہے!"
       },
       "cast": [
-        { "art": "puppet:dodo", "x": 0.34, "y": 0.645, "size": 0.18, "mood": "happy", "act": "sway+ears" },
+        {
+          "art": "puppet:dodo",
+          "x": 0.34,
+          "y": 0.645,
+          "size": 0.18,
+          "mood": "happy",
+          "act": "sway+ears"
+        },
         { "art": "prop:honey_pot", "x": 0.52, "y": 0.65, "size": 0.075 },
-        { "art": "puppet:bhalu", "x": 0.72, "y": 0.65, "size": 0.3, "pose": "sit", "act": "sway", "mood": "happy" },
+        {
+          "art": "puppet:bhalu",
+          "x": 0.72,
+          "y": 0.65,
+          "size": 0.3,
+          "pose": "sit",
+          "act": "sway",
+          "mood": "happy"
+        },
         { "art": "prop:heart", "x": 0.4, "y": 0.4, "size": 0.035, "mood": "float" }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "ڈوڈو", "start": 111, "end": 461 },
+          { "w": "کو", "start": 461, "end": 641 },
+          { "w": "اندر", "start": 641, "end": 1011 },
+          { "w": "سے", "start": 1011, "end": 1201 },
+          { "w": "ہلکا", "start": 1201, "end": 1561 },
+          { "w": "پھلکا", "start": 1561, "end": 2111 },
+          { "w": "اور", "start": 2111, "end": 2521 },
+          { "w": "خوش", "start": 2521, "end": 2731 },
+          { "w": "محسوس", "start": 2731, "end": 3241 },
+          { "w": "ہوا۔", "start": 3241, "end": 3611 },
+          { "w": "سچ", "start": 3811, "end": 3871 },
+          { "w": "بولنا", "start": 3861, "end": 4401 },
+          { "w": "کتنا", "start": 4401, "end": 4851 },
+          { "w": "اچھا", "start": 4851, "end": 5291 },
+          { "w": "لگتا", "start": 5291, "end": 5731 },
+          { "w": "ہے!", "start": 5731, "end": 6111 }
+        ],
+        "en": [
+          { "w": "Dodo", "start": 12, "end": 492 },
+          { "w": "felt", "start": 492, "end": 632 },
+          { "w": "light", "start": 632, "end": 1042 },
+          { "w": "and", "start": 1042, "end": 1282 },
+          { "w": "happy", "start": 1282, "end": 1842 },
+          { "w": "inside.", "start": 1842, "end": 2532 },
+          { "w": "Telling", "start": 2532, "end": 3052 },
+          { "w": "the", "start": 3052, "end": 3282 },
+          { "w": "truth", "start": 3282, "end": 3682 },
+          { "w": "feels", "start": 3682, "end": 4262 },
+          { "w": "so", "start": 4262, "end": 4592 },
+          { "w": "good!", "start": 4592, "end": 4942 }
+        ]
+      }
     }
   ],
   "glossary": [
-    { "id": "truth", "picture": "prop:heart", "word": { "en": "truth", "ur": "سچ" }, "forms": { "en": [], "ur": [] } },
-    { "id": "mistake", "picture": "prop:broken_honey", "word": { "en": "mistake", "ur": "غلطی" }, "forms": { "en": [], "ur": [] } },
-    { "id": "sorry", "word": { "en": "sorry", "ur": "معافی" }, "forms": { "en": [], "ur": ["معاف"] } },
-    { "id": "honey", "picture": "prop:honey_pot", "word": { "en": "honey", "ur": "شہد" }, "forms": { "en": [], "ur": [] } },
-    { "id": "pot", "picture": "prop:honey_pot", "word": { "en": "pot", "ur": "مٹکا" }, "forms": { "en": [], "ur": ["مٹکے"] } },
-    { "id": "ball", "picture": "prop:football", "word": { "en": "ball", "ur": "گیند" }, "forms": { "en": ["football"], "ur": ["فٹبال"] } },
-    { "id": "elephant", "picture": "puppet:dodo", "word": { "en": "elephant", "ur": "ہاتھی" }, "forms": { "en": [], "ur": [] } },
+    {
+      "id": "truth",
+      "picture": "prop:heart",
+      "word": { "en": "truth", "ur": "سچ" },
+      "forms": { "en": [], "ur": [] }
+    },
+    {
+      "id": "mistake",
+      "picture": "prop:broken_honey",
+      "word": { "en": "mistake", "ur": "غلطی" },
+      "forms": { "en": [], "ur": [] }
+    },
+    {
+      "id": "sorry",
+      "word": { "en": "sorry", "ur": "معافی" },
+      "forms": { "en": [], "ur": ["معاف"] }
+    },
+    {
+      "id": "honey",
+      "picture": "prop:honey_pot",
+      "word": { "en": "honey", "ur": "شہد" },
+      "forms": { "en": [], "ur": [] }
+    },
+    {
+      "id": "pot",
+      "picture": "prop:honey_pot",
+      "word": { "en": "pot", "ur": "مٹکا" },
+      "forms": { "en": [], "ur": ["مٹکے"] }
+    },
+    {
+      "id": "ball",
+      "picture": "prop:football",
+      "word": { "en": "ball", "ur": "گیند" },
+      "forms": { "en": ["football"], "ur": ["فٹبال"] }
+    },
+    {
+      "id": "elephant",
+      "picture": "puppet:dodo",
+      "word": { "en": "elephant", "ur": "ہاتھی" },
+      "forms": { "en": [], "ur": [] }
+    },
     { "id": "trunk", "word": { "en": "trunk", "ur": "سونڈ" }, "forms": { "en": [], "ur": [] } },
     { "id": "ears", "word": { "en": "ears", "ur": "کان" }, "forms": { "en": ["ear"], "ur": [] } },
-    { "id": "tree", "picture": "prop:tree", "word": { "en": "tree", "ur": "درخت" }, "forms": { "en": [], "ur": [] } },
-    { "id": "hug", "word": { "en": "hug", "ur": "گلے لگانا" }, "forms": { "en": [], "ur": ["گلے"] } },
-    { "id": "water", "picture": "prop:water_spray", "word": { "en": "water", "ur": "پانی" }, "forms": { "en": [], "ur": [] } },
+    {
+      "id": "tree",
+      "picture": "prop:tree",
+      "word": { "en": "tree", "ur": "درخت" },
+      "forms": { "en": [], "ur": [] }
+    },
+    {
+      "id": "hug",
+      "word": { "en": "hug", "ur": "گلے لگانا" },
+      "forms": { "en": [], "ur": ["گلے"] }
+    },
+    {
+      "id": "water",
+      "picture": "prop:water_spray",
+      "word": { "en": "water", "ur": "پانی" },
+      "forms": { "en": [], "ur": [] }
+    },
     { "id": "clean", "word": { "en": "clean", "ur": "صفائی" }, "forms": { "en": [], "ur": [] } }
   ],
   "vocabulary": ["truth", "mistake", "sorry"],
@@ -226,7 +912,10 @@
     },
     {
       "type": "drag",
-      "question": { "en": "Give the honey pot back to Bhalu Chacha!", "ur": "شہد کا مٹکا بھالو چچا کو واپس دو!" },
+      "question": {
+        "en": "Give the honey pot back to Bhalu Chacha!",
+        "ur": "شہد کا مٹکا بھالو چچا کو واپس دو!"
+      },
       "item": "prop:honey_pot",
       "options": [
         { "picture": "puppet:dodo" },

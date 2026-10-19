@@ -18,11 +18,76 @@
         "ur": "گرمیوں کا ایک گرم دن تھا۔ علی اپنے بابا کے ساتھ ہرے بھرے پہاڑوں پر سیر کرنے گیا۔"
       },
       "cast": [
-        { "art": "puppet:ali", "x": 0.38, "y": 0.62, "size": 0.22, "pose": "hold_hand", "act": "walk", "mood": "happy", "enter": "left" },
-        { "art": "puppet:baba", "x": 0.6, "y": 0.62, "size": 0.3, "pose": "hold_hand_l", "act": "walk+talk", "enter": "left" },
-        { "art": "prop:bird", "x": 0.7, "y": 0.26, "size": 0.035, "orbit": { "rx": 0.12, "ry": 0.03, "ms": 5200 } },
+        {
+          "art": "puppet:ali",
+          "x": 0.38,
+          "y": 0.62,
+          "size": 0.22,
+          "pose": "hold_hand",
+          "act": "walk",
+          "mood": "happy",
+          "enter": "left"
+        },
+        {
+          "art": "puppet:baba",
+          "x": 0.6,
+          "y": 0.62,
+          "size": 0.3,
+          "pose": "hold_hand_l",
+          "act": "walk+talk",
+          "enter": "left"
+        },
+        {
+          "art": "prop:bird",
+          "x": 0.7,
+          "y": 0.26,
+          "size": 0.035,
+          "orbit": { "rx": 0.12, "ry": 0.03, "ms": 5200 }
+        },
         { "art": "prop:sparkle", "x": 0.86, "y": 0.18, "size": 0.04, "mood": "twinkle" }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "گرمیوں", "start": 58, "end": 738 },
+          { "w": "کا", "start": 738, "end": 1008 },
+          { "w": "ایک", "start": 1008, "end": 1408 },
+          { "w": "گرم", "start": 1408, "end": 1798 },
+          { "w": "دن", "start": 1798, "end": 2008 },
+          { "w": "تھا۔", "start": 2008, "end": 2528 },
+          { "w": "علی", "start": 2528, "end": 2808 },
+          { "w": "اپنے", "start": 2808, "end": 3198 },
+          { "w": "بابا", "start": 3198, "end": 3538 },
+          { "w": "کے", "start": 3538, "end": 3808 },
+          { "w": "ساتھ", "start": 3808, "end": 4168 },
+          { "w": "ہرے", "start": 4168, "end": 4408 },
+          { "w": "بھرے", "start": 4408, "end": 4728 },
+          { "w": "پہاڑوں", "start": 4728, "end": 5288 },
+          { "w": "پر", "start": 5288, "end": 5478 },
+          { "w": "سیر", "start": 5478, "end": 5738 },
+          { "w": "کرنے", "start": 5738, "end": 6098 },
+          { "w": "گیا۔", "start": 6098, "end": 6388 }
+        ],
+        "en": [
+          { "w": "It", "start": 64, "end": 124 },
+          { "w": "was", "start": 114, "end": 364 },
+          { "w": "a", "start": 364, "end": 424 },
+          { "w": "hot", "start": 404, "end": 624 },
+          { "w": "summer", "start": 624, "end": 1074 },
+          { "w": "day.", "start": 1074, "end": 1534 },
+          { "w": "Ali", "start": 1534, "end": 2014 },
+          { "w": "and", "start": 2014, "end": 2094 },
+          { "w": "his", "start": 2094, "end": 2254 },
+          { "w": "Baba", "start": 2254, "end": 2574 },
+          { "w": "went", "start": 2574, "end": 2894 },
+          { "w": "for", "start": 2894, "end": 3134 },
+          { "w": "a", "start": 3134, "end": 3224 },
+          { "w": "walk", "start": 3224, "end": 3534 },
+          { "w": "in", "start": 3534, "end": 3694 },
+          { "w": "the", "start": 3694, "end": 3954 },
+          { "w": "green", "start": 3954, "end": 4334 },
+          { "w": "hills.", "start": 4334, "end": 4994 }
+        ]
+      }
     },
     {
       "id": "p2",
@@ -35,10 +100,79 @@
       },
       "cast": [
         { "art": "puppet:baba", "x": 0.78, "y": 0.6, "size": 0.29, "mood": "happy", "act": "nod" },
-        { "art": "puppet:ali", "x": 0.42, "y": 0.63, "size": 0.24, "pose": "drink", "act": "drink", "face": "laugh", "hold": "prop:bottle", "holdSize": 0.28, "holdTurn": 200 },
-        { "art": "prop:sparkle", "x": 0.3, "y": 0.4, "size": 0.035, "mood": "twinkle", "delay": 900 },
-        { "art": "prop:sparkle", "x": 0.58, "y": 0.36, "size": 0.03, "mood": "twinkle", "delay": 1300 }
-      ]
+        {
+          "art": "puppet:ali",
+          "x": 0.42,
+          "y": 0.63,
+          "size": 0.24,
+          "pose": "drink",
+          "act": "drink",
+          "face": "laugh",
+          "hold": "prop:bottle",
+          "holdSize": 0.28,
+          "holdTurn": 200
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.3,
+          "y": 0.4,
+          "size": 0.035,
+          "mood": "twinkle",
+          "delay": 900
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.58,
+          "y": 0.36,
+          "size": 0.03,
+          "mood": "twinkle",
+          "delay": 1300
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "علی", "start": 14, "end": 404 },
+          { "w": "کے", "start": 404, "end": 684 },
+          { "w": "پاس", "start": 684, "end": 1054 },
+          { "w": "پانی", "start": 1054, "end": 1574 },
+          { "w": "کی", "start": 1574, "end": 1864 },
+          { "w": "ایک", "start": 1864, "end": 2054 },
+          { "w": "چھوٹی", "start": 2054, "end": 2594 },
+          { "w": "سی", "start": 2594, "end": 2704 },
+          { "w": "بوتل", "start": 2704, "end": 2994 },
+          { "w": "تھی۔", "start": 2994, "end": 3254 },
+          { "w": "\"بسم", "start": 3254, "end": 3744 },
+          { "w": "اللہ\"", "start": 3744, "end": 4434 },
+          { "w": "کہہ", "start": 4434, "end": 4744 },
+          { "w": "کر", "start": 4744, "end": 4954 },
+          { "w": "اس", "start": 4954, "end": 5164 },
+          { "w": "نے", "start": 5164, "end": 5374 },
+          { "w": "ایک", "start": 5374, "end": 5714 },
+          { "w": "گھونٹ", "start": 5714, "end": 6194 },
+          { "w": "پیا۔", "start": 6194, "end": 6554 },
+          { "w": "آہا،", "start": 6554, "end": 7574 },
+          { "w": "کتنا", "start": 7574, "end": 8404 },
+          { "w": "ٹھنڈا!", "start": 8404, "end": 8654 }
+        ],
+        "en": [
+          { "w": "Ali", "start": 325, "end": 385 },
+          { "w": "had", "start": 325, "end": 385 },
+          { "w": "a", "start": 325, "end": 415 },
+          { "w": "small", "start": 415, "end": 705 },
+          { "w": "water", "start": 705, "end": 1145 },
+          { "w": "bottle.", "start": 1145, "end": 1965 },
+          { "w": "\"Bismillah,\"", "start": 2425, "end": 3065 },
+          { "w": "he", "start": 3065, "end": 3265 },
+          { "w": "said,", "start": 3265, "end": 3665 },
+          { "w": "and", "start": 3665, "end": 3965 },
+          { "w": "took", "start": 3965, "end": 4465 },
+          { "w": "a", "start": 4465, "end": 4545 },
+          { "w": "sip.", "start": 4545, "end": 5085 },
+          { "w": "Ahh,", "start": 5825, "end": 5965 },
+          { "w": "so", "start": 5965, "end": 6405 },
+          { "w": "cool!", "start": 6405, "end": 7985 }
+        ]
+      }
     },
     {
       "id": "p3",
@@ -51,10 +185,85 @@
       },
       "cast": [
         { "art": "puppet:baba", "x": 0.14, "y": 0.6, "size": 0.29, "act": "breathe" },
-        { "art": "puppet:ali", "x": 0.4, "y": 0.62, "size": 0.23, "pose": "hold", "hold": "prop:bottle_low", "holdSize": 0.24, "face": "surprised", "look": "right" },
+        {
+          "art": "puppet:ali",
+          "x": 0.4,
+          "y": 0.62,
+          "size": 0.23,
+          "pose": "hold",
+          "hold": "prop:bottle_low",
+          "holdSize": 0.24,
+          "face": "surprised",
+          "look": "right"
+        },
         { "art": "prop:rock", "x": 0.76, "y": 0.63, "size": 0.09 },
-        { "art": "puppet:sparrow", "x": 0.77, "y": 0.585, "size": 0.085, "pose": "tired", "act": "chirp", "flip": true, "mood": "worried" }
-      ]
+        {
+          "art": "puppet:sparrow",
+          "x": 0.77,
+          "y": 0.585,
+          "size": 0.085,
+          "pose": "tired",
+          "act": "chirp",
+          "flip": true,
+          "mood": "worried"
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "پھر", "start": 1349, "end": 1809 },
+          { "w": "علی", "start": 1809, "end": 2279 },
+          { "w": "نے", "start": 2279, "end": 2629 },
+          { "w": "ایک", "start": 2629, "end": 2929 },
+          { "w": "ننھی", "start": 2929, "end": 3329 },
+          { "w": "سی", "start": 3329, "end": 3529 },
+          { "w": "آواز", "start": 3529, "end": 4029 },
+          { "w": "سنی۔", "start": 4029, "end": 4289 },
+          { "w": "\"چوں...", "start": 4289, "end": 5129 },
+          { "w": "چوں...\"", "start": 5129, "end": 6209 },
+          { "w": "ایک", "start": 6209, "end": 6499 },
+          { "w": "چھوٹی", "start": 6499, "end": 6959 },
+          { "w": "سی", "start": 6959, "end": 7149 },
+          { "w": "چڑیا", "start": 7149, "end": 7619 },
+          { "w": "پتھر", "start": 7619, "end": 7989 },
+          { "w": "پر", "start": 7989, "end": 8179 },
+          { "w": "بیٹھی", "start": 8179, "end": 8639 },
+          { "w": "تھی۔", "start": 8639, "end": 9089 },
+          { "w": "اس", "start": 9089, "end": 9349 },
+          { "w": "کی", "start": 9349, "end": 9609 },
+          { "w": "چونچ", "start": 9609, "end": 10019 },
+          { "w": "کھلی", "start": 10019, "end": 10519 },
+          { "w": "تھی۔", "start": 10519, "end": 10929 },
+          { "w": "وہ", "start": 10929, "end": 11229 },
+          { "w": "بہت", "start": 11229, "end": 11679 },
+          { "w": "پیاسی", "start": 11679, "end": 12429 },
+          { "w": "تھی۔", "start": 12429, "end": 12909 }
+        ],
+        "en": [
+          { "w": "Then", "start": 313, "end": 393 },
+          { "w": "Ali", "start": 393, "end": 453 },
+          { "w": "heard", "start": 403, "end": 973 },
+          { "w": "a", "start": 973, "end": 1083 },
+          { "w": "tiny", "start": 1083, "end": 1553 },
+          { "w": "sound.", "start": 1553, "end": 2513 },
+          { "w": "\"Chee…", "start": 2953, "end": 3383 },
+          { "w": "chee…\"", "start": 3383, "end": 4453 },
+          { "w": "A", "start": 4453, "end": 4543 },
+          { "w": "little", "start": 4543, "end": 5033 },
+          { "w": "sparrow", "start": 5033, "end": 5613 },
+          { "w": "sat", "start": 5613, "end": 5863 },
+          { "w": "on", "start": 5863, "end": 6023 },
+          { "w": "a", "start": 6023, "end": 6433 },
+          { "w": "rock.", "start": 6433, "end": 6713 },
+          { "w": "Her", "start": 7333, "end": 7393 },
+          { "w": "beak", "start": 7393, "end": 7453 },
+          { "w": "was", "start": 7423, "end": 7723 },
+          { "w": "open.", "start": 7723, "end": 8393 },
+          { "w": "She", "start": 9013, "end": 9073 },
+          { "w": "was", "start": 9013, "end": 9103 },
+          { "w": "very", "start": 9103, "end": 9333 },
+          { "w": "thirsty.", "start": 9333, "end": 10293 }
+        ]
+      }
     },
     {
       "id": "p4",
@@ -66,18 +275,84 @@
         "ur": "علی نے اپنی بوتل دیکھی۔ تھوڑا سا ہی پانی بچا تھا۔ علی کو کیا کرنا چاہیے؟"
       },
       "cast": [
-        { "art": "puppet:ali", "x": 0.4, "y": 0.63, "size": 0.25, "pose": "hold", "hold": "prop:bottle_low", "holdSize": 0.26, "face": "think", "look": "down", "act": "nod" },
+        {
+          "art": "puppet:ali",
+          "x": 0.4,
+          "y": 0.63,
+          "size": 0.25,
+          "pose": "hold",
+          "hold": "prop:bottle_low",
+          "holdSize": 0.26,
+          "face": "think",
+          "look": "down",
+          "act": "nod"
+        },
         { "art": "prop:rock", "x": 0.78, "y": 0.63, "size": 0.09 },
-        { "art": "puppet:sparrow", "x": 0.79, "y": 0.585, "size": 0.085, "pose": "tired", "flip": true, "mood": "worried" }
-      ]
+        {
+          "art": "puppet:sparrow",
+          "x": 0.79,
+          "y": 0.585,
+          "size": 0.085,
+          "pose": "tired",
+          "flip": true,
+          "mood": "worried"
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "علی", "start": 4, "end": 304 },
+          { "w": "نے", "start": 304, "end": 504 },
+          { "w": "اپنی", "start": 504, "end": 934 },
+          { "w": "بوتل", "start": 934, "end": 1314 },
+          { "w": "دیکھی۔", "start": 1314, "end": 1844 },
+          { "w": "تھوڑا", "start": 1954, "end": 2444 },
+          { "w": "سا", "start": 2444, "end": 2644 },
+          { "w": "ہی", "start": 2644, "end": 2844 },
+          { "w": "پانی", "start": 2844, "end": 3244 },
+          { "w": "بچا", "start": 3244, "end": 3544 },
+          { "w": "تھا۔", "start": 3544, "end": 3884 },
+          { "w": "علی", "start": 3884, "end": 4194 },
+          { "w": "کو", "start": 4194, "end": 4404 },
+          { "w": "کیا", "start": 4404, "end": 4714 },
+          { "w": "کرنا", "start": 4714, "end": 5164 },
+          { "w": "چاہیے؟", "start": 5164, "end": 5704 }
+        ],
+        "en": [
+          { "w": "Ali", "start": 307, "end": 367 },
+          { "w": "looked", "start": 307, "end": 367 },
+          { "w": "at", "start": 337, "end": 397 },
+          { "w": "his", "start": 397, "end": 587 },
+          { "w": "bottle.", "start": 587, "end": 1367 },
+          { "w": "Only", "start": 1967, "end": 2027 },
+          { "w": "a", "start": 1967, "end": 2057 },
+          { "w": "little", "start": 2057, "end": 2247 },
+          { "w": "water", "start": 2247, "end": 2647 },
+          { "w": "was", "start": 2647, "end": 3067 },
+          { "w": "left.", "start": 3067, "end": 3487 },
+          { "w": "What", "start": 4087, "end": 4177 },
+          { "w": "should", "start": 4177, "end": 4337 },
+          { "w": "Ali", "start": 4337, "end": 4557 },
+          { "w": "do?", "start": 4557, "end": 4987 }
+        ]
+      }
     },
     {
       "id": "choice",
       "type": "choice",
       "prompt": { "en": "What should Ali do?", "ur": "علی کو کیا کرنا چاہیے؟" },
       "options": [
-        { "id": "give", "label": { "en": "Give water to the sparrow", "ur": "چڑیا کو پانی دے" }, "picture": "prop:bottle_cap", "next": "choice_a" },
-        { "id": "keep", "label": { "en": "Keep the water", "ur": "پانی اپنے پاس رکھے" }, "picture": "prop:bottle", "next": "choice_b" }
+        {
+          "id": "give",
+          "label": { "en": "Give water to the sparrow", "ur": "چڑیا کو پانی دے" },
+          "picture": "prop:bottle_cap",
+          "next": "choice_a"
+        },
+        {
+          "id": "keep",
+          "label": { "en": "Keep the water", "ur": "پانی اپنے پاس رکھے" },
+          "picture": "prop:bottle",
+          "next": "choice_b"
+        }
       ]
     },
     {
@@ -91,16 +366,119 @@
       },
       "help": { "kind": "drag", "item": 1, "to": 2 },
       "cast": [
-        { "art": "puppet:ali", "x": 0.4, "y": 0.63, "size": 0.24, "pose": "hold", "look": "right", "face": "think", "helpHide": 1 },
+        {
+          "art": "puppet:ali",
+          "x": 0.4,
+          "y": 0.63,
+          "size": 0.24,
+          "pose": "hold",
+          "look": "right",
+          "face": "think",
+          "helpHide": 1
+        },
         { "art": "prop:bottle_low", "x": 0.43, "y": 0.575, "size": 0.075, "helpHide": 1 },
-        { "art": "prop:bottle_cap_empty", "x": 0.64, "y": 0.645, "size": 0.06, "enter": "grow", "helpHide": 1 },
+        {
+          "art": "prop:bottle_cap_empty",
+          "x": 0.64,
+          "y": 0.645,
+          "size": 0.06,
+          "enter": "grow",
+          "helpHide": 1
+        },
         { "art": "prop:rock", "x": 0.82, "y": 0.63, "size": 0.09 },
-        { "art": "puppet:sparrow", "x": 0.83, "y": 0.585, "size": 0.085, "pose": "tired", "flip": true, "mood": "worried", "helpHide": 1 },
-        { "art": "puppet:ali", "x": 0.4, "y": 0.63, "size": 0.24, "pose": "pour", "act": "pour", "hold": "prop:bottle_low", "holdSize": 0.24, "holdTurn": -70, "mood": "happy", "helpStep": 1 },
+        {
+          "art": "puppet:sparrow",
+          "x": 0.83,
+          "y": 0.585,
+          "size": 0.085,
+          "pose": "tired",
+          "flip": true,
+          "mood": "worried",
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:ali",
+          "x": 0.4,
+          "y": 0.63,
+          "size": 0.24,
+          "pose": "pour",
+          "act": "pour",
+          "hold": "prop:bottle_low",
+          "holdSize": 0.24,
+          "holdTurn": -70,
+          "mood": "happy",
+          "helpStep": 1
+        },
         { "art": "prop:bottle_cap", "x": 0.64, "y": 0.645, "size": 0.075, "helpStep": 1 },
-        { "art": "puppet:sparrow", "x": 0.76, "y": 0.645, "size": 0.075, "pose": "drink", "act": "drink", "flip": true, "delay": 500, "helpStep": 1 },
-        { "art": "prop:sparkle", "x": 0.64, "y": 0.58, "size": 0.04, "mood": "twinkle", "helpStep": 1 }
-      ]
+        {
+          "art": "puppet:sparrow",
+          "x": 0.76,
+          "y": 0.645,
+          "size": 0.075,
+          "pose": "drink",
+          "act": "drink",
+          "flip": true,
+          "delay": 500,
+          "helpStep": 1
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.64,
+          "y": 0.58,
+          "size": 0.04,
+          "mood": "twinkle",
+          "helpStep": 1
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "علی", "start": 9, "end": 309 },
+          { "w": "نے", "start": 309, "end": 509 },
+          { "w": "بوتل", "start": 509, "end": 939 },
+          { "w": "کے", "start": 939, "end": 1109 },
+          { "w": "ڈھکن", "start": 1109, "end": 1509 },
+          { "w": "میں", "start": 1509, "end": 1799 },
+          { "w": "پانی", "start": 1799, "end": 2269 },
+          { "w": "ڈالا", "start": 2269, "end": 2629 },
+          { "w": "اور", "start": 2629, "end": 2889 },
+          { "w": "چڑیا", "start": 2889, "end": 3299 },
+          { "w": "کے", "start": 3299, "end": 3469 },
+          { "w": "پاس", "start": 3469, "end": 3719 },
+          { "w": "رکھ", "start": 3719, "end": 3959 },
+          { "w": "دیا۔", "start": 3959, "end": 4309 },
+          { "w": "چسکی،", "start": 4309, "end": 4989 },
+          { "w": "چسکی،", "start": 4989, "end": 5669 },
+          { "w": "چسکی!", "start": 5669, "end": 6369 },
+          { "w": "چڑیا", "start": 6369, "end": 6829 },
+          { "w": "نے", "start": 6829, "end": 7039 },
+          { "w": "خوشی", "start": 7039, "end": 7379 },
+          { "w": "خوشی", "start": 7379, "end": 7739 },
+          { "w": "پانی", "start": 7739, "end": 8109 },
+          { "w": "پیا۔", "start": 8109, "end": 8359 }
+        ],
+        "en": [
+          { "w": "Ali", "start": 302, "end": 362 },
+          { "w": "poured", "start": 302, "end": 392 },
+          { "w": "water", "start": 392, "end": 552 },
+          { "w": "into", "start": 552, "end": 792 },
+          { "w": "the", "start": 792, "end": 1022 },
+          { "w": "bottle", "start": 1022, "end": 1482 },
+          { "w": "cap", "start": 1482, "end": 1712 },
+          { "w": "and", "start": 1712, "end": 2172 },
+          { "w": "put", "start": 2172, "end": 2322 },
+          { "w": "it", "start": 2322, "end": 2422 },
+          { "w": "near", "start": 2422, "end": 2622 },
+          { "w": "the", "start": 2622, "end": 2852 },
+          { "w": "sparrow.", "start": 2852, "end": 3642 },
+          { "w": "Sip,", "start": 4122, "end": 4212 },
+          { "w": "sip,", "start": 4212, "end": 4382 },
+          { "w": "sip!", "start": 4382, "end": 4862 },
+          { "w": "The", "start": 5182, "end": 5272 },
+          { "w": "sparrow", "start": 5272, "end": 5632 },
+          { "w": "drank", "start": 5632, "end": 6012 },
+          { "w": "happily.", "start": 6012, "end": 6802 }
+        ]
+      }
     },
     {
       "id": "choice_b",
@@ -114,16 +492,158 @@
       "help": { "kind": "drag", "item": 4, "to": 5, "when": "after" },
       "cast": [
         { "art": "prop:rock", "x": 0.82, "y": 0.63, "size": 0.09 },
-        { "art": "puppet:sparrow", "x": 0.83, "y": 0.585, "size": 0.085, "pose": "tired", "flip": true, "mood": "worried", "helpHide": 1 },
-        { "art": "puppet:ali", "x": 0.18, "y": 0.62, "size": 0.22, "act": "walk", "face": "worried", "look": "right", "until": 3800 },
-        { "art": "puppet:ali", "x": 0.4, "y": 0.63, "size": 0.24, "pose": "hold", "look": "right", "mood": "happy", "enter": "left", "delay": 3800, "helpHide": 1 },
-        { "art": "prop:bottle_low", "x": 0.43, "y": 0.575, "size": 0.075, "delay": 5000, "helpHide": 1 },
-        { "art": "prop:bottle_cap_empty", "x": 0.64, "y": 0.645, "size": 0.06, "enter": "grow", "delay": 5200, "helpHide": 1 },
-        { "art": "puppet:ali", "x": 0.4, "y": 0.63, "size": 0.24, "pose": "pour", "act": "pour", "hold": "prop:bottle_low", "holdSize": 0.24, "holdTurn": -70, "mood": "happy", "helpStep": 1 },
+        {
+          "art": "puppet:sparrow",
+          "x": 0.83,
+          "y": 0.585,
+          "size": 0.085,
+          "pose": "tired",
+          "flip": true,
+          "mood": "worried",
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:ali",
+          "x": 0.18,
+          "y": 0.62,
+          "size": 0.22,
+          "act": "walk",
+          "face": "worried",
+          "look": "right",
+          "until": 3800
+        },
+        {
+          "art": "puppet:ali",
+          "x": 0.4,
+          "y": 0.63,
+          "size": 0.24,
+          "pose": "hold",
+          "look": "right",
+          "mood": "happy",
+          "enter": "left",
+          "delay": 3800,
+          "helpHide": 1
+        },
+        {
+          "art": "prop:bottle_low",
+          "x": 0.43,
+          "y": 0.575,
+          "size": 0.075,
+          "delay": 5000,
+          "helpHide": 1
+        },
+        {
+          "art": "prop:bottle_cap_empty",
+          "x": 0.64,
+          "y": 0.645,
+          "size": 0.06,
+          "enter": "grow",
+          "delay": 5200,
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:ali",
+          "x": 0.4,
+          "y": 0.63,
+          "size": 0.24,
+          "pose": "pour",
+          "act": "pour",
+          "hold": "prop:bottle_low",
+          "holdSize": 0.24,
+          "holdTurn": -70,
+          "mood": "happy",
+          "helpStep": 1
+        },
         { "art": "prop:bottle_cap", "x": 0.64, "y": 0.645, "size": 0.075, "helpStep": 1 },
-        { "art": "puppet:sparrow", "x": 0.76, "y": 0.645, "size": 0.075, "pose": "drink", "act": "drink", "flip": true, "delay": 500, "helpStep": 1 },
-        { "art": "prop:sparkle", "x": 0.64, "y": 0.58, "size": 0.04, "mood": "twinkle", "helpStep": 1 }
-      ]
+        {
+          "art": "puppet:sparrow",
+          "x": 0.76,
+          "y": 0.645,
+          "size": 0.075,
+          "pose": "drink",
+          "act": "drink",
+          "flip": true,
+          "delay": 500,
+          "helpStep": 1
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.64,
+          "y": 0.58,
+          "size": 0.04,
+          "mood": "twinkle",
+          "helpStep": 1
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "علی", "start": 431, "end": 831 },
+          { "w": "آگے", "start": 831, "end": 1221 },
+          { "w": "چل", "start": 1221, "end": 1481 },
+          { "w": "پڑا۔", "start": 1481, "end": 2071 },
+          { "w": "مگر", "start": 2071, "end": 2461 },
+          { "w": "اسے", "start": 2461, "end": 2861 },
+          { "w": "بار", "start": 2861, "end": 3351 },
+          { "w": "بار", "start": 3351, "end": 3721 },
+          { "w": "ننھی", "start": 3721, "end": 4131 },
+          { "w": "چڑیا", "start": 4131, "end": 4421 },
+          { "w": "کا", "start": 4421, "end": 4741 },
+          { "w": "خیال", "start": 4741, "end": 5151 },
+          { "w": "آتا", "start": 5151, "end": 5521 },
+          { "w": "رہا۔", "start": 5521, "end": 5951 },
+          { "w": "وہ", "start": 5951, "end": 6141 },
+          { "w": "واپس", "start": 6141, "end": 6451 },
+          { "w": "مڑا", "start": 6451, "end": 6911 },
+          { "w": "اور", "start": 6911, "end": 7151 },
+          { "w": "بوتل", "start": 7151, "end": 7471 },
+          { "w": "کے", "start": 7471, "end": 7631 },
+          { "w": "ڈھکن", "start": 7631, "end": 7951 },
+          { "w": "میں", "start": 7951, "end": 8191 },
+          { "w": "پانی", "start": 8191, "end": 8511 },
+          { "w": "ڈال", "start": 8511, "end": 8831 },
+          { "w": "دیا۔", "start": 8831, "end": 9091 },
+          { "w": "چسکی،", "start": 9091, "end": 9761 },
+          { "w": "چسکی،", "start": 9761, "end": 10401 },
+          { "w": "چسکی!", "start": 10401, "end": 11131 },
+          { "w": "چڑیا", "start": 11131, "end": 11591 },
+          { "w": "نے", "start": 11591, "end": 11801 },
+          { "w": "خوشی", "start": 11801, "end": 12141 },
+          { "w": "خوشی", "start": 12141, "end": 12501 },
+          { "w": "پانی", "start": 12501, "end": 12871 },
+          { "w": "پیا۔", "start": 12871, "end": 13231 }
+        ],
+        "en": [
+          { "w": "Ali", "start": 323, "end": 413 },
+          { "w": "started", "start": 413, "end": 573 },
+          { "w": "walking", "start": 573, "end": 1063 },
+          { "w": "away.", "start": 1063, "end": 1643 },
+          { "w": "But", "start": 2063, "end": 2123 },
+          { "w": "he", "start": 2063, "end": 2153 },
+          { "w": "kept", "start": 2153, "end": 2213 },
+          { "w": "thinking", "start": 2203, "end": 2703 },
+          { "w": "about", "start": 2703, "end": 3163 },
+          { "w": "the", "start": 3163, "end": 3223 },
+          { "w": "little", "start": 3203, "end": 3583 },
+          { "w": "sparrow.", "start": 3583, "end": 4243 },
+          { "w": "He", "start": 4663, "end": 4753 },
+          { "w": "turned", "start": 4753, "end": 4813 },
+          { "w": "back", "start": 4783, "end": 5053 },
+          { "w": "and", "start": 5053, "end": 5253 },
+          { "w": "poured", "start": 5253, "end": 5763 },
+          { "w": "water", "start": 5763, "end": 6003 },
+          { "w": "into", "start": 6003, "end": 6253 },
+          { "w": "the", "start": 6253, "end": 6783 },
+          { "w": "bottle", "start": 6783, "end": 6883 },
+          { "w": "cap.", "start": 6883, "end": 7383 },
+          { "w": "Sip,", "start": 7823, "end": 7913 },
+          { "w": "sip,", "start": 7913, "end": 8133 },
+          { "w": "sip!", "start": 8133, "end": 8623 },
+          { "w": "The", "start": 8623, "end": 8873 },
+          { "w": "sparrow", "start": 8873, "end": 9413 },
+          { "w": "drank", "start": 9413, "end": 9813 },
+          { "w": "happily.", "start": 9813, "end": 10623 }
+        ]
+      }
     },
     {
       "id": "p5",
@@ -135,12 +655,72 @@
         "ur": "چڑیا نے اپنے پر پھڑپھڑائے۔ \"چوں چوں!\" وہ علی کے سر کے گرد اڑنے لگی، جیسے شکریہ کہہ رہی ہو۔"
       },
       "cast": [
-        { "art": "puppet:ali", "x": 0.5, "y": 0.63, "size": 0.25, "pose": "cheer", "act": "laugh", "face": "laugh" },
-        { "art": "puppet:sparrow", "x": 0.5, "y": 0.36, "size": 0.07, "pose": "fly", "act": "fly+chirp", "mood": "happy", "orbit": { "rx": 0.2, "ry": 0.035, "ms": 3200 } },
+        {
+          "art": "puppet:ali",
+          "x": 0.5,
+          "y": 0.63,
+          "size": 0.25,
+          "pose": "cheer",
+          "act": "laugh",
+          "face": "laugh"
+        },
+        {
+          "art": "puppet:sparrow",
+          "x": 0.5,
+          "y": 0.36,
+          "size": 0.07,
+          "pose": "fly",
+          "act": "fly+chirp",
+          "mood": "happy",
+          "orbit": { "rx": 0.2, "ry": 0.035, "ms": 3200 }
+        },
         { "art": "prop:sparkle", "x": 0.26, "y": 0.34, "size": 0.035, "mood": "twinkle" },
         { "art": "prop:sparkle", "x": 0.74, "y": 0.3, "size": 0.04, "mood": "twinkle" },
         { "art": "prop:heart", "x": 0.7, "y": 0.44, "size": 0.035, "mood": "float", "delay": 800 }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "چڑیا", "start": 51, "end": 411 },
+          { "w": "نے", "start": 411, "end": 631 },
+          { "w": "اپنے", "start": 631, "end": 951 },
+          { "w": "پر", "start": 951, "end": 1221 },
+          { "w": "پھڑپھڑائے۔", "start": 1221, "end": 1888 },
+          { "w": "\"چوں", "start": 1888, "end": 2554 },
+          { "w": "چوں!\"", "start": 2554, "end": 3221 },
+          { "w": "وہ", "start": 3221, "end": 3431 },
+          { "w": "علی", "start": 3431, "end": 3741 },
+          { "w": "کے", "start": 3741, "end": 3951 },
+          { "w": "سر", "start": 3951, "end": 4151 },
+          { "w": "کے", "start": 4151, "end": 4461 },
+          { "w": "گرد", "start": 4461, "end": 4661 },
+          { "w": "اڑنے", "start": 4661, "end": 5161 },
+          { "w": "لگی،", "start": 5161, "end": 5561 },
+          { "w": "جیسے", "start": 5561, "end": 5921 },
+          { "w": "شکریہ", "start": 5921, "end": 6381 },
+          { "w": "کہہ", "start": 6381, "end": 6661 },
+          { "w": "رہی", "start": 6661, "end": 6931 },
+          { "w": "ہو۔", "start": 6931, "end": 7221 }
+        ],
+        "en": [
+          { "w": "The", "start": 256, "end": 316 },
+          { "w": "sparrow", "start": 276, "end": 506 },
+          { "w": "flapped", "start": 506, "end": 1006 },
+          { "w": "her", "start": 1006, "end": 1356 },
+          { "w": "wings.", "start": 1356, "end": 1856 },
+          { "w": "\"Chirp!", "start": 2156, "end": 2406 },
+          { "w": "Chirp!\"", "start": 2406, "end": 2936 },
+          { "w": "She", "start": 3216, "end": 3306 },
+          { "w": "flew", "start": 3306, "end": 3466 },
+          { "w": "around", "start": 3466, "end": 3886 },
+          { "w": "Ali's", "start": 3886, "end": 4316 },
+          { "w": "head,", "start": 4316, "end": 4536 },
+          { "w": "as", "start": 4536, "end": 4666 },
+          { "w": "if", "start": 4666, "end": 4816 },
+          { "w": "saying", "start": 4816, "end": 5336 },
+          { "w": "thank", "start": 5336, "end": 5626 },
+          { "w": "you.", "start": 5626, "end": 6136 }
+        ]
+      }
     },
     {
       "id": "p6",
@@ -152,12 +732,76 @@
         "ur": "بابا مسکرائے۔ \"علی، اللہ تعالیٰ ان سے محبت کرتے ہیں جو اس کی مخلوق پر رحم کرتے ہیں۔ چاہے وہ ایک ننھی سی چڑیا ہی ہو۔\""
       },
       "cast": [
-        { "art": "puppet:baba", "x": 0.36, "y": 0.63, "size": 0.3, "pose": "kneel_pat", "act": "talk", "mood": "happy" },
+        {
+          "art": "puppet:baba",
+          "x": 0.36,
+          "y": 0.63,
+          "size": 0.3,
+          "pose": "kneel_pat",
+          "act": "talk",
+          "mood": "happy"
+        },
         { "art": "puppet:ali", "x": 0.6, "y": 0.63, "size": 0.23, "mood": "shy", "look": "left" },
         { "art": "prop:rock", "x": 0.86, "y": 0.64, "size": 0.075 },
-        { "art": "puppet:sparrow", "x": 0.87, "y": 0.6, "size": 0.065, "flip": true, "act": "chirp", "mood": "happy" },
+        {
+          "art": "puppet:sparrow",
+          "x": 0.87,
+          "y": 0.6,
+          "size": 0.065,
+          "flip": true,
+          "act": "chirp",
+          "mood": "happy"
+        },
         { "art": "prop:heart", "x": 0.5, "y": 0.3, "size": 0.04, "mood": "float" }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "بابا", "start": 11, "end": 541 },
+          { "w": "مسکرائے۔", "start": 541, "end": 1511 },
+          { "w": "\"علی،", "start": 1511, "end": 2181 },
+          { "w": "اللہ", "start": 2181, "end": 2511 },
+          { "w": "تعالیٰ", "start": 2511, "end": 3161 },
+          { "w": "ان", "start": 3161, "end": 3361 },
+          { "w": "سے", "start": 3361, "end": 3501 },
+          { "w": "محبت", "start": 3501, "end": 3851 },
+          { "w": "کرتے", "start": 3851, "end": 4221 },
+          { "w": "ہیں", "start": 4221, "end": 4571 },
+          { "w": "جو", "start": 4571, "end": 4761 },
+          { "w": "اس", "start": 4761, "end": 4941 },
+          { "w": "کی", "start": 4941, "end": 5131 },
+          { "w": "مخلوق", "start": 5131, "end": 5591 },
+          { "w": "پر", "start": 5591, "end": 5851 },
+          { "w": "رحم", "start": 5851, "end": 6051 },
+          { "w": "کرتے", "start": 6051, "end": 6421 },
+          { "w": "ہیں۔", "start": 6421, "end": 6831 },
+          { "w": "چاہے", "start": 6831, "end": 7351 },
+          { "w": "وہ", "start": 7351, "end": 7621 },
+          { "w": "ایک", "start": 7621, "end": 8111 },
+          { "w": "ننھی", "start": 8111, "end": 8411 },
+          { "w": "سی", "start": 8411, "end": 8591 },
+          { "w": "چڑیا", "start": 8591, "end": 9041 },
+          { "w": "ہی", "start": 9041, "end": 9491 },
+          { "w": "ہو۔\"", "start": 9491, "end": 9551 }
+        ],
+        "en": [
+          { "w": "Baba", "start": 249, "end": 339 },
+          { "w": "smiled.", "start": 339, "end": 1149 },
+          { "w": "\"Ali,", "start": 1669, "end": 1759 },
+          { "w": "Allah", "start": 1759, "end": 1919 },
+          { "w": "loves", "start": 1919, "end": 2309 },
+          { "w": "those", "start": 2309, "end": 2769 },
+          { "w": "who", "start": 2769, "end": 2929 },
+          { "w": "are", "start": 2929, "end": 3149 },
+          { "w": "kind", "start": 3149, "end": 3279 },
+          { "w": "to", "start": 3279, "end": 3789 },
+          { "w": "His", "start": 3789, "end": 3849 },
+          { "w": "creatures.", "start": 3849, "end": 4829 },
+          { "w": "Even", "start": 5579, "end": 5749 },
+          { "w": "a", "start": 5749, "end": 5809 },
+          { "w": "tiny", "start": 5809, "end": 6069 },
+          { "w": "bird.\"", "start": 6069, "end": 6529 }
+        ]
+      }
     },
     {
       "id": "p7",
@@ -169,11 +813,94 @@
         "ur": "گھر آ کر علی کو ایک خیال آیا۔ اس نے چھت پر پیاسے پرندوں کے لیے پانی کا ایک پیالہ رکھ دیا۔"
       },
       "cast": [
-        { "art": "puppet:ali", "x": 0.42, "y": 0.63, "size": 0.24, "pose": "carry", "hold": "prop:clay_bowl", "holdSize": 0.3, "act": "walk", "mood": "happy", "enter": "left", "until": 3600 },
-        { "art": "prop:clay_bowl", "x": 0.62, "y": 0.64, "size": 0.0675, "enter": "grow", "delay": 3600 },
-        { "art": "puppet:ali", "x": 0.38, "y": 0.63, "size": 0.24, "pose": "point", "act": "bounce", "face": "happy", "delay": 3600 },
-        { "art": "prop:sparkle", "x": 0.62, "y": 0.55, "size": 0.035, "mood": "twinkle", "delay": 4000 }
-      ]
+        {
+          "art": "puppet:ali",
+          "x": 0.42,
+          "y": 0.63,
+          "size": 0.24,
+          "pose": "carry",
+          "hold": "prop:clay_bowl",
+          "holdSize": 0.3,
+          "act": "walk",
+          "mood": "happy",
+          "enter": "left",
+          "until": 3600
+        },
+        {
+          "art": "prop:clay_bowl",
+          "x": 0.62,
+          "y": 0.64,
+          "size": 0.0675,
+          "enter": "grow",
+          "delay": 3600
+        },
+        {
+          "art": "puppet:ali",
+          "x": 0.38,
+          "y": 0.63,
+          "size": 0.24,
+          "pose": "point",
+          "act": "bounce",
+          "face": "happy",
+          "delay": 3600
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.62,
+          "y": 0.55,
+          "size": 0.035,
+          "mood": "twinkle",
+          "delay": 4000
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "گھر", "start": 9, "end": 529 },
+          { "w": "آ", "start": 529, "end": 699 },
+          { "w": "کر", "start": 699, "end": 1089 },
+          { "w": "علی", "start": 1089, "end": 1359 },
+          { "w": "کو", "start": 1359, "end": 1539 },
+          { "w": "ایک", "start": 1539, "end": 1809 },
+          { "w": "خیال", "start": 1809, "end": 2169 },
+          { "w": "آیا۔", "start": 2169, "end": 2469 },
+          { "w": "اس", "start": 2469, "end": 2669 },
+          { "w": "نے", "start": 2669, "end": 2869 },
+          { "w": "چھت", "start": 2869, "end": 3159 },
+          { "w": "پر", "start": 3159, "end": 3399 },
+          { "w": "پیاسے", "start": 3399, "end": 3869 },
+          { "w": "پرندوں", "start": 3869, "end": 4469 },
+          { "w": "کے", "start": 4469, "end": 4669 },
+          { "w": "لیے", "start": 4669, "end": 4989 },
+          { "w": "پانی", "start": 4989, "end": 5279 },
+          { "w": "کا", "start": 5279, "end": 5429 },
+          { "w": "ایک", "start": 5429, "end": 5659 },
+          { "w": "پیالہ", "start": 5659, "end": 6009 },
+          { "w": "رکھ", "start": 6009, "end": 6269 },
+          { "w": "دیا۔", "start": 6269, "end": 6549 }
+        ],
+        "en": [
+          { "w": "At", "start": 277, "end": 347 },
+          { "w": "home,", "start": 347, "end": 547 },
+          { "w": "Ali", "start": 547, "end": 857 },
+          { "w": "had", "start": 857, "end": 1367 },
+          { "w": "an", "start": 1367, "end": 1427 },
+          { "w": "idea.", "start": 1377, "end": 2137 },
+          { "w": "He", "start": 2637, "end": 2697 },
+          { "w": "put", "start": 2637, "end": 2697 },
+          { "w": "a", "start": 2637, "end": 2727 },
+          { "w": "bowl", "start": 2727, "end": 2887 },
+          { "w": "of", "start": 2887, "end": 3027 },
+          { "w": "water", "start": 3027, "end": 3407 },
+          { "w": "on", "start": 3407, "end": 3737 },
+          { "w": "the", "start": 3737, "end": 3797 },
+          { "w": "rooftop", "start": 3777, "end": 4527 },
+          { "w": "for", "start": 4527, "end": 4747 },
+          { "w": "all", "start": 4747, "end": 4807 },
+          { "w": "the", "start": 4757, "end": 4967 },
+          { "w": "thirsty", "start": 4967, "end": 5497 },
+          { "w": "birds.", "start": 5497, "end": 6177 }
+        ]
+      }
     },
     {
       "id": "p8",
@@ -185,27 +912,149 @@
         "ur": "اگلی صبح بہت سارے پرندے پانی پینے آئے۔ علی نے خوشی سے تالی بجائی۔ \"الحمدللہ!\""
       },
       "cast": [
-        { "art": "puppet:ali", "x": 0.22, "y": 0.63, "size": 0.24, "pose": "clap", "act": "clap", "face": "laugh" },
+        {
+          "art": "puppet:ali",
+          "x": 0.22,
+          "y": 0.63,
+          "size": 0.24,
+          "pose": "clap",
+          "act": "clap",
+          "face": "laugh"
+        },
         { "art": "prop:clay_bowl", "x": 0.62, "y": 0.65, "size": 0.0975 },
-        { "art": "puppet:sparrow", "x": 0.48, "y": 0.645, "size": 0.065, "pose": "drink", "act": "drink", "enter": "top" },
-        { "art": "puppet:sparrow", "x": 0.77, "y": 0.645, "size": 0.065, "pose": "drink", "act": "drink", "flip": true, "enter": "top", "delay": 500 },
+        {
+          "art": "puppet:sparrow",
+          "x": 0.48,
+          "y": 0.645,
+          "size": 0.065,
+          "pose": "drink",
+          "act": "drink",
+          "enter": "top"
+        },
+        {
+          "art": "puppet:sparrow",
+          "x": 0.77,
+          "y": 0.645,
+          "size": 0.065,
+          "pose": "drink",
+          "act": "drink",
+          "flip": true,
+          "enter": "top",
+          "delay": 500
+        },
         { "art": "prop:bird", "x": 0.62, "y": 0.6, "size": 0.04, "enter": "top", "delay": 1000 },
-        { "art": "puppet:sparrow", "x": 0.7, "y": 0.3, "size": 0.05, "pose": "fly", "act": "fly", "orbit": { "rx": 0.18, "ry": 0.04, "ms": 4200 } },
-        { "art": "prop:bird", "x": 0.4, "y": 0.22, "size": 0.035, "orbit": { "rx": 0.14, "ry": 0.03, "ms": 5600 } }
-      ]
+        {
+          "art": "puppet:sparrow",
+          "x": 0.7,
+          "y": 0.3,
+          "size": 0.05,
+          "pose": "fly",
+          "act": "fly",
+          "orbit": { "rx": 0.18, "ry": 0.04, "ms": 4200 }
+        },
+        {
+          "art": "prop:bird",
+          "x": 0.4,
+          "y": 0.22,
+          "size": 0.035,
+          "orbit": { "rx": 0.14, "ry": 0.03, "ms": 5600 }
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "اگلی", "start": 18, "end": 468 },
+          { "w": "صبح", "start": 468, "end": 818 },
+          { "w": "بہت", "start": 818, "end": 1278 },
+          { "w": "سارے", "start": 1278, "end": 1618 },
+          { "w": "پرندے", "start": 1618, "end": 2288 },
+          { "w": "پانی", "start": 2288, "end": 2698 },
+          { "w": "پینے", "start": 2698, "end": 2938 },
+          { "w": "آئے۔", "start": 2938, "end": 3198 },
+          { "w": "علی", "start": 3198, "end": 3754 },
+          { "w": "نے", "start": 3754, "end": 4311 },
+          { "w": "خوشی", "start": 4311, "end": 4867 },
+          { "w": "سے", "start": 4867, "end": 5423 },
+          { "w": "تالی", "start": 5423, "end": 5979 },
+          { "w": "بجائی۔", "start": 5979, "end": 6536 },
+          { "w": "\"الحمدللہ!\"", "start": 6536, "end": 7092 }
+        ],
+        "en": [
+          { "w": "Next", "start": 257, "end": 347 },
+          { "w": "morning,", "start": 347, "end": 777 },
+          { "w": "many", "start": 777, "end": 1087 },
+          { "w": "birds", "start": 1087, "end": 1477 },
+          { "w": "came", "start": 1477, "end": 1787 },
+          { "w": "to", "start": 1787, "end": 2327 },
+          { "w": "drink.", "start": 2327, "end": 2597 },
+          { "w": "Ali", "start": 2997, "end": 3057 },
+          { "w": "clapped", "start": 2997, "end": 3377 },
+          { "w": "his", "start": 3377, "end": 3597 },
+          { "w": "hands.", "start": 3597, "end": 4257 },
+          { "w": "\"Alhamdulillah!\"", "start": 5557, "end": 6117 }
+        ]
+      }
     }
   ],
   "glossary": [
-    { "id": "thirsty", "picture": "prop:bottle_cap", "word": { "en": "thirsty", "ur": "پیاسا" }, "forms": { "en": [], "ur": ["پیاسی", "پیاسے"] } },
-    { "id": "sparrow", "picture": "puppet:sparrow", "word": { "en": "sparrow", "ur": "چڑیا" }, "forms": { "en": ["sparrows"], "ur": [] } },
-    { "id": "kind", "picture": "prop:heart", "word": { "en": "kind", "ur": "رحم دل" }, "forms": { "en": ["kindness"], "ur": ["رحم"] } },
-    { "id": "bottle", "picture": "prop:bottle", "word": { "en": "bottle", "ur": "بوتل" }, "forms": { "en": [], "ur": [] } },
-    { "id": "water", "picture": "prop:bottle", "word": { "en": "water", "ur": "پانی" }, "forms": { "en": [], "ur": [] } },
-    { "id": "bird", "picture": "prop:bird", "word": { "en": "bird", "ur": "پرندہ" }, "forms": { "en": ["birds"], "ur": ["پرندے", "پرندوں"] } },
-    { "id": "bowl", "picture": "prop:clay_bowl", "word": { "en": "bowl", "ur": "پیالہ" }, "forms": { "en": [], "ur": [] } },
-    { "id": "rock", "picture": "prop:rock", "word": { "en": "rock", "ur": "پتھر" }, "forms": { "en": [], "ur": [] } },
-    { "id": "hills", "word": { "en": "hills", "ur": "پہاڑ" }, "forms": { "en": ["hill"], "ur": ["پہاڑوں"] } },
-    { "id": "rooftop", "picture": "prop:roof_bowl", "word": { "en": "rooftop", "ur": "چھت" }, "forms": { "en": ["roof"], "ur": [] } },
+    {
+      "id": "thirsty",
+      "picture": "prop:bottle_cap",
+      "word": { "en": "thirsty", "ur": "پیاسا" },
+      "forms": { "en": [], "ur": ["پیاسی", "پیاسے"] }
+    },
+    {
+      "id": "sparrow",
+      "picture": "puppet:sparrow",
+      "word": { "en": "sparrow", "ur": "چڑیا" },
+      "forms": { "en": ["sparrows"], "ur": [] }
+    },
+    {
+      "id": "kind",
+      "picture": "prop:heart",
+      "word": { "en": "kind", "ur": "رحم دل" },
+      "forms": { "en": ["kindness"], "ur": ["رحم"] }
+    },
+    {
+      "id": "bottle",
+      "picture": "prop:bottle",
+      "word": { "en": "bottle", "ur": "بوتل" },
+      "forms": { "en": [], "ur": [] }
+    },
+    {
+      "id": "water",
+      "picture": "prop:bottle",
+      "word": { "en": "water", "ur": "پانی" },
+      "forms": { "en": [], "ur": [] }
+    },
+    {
+      "id": "bird",
+      "picture": "prop:bird",
+      "word": { "en": "bird", "ur": "پرندہ" },
+      "forms": { "en": ["birds"], "ur": ["پرندے", "پرندوں"] }
+    },
+    {
+      "id": "bowl",
+      "picture": "prop:clay_bowl",
+      "word": { "en": "bowl", "ur": "پیالہ" },
+      "forms": { "en": [], "ur": [] }
+    },
+    {
+      "id": "rock",
+      "picture": "prop:rock",
+      "word": { "en": "rock", "ur": "پتھر" },
+      "forms": { "en": [], "ur": [] }
+    },
+    {
+      "id": "hills",
+      "word": { "en": "hills", "ur": "پہاڑ" },
+      "forms": { "en": ["hill"], "ur": ["پہاڑوں"] }
+    },
+    {
+      "id": "rooftop",
+      "picture": "prop:roof_bowl",
+      "word": { "en": "rooftop", "ur": "چھت" },
+      "forms": { "en": ["roof"], "ur": [] }
+    },
     { "id": "cool", "word": { "en": "cool", "ur": "ٹھنڈا" }, "forms": { "en": [], "ur": [] } },
     { "id": "hot", "word": { "en": "hot", "ur": "گرم" }, "forms": { "en": [], "ur": [] } },
     { "id": "wings", "word": { "en": "wings", "ur": "پر" }, "forms": { "en": ["wing"], "ur": [] } }
@@ -224,12 +1073,19 @@
       "question": { "en": "What did Ali say before drinking?", "ur": "پانی پینے سے پہلے علی نے کیا کہا؟" },
       "options": [
         { "picture": "prop:moon", "label": { "en": "Good night", "ur": "شب بخیر" } },
-        { "picture": "prop:bismillah", "label": { "en": "Bismillah", "ur": "بسم اللہ" }, "correct": true },
+        {
+          "picture": "prop:bismillah",
+          "label": { "en": "Bismillah", "ur": "بسم اللہ" },
+          "correct": true
+        },
         { "picture": "prop:wave_hand", "label": { "en": "Bye bye", "ur": "خدا حافظ" } }
       ]
     },
     {
-      "question": { "en": "Where did Ali put water for the birds?", "ur": "علی نے پرندوں کے لیے پانی کہاں رکھا؟" },
+      "question": {
+        "en": "Where did Ali put water for the birds?",
+        "ur": "علی نے پرندوں کے لیے پانی کہاں رکھا؟"
+      },
       "options": [
         { "picture": "prop:bag" },
         { "picture": "prop:car" },

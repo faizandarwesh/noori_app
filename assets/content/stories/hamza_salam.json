@@ -23,9 +23,78 @@
         { "art": "prop:box", "x": 0.82, "y": 0.645, "size": 0.07 },
         { "art": "prop:box", "x": 0.9, "y": 0.66, "size": 0.06 },
         { "art": "prop:box", "x": 0.86, "y": 0.59, "size": 0.055 },
-        { "art": "puppet:hamza", "x": 0.6, "y": 0.645, "size": 0.21, "pose": "shy", "act": "shy", "mood": "shy", "look": "right" },
-        { "art": "puppet:ammi", "x": 0.46, "y": 0.64, "size": 0.29, "pose": "hand_on_shoulder", "act": "talk", "mood": "happy" }
-      ]
+        {
+          "art": "puppet:hamza",
+          "x": 0.6,
+          "y": 0.645,
+          "size": 0.21,
+          "pose": "shy",
+          "act": "shy",
+          "mood": "shy",
+          "look": "right"
+        },
+        {
+          "art": "puppet:ammi",
+          "x": 0.46,
+          "y": 0.64,
+          "size": 0.29,
+          "pose": "hand_on_shoulder",
+          "act": "talk",
+          "mood": "happy"
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "حمزہ", "start": 64, "end": 374 },
+          { "w": "اور", "start": 374, "end": 614 },
+          { "w": "اس", "start": 614, "end": 794 },
+          { "w": "کے", "start": 794, "end": 974 },
+          { "w": "گھر", "start": 974, "end": 1244 },
+          { "w": "والے", "start": 1244, "end": 1654 },
+          { "w": "جنگل", "start": 1654, "end": 2054 },
+          { "w": "کے", "start": 2054, "end": 2344 },
+          { "w": "پاس", "start": 2344, "end": 2634 },
+          { "w": "ایک", "start": 2634, "end": 2934 },
+          { "w": "نئے", "start": 2934, "end": 3234 },
+          { "w": "گھر", "start": 3234, "end": 3534 },
+          { "w": "میں", "start": 3534, "end": 3844 },
+          { "w": "آ", "start": 3844, "end": 3944 },
+          { "w": "گئے۔", "start": 3944, "end": 4294 },
+          { "w": "حمزہ", "start": 4294, "end": 4734 },
+          { "w": "کسی", "start": 4734, "end": 5064 },
+          { "w": "کو", "start": 5064, "end": 5294 },
+          { "w": "نہیں", "start": 5294, "end": 5764 },
+          { "w": "جانتا", "start": 5764, "end": 6314 },
+          { "w": "تھا۔", "start": 6314, "end": 6774 },
+          { "w": "اسے", "start": 6774, "end": 7204 },
+          { "w": "بہت", "start": 7204, "end": 7694 },
+          { "w": "شرم", "start": 7694, "end": 8044 },
+          { "w": "آ", "start": 8044, "end": 8184 },
+          { "w": "رہی", "start": 8184, "end": 8604 },
+          { "w": "تھی۔", "start": 8604, "end": 9094 }
+        ],
+        "en": [
+          { "w": "Hamza", "start": 78, "end": 338 },
+          { "w": "and", "start": 338, "end": 538 },
+          { "w": "his", "start": 538, "end": 808 },
+          { "w": "family", "start": 808, "end": 1208 },
+          { "w": "moved", "start": 1208, "end": 1608 },
+          { "w": "to", "start": 1608, "end": 1728 },
+          { "w": "a", "start": 1728, "end": 1798 },
+          { "w": "new", "start": 1798, "end": 2018 },
+          { "w": "house", "start": 2018, "end": 2388 },
+          { "w": "near", "start": 2388, "end": 2688 },
+          { "w": "the", "start": 2688, "end": 2908 },
+          { "w": "jungle.", "start": 2908, "end": 3898 },
+          { "w": "Hamza", "start": 3898, "end": 4158 },
+          { "w": "didn't", "start": 4158, "end": 4628 },
+          { "w": "know", "start": 4628, "end": 4748 },
+          { "w": "anyone.", "start": 4748, "end": 5868 },
+          { "w": "He", "start": 5868, "end": 6138 },
+          { "w": "felt", "start": 6138, "end": 6728 },
+          { "w": "shy.", "start": 7218, "end": 8028 }
+        ]
+      }
     },
     {
       "id": "p2",
@@ -37,11 +106,82 @@
         "ur": "کچھ بچے برگد کے بڑے درخت کے نیچے کھیل رہے تھے۔ حمزہ بھی کھیلنا چاہتا تھا، مگر وہ چپ چاپ کھڑا رہا۔"
       },
       "cast": [
-        { "art": "puppet:zainab", "x": 0.22, "y": 0.62, "size": 0.19, "pose": "walk", "act": "run", "face": "laugh" },
-        { "art": "puppet:bilal", "x": 0.46, "y": 0.62, "size": 0.19, "pose": "cheer", "act": "bounce", "face": "laugh" },
+        {
+          "art": "puppet:zainab",
+          "x": 0.22,
+          "y": 0.62,
+          "size": 0.19,
+          "pose": "walk",
+          "act": "run",
+          "face": "laugh"
+        },
+        {
+          "art": "puppet:bilal",
+          "x": 0.46,
+          "y": 0.62,
+          "size": 0.19,
+          "pose": "cheer",
+          "act": "bounce",
+          "face": "laugh"
+        },
         { "art": "prop:ball", "x": 0.34, "y": 0.5, "size": 0.0525, "mood": "float" },
-        { "art": "puppet:hamza", "x": 0.84, "y": 0.66, "size": 0.21, "pose": "shy", "mood": "shy", "look": "left" }
-      ]
+        {
+          "art": "puppet:hamza",
+          "x": 0.84,
+          "y": 0.66,
+          "size": 0.21,
+          "pose": "shy",
+          "mood": "shy",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "کچھ", "start": 3, "end": 283 },
+          { "w": "بچے", "start": 283, "end": 563 },
+          { "w": "برگد", "start": 563, "end": 933 },
+          { "w": "کے", "start": 933, "end": 1133 },
+          { "w": "بڑے", "start": 1133, "end": 1493 },
+          { "w": "درخت", "start": 1493, "end": 1883 },
+          { "w": "کے", "start": 1883, "end": 2083 },
+          { "w": "نیچے", "start": 2083, "end": 2453 },
+          { "w": "کھیل", "start": 2453, "end": 2903 },
+          { "w": "رہے", "start": 2903, "end": 3113 },
+          { "w": "تھے۔", "start": 3113, "end": 3603 },
+          { "w": "حمزہ", "start": 3603, "end": 4003 },
+          { "w": "بھی", "start": 4003, "end": 4303 },
+          { "w": "کھیلنا", "start": 4303, "end": 4913 },
+          { "w": "چاہتا", "start": 4913, "end": 5403 },
+          { "w": "تھا،", "start": 5403, "end": 5763 },
+          { "w": "مگر", "start": 5763, "end": 6163 },
+          { "w": "وہ", "start": 6163, "end": 6343 },
+          { "w": "چپ", "start": 6343, "end": 6573 },
+          { "w": "چاپ", "start": 6573, "end": 6913 },
+          { "w": "کھڑا", "start": 6913, "end": 7473 },
+          { "w": "رہا۔", "start": 7473, "end": 7923 }
+        ],
+        "en": [
+          { "w": "Some", "start": 8, "end": 228 },
+          { "w": "children", "start": 228, "end": 678 },
+          { "w": "were", "start": 678, "end": 898 },
+          { "w": "playing", "start": 898, "end": 1568 },
+          { "w": "under", "start": 1568, "end": 1768 },
+          { "w": "the", "start": 1768, "end": 1828 },
+          { "w": "big", "start": 1808, "end": 2068 },
+          { "w": "banyan", "start": 2068, "end": 2648 },
+          { "w": "tree.", "start": 2648, "end": 3368 },
+          { "w": "Hamza", "start": 3368, "end": 3818 },
+          { "w": "wanted", "start": 3818, "end": 4368 },
+          { "w": "to", "start": 4368, "end": 4548 },
+          { "w": "play", "start": 4548, "end": 4908 },
+          { "w": "too,", "start": 4908, "end": 5358 },
+          { "w": "but", "start": 5358, "end": 5628 },
+          { "w": "he", "start": 5628, "end": 5808 },
+          { "w": "just", "start": 5808, "end": 6178 },
+          { "w": "stood", "start": 6178, "end": 6628 },
+          { "w": "quietly.", "start": 6628, "end": 7608 }
+        ]
+      }
     },
     {
       "id": "p3",
@@ -54,10 +194,78 @@
       },
       "cast": [
         { "art": "puppet:zainab", "x": 0.12, "y": 0.6, "size": 0.15, "act": "run", "face": "laugh" },
-        { "art": "puppet:bilal", "x": 0.28, "y": 0.6, "size": 0.15, "act": "bounce", "face": "laugh" },
-        { "art": "puppet:hamza", "x": 0.58, "y": 0.66, "size": 0.26, "face": "surprised", "look": "upRight" },
-        { "art": "puppet:mithu", "x": 0.65, "y": 0.485, "size": 0.08, "act": "talk+flap", "mood": "happy", "flip": true, "enter": "top" }
-      ]
+        {
+          "art": "puppet:bilal",
+          "x": 0.28,
+          "y": 0.6,
+          "size": 0.15,
+          "act": "bounce",
+          "face": "laugh"
+        },
+        {
+          "art": "puppet:hamza",
+          "x": 0.58,
+          "y": 0.66,
+          "size": 0.26,
+          "face": "surprised",
+          "look": "upRight"
+        },
+        {
+          "art": "puppet:mithu",
+          "x": 0.65,
+          "y": 0.485,
+          "size": 0.08,
+          "act": "talk+flap",
+          "mood": "happy",
+          "flip": true,
+          "enter": "top"
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "ایک", "start": 8, "end": 318 },
+          { "w": "ہرا", "start": 318, "end": 628 },
+          { "w": "طوطا", "start": 628, "end": 1038 },
+          { "w": "اس", "start": 1038, "end": 1248 },
+          { "w": "کے", "start": 1248, "end": 1458 },
+          { "w": "کندھے", "start": 1458, "end": 1868 },
+          { "w": "پر", "start": 1868, "end": 2068 },
+          { "w": "آ", "start": 2068, "end": 2168 },
+          { "w": "بیٹھا۔", "start": 2168, "end": 2808 },
+          { "w": "\"میں", "start": 2808, "end": 3208 },
+          { "w": "مٹھو", "start": 3208, "end": 3728 },
+          { "w": "ہوں!", "start": 3728, "end": 4178 },
+          { "w": "اتنے", "start": 4178, "end": 4538 },
+          { "w": "چپ", "start": 4538, "end": 4718 },
+          { "w": "کیوں", "start": 4718, "end": 5088 },
+          { "w": "ہو؟", "start": 5088, "end": 5368 },
+          { "w": "ایک", "start": 5368, "end": 5648 },
+          { "w": "جادوئی", "start": 5648, "end": 6108 },
+          { "w": "لفظ", "start": 6108, "end": 6378 },
+          { "w": "سیکھو", "start": 6378, "end": 6838 },
+          { "w": "گے؟\"", "start": 6838, "end": 7128 }
+        ],
+        "en": [
+          { "w": "A", "start": 7, "end": 87 },
+          { "w": "green", "start": 87, "end": 517 },
+          { "w": "parrot", "start": 517, "end": 1047 },
+          { "w": "landed", "start": 1047, "end": 1187 },
+          { "w": "on", "start": 1187, "end": 1737 },
+          { "w": "his", "start": 1737, "end": 1797 },
+          { "w": "shoulder.", "start": 1777, "end": 2567 },
+          { "w": "\"I'm", "start": 2567, "end": 2857 },
+          { "w": "Mithu!", "start": 2857, "end": 3457 },
+          { "w": "Why", "start": 3457, "end": 3687 },
+          { "w": "so", "start": 3687, "end": 3837 },
+          { "w": "quiet?", "start": 3837, "end": 4457 },
+          { "w": "Want", "start": 4457, "end": 4767 },
+          { "w": "to", "start": 4767, "end": 4917 },
+          { "w": "learn", "start": 4917, "end": 5307 },
+          { "w": "a", "start": 5307, "end": 5377 },
+          { "w": "magic", "start": 5377, "end": 5767 },
+          { "w": "word?\"", "start": 5767, "end": 6487 }
+        ]
+      }
     },
     {
       "id": "p4",
@@ -69,13 +277,86 @@
         "ur": "\"جادوئی لفظ ہے السلام علیکم! اس کا مطلب ہے 'تم پر سلامتی ہو'۔ یہ ہر دل کھول دیتا ہے!\""
       },
       "cast": [
-        { "art": "puppet:hamza", "x": 0.26, "y": 0.66, "size": 0.24, "face": "happy", "look": "upRight", "act": "nod" },
-        { "art": "puppet:mithu", "x": 0.64, "y": 0.5, "size": 0.17, "pose": "spread", "act": "talk", "mood": "happy", "flip": true },
+        {
+          "art": "puppet:hamza",
+          "x": 0.26,
+          "y": 0.66,
+          "size": 0.24,
+          "face": "happy",
+          "look": "upRight",
+          "act": "nod"
+        },
+        {
+          "art": "puppet:mithu",
+          "x": 0.64,
+          "y": 0.5,
+          "size": 0.17,
+          "pose": "spread",
+          "act": "talk",
+          "mood": "happy",
+          "flip": true
+        },
         { "art": "prop:sparkle", "x": 0.46, "y": 0.3, "size": 0.04, "mood": "twinkle" },
-        { "art": "prop:sparkle", "x": 0.86, "y": 0.26, "size": 0.035, "mood": "twinkle", "delay": 300 },
-        { "art": "prop:sparkle", "x": 0.6, "y": 0.22, "size": 0.03, "mood": "twinkle", "delay": 600 },
+        {
+          "art": "prop:sparkle",
+          "x": 0.86,
+          "y": 0.26,
+          "size": 0.035,
+          "mood": "twinkle",
+          "delay": 300
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.6,
+          "y": 0.22,
+          "size": 0.03,
+          "mood": "twinkle",
+          "delay": 600
+        },
         { "art": "prop:heart", "x": 0.82, "y": 0.42, "size": 0.035, "mood": "float", "delay": 900 }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "\"جادوئی", "start": 23, "end": 593 },
+          { "w": "لفظ", "start": 593, "end": 943 },
+          { "w": "ہے", "start": 943, "end": 1223 },
+          { "w": "السلام", "start": 1223, "end": 2043 },
+          { "w": "علیکم!", "start": 2043, "end": 2743 },
+          { "w": "اس", "start": 2863, "end": 2963 },
+          { "w": "کا", "start": 2963, "end": 3183 },
+          { "w": "مطلب", "start": 3183, "end": 3663 },
+          { "w": "ہے", "start": 3663, "end": 3843 },
+          { "w": "'تم", "start": 3843, "end": 4063 },
+          { "w": "پر", "start": 4063, "end": 4283 },
+          { "w": "سلامتی", "start": 4283, "end": 4953 },
+          { "w": "ہو'۔", "start": 4953, "end": 5183 },
+          { "w": "یہ", "start": 5183, "end": 5423 },
+          { "w": "ہر", "start": 5423, "end": 5653 },
+          { "w": "دل", "start": 5653, "end": 5883 },
+          { "w": "کھول", "start": 5883, "end": 6343 },
+          { "w": "دیتا", "start": 6343, "end": 6793 },
+          { "w": "ہے!\"", "start": 6793, "end": 7103 }
+        ],
+        "en": [
+          { "w": "\"The", "start": 8, "end": 328 },
+          { "w": "magic", "start": 328, "end": 868 },
+          { "w": "word", "start": 868, "end": 1058 },
+          { "w": "is", "start": 1058, "end": 1218 },
+          { "w": "Assalam", "start": 1218, "end": 1538 },
+          { "w": "o", "start": 1538, "end": 1858 },
+          { "w": "Alaikum!", "start": 1858, "end": 2728 },
+          { "w": "It", "start": 2728, "end": 2978 },
+          { "w": "means", "start": 2978, "end": 3938 },
+          { "w": "'peace", "start": 3938, "end": 3998 },
+          { "w": "be", "start": 3978, "end": 4128 },
+          { "w": "upon", "start": 4128, "end": 4448 },
+          { "w": "you.'", "start": 4448, "end": 4888 },
+          { "w": "It", "start": 4888, "end": 5138 },
+          { "w": "opens", "start": 5138, "end": 5978 },
+          { "w": "every", "start": 5978, "end": 6168 },
+          { "w": "heart!\"", "start": 6168, "end": 6968 }
+        ]
+      }
     },
     {
       "id": "p5",
@@ -88,19 +369,62 @@
       },
       "cast": [
         { "art": "puppet:zainab", "x": 0.14, "y": 0.6, "size": 0.15, "act": "run", "face": "laugh" },
-        { "art": "puppet:bilal", "x": 0.3, "y": 0.6, "size": 0.15, "act": "bounce", "face": "laugh" },
+        {
+          "art": "puppet:bilal",
+          "x": 0.3,
+          "y": 0.6,
+          "size": 0.15,
+          "act": "bounce",
+          "face": "laugh"
+        },
         { "art": "puppet:hamza", "x": 0.6, "y": 0.66, "size": 0.24, "pose": "think", "act": "look" },
         { "art": "prop:house", "x": 0.9, "y": 0.6, "size": 0.09 },
         { "art": "puppet:mithu", "x": 0.69, "y": 0.475, "size": 0.075, "flip": true, "act": "flap" }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "حمزہ", "start": 24, "end": 424 },
+          { "w": "نے", "start": 424, "end": 634 },
+          { "w": "بچوں", "start": 634, "end": 1024 },
+          { "w": "کی", "start": 1024, "end": 1224 },
+          { "w": "طرف", "start": 1224, "end": 1514 },
+          { "w": "دیکھا۔", "start": 1514, "end": 2104 },
+          { "w": "حمزہ", "start": 2104, "end": 2504 },
+          { "w": "کو", "start": 2504, "end": 2714 },
+          { "w": "کیا", "start": 2714, "end": 3024 },
+          { "w": "کرنا", "start": 3024, "end": 3444 },
+          { "w": "چاہیے؟", "start": 3444, "end": 4584 }
+        ],
+        "en": [
+          { "w": "Hamza", "start": 71, "end": 331 },
+          { "w": "looked", "start": 331, "end": 801 },
+          { "w": "at", "start": 801, "end": 861 },
+          { "w": "the", "start": 851, "end": 1061 },
+          { "w": "children.", "start": 1061, "end": 1861 },
+          { "w": "What", "start": 1861, "end": 2061 },
+          { "w": "should", "start": 2061, "end": 2371 },
+          { "w": "Hamza", "start": 2371, "end": 2621 },
+          { "w": "do?", "start": 2621, "end": 2901 }
+        ]
+      }
     },
     {
       "id": "choice",
       "type": "choice",
       "prompt": { "en": "What should Hamza do?", "ur": "حمزہ کو کیا کرنا چاہیے؟" },
       "options": [
-        { "id": "salam", "label": { "en": "Go and say Salam", "ur": "جا کر سلام کرے" }, "picture": "prop:salam", "next": "choice_a" },
-        { "id": "home", "label": { "en": "Go back home", "ur": "واپس گھر چلا جائے" }, "picture": "prop:house", "next": "choice_b" }
+        {
+          "id": "salam",
+          "label": { "en": "Go and say Salam", "ur": "جا کر سلام کرے" },
+          "picture": "prop:salam",
+          "next": "choice_a"
+        },
+        {
+          "id": "home",
+          "label": { "en": "Go back home", "ur": "واپس گھر چلا جائے" },
+          "picture": "prop:house",
+          "next": "choice_b"
+        }
       ]
     },
     {
@@ -114,15 +438,114 @@
       },
       "help": { "kind": "drag", "item": 2, "to": 1 },
       "cast": [
-        { "art": "puppet:zainab", "x": 0.18, "y": 0.63, "size": 0.2, "act": "bounce", "mood": "happy", "look": "left", "helpHide": 1 },
-        { "art": "puppet:bilal", "x": 0.38, "y": 0.63, "size": 0.2, "act": "bounce", "mood": "happy", "look": "left", "helpHide": 1 },
-        { "art": "puppet:hamza", "x": 0.84, "y": 0.645, "size": 0.21, "pose": "shy", "act": "shy", "enter": "right", "helpHide": 1 },
-        { "art": "puppet:zainab", "x": 0.18, "y": 0.63, "size": 0.2, "face": "surprised", "look": "right", "helpStep": 1 },
-        { "art": "puppet:bilal", "x": 0.38, "y": 0.63, "size": 0.2, "face": "surprised", "look": "right", "helpStep": 1 },
-        { "art": "puppet:hamza", "x": 0.62, "y": 0.645, "size": 0.22, "pose": "wave", "act": "wave+talk", "mood": "happy", "helpStep": 1 },
-        { "art": "prop:salam", "x": 0.8, "y": 0.36, "size": 0.07, "mood": "float", "delay": 600, "helpStep": 1 },
-        { "art": "puppet:mithu", "x": 0.6, "y": 0.28, "size": 0.07, "pose": "fly", "act": "fly", "orbit": { "rx": 0.16, "ry": 0.03, "ms": 4000 } }
-      ]
+        {
+          "art": "puppet:zainab",
+          "x": 0.18,
+          "y": 0.63,
+          "size": 0.2,
+          "act": "bounce",
+          "mood": "happy",
+          "look": "left",
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:bilal",
+          "x": 0.38,
+          "y": 0.63,
+          "size": 0.2,
+          "act": "bounce",
+          "mood": "happy",
+          "look": "left",
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:hamza",
+          "x": 0.84,
+          "y": 0.645,
+          "size": 0.21,
+          "pose": "shy",
+          "act": "shy",
+          "enter": "right",
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:zainab",
+          "x": 0.18,
+          "y": 0.63,
+          "size": 0.2,
+          "face": "surprised",
+          "look": "right",
+          "helpStep": 1
+        },
+        {
+          "art": "puppet:bilal",
+          "x": 0.38,
+          "y": 0.63,
+          "size": 0.2,
+          "face": "surprised",
+          "look": "right",
+          "helpStep": 1
+        },
+        {
+          "art": "puppet:hamza",
+          "x": 0.62,
+          "y": 0.645,
+          "size": 0.22,
+          "pose": "wave",
+          "act": "wave+talk",
+          "mood": "happy",
+          "helpStep": 1
+        },
+        {
+          "art": "prop:salam",
+          "x": 0.8,
+          "y": 0.36,
+          "size": 0.07,
+          "mood": "float",
+          "delay": 600,
+          "helpStep": 1
+        },
+        {
+          "art": "puppet:mithu",
+          "x": 0.6,
+          "y": 0.28,
+          "size": 0.07,
+          "pose": "fly",
+          "act": "fly",
+          "orbit": { "rx": 0.16, "ry": 0.03, "ms": 4000 }
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "حمزہ", "start": 12, "end": 412 },
+          { "w": "نے", "start": 412, "end": 562 },
+          { "w": "گہری", "start": 562, "end": 932 },
+          { "w": "سانس", "start": 932, "end": 1322 },
+          { "w": "لی،", "start": 1322, "end": 1552 },
+          { "w": "آگے", "start": 1552, "end": 1952 },
+          { "w": "بڑھا", "start": 1952, "end": 2512 },
+          { "w": "اور", "start": 2512, "end": 2872 },
+          { "w": "کہا،", "start": 2872, "end": 3272 },
+          { "w": "\"السلام", "start": 3272, "end": 4052 },
+          { "w": "علیکم!\"", "start": 4052, "end": 4712 }
+        ],
+        "en": [
+          { "w": "Hamza", "start": 312, "end": 372 },
+          { "w": "took", "start": 312, "end": 372 },
+          { "w": "a", "start": 352, "end": 442 },
+          { "w": "deep", "start": 442, "end": 822 },
+          { "w": "breath,", "start": 822, "end": 1762 },
+          { "w": "walked", "start": 1762, "end": 2472 },
+          { "w": "up", "start": 2472, "end": 2702 },
+          { "w": "to", "start": 2702, "end": 2942 },
+          { "w": "them,", "start": 2942, "end": 3402 },
+          { "w": "and", "start": 3402, "end": 4242 },
+          { "w": "said,", "start": 4242, "end": 4442 },
+          { "w": "\"Assalam", "start": 4442, "end": 4737 },
+          { "w": "o", "start": 4737, "end": 5032 },
+          { "w": "Alaikum!\"", "start": 5032, "end": 5832 }
+        ]
+      }
     },
     {
       "id": "choice_b",
@@ -135,19 +558,181 @@
       },
       "help": { "kind": "drag", "item": 6, "to": 5, "when": "after" },
       "cast": [
-        { "art": "puppet:zainab", "x": 0.18, "y": 0.63, "size": 0.2, "act": "run", "face": "laugh", "until": 4500 },
-        { "art": "puppet:bilal", "x": 0.38, "y": 0.63, "size": 0.2, "act": "bounce", "face": "laugh", "until": 4500 },
-        { "art": "puppet:hamza", "x": 0.84, "y": 0.645, "size": 0.21, "act": "walk", "face": "sad", "until": 4500 },
-        { "art": "puppet:mithu", "x": 0.76, "y": 0.4, "size": 0.1, "pose": "spread", "act": "talk+flap", "mood": "happy", "enter": "left", "delay": 1200, "helpHide": 1 },
-        { "art": "puppet:zainab", "x": 0.18, "y": 0.63, "size": 0.2, "act": "bounce", "mood": "happy", "look": "left", "delay": 4500, "helpHide": 1 },
-        { "art": "puppet:bilal", "x": 0.38, "y": 0.63, "size": 0.2, "act": "bounce", "mood": "happy", "look": "left", "delay": 4500, "helpHide": 1 },
-        { "art": "puppet:hamza", "x": 0.84, "y": 0.645, "size": 0.21, "pose": "shy", "act": "shy", "delay": 4500, "helpHide": 1 },
-        { "art": "puppet:zainab", "x": 0.18, "y": 0.63, "size": 0.2, "face": "surprised", "look": "right", "helpStep": 1 },
-        { "art": "puppet:bilal", "x": 0.38, "y": 0.63, "size": 0.2, "face": "surprised", "look": "right", "helpStep": 1 },
-        { "art": "puppet:hamza", "x": 0.62, "y": 0.645, "size": 0.22, "pose": "wave", "act": "wave+talk", "mood": "happy", "helpStep": 1 },
-        { "art": "prop:salam", "x": 0.8, "y": 0.36, "size": 0.07, "mood": "float", "delay": 600, "helpStep": 1 },
-        { "art": "puppet:mithu", "x": 0.6, "y": 0.28, "size": 0.07, "pose": "fly", "act": "fly", "orbit": { "rx": 0.16, "ry": 0.03, "ms": 4000 }, "helpStep": 1 }
-      ]
+        {
+          "art": "puppet:zainab",
+          "x": 0.18,
+          "y": 0.63,
+          "size": 0.2,
+          "act": "run",
+          "face": "laugh",
+          "until": 4500
+        },
+        {
+          "art": "puppet:bilal",
+          "x": 0.38,
+          "y": 0.63,
+          "size": 0.2,
+          "act": "bounce",
+          "face": "laugh",
+          "until": 4500
+        },
+        {
+          "art": "puppet:hamza",
+          "x": 0.84,
+          "y": 0.645,
+          "size": 0.21,
+          "act": "walk",
+          "face": "sad",
+          "until": 4500
+        },
+        {
+          "art": "puppet:mithu",
+          "x": 0.76,
+          "y": 0.4,
+          "size": 0.1,
+          "pose": "spread",
+          "act": "talk+flap",
+          "mood": "happy",
+          "enter": "left",
+          "delay": 1200,
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:zainab",
+          "x": 0.18,
+          "y": 0.63,
+          "size": 0.2,
+          "act": "bounce",
+          "mood": "happy",
+          "look": "left",
+          "delay": 4500,
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:bilal",
+          "x": 0.38,
+          "y": 0.63,
+          "size": 0.2,
+          "act": "bounce",
+          "mood": "happy",
+          "look": "left",
+          "delay": 4500,
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:hamza",
+          "x": 0.84,
+          "y": 0.645,
+          "size": 0.21,
+          "pose": "shy",
+          "act": "shy",
+          "delay": 4500,
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:zainab",
+          "x": 0.18,
+          "y": 0.63,
+          "size": 0.2,
+          "face": "surprised",
+          "look": "right",
+          "helpStep": 1
+        },
+        {
+          "art": "puppet:bilal",
+          "x": 0.38,
+          "y": 0.63,
+          "size": 0.2,
+          "face": "surprised",
+          "look": "right",
+          "helpStep": 1
+        },
+        {
+          "art": "puppet:hamza",
+          "x": 0.62,
+          "y": 0.645,
+          "size": 0.22,
+          "pose": "wave",
+          "act": "wave+talk",
+          "mood": "happy",
+          "helpStep": 1
+        },
+        {
+          "art": "prop:salam",
+          "x": 0.8,
+          "y": 0.36,
+          "size": 0.07,
+          "mood": "float",
+          "delay": 600,
+          "helpStep": 1
+        },
+        {
+          "art": "puppet:mithu",
+          "x": 0.6,
+          "y": 0.28,
+          "size": 0.07,
+          "pose": "fly",
+          "act": "fly",
+          "orbit": { "rx": 0.16, "ry": 0.03, "ms": 4000 },
+          "helpStep": 1
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "حمزہ", "start": 10, "end": 490 },
+          { "w": "گھر", "start": 490, "end": 930 },
+          { "w": "کی", "start": 930, "end": 1110 },
+          { "w": "طرف", "start": 1110, "end": 1460 },
+          { "w": "مڑا۔", "start": 1460, "end": 2010 },
+          { "w": "مٹھو", "start": 2010, "end": 2450 },
+          { "w": "اڑ", "start": 2450, "end": 2780 },
+          { "w": "کر", "start": 2780, "end": 3000 },
+          { "w": "اس", "start": 3000, "end": 3220 },
+          { "w": "کے", "start": 3220, "end": 3440 },
+          { "w": "سامنے", "start": 3440, "end": 3990 },
+          { "w": "آ", "start": 3990, "end": 4100 },
+          { "w": "گیا۔", "start": 4100, "end": 4530 },
+          { "w": "\"بس", "start": 4530, "end": 4730 },
+          { "w": "ایک", "start": 4730, "end": 5040 },
+          { "w": "بار", "start": 5040, "end": 5350 },
+          { "w": "کوشش", "start": 5350, "end": 5760 },
+          { "w": "کرو،", "start": 5760, "end": 6070 },
+          { "w": "حمزہ!\"", "start": 6070, "end": 6550 },
+          { "w": "حمزہ", "start": 6550, "end": 6990 },
+          { "w": "واپس", "start": 6990, "end": 7470 },
+          { "w": "آیا", "start": 7470, "end": 7780 },
+          { "w": "اور", "start": 7780, "end": 8120 },
+          { "w": "بولا،", "start": 8120, "end": 8630 },
+          { "w": "\"السلام", "start": 8630, "end": 9430 },
+          { "w": "علیکم!\"", "start": 9430, "end": 10110 }
+        ],
+        "en": [
+          { "w": "Hamza", "start": 7, "end": 417 },
+          { "w": "turned", "start": 417, "end": 917 },
+          { "w": "to", "start": 917, "end": 1077 },
+          { "w": "go", "start": 1077, "end": 1237 },
+          { "w": "home.", "start": 1237, "end": 1847 },
+          { "w": "Mithu", "start": 1847, "end": 2217 },
+          { "w": "flew", "start": 2217, "end": 2607 },
+          { "w": "in", "start": 2607, "end": 2707 },
+          { "w": "front", "start": 2707, "end": 3127 },
+          { "w": "of", "start": 3127, "end": 3277 },
+          { "w": "him.", "start": 3277, "end": 3687 },
+          { "w": "\"Just", "start": 3687, "end": 4077 },
+          { "w": "try", "start": 4077, "end": 4317 },
+          { "w": "once,", "start": 4317, "end": 4787 },
+          { "w": "Hamza!\"", "start": 4787, "end": 5527 },
+          { "w": "So", "start": 5527, "end": 5687 },
+          { "w": "Hamza", "start": 5687, "end": 6077 },
+          { "w": "walked", "start": 6077, "end": 6547 },
+          { "w": "back", "start": 6547, "end": 6887 },
+          { "w": "and", "start": 6887, "end": 7617 },
+          { "w": "said,", "start": 7617, "end": 7797 },
+          { "w": "\"Assalam", "start": 7797, "end": 8067 },
+          { "w": "o", "start": 8067, "end": 8337 },
+          { "w": "Alaikum!\"", "start": 8337, "end": 9047 }
+        ]
+      }
     },
     {
       "id": "p6",
@@ -159,11 +744,73 @@
         "ur": "بچے مسکرانے لگے۔ \"وعلیکم السلام! میں زینب ہوں۔\" \"اور میں بلال ہوں! آؤ، ہمارے ساتھ کھیلو!\""
       },
       "cast": [
-        { "art": "puppet:zainab", "x": 0.2, "y": 0.63, "size": 0.2, "pose": "wave", "act": "wave+talk", "mood": "happy" },
-        { "art": "puppet:bilal", "x": 0.44, "y": 0.63, "size": 0.2, "pose": "welcome", "act": "bounce+talk", "face": "laugh" },
-        { "art": "puppet:hamza", "x": 0.74, "y": 0.645, "size": 0.22, "mood": "shy", "act": "shy", "face": "happy" },
+        {
+          "art": "puppet:zainab",
+          "x": 0.2,
+          "y": 0.63,
+          "size": 0.2,
+          "pose": "wave",
+          "act": "wave+talk",
+          "mood": "happy"
+        },
+        {
+          "art": "puppet:bilal",
+          "x": 0.44,
+          "y": 0.63,
+          "size": 0.2,
+          "pose": "welcome",
+          "act": "bounce+talk",
+          "face": "laugh"
+        },
+        {
+          "art": "puppet:hamza",
+          "x": 0.74,
+          "y": 0.645,
+          "size": 0.22,
+          "mood": "shy",
+          "act": "shy",
+          "face": "happy"
+        },
         { "art": "prop:heart", "x": 0.6, "y": 0.36, "size": 0.035, "mood": "float" }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "بچے", "start": 1, "end": 421 },
+          { "w": "مسکرانے", "start": 421, "end": 1401 },
+          { "w": "لگے۔", "start": 1401, "end": 1861 },
+          { "w": "\"وعلیکم", "start": 1861, "end": 2481 },
+          { "w": "السلام!", "start": 2481, "end": 3161 },
+          { "w": "میں", "start": 3161, "end": 3561 },
+          { "w": "زینب", "start": 3561, "end": 3981 },
+          { "w": "ہوں۔\"", "start": 3981, "end": 4361 },
+          { "w": "\"اور", "start": 4361, "end": 4661 },
+          { "w": "میں", "start": 4661, "end": 4971 },
+          { "w": "بلال", "start": 4971, "end": 5361 },
+          { "w": "ہوں!", "start": 5361, "end": 5681 },
+          { "w": "آؤ،", "start": 5681, "end": 6261 },
+          { "w": "ہمارے", "start": 6341, "end": 6661 },
+          { "w": "ساتھ", "start": 6661, "end": 6981 },
+          { "w": "کھیلو!\"", "start": 6981, "end": 7441 }
+        ],
+        "en": [
+          { "w": "The", "start": 8, "end": 228 },
+          { "w": "children", "start": 228, "end": 868 },
+          { "w": "smiled.", "start": 868, "end": 1528 },
+          { "w": "\"Wa", "start": 1528, "end": 1708 },
+          { "w": "Alaikum", "start": 1708, "end": 2178 },
+          { "w": "Assalam!", "start": 2178, "end": 2888 },
+          { "w": "I'm", "start": 2888, "end": 3118 },
+          { "w": "Zainab.\"", "start": 3118, "end": 3928 },
+          { "w": "\"And", "start": 3928, "end": 4178 },
+          { "w": "I'm", "start": 4178, "end": 4368 },
+          { "w": "Bilal!", "start": 4368, "end": 4888 },
+          { "w": "Come", "start": 4888, "end": 5148 },
+          { "w": "and", "start": 5148, "end": 5348 },
+          { "w": "play", "start": 5348, "end": 5618 },
+          { "w": "with", "start": 5618, "end": 5868 },
+          { "w": "us!\"", "start": 5868, "end": 6328 }
+        ]
+      }
     },
     {
       "id": "p7",
@@ -175,11 +822,67 @@
         "ur": "وہ مغرب تک چھپن چھپائی کھیلتے رہے۔ حمزہ سب سے زیادہ ہنس رہا تھا!"
       },
       "cast": [
-        { "art": "puppet:bilal", "x": 0.4, "y": 0.6, "size": 0.19, "pose": "cover_eyes", "act": "nod" },
-        { "art": "puppet:zainab", "x": 0.1, "y": 0.66, "size": 0.19, "face": "laugh", "look": "right", "act": "fidget" },
+        {
+          "art": "puppet:bilal",
+          "x": 0.4,
+          "y": 0.6,
+          "size": 0.19,
+          "pose": "cover_eyes",
+          "act": "nod"
+        },
+        {
+          "art": "puppet:zainab",
+          "x": 0.1,
+          "y": 0.66,
+          "size": 0.19,
+          "face": "laugh",
+          "look": "right",
+          "act": "fidget"
+        },
         { "art": "prop:bush", "x": 0.12, "y": 0.67, "size": 0.09 },
-        { "art": "puppet:hamza", "x": 0.76, "y": 0.66, "size": 0.21, "pose": "cheer", "act": "run+laugh", "face": "laugh" }
-      ]
+        {
+          "art": "puppet:hamza",
+          "x": 0.76,
+          "y": 0.66,
+          "size": 0.21,
+          "pose": "cheer",
+          "act": "run+laugh",
+          "face": "laugh"
+        }
+      ],
+      "words": {
+        "ur": [
+          { "w": "وہ", "start": 22, "end": 322 },
+          { "w": "مغرب", "start": 322, "end": 942 },
+          { "w": "تک", "start": 942, "end": 1242 },
+          { "w": "چھپن", "start": 1242, "end": 1562 },
+          { "w": "چھپائی", "start": 1562, "end": 2122 },
+          { "w": "کھیلتے", "start": 2122, "end": 2782 },
+          { "w": "رہے۔", "start": 2782, "end": 3122 },
+          { "w": "حمزہ", "start": 3122, "end": 3802 },
+          { "w": "سب", "start": 3802, "end": 4142 },
+          { "w": "سے", "start": 4142, "end": 4482 },
+          { "w": "زیادہ", "start": 4482, "end": 5362 },
+          { "w": "ہنس", "start": 5362, "end": 5662 },
+          { "w": "رہا", "start": 5662, "end": 6112 },
+          { "w": "تھا!", "start": 6112, "end": 6622 }
+        ],
+        "en": [
+          { "w": "They", "start": 7, "end": 277 },
+          { "w": "played", "start": 277, "end": 687 },
+          { "w": "hide", "start": 687, "end": 947 },
+          { "w": "and", "start": 947, "end": 1447 },
+          { "w": "seek", "start": 1447, "end": 1567 },
+          { "w": "until", "start": 1567, "end": 1847 },
+          { "w": "Maghrib.", "start": 1847, "end": 2647 },
+          { "w": "Hamza", "start": 2647, "end": 2897 },
+          { "w": "laughed", "start": 2897, "end": 3247 },
+          { "w": "the", "start": 3247, "end": 3507 },
+          { "w": "loudest", "start": 3507, "end": 3747 },
+          { "w": "of", "start": 3747, "end": 3847 },
+          { "w": "all!", "start": 3847, "end": 4167 }
+        ]
+      }
     },
     {
       "id": "p8",
@@ -192,27 +895,149 @@
       },
       "cast": [
         { "art": "prop:window_night", "x": 0.3, "y": 0.42, "size": 0.17 },
-        { "art": "puppet:mithu", "x": 0.3, "y": 0.415, "size": 0.07, "pose": "sleep", "act": "sleep" },
-        { "art": "puppet:ammi", "x": 0.78, "y": 0.6, "size": 0.29, "pose": "tuck", "act": "tuck", "mood": "happy", "look": "downLeft" },
+        {
+          "art": "puppet:mithu",
+          "x": 0.3,
+          "y": 0.415,
+          "size": 0.07,
+          "pose": "sleep",
+          "act": "sleep"
+        },
+        {
+          "art": "puppet:ammi",
+          "x": 0.78,
+          "y": 0.6,
+          "size": 0.29,
+          "pose": "tuck",
+          "act": "tuck",
+          "mood": "happy",
+          "look": "downLeft"
+        },
         { "art": "prop:bed", "x": 0.45, "y": 0.69, "size": 0.13 },
-        { "art": "puppet:hamza", "x": 0.4, "y": 0.73, "size": 0.21, "turn": -90, "pose": "lie", "act": "talk", "face": "happy" },
+        {
+          "art": "puppet:hamza",
+          "x": 0.4,
+          "y": 0.73,
+          "size": 0.21,
+          "turn": -90,
+          "pose": "lie",
+          "act": "talk",
+          "face": "happy"
+        },
         { "art": "prop:blanket", "x": 0.52, "y": 0.69, "size": 0.075 }
-      ]
+      ],
+      "words": {
+        "ur": [
+          { "w": "اس", "start": 13, "end": 503 },
+          { "w": "رات", "start": 503, "end": 1253 },
+          { "w": "حمزہ", "start": 1253, "end": 1583 },
+          { "w": "نے", "start": 1583, "end": 1813 },
+          { "w": "امی", "start": 1813, "end": 2093 },
+          { "w": "سے", "start": 2093, "end": 2293 },
+          { "w": "کہا،", "start": 2293, "end": 2633 },
+          { "w": "\"سلام", "start": 2633, "end": 3193 },
+          { "w": "سچ", "start": 3193, "end": 3553 },
+          { "w": "مچ", "start": 3553, "end": 3753 },
+          { "w": "جادو", "start": 3753, "end": 4313 },
+          { "w": "ہے!", "start": 4313, "end": 4613 },
+          { "w": "اب", "start": 4613, "end": 4833 },
+          { "w": "میرے", "start": 4833, "end": 5253 },
+          { "w": "نئے", "start": 5253, "end": 5563 },
+          { "w": "دوست", "start": 5563, "end": 5983 },
+          { "w": "ہیں۔", "start": 5983, "end": 6373 },
+          { "w": "الحمدللہ!\"", "start": 6373, "end": 7613 }
+        ],
+        "en": [
+          { "w": "That", "start": 91, "end": 511 },
+          { "w": "night,", "start": 511, "end": 1471 },
+          { "w": "Hamza", "start": 1471, "end": 2151 },
+          { "w": "told", "start": 2151, "end": 2701 },
+          { "w": "Ammi,", "start": 2701, "end": 3341 },
+          { "w": "\"Salam", "start": 3341, "end": 4331 },
+          { "w": "really", "start": 4331, "end": 5001 },
+          { "w": "is", "start": 5001, "end": 5061 },
+          { "w": "magic!", "start": 5061, "end": 5291 },
+          { "w": "Now", "start": 5291, "end": 5371 },
+          { "w": "I", "start": 5371, "end": 5531 },
+          { "w": "have", "start": 5531, "end": 5591 },
+          { "w": "new", "start": 5531, "end": 5821 },
+          { "w": "friends.", "start": 5821, "end": 5931 },
+          { "w": "Alhamdulillah!\"", "start": 5931, "end": 6441 }
+        ]
+      }
     }
   ],
   "glossary": [
-    { "id": "friend", "picture": "puppet:bilal", "word": { "en": "friend", "ur": "دوست" }, "forms": { "en": ["friends"], "ur": [] } },
-    { "id": "shy", "picture": "puppet:hamza", "word": { "en": "shy", "ur": "شرمیلا" }, "forms": { "en": [], "ur": ["شرم"] } },
-    { "id": "peace", "picture": "prop:salam", "word": { "en": "peace", "ur": "سلامتی" }, "forms": { "en": [], "ur": [] } },
-    { "id": "parrot", "picture": "puppet:mithu", "word": { "en": "parrot", "ur": "طوطا" }, "forms": { "en": [], "ur": [] } },
-    { "id": "magic", "picture": "prop:sparkle", "word": { "en": "magic", "ur": "جادو" }, "forms": { "en": [], "ur": ["جادوئی"] } },
-    { "id": "house", "picture": "prop:house", "word": { "en": "house", "ur": "گھر" }, "forms": { "en": ["home"], "ur": [] } },
-    { "id": "children", "word": { "en": "children", "ur": "بچے" }, "forms": { "en": [], "ur": ["بچوں"] } },
-    { "id": "tree", "picture": "prop:tree", "word": { "en": "tree", "ur": "درخت" }, "forms": { "en": [], "ur": [] } },
-    { "id": "shoulder", "word": { "en": "shoulder", "ur": "کندھا" }, "forms": { "en": [], "ur": ["کندھے"] } },
-    { "id": "heart", "picture": "prop:heart", "word": { "en": "heart", "ur": "دل" }, "forms": { "en": [], "ur": [] } },
-    { "id": "play", "picture": "prop:ball", "word": { "en": "play", "ur": "کھیلنا" }, "forms": { "en": ["played", "playing"], "ur": ["کھیلو", "کھیل"] } },
-    { "id": "night", "picture": "prop:moon", "word": { "en": "night", "ur": "رات" }, "forms": { "en": [], "ur": [] } }
+    {
+      "id": "friend",
+      "picture": "puppet:bilal",
+      "word": { "en": "friend", "ur": "دوست" },
+      "forms": { "en": ["friends"], "ur": [] }
+    },
+    {
+      "id": "shy",
+      "picture": "puppet:hamza",
+      "word": { "en": "shy", "ur": "شرمیلا" },
+      "forms": { "en": [], "ur": ["شرم"] }
+    },
+    {
+      "id": "peace",
+      "picture": "prop:salam",
+      "word": { "en": "peace", "ur": "سلامتی" },
+      "forms": { "en": [], "ur": [] }
+    },
+    {
+      "id": "parrot",
+      "picture": "puppet:mithu",
+      "word": { "en": "parrot", "ur": "طوطا" },
+      "forms": { "en": [], "ur": [] }
+    },
+    {
+      "id": "magic",
+      "picture": "prop:sparkle",
+      "word": { "en": "magic", "ur": "جادو" },
+      "forms": { "en": [], "ur": ["جادوئی"] }
+    },
+    {
+      "id": "house",
+      "picture": "prop:house",
+      "word": { "en": "house", "ur": "گھر" },
+      "forms": { "en": ["home"], "ur": [] }
+    },
+    {
+      "id": "children",
+      "word": { "en": "children", "ur": "بچے" },
+      "forms": { "en": [], "ur": ["بچوں"] }
+    },
+    {
+      "id": "tree",
+      "picture": "prop:tree",
+      "word": { "en": "tree", "ur": "درخت" },
+      "forms": { "en": [], "ur": [] }
+    },
+    {
+      "id": "shoulder",
+      "word": { "en": "shoulder", "ur": "کندھا" },
+      "forms": { "en": [], "ur": ["کندھے"] }
+    },
+    {
+      "id": "heart",
+      "picture": "prop:heart",
+      "word": { "en": "heart", "ur": "دل" },
+      "forms": { "en": [], "ur": [] }
+    },
+    {
+      "id": "play",
+      "picture": "prop:ball",
+      "word": { "en": "play", "ur": "کھیلنا" },
+      "forms": { "en": ["played", "playing"], "ur": ["کھیلو", "کھیل"] }
+    },
+    {
+      "id": "night",
+      "picture": "prop:moon",
+      "word": { "en": "night", "ur": "رات" },
+      "forms": { "en": [], "ur": [] }
+    }
   ],
   "vocabulary": ["friend", "shy", "peace"],
   "quiz": [
@@ -229,7 +1054,11 @@
       "options": [
         { "picture": "prop:wave_hand", "label": { "en": "Bye bye", "ur": "خدا حافظ" } },
         { "picture": "prop:hand_stop", "label": { "en": "Go away", "ur": "جاؤ یہاں سے" } },
-        { "picture": "prop:salam", "label": { "en": "Assalam o Alaikum", "ur": "السلام علیکم" }, "correct": true }
+        {
+          "picture": "prop:salam",
+          "label": { "en": "Assalam o Alaikum", "ur": "السلام علیکم" },
+          "correct": true
+        }
       ]
     },
     {

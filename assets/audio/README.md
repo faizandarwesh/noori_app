@@ -154,6 +154,30 @@ dart run tool/align_audio.dart
 Then run `flutter test test/content_test.dart`. It checks every aligned page
 has one timing per word.
 
+## One file for a whole story (e.g. ElevenLabs)
+
+If a story was recorded as one long MP3 instead of one file per page, the
+tool can cut it into the page files for you and align them in the same step:
+
+```
+dart run tool/align_audio.dart tippu_seed --lang ur --split tippu.mp3 --whisper ... --model ...
+```
+
+It needs exactly one story id and `--lang`. Whisper listens to the whole
+file once, matches what it hears to the pages in reading order, and cuts the
+MP3 in the pause between pages (no re-encoding, so no quality loss). It
+writes `page_<n>.mp3` for every page it finds, plus `choice.mp3` from the
+question that ends the page before the Choice Moment.
+
+- Read **both** choice branches in the recording. A page that isn't in the
+  recording is listed as "not in the recording" and stays a silent
+  read-along.
+- Each page line shows how many of its words were heard. A low count means
+  the reading differs from the text; listen to that clip.
+- What Whisper heard is saved in `build/align_cache/`, so running it again
+  (after fixing story text) takes seconds. Replacing the MP3 makes it listen
+  again.
+
 **If whisper-cli can't read an MP3** (older builds), convert that file to WAV
 with ffmpeg, check the timings, then keep the MP3 in the app:
 `ffmpeg -i page_1.mp3 -ar 16000 -ac 1 page_1.wav`. Updating whisper.cpp is
