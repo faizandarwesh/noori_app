@@ -1,4 +1,4 @@
-// Renders every page of the batch-1 stories to PNGs, for checking how each
+// Renders every page of the batch 1-3 stories to PNGs, for checking how each
 // scene is staged. Skipped by default; run with:
 //   flutter test test/story_art_test.dart --dart-define=SCREENSHOTS=true
 // Optionally limit to one story: --dart-define=STORY=ali_thirsty_sparrow
@@ -29,6 +29,16 @@ const _stories = [
   'dodo_tells_truth',
   'tippu_seed',
   'hamza_salam',
+  'zoya_messy_room',
+  'ahmed_dada_glasses',
+  'sara_iftar_helper',
+  'usman_asks_first',
+  'fatima_not_afraid',
+  'hassan_moti_fish',
+  'kaku_crab_walk',
+  'zain_nana_boat',
+  'maryam_seashell',
+  'hamid_holds_hand',
 ];
 
 Map<String, dynamic> _json(String path) =>

@@ -185,22 +185,49 @@ void main() {
     c2.dispose();
   });
 
-  test('zones unlock only after the jungle is complete', () {
+  test('a zone unlocks only after the zone before it is complete', () {
+    Map<String, Object?> story(String id) => {
+      'id': id,
+      'title': {'en': id, 'ur': id},
+      'character': 'rabbit',
+    };
+    Map<String, Object?> zone(String id, String? after, List<String> ids) => {
+      'id': id,
+      'name': {'en': id, 'ur': id},
+      'badge': id,
+      'unlockAfter': after,
+      'stories': [for (final s in ids) story(s)],
+    };
+    final catalog = Catalog.fromJson({
+      'zones': [
+        zone('jungle', null, ['a', 'b']),
+        zone('samandar', 'jungle', ['c']),
+        zone('space', 'jungle', []),
+      ],
+    });
+    final jungle = catalog.zone('jungle')!;
+    final sea = catalog.zone('samandar')!;
+    final space = catalog.zone('space')!;
+    expect(catalog.isZoneUnlocked(jungle, const Progress()), isTrue);
+    expect(catalog.isZoneUnlocked(sea, const Progress()), isFalse);
+    expect(catalog.playable(const Progress()), hasLength(2));
+
+    final allDone = Progress(stars: {for (final s in jungle.stories) s.id: 2});
+    expect(catalog.isZoneComplete(jungle, allDone), isTrue);
+    expect(catalog.isZoneUnlocked(sea, allDone), isTrue);
+    // Still locked: it has no stories yet.
+    expect(catalog.isZoneUnlocked(space, allDone), isFalse);
+    // Home only ever lists playable stories.
+    expect(catalog.playable(allDone), hasLength(3));
+  });
+
+  test('every written story is on Home from the first launch', () {
     final json = jsonDecode(
       File('assets/content/zones.json').readAsStringSync(),
     );
     final catalog = Catalog.fromJson(json as Map<String, dynamic>);
-    final jungle = catalog.zone('jungle')!;
-    final sea = catalog.zone('samandar')!;
-    expect(catalog.isZoneUnlocked(jungle, const Progress()), isTrue);
-    expect(catalog.isZoneUnlocked(sea, const Progress()), isFalse);
-
-    final allDone = Progress(stars: {for (final s in jungle.stories) s.id: 2});
-    expect(catalog.isZoneComplete(jungle, allDone), isTrue);
-    // Still locked: it has no stories yet.
-    expect(catalog.isZoneUnlocked(sea, allDone), isFalse);
-    // Home only ever lists playable stories.
-    expect(catalog.playable(allDone), hasLength(jungle.stories.length));
+    final all = [for (final z in catalog.zones) ...z.stories];
+    expect(catalog.playable(const Progress()), hasLength(all.length));
   });
 
   test('pose driver eases between states without snapping', () {

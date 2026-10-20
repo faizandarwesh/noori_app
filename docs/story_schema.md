@@ -240,8 +240,8 @@ Layers are drawn back to front. `depth` 0 moves least and 1 moves most.
 `drift` and `bob` set the idle motion in pixels. Give the `cast` layer the
 same depth and drift as the ground it stands on.
 
-`ambient` loops a soundscape under the narration: `birds`, `river` or
-`wind` (`assets/audio/ambient/`). Music and ambience duck while a voice
+`ambient` loops a soundscape under the narration: `birds`, `river`,
+`wind` or `waves` (`assets/audio/ambient/`). Music and ambience duck while a voice
 plays.
 
 `secrets` are little surprises hidden in the scene, for children who tap

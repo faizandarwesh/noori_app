@@ -95,6 +95,26 @@ flutter:
     - assets/audio/stories/tippu_seed/ur/
     - assets/audio/stories/hamza_salam/en/
     - assets/audio/stories/hamza_salam/ur/
+    - assets/audio/stories/zoya_messy_room/en/
+    - assets/audio/stories/zoya_messy_room/ur/
+    - assets/audio/stories/ahmed_dada_glasses/en/
+    - assets/audio/stories/ahmed_dada_glasses/ur/
+    - assets/audio/stories/sara_iftar_helper/en/
+    - assets/audio/stories/sara_iftar_helper/ur/
+    - assets/audio/stories/usman_asks_first/en/
+    - assets/audio/stories/usman_asks_first/ur/
+    - assets/audio/stories/fatima_not_afraid/en/
+    - assets/audio/stories/fatima_not_afraid/ur/
+    - assets/audio/stories/hassan_moti_fish/en/
+    - assets/audio/stories/hassan_moti_fish/ur/
+    - assets/audio/stories/kaku_crab_walk/en/
+    - assets/audio/stories/kaku_crab_walk/ur/
+    - assets/audio/stories/zain_nana_boat/en/
+    - assets/audio/stories/zain_nana_boat/ur/
+    - assets/audio/stories/maryam_seashell/en/
+    - assets/audio/stories/maryam_seashell/ur/
+    - assets/audio/stories/hamid_holds_hand/en/
+    - assets/audio/stories/hamid_holds_hand/ur/
     - assets/illustrations/characters/
     - assets/illustrations/props/
     - assets/illustrations/secrets/
@@ -115,6 +135,21 @@ flutter:
     - assets/illustrations/puppets/squirrel/
     - assets/illustrations/puppets/tippu/
     - assets/illustrations/puppets/zainab/
+    - assets/illustrations/puppets/zoya/
+    - assets/illustrations/puppets/ahmed/
+    - assets/illustrations/puppets/dada/
+    - assets/illustrations/puppets/sara/
+    - assets/illustrations/puppets/usman/
+    - assets/illustrations/puppets/rayan/
+    - assets/illustrations/puppets/fatima/
+    - assets/illustrations/puppets/hassan/
+    - assets/illustrations/puppets/kaku/
+    - assets/illustrations/puppets/tara/
+    - assets/illustrations/puppets/zain/
+    - assets/illustrations/puppets/nana/
+    - assets/illustrations/puppets/maryam/
+    - assets/illustrations/puppets/musa/
+    - assets/illustrations/puppets/hamid/
     - assets/illustrations/scenes/mango_grove/
     - assets/illustrations/scenes/river_crossing/
     - assets/illustrations/scenes/jungle_nest/
@@ -129,6 +164,9 @@ flutter:
     - assets/illustrations/scenes/newhouse/
     - assets/illustrations/scenes/banyan/
     - assets/illustrations/scenes/bedroom/
+    - assets/illustrations/scenes/home/
+    - assets/illustrations/scenes/beach/
+    - assets/illustrations/scenes/sea/
 
   # Bundled variable fonts: the app never downloads anything.
   fonts:

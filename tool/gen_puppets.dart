@@ -123,6 +123,180 @@ void main() {
       dupatta: '#3FB6A8',
     ),
     parrot('mithu'),
+    // Zone 2, Ghar. Ammi and Abbu (baba) are shared with batch 1.
+    // Story 6: Zoya's Messy Room.
+    person(
+      'zoya',
+      kid: true,
+      skin: '#E9B892',
+      hair: '#2E1E1C',
+      top: '#FFD447',
+      bottom: '#FFF2B8',
+      shoes: '#E58A2E',
+      head: 'ponytails',
+      accent: '#FF8A5B',
+      frock: true,
+    ),
+    // Story 7: Dada Jaan's Glasses.
+    person(
+      'ahmed',
+      kid: true,
+      skin: '#DCA47C',
+      hair: '#241A1C',
+      top: '#5DBB63',
+      bottom: '#F2EBDD',
+      shoes: '#6B4A33',
+      head: 'short',
+      accent: '#3E9A4C',
+    ),
+    person(
+      'dada',
+      kid: false,
+      skin: '#DDA884',
+      hair: '#F2F0EC',
+      top: '#F4EFE6',
+      bottom: '#E6DCCB',
+      shoes: '#5E4130',
+      head: 'beard',
+      accent: '#8A5A3B',
+      vest: true,
+    ),
+    // Story 8: Sara the Iftar Helper.
+    person(
+      'sara',
+      kid: true,
+      skin: '#E6B38C',
+      hair: '#2A1C1E',
+      top: '#C9B8F0',
+      bottom: '#F3EEFF',
+      shoes: '#7D5BC4',
+      head: 'dupatta',
+      accent: '#8E6AD8',
+      dupatta: '#9B7BE0',
+    ),
+    // Story 9: Usman Asks First.
+    person(
+      'usman',
+      kid: true,
+      skin: '#E2AE86',
+      hair: '#2B2024',
+      top: '#F7F3EA',
+      bottom: '#8FB8E8',
+      shoes: '#4A5A78',
+      head: 'cap',
+      accent: '#E5484D',
+    ),
+    person(
+      'rayan',
+      kid: true,
+      skin: '#D49B72',
+      hair: '#3A2A22',
+      top: '#4FC3E0',
+      bottom: '#3D4F73',
+      shoes: '#2E3550',
+      head: 'curly',
+      accent: '#2A9CC0',
+    ),
+    // Story 10: Fatima Is Not Afraid (star pyjamas).
+    person(
+      'fatima',
+      kid: true,
+      skin: '#E8B791',
+      hair: '#241819',
+      top: '#7C8FE8',
+      bottom: '#6676D6',
+      shoes: '#F7C8D6',
+      head: 'headband',
+      accent: '#FFD166',
+    ),
+    // Zone 3, Samandar.
+    // Story 11: Moti the Little Fish.
+    person(
+      'hassan',
+      kid: true,
+      skin: '#DFA77F',
+      hair: '#231A1D',
+      top: '#FF9F43',
+      bottom: '#3F6FB5',
+      shoes: '#2E4A7A',
+      head: 'cap',
+      accent: '#2F80ED',
+    ),
+    // Story 12: Kaku Crab's Special Walk.
+    crab(),
+    turtle(
+      id: 'tara',
+      skin: '#86D3C6',
+      skinHi: '#B5E9DF',
+      shell: '#2F9C8F',
+      shellHi: '#6CCFB9',
+      plate: '#F3E6B8',
+      toes: '#62B8AA',
+      spots: '#A9E8D8',
+      seams: '#DCCB8E',
+      bow: '#FF7FA8',
+    ),
+    // Story 13: Zain and Nana's Boat (orange life jacket).
+    person(
+      'zain',
+      kid: true,
+      skin: '#D9A07A',
+      hair: '#2A1E1E',
+      top: '#5B9BE0',
+      bottom: '#E8DFCF',
+      shoes: '#6B4A33',
+      head: 'short',
+      accent: '#FF8A1F',
+      vest: true,
+    ),
+    person(
+      'nana',
+      kid: false,
+      skin: '#C98E66',
+      hair: '#E9E6E1',
+      top: '#7FB2D9',
+      bottom: '#E4DACB',
+      shoes: '#5E4130',
+      head: 'cap',
+      accent: '#FFFFFF',
+      beard: true,
+    ),
+    // Story 14: Maryam's Seashell.
+    person(
+      'maryam',
+      kid: true,
+      skin: '#EDBD98',
+      hair: '#2A1C1E',
+      top: '#FFFFFF',
+      bottom: '#FFE0EA',
+      shoes: '#E0557F',
+      head: 'dupatta',
+      accent: '#FF7FA8',
+      dupatta: '#FF8FB5',
+    ),
+    person(
+      'musa',
+      kid: true,
+      skin: '#EDBD98',
+      hair: '#2E2022',
+      top: '#FFD03A',
+      bottom: '#4FA3D9',
+      shoes: '#3A5A7A',
+      head: 'curly',
+      accent: '#E3A900',
+    ),
+    // Story 15: Hamid Holds Abbu's Hand.
+    person(
+      'hamid',
+      kid: true,
+      skin: '#D9A27B',
+      hair: '#231A1D',
+      top: '#FFFFFF',
+      bottom: '#4CAF6E',
+      shoes: '#E8C9A0',
+      head: 'short',
+      accent: '#3A8F57',
+    ),
   ];
 
   final root = Directory('assets/illustrations/puppets');
@@ -345,6 +519,7 @@ Puppet person(
   required String accent,
   bool frock = false,
   bool vest = false,
+  bool beard = false,
   String? dupatta,
 }) {
   const w = 100, h = 170;
@@ -572,21 +747,10 @@ Puppet person(
     case 'beard':
       ears();
       face();
-      hd
-        ..writeln(
-          '  <path d="M${hx - hr + 0.5} ${hy - 1} Q${hx - hr - 1} ${hy - hr - 1} $hx ${hy - hr - 1.5} Q${hx + hr + 1} ${hy - hr - 1} ${hx + hr - 0.5} ${hy - 1} '
-          'Q${hx + hr - 3} ${hy - 11} ${hx + 8} ${hy - 13} Q$hx ${hy - 10} ${hx - 8} ${hy - 13} Q${hx - hr + 3} ${hy - 11} ${hx - hr + 0.5} ${hy - 1} Z" fill="$hair"/>',
-        )
-        ..writeln(
-          '  <path d="M${hx - hr + 1} ${hy + 2} Q${hx - hr + 2} ${hy + hr + 4} $hx ${hy + hr + 6} Q${hx + hr - 2} ${hy + hr + 4} ${hx + hr - 1} ${hy + 2} '
-          'Q${hx + hr - 4} ${hy + 10} ${hx + 9} ${hy + 15} Q$hx ${hy + 19} ${hx - 9} ${hy + 15} Q${hx - hr + 4} ${hy + 10} ${hx - hr + 1} ${hy + 2} Z" fill="$hair"/>',
-        )
-        ..writeln(
-          '  <path d="M${hx - 8} ${hy + 10.5} Q${hx - 4} ${hy + 7.5} $hx ${hy + 9} Q${hx + 4} ${hy + 7.5} ${hx + 8} ${hy + 10.5} Q${hx + 4} ${hy + 12} $hx ${hy + 10.8} Q${hx - 4} ${hy + 12} ${hx - 8} ${hy + 10.5} Z" fill="$hair"/>',
-        )
-        ..writeln(
-          '  <path d="M${hx - 8} ${hy + hr + 1} Q$hx ${hy + hr + 4} ${hx + 6} ${hy + hr + 1}" fill="none" stroke="${lighter(hair, 0.35)}" stroke-width="1.6" stroke-linecap="round"/>',
-        );
+      hd.writeln(
+        '  <path d="M${hx - hr + 0.5} ${hy - 1} Q${hx - hr - 1} ${hy - hr - 1} $hx ${hy - hr - 1.5} Q${hx + hr + 1} ${hy - hr - 1} ${hx + hr - 0.5} ${hy - 1} '
+        'Q${hx + hr - 3} ${hy - 11} ${hx + 8} ${hy - 13} Q$hx ${hy - 10} ${hx - 8} ${hy - 13} Q${hx - hr + 3} ${hy - 11} ${hx - hr + 0.5} ${hy - 1} Z" fill="$hair"/>',
+      );
     case 'dupatta' || 'nani':
       final cloth = dupatta ?? accent;
       final trim = head == 'nani' ? '#C6B0E6' : lighter(cloth, 0.35);
@@ -612,6 +776,20 @@ Puppet person(
           '<path d="M${hx - 1.9} ${hy + 1.5} Q$hx $hy ${hx + 1.9} ${hy + 1.5}"/></g>',
         );
       }
+  }
+  if (head == 'beard' || beard) {
+    // A full beard and moustache.
+    hd
+      ..writeln(
+        '  <path d="M${hx - hr + 1} ${hy + 2} Q${hx - hr + 2} ${hy + hr + 4} $hx ${hy + hr + 6} Q${hx + hr - 2} ${hy + hr + 4} ${hx + hr - 1} ${hy + 2} '
+        'Q${hx + hr - 4} ${hy + 10} ${hx + 9} ${hy + 15} Q$hx ${hy + 19} ${hx - 9} ${hy + 15} Q${hx - hr + 4} ${hy + 10} ${hx - hr + 1} ${hy + 2} Z" fill="$hair"/>',
+      )
+      ..writeln(
+        '  <path d="M${hx - 8} ${hy + 10.5} Q${hx - 4} ${hy + 7.5} $hx ${hy + 9} Q${hx + 4} ${hy + 7.5} ${hx + 8} ${hy + 10.5} Q${hx + 4} ${hy + 12} $hx ${hy + 10.8} Q${hx - 4} ${hy + 12} ${hx - 8} ${hy + 10.5} Z" fill="$hair"/>',
+      )
+      ..writeln(
+        '  <path d="M${hx - 8} ${hy + hr + 1} Q$hx ${hy + hr + 4} ${hx + 6} ${hy + hr + 1}" fill="none" stroke="${lighter(hair, 0.35)}" stroke-width="1.6" stroke-linecap="round"/>',
+      );
   }
   final headPart = Part(
     'head',
@@ -1088,15 +1266,29 @@ Puppet squirrel() {
 }
 
 /// Tippu: an upright turtle in a little green cap.
-Puppet turtle() {
-  const skin = '#8ED081',
-      skinHi = '#B4E6A6',
-      shell = '#7A8F3A',
-      shellHi = '#B7C96A';
-  const plate = '#EDE3A8';
+Puppet turtle({
+  String id = 'tippu',
+  String skin = '#8ED081',
+  String skinHi = '#B4E6A6',
+  String shell = '#7A8F3A',
+  String shellHi = '#B7C96A',
+  String plate = '#EDE3A8',
+  String toes = '#6FB866',
+  String spots = '#D3DE8E',
+  String seams = '#D2C47E',
+  String? bow,
+}) {
+  // Tippu wears a little cap; a turtle with a [bow] wears that instead.
+  final hat = bow == null
+      ? '  <path d="M36 40 Q37 18 60 17 Q83 18 84 40 Q60 33 36 40 Z" fill="#2E8B57"/>\n'
+            '  <path d="M62 37 Q84 33 96 40 Q84 46 64 42 Z" fill="#23744A"/>\n'
+            '  <path d="M40 34 Q60 28 80 34" fill="none" stroke="#5FC48A" stroke-width="2.2" stroke-linecap="round"/>\n'
+            '  <circle cx="60" cy="17" r="3.4" fill="#FFB703"/>\n'
+      : '  <path d="M72 27 L59 18 L60 37 Z M72 27 L85 18 L84 37 Z" fill="$bow"/>\n'
+            '  <circle cx="72" cy="27" r="4" fill="${darker(bow, 0.2)}"/>\n';
   return withReach(
     Puppet(
-      'tippu',
+      id,
       w: 120,
       h: 150,
       rig: 'biped',
@@ -1105,16 +1297,16 @@ Puppet turtle() {
           Part(
             'leg$side',
             '${limb(x, 126, 138, 15, skin)}\n  <ellipse cx="${x + (side == 'L' ? -2 : 2)}" cy="142" rx="11" ry="6.5" fill="$skin"/>\n'
-                '  <g fill="#6FB866"><circle cx="${x - 5}" cy="145" r="1.6"/><circle cx="$x" cy="146" r="1.6"/><circle cx="${x + 5}" cy="145" r="1.6"/></g>',
+                '  <g fill="$toes"><circle cx="${x - 5}" cy="145" r="1.6"/><circle cx="$x" cy="146" r="1.6"/><circle cx="${x + 5}" cy="145" r="1.6"/></g>',
             pivot: [x, 126],
             mirror: side == 'L',
           ),
         Part(
           'body',
           '  <ellipse cx="60" cy="102" rx="35" ry="37" fill="url(#s)"/>\n'
-              '  <g fill="#D3DE8E" opacity="0.8"><path d="M26 92 l6 -6 l8 2 l1 9 l-7 5 l-7 -3 Z"/><path d="M94 92 l-6 -6 l-8 2 l-1 9 l7 5 l7 -3 Z"/></g>\n'
+              '  <g fill="$spots" opacity="0.8"><path d="M26 92 l6 -6 l8 2 l1 9 l-7 5 l-7 -3 Z"/><path d="M94 92 l-6 -6 l-8 2 l-1 9 l7 5 l7 -3 Z"/></g>\n'
               '  <ellipse cx="60" cy="106" rx="24" ry="31" fill="$plate"/>\n'
-              '  <path d="M38 94 h44 M37 108 h46 M40 122 h40 M60 76 V136" stroke="#D2C47E" stroke-width="2" stroke-linecap="round"/>',
+              '  <path d="M38 94 h44 M37 108 h46 M40 122 h40 M60 76 V136" stroke="$seams" stroke-width="2" stroke-linecap="round"/>',
           defs: radial('s', shellHi, shell),
           pivot: [60, 139],
         ),
@@ -1122,10 +1314,7 @@ Puppet turtle() {
           'head',
           '${limb(60, 62, 74, 18, skin)}\n'
               '  <circle cx="60" cy="48" r="24" fill="url(#k)"/>\n'
-              '  <path d="M36 40 Q37 18 60 17 Q83 18 84 40 Q60 33 36 40 Z" fill="#2E8B57"/>\n'
-              '  <path d="M62 37 Q84 33 96 40 Q84 46 64 42 Z" fill="#23744A"/>\n'
-              '  <path d="M40 34 Q60 28 80 34" fill="none" stroke="#5FC48A" stroke-width="2.2" stroke-linecap="round"/>\n'
-              '  <circle cx="60" cy="17" r="3.4" fill="#FFB703"/>\n'
+              '$hat'
               '  <path d="M46 24 Q52 20 58 21" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.5"/>',
           defs: radial('k', skinHi, skin),
           pivot: [60, 72],
@@ -1177,6 +1366,101 @@ Puppet turtle() {
     b: 15,
     chest: 96,
     belly: 112,
+  );
+}
+
+/// Kaku: a little red crab with eyes on stalks, front view. The shell is his
+/// head (it carries the face); the claws are his arms and three thin legs a
+/// side walk him sideways.
+Puppet crab() {
+  const shell = '#F0563F', shellHi = '#FF8A6E', deep = '#C93A2A';
+  const belly = '#FFC2A8';
+  return withReach(
+    Puppet(
+      'kaku',
+      w: 140,
+      h: 120,
+      rig: 'biped',
+      parts: [
+        for (final (side, x, out) in [('L', 46, -1), ('R', 94, 1)])
+          Part(
+            'leg$side',
+            [
+              for (final (dy, reach) in [(0, 26), (8, 30), (16, 26)])
+                '  <path d="M$x ${86 + dy} Q${x + out * reach * 0.6} ${78 + dy} ${x + out * reach} ${100 + dy * 0.6}" '
+                    'fill="none" stroke="$deep" stroke-width="5" stroke-linecap="round"/>',
+            ].join('\n'),
+            pivot: [x, 92],
+            mirror: side == 'L',
+          ),
+        Part(
+          'body',
+          '  <ellipse cx="70" cy="96" rx="30" ry="12" fill="$belly"/>',
+          pivot: [70, 104],
+        ),
+        Part(
+          'head',
+          [
+            for (final x in [58, 82])
+              '  <path d="M$x 62 L${x + (x < 70 ? -2 : 2)} 34" stroke="$deep" stroke-width="5" stroke-linecap="round"/>',
+            '  <ellipse cx="70" cy="78" rx="44" ry="28" fill="url(#s)"/>',
+            '  <path d="M34 70 Q70 52 106 70" fill="none" stroke="$shellHi" stroke-width="3" stroke-linecap="round" opacity="0.7"/>',
+            '  <g fill="$deep" opacity="0.5"><circle cx="44" cy="84" r="3"/><circle cx="96" cy="84" r="3"/><circle cx="50" cy="94" r="2.2"/><circle cx="90" cy="94" r="2.2"/></g>',
+            for (final x in [56, 84])
+              '  <circle cx="$x" cy="32" r="9" fill="#FFFFFF"/>',
+          ].join('\n'),
+          defs: radial('s', shellHi, shell),
+          pivot: [70, 100],
+        ),
+        for (final (side, x) in [('L', 30), ('R', 110)]) ...[
+          Part(
+            'upper$side',
+            limb(x, 76, 88, 8, deep),
+            pivot: [x, 76],
+            mirror: side == 'L',
+          ),
+          Part(
+            'fore$side',
+            // An open pincer.
+            '${limb(x, 88, 96, 8, deep)}\n'
+                '  <path d="M${x - 9} 98 Q${x - 11} 110 $x 114 Q${x + 2} 106 ${x - 1} 102 Q${x + 4} 100 ${x + 9} 104 Q${x + 11} 96 $x 92 Q${x - 7} 92 ${x - 9} 98 Z" fill="$shell"/>',
+            pivot: [x, 88],
+            parent: 'upper$side',
+            mirror: side == 'L',
+          ),
+        ],
+      ],
+      face: {
+        'part': 'head',
+        'skin': shell,
+        'eyes': [
+          [56, 33, 4.6],
+          [84, 33, 4.6],
+        ],
+        'mouth': [70, 82, 10],
+        'cheeks': [
+          [52, 80, 4.2],
+          [88, 80, 4.2],
+        ],
+      },
+      hands: {
+        'L': {
+          'part': 'foreL',
+          'at': [30, 104],
+        },
+        'R': {
+          'part': 'foreR',
+          'at': [110, 104],
+        },
+      },
+      tap: 'cheer',
+    ),
+    sL: [30, 76],
+    sR: [110, 76],
+    a: 12,
+    b: 16,
+    chest: 82,
+    belly: 92,
   );
 }
 

@@ -1,0 +1,1813 @@
+{
+  "schemaVersion": 1,
+  "id": "fatima_not_afraid",
+  "start": "p1",
+  "characters": {
+    "fatima": {
+      "en": "Fatima",
+      "ur": "فاطمہ"
+    },
+    "ammi": {
+      "en": "Ammi",
+      "ur": "امی"
+    }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "bedroom_night",
+      "text": {
+        "en": "It was night time. Fatima was in her bed. The lights were off and the room was dark.",
+        "ur": "رات کا وقت تھا۔ فاطمہ اپنے بستر پر لیٹی تھی۔ بتیاں بند تھیں اور کمرے میں اندھیرا تھا۔"
+      },
+      "cast": [
+        {
+          "art": "prop:window_night",
+          "x": 0.3,
+          "y": 0.42,
+          "size": 0.17
+        },
+        {
+          "art": "prop:bed",
+          "x": 0.5,
+          "y": 0.69,
+          "size": 0.13
+        },
+        {
+          "art": "puppet:fatima",
+          "x": 0.45,
+          "y": 0.73,
+          "size": 0.21,
+          "turn": -90,
+          "pose": "lie",
+          "face": "idle",
+          "look": "up"
+        },
+        {
+          "art": "prop:blanket",
+          "x": 0.57,
+          "y": 0.69,
+          "size": 0.075
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "رات",
+            "start": 88,
+            "end": 418
+          },
+          {
+            "w": "کا",
+            "start": 418,
+            "end": 648
+          },
+          {
+            "w": "وقت",
+            "start": 648,
+            "end": 1068
+          },
+          {
+            "w": "تھا۔",
+            "start": 1068,
+            "end": 1508
+          },
+          {
+            "w": "فاطمہ",
+            "start": 1508,
+            "end": 2028
+          },
+          {
+            "w": "اپنے",
+            "start": 2028,
+            "end": 2448
+          },
+          {
+            "w": "بستر",
+            "start": 2448,
+            "end": 2768
+          },
+          {
+            "w": "پر",
+            "start": 2768,
+            "end": 2938
+          },
+          {
+            "w": "لیٹی",
+            "start": 2938,
+            "end": 3418
+          },
+          {
+            "w": "تھی۔",
+            "start": 3418,
+            "end": 3788
+          },
+          {
+            "w": "بتیاں",
+            "start": 3788,
+            "end": 4488
+          },
+          {
+            "w": "بند",
+            "start": 4488,
+            "end": 4828
+          },
+          {
+            "w": "تھیں",
+            "start": 4828,
+            "end": 5628
+          },
+          {
+            "w": "اور",
+            "start": 5628,
+            "end": 5698
+          },
+          {
+            "w": "کمرے",
+            "start": 5698,
+            "end": 6088
+          },
+          {
+            "w": "میں",
+            "start": 6088,
+            "end": 6388
+          },
+          {
+            "w": "اندھیرا",
+            "start": 6388,
+            "end": 7088
+          },
+          {
+            "w": "تھا۔",
+            "start": 7088,
+            "end": 7428
+          }
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "bedroom_night",
+      "text": {
+        "en": "Tap, tap, tap. Fatima heard a sound at the window. \"What is that?\"",
+        "ur": "ٹھک، ٹھک، ٹھک۔ فاطمہ نے کھڑکی پر ایک آواز سنی۔ \"یہ کیا ہے؟\""
+      },
+      "cast": [
+        {
+          "art": "prop:window_tree",
+          "x": 0.3,
+          "y": 0.42,
+          "size": 0.17,
+          "mood": "worried"
+        },
+        {
+          "art": "prop:bed",
+          "x": 0.5,
+          "y": 0.69,
+          "size": 0.13
+        },
+        {
+          "art": "puppet:fatima",
+          "x": 0.45,
+          "y": 0.73,
+          "size": 0.21,
+          "turn": -90,
+          "pose": "lie",
+          "face": "surprised",
+          "look": "up"
+        },
+        {
+          "art": "prop:blanket",
+          "x": 0.57,
+          "y": 0.69,
+          "size": 0.075
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "ٹھک،",
+            "start": 9,
+            "end": 609
+          },
+          {
+            "w": "ٹھک،",
+            "start": 609,
+            "end": 1199
+          },
+          {
+            "w": "ٹھک۔",
+            "start": 1199,
+            "end": 1849
+          },
+          {
+            "w": "فاطمہ",
+            "start": 1849,
+            "end": 2319
+          },
+          {
+            "w": "نے",
+            "start": 2319,
+            "end": 2549
+          },
+          {
+            "w": "کھڑکی",
+            "start": 2549,
+            "end": 3029
+          },
+          {
+            "w": "پر",
+            "start": 3029,
+            "end": 3199
+          },
+          {
+            "w": "ایک",
+            "start": 3199,
+            "end": 3589
+          },
+          {
+            "w": "آواز",
+            "start": 3589,
+            "end": 3869
+          },
+          {
+            "w": "سنی۔",
+            "start": 3869,
+            "end": 4289
+          },
+          {
+            "w": "\"یہ",
+            "start": 4289,
+            "end": 4589
+          },
+          {
+            "w": "کیا",
+            "start": 4589,
+            "end": 5029
+          },
+          {
+            "w": "ہے؟\"",
+            "start": 5029,
+            "end": 5489
+          }
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "bedroom_night",
+      "text": {
+        "en": "On the wall, there was a big, wiggly shadow. Fatima's heart went thump, thump.",
+        "ur": "دیوار پر ایک بڑا سا ہلتا ہوا سایہ تھا۔ فاطمہ کا دل دھک دھک کرنے لگا۔"
+      },
+      "cast": [
+        {
+          "art": "prop:shadow",
+          "x": 0.74,
+          "y": 0.47,
+          "size": 0.26,
+          "mood": "worried"
+        },
+        {
+          "art": "prop:window_tree",
+          "x": 0.3,
+          "y": 0.42,
+          "size": 0.17,
+          "mood": "worried"
+        },
+        {
+          "art": "puppet:fatima",
+          "x": 0.46,
+          "y": 0.69,
+          "size": 0.2,
+          "pose": "cover_eyes",
+          "face": "worried",
+          "mood": "worried"
+        },
+        {
+          "art": "prop:bed",
+          "x": 0.5,
+          "y": 0.71,
+          "size": 0.13
+        },
+        {
+          "art": "prop:blanket",
+          "x": 0.56,
+          "y": 0.71,
+          "size": 0.075
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "دیوار",
+            "start": 3,
+            "end": 523
+          },
+          {
+            "w": "پر",
+            "start": 523,
+            "end": 713
+          },
+          {
+            "w": "ایک",
+            "start": 713,
+            "end": 1023
+          },
+          {
+            "w": "بڑا",
+            "start": 1023,
+            "end": 1393
+          },
+          {
+            "w": "سا",
+            "start": 1393,
+            "end": 1723
+          },
+          {
+            "w": "ہلتا",
+            "start": 1723,
+            "end": 2023
+          },
+          {
+            "w": "ہوا",
+            "start": 2023,
+            "end": 2433
+          },
+          {
+            "w": "سایہ",
+            "start": 2433,
+            "end": 2793
+          },
+          {
+            "w": "تھا۔",
+            "start": 2793,
+            "end": 3203
+          },
+          {
+            "w": "فاطمہ",
+            "start": 3203,
+            "end": 3723
+          },
+          {
+            "w": "کا",
+            "start": 3723,
+            "end": 3903
+          },
+          {
+            "w": "دل",
+            "start": 3903,
+            "end": 4103
+          },
+          {
+            "w": "دھک",
+            "start": 4103,
+            "end": 4463
+          },
+          {
+            "w": "دھک",
+            "start": 4463,
+            "end": 5103
+          },
+          {
+            "w": "کرنے",
+            "start": 5103,
+            "end": 5313
+          },
+          {
+            "w": "لگا۔",
+            "start": 5313,
+            "end": 5683
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "choice",
+      "scene": "bedroom_night",
+      "text": {
+        "en": "Fatima could hide under her blanket and cry. Or she could call Ammi and be brave. What should Fatima do?",
+        "ur": "فاطمہ کمبل میں چھپ کر رو سکتی تھی۔ یا امی کو بلا کر بہادر بن سکتی تھی۔ فاطمہ کو کیا کرنا چاہیے؟"
+      },
+      "cast": [
+        {
+          "art": "prop:shadow",
+          "x": 0.74,
+          "y": 0.47,
+          "size": 0.26,
+          "mood": "worried"
+        },
+        {
+          "art": "prop:window_tree",
+          "x": 0.3,
+          "y": 0.42,
+          "size": 0.17
+        },
+        {
+          "art": "puppet:fatima",
+          "x": 0.46,
+          "y": 0.69,
+          "size": 0.2,
+          "pose": "think",
+          "face": "think",
+          "look": "right"
+        },
+        {
+          "art": "prop:bed",
+          "x": 0.5,
+          "y": 0.71,
+          "size": 0.13
+        },
+        {
+          "art": "prop:blanket",
+          "x": 0.56,
+          "y": 0.71,
+          "size": 0.075
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "فاطمہ",
+            "start": 15,
+            "end": 535
+          },
+          {
+            "w": "کمبل",
+            "start": 535,
+            "end": 955
+          },
+          {
+            "w": "میں",
+            "start": 955,
+            "end": 1225
+          },
+          {
+            "w": "چھپ",
+            "start": 1225,
+            "end": 1725
+          },
+          {
+            "w": "کر",
+            "start": 1725,
+            "end": 1805
+          },
+          {
+            "w": "رو",
+            "start": 1805,
+            "end": 1925
+          },
+          {
+            "w": "سکتی",
+            "start": 1925,
+            "end": 2325
+          },
+          {
+            "w": "تھی۔",
+            "start": 2325,
+            "end": 2735
+          },
+          {
+            "w": "یا",
+            "start": 2735,
+            "end": 2935
+          },
+          {
+            "w": "امی",
+            "start": 2935,
+            "end": 3255
+          },
+          {
+            "w": "کو",
+            "start": 3255,
+            "end": 3445
+          },
+          {
+            "w": "بلا",
+            "start": 3445,
+            "end": 3755
+          },
+          {
+            "w": "کر",
+            "start": 3755,
+            "end": 3945
+          },
+          {
+            "w": "بہادر",
+            "start": 3945,
+            "end": 4635
+          },
+          {
+            "w": "بن",
+            "start": 4635,
+            "end": 4695
+          },
+          {
+            "w": "سکتی",
+            "start": 4685,
+            "end": 5175
+          },
+          {
+            "w": "تھی۔",
+            "start": 5175,
+            "end": 5535
+          },
+          {
+            "w": "فاطمہ",
+            "start": 5535,
+            "end": 6055
+          },
+          {
+            "w": "کو",
+            "start": 6055,
+            "end": 6275
+          },
+          {
+            "w": "کیا",
+            "start": 6275,
+            "end": 6595
+          },
+          {
+            "w": "کرنا",
+            "start": 6595,
+            "end": 6925
+          },
+          {
+            "w": "چاہیے؟",
+            "start": 6925,
+            "end": 7735
+          }
+        ]
+      }
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": {
+        "en": "What should Fatima do?",
+        "ur": "فاطمہ کو کیا کرنا چاہیے؟"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "en": "Call Ammi",
+            "ur": "امی کو بلائے"
+          },
+          "picture": "puppet:ammi",
+          "next": "choice_a"
+        },
+        {
+          "id": "b",
+          "label": {
+            "en": "Hide under the blanket",
+            "ur": "کمبل میں چھپ جائے"
+          },
+          "picture": "prop:blanket",
+          "next": "choice_b"
+        }
+      ]
+    },
+    {
+      "id": "choice_a",
+      "type": "page",
+      "next": "p5",
+      "scene": "bedroom_night",
+      "text": {
+        "en": "Fatima took a deep breath. \"Ammi! Can you come, please?\" Ammi came in with a soft smile.",
+        "ur": "فاطمہ نے گہری سانس لی۔ \"امی! ذرا آئیں نا!\" امی مسکراتی ہوئی کمرے میں آئیں۔"
+      },
+      "cast": [
+        {
+          "art": "prop:window_tree",
+          "x": 0.3,
+          "y": 0.42,
+          "size": 0.17
+        },
+        {
+          "art": "puppet:fatima",
+          "x": 0.46,
+          "y": 0.69,
+          "size": 0.2,
+          "pose": "wave",
+          "act": "talk",
+          "face": "worried",
+          "look": "right"
+        },
+        {
+          "art": "prop:bed",
+          "x": 0.5,
+          "y": 0.71,
+          "size": 0.13
+        },
+        {
+          "art": "prop:blanket",
+          "x": 0.56,
+          "y": 0.71,
+          "size": 0.075
+        },
+        {
+          "art": "puppet:ammi",
+          "x": 0.82,
+          "y": 0.62,
+          "size": 0.29,
+          "act": "walk",
+          "mood": "happy",
+          "look": "left",
+          "enter": "right",
+          "delay": 3960
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "فاطمہ",
+            "start": 60,
+            "end": 500
+          },
+          {
+            "w": "نے",
+            "start": 500,
+            "end": 710
+          },
+          {
+            "w": "گہری",
+            "start": 710,
+            "end": 1160
+          },
+          {
+            "w": "سانس",
+            "start": 1160,
+            "end": 1710
+          },
+          {
+            "w": "لی۔",
+            "start": 1710,
+            "end": 1870
+          },
+          {
+            "w": "\"امی!",
+            "start": 1870,
+            "end": 2850
+          },
+          {
+            "w": "ذرا",
+            "start": 2850,
+            "end": 3270
+          },
+          {
+            "w": "آئیں",
+            "start": 3270,
+            "end": 3690
+          },
+          {
+            "w": "نا!\"",
+            "start": 3690,
+            "end": 4110
+          },
+          {
+            "w": "امی",
+            "start": 4110,
+            "end": 4410
+          },
+          {
+            "w": "مسکراتی",
+            "start": 4410,
+            "end": 5130
+          },
+          {
+            "w": "ہوئی",
+            "start": 5130,
+            "end": 5540
+          },
+          {
+            "w": "کمرے",
+            "start": 5540,
+            "end": 6020
+          },
+          {
+            "w": "میں",
+            "start": 6020,
+            "end": 6290
+          },
+          {
+            "w": "آئیں۔",
+            "start": 6290,
+            "end": 6540
+          }
+        ]
+      }
+    },
+    {
+      "id": "choice_b",
+      "type": "page",
+      "next": "p5",
+      "scene": "bedroom_night",
+      "text": {
+        "en": "Fatima hid under her blanket. But it was so hot in there! She peeked out. \"Ammi! Can you come, please?\" Ammi came in with a soft smile.",
+        "ur": "فاطمہ کمبل کے اندر چھپ گئی۔ مگر اندر بہت گرمی تھی! اس نے باہر جھانکا۔ \"امی! ذرا آئیں نا!\" امی مسکراتی ہوئی کمرے میں آئیں۔"
+      },
+      "cast": [
+        {
+          "art": "prop:window_tree",
+          "x": 0.3,
+          "y": 0.42,
+          "size": 0.17
+        },
+        {
+          "art": "prop:bed",
+          "x": 0.5,
+          "y": 0.69,
+          "size": 0.13
+        },
+        {
+          "art": "prop:blanket",
+          "x": 0.5,
+          "y": 0.69,
+          "size": 0.1,
+          "until": 4911
+        },
+        {
+          "art": "puppet:fatima",
+          "x": 0.46,
+          "y": 0.69,
+          "size": 0.2,
+          "pose": "wave",
+          "act": "talk",
+          "face": "tired",
+          "look": "right",
+          "delay": 4911
+        },
+        {
+          "art": "prop:bed",
+          "x": 0.5,
+          "y": 0.71,
+          "size": 0.13,
+          "delay": 4911
+        },
+        {
+          "art": "prop:blanket",
+          "x": 0.56,
+          "y": 0.71,
+          "size": 0.075,
+          "delay": 4911
+        },
+        {
+          "art": "puppet:ammi",
+          "x": 0.82,
+          "y": 0.62,
+          "size": 0.29,
+          "act": "walk",
+          "mood": "happy",
+          "look": "left",
+          "enter": "right",
+          "delay": 8611
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "فاطمہ",
+            "start": 461,
+            "end": 1061
+          },
+          {
+            "w": "کمبل",
+            "start": 1061,
+            "end": 1541
+          },
+          {
+            "w": "کے",
+            "start": 1541,
+            "end": 1641
+          },
+          {
+            "w": "اندر",
+            "start": 1641,
+            "end": 2361
+          },
+          {
+            "w": "چھپ",
+            "start": 2361,
+            "end": 2641
+          },
+          {
+            "w": "گئی۔",
+            "start": 2641,
+            "end": 3061
+          },
+          {
+            "w": "مگر",
+            "start": 3061,
+            "end": 3391
+          },
+          {
+            "w": "اندر",
+            "start": 3391,
+            "end": 3951
+          },
+          {
+            "w": "بہت",
+            "start": 3951,
+            "end": 4171
+          },
+          {
+            "w": "گرمی",
+            "start": 4171,
+            "end": 4551
+          },
+          {
+            "w": "تھی!",
+            "start": 4551,
+            "end": 5061
+          },
+          {
+            "w": "اس",
+            "start": 5061,
+            "end": 5301
+          },
+          {
+            "w": "نے",
+            "start": 5301,
+            "end": 5541
+          },
+          {
+            "w": "باہر",
+            "start": 5541,
+            "end": 6001
+          },
+          {
+            "w": "جھانکا۔",
+            "start": 6001,
+            "end": 6741
+          },
+          {
+            "w": "\"امی!",
+            "start": 6741,
+            "end": 7281
+          },
+          {
+            "w": "ذرا",
+            "start": 7281,
+            "end": 7774
+          },
+          {
+            "w": "آئیں",
+            "start": 7774,
+            "end": 8268
+          },
+          {
+            "w": "نا!\"",
+            "start": 8268,
+            "end": 8761
+          },
+          {
+            "w": "امی",
+            "start": 8761,
+            "end": 9061
+          },
+          {
+            "w": "مسکراتی",
+            "start": 9061,
+            "end": 9761
+          },
+          {
+            "w": "ہوئی",
+            "start": 9761,
+            "end": 10151
+          },
+          {
+            "w": "کمرے",
+            "start": 10151,
+            "end": 10661
+          },
+          {
+            "w": "میں",
+            "start": 10661,
+            "end": 10871
+          },
+          {
+            "w": "آئیں۔",
+            "start": 10871,
+            "end": 11121
+          }
+        ]
+      }
+    },
+    {
+      "id": "p5",
+      "type": "page",
+      "next": "p6",
+      "scene": "bedroom_night",
+      "text": {
+        "en": "Ammi opened the curtain. \"Look, Fatima! It's just the tree. Its branch is tapping the window, and the wind is making it dance.\"",
+        "ur": "امی نے پردہ ہٹایا۔ \"دیکھو فاطمہ! یہ تو درخت ہے۔ اس کی ٹہنی کھڑکی سے لگ رہی ہے، اور ہوا اسے نچا رہی ہے۔\""
+      },
+      "cast": [
+        {
+          "art": "prop:window_open",
+          "x": 0.28,
+          "y": 0.43,
+          "size": 0.19
+        },
+        {
+          "art": "puppet:ammi",
+          "x": 0.52,
+          "y": 0.63,
+          "size": 0.29,
+          "pose": "point",
+          "act": "talk",
+          "face": "laugh",
+          "look": "left"
+        },
+        {
+          "art": "puppet:fatima",
+          "x": 0.74,
+          "y": 0.69,
+          "size": 0.2,
+          "face": "surprised",
+          "look": "left"
+        },
+        {
+          "art": "prop:bed",
+          "x": 0.76,
+          "y": 0.71,
+          "size": 0.11
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "امی",
+            "start": 374,
+            "end": 764
+          },
+          {
+            "w": "نے",
+            "start": 764,
+            "end": 1074
+          },
+          {
+            "w": "پردہ",
+            "start": 1074,
+            "end": 1534
+          },
+          {
+            "w": "ہٹایا۔",
+            "start": 1534,
+            "end": 2214
+          },
+          {
+            "w": "\"دیکھو",
+            "start": 2214,
+            "end": 3274
+          },
+          {
+            "w": "فاطمہ!",
+            "start": 3274,
+            "end": 4394
+          },
+          {
+            "w": "یہ",
+            "start": 4394,
+            "end": 4644
+          },
+          {
+            "w": "تو",
+            "start": 4644,
+            "end": 4804
+          },
+          {
+            "w": "درخت",
+            "start": 4804,
+            "end": 5194
+          },
+          {
+            "w": "ہے۔",
+            "start": 5194,
+            "end": 5414
+          },
+          {
+            "w": "اس",
+            "start": 5414,
+            "end": 5604
+          },
+          {
+            "w": "کی",
+            "start": 5604,
+            "end": 5774
+          },
+          {
+            "w": "ٹہنی",
+            "start": 5774,
+            "end": 6314
+          },
+          {
+            "w": "کھڑکی",
+            "start": 6314,
+            "end": 6734
+          },
+          {
+            "w": "سے",
+            "start": 6734,
+            "end": 6824
+          },
+          {
+            "w": "لگ",
+            "start": 6824,
+            "end": 7204
+          },
+          {
+            "w": "رہی",
+            "start": 7204,
+            "end": 7394
+          },
+          {
+            "w": "ہے،",
+            "start": 7394,
+            "end": 7654
+          },
+          {
+            "w": "اور",
+            "start": 7654,
+            "end": 8004
+          },
+          {
+            "w": "ہوا",
+            "start": 8004,
+            "end": 8354
+          },
+          {
+            "w": "اسے",
+            "start": 8354,
+            "end": 8684
+          },
+          {
+            "w": "نچا",
+            "start": 8684,
+            "end": 8954
+          },
+          {
+            "w": "رہی",
+            "start": 8954,
+            "end": 9554
+          },
+          {
+            "w": "ہے۔\"",
+            "start": 9554,
+            "end": 9654
+          }
+        ]
+      }
+    },
+    {
+      "id": "p6",
+      "type": "page",
+      "next": "p7",
+      "scene": "bedroom_night",
+      "text": {
+        "en": "Fatima giggled. \"The shadow is the tree dancing!\" It wasn't scary at all.",
+        "ur": "فاطمہ ہنس پڑی۔ \"سایہ تو درخت کا ناچ ہے!\" اب وہ بالکل بھی ڈراؤنا نہیں لگ رہا تھا۔"
+      },
+      "cast": [
+        {
+          "art": "prop:window_open",
+          "x": 0.28,
+          "y": 0.43,
+          "size": 0.19
+        },
+        {
+          "art": "prop:shadow",
+          "x": 0.76,
+          "y": 0.46,
+          "size": 0.24,
+          "mood": "float"
+        },
+        {
+          "art": "puppet:fatima",
+          "x": 0.46,
+          "y": 0.69,
+          "size": 0.2,
+          "pose": "point",
+          "act": "laugh",
+          "face": "laugh",
+          "look": "upRight"
+        },
+        {
+          "art": "prop:bed",
+          "x": 0.5,
+          "y": 0.71,
+          "size": 0.13
+        },
+        {
+          "art": "prop:blanket",
+          "x": 0.56,
+          "y": 0.71,
+          "size": 0.075
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "فاطمہ",
+            "start": 309,
+            "end": 489
+          },
+          {
+            "w": "ہنس",
+            "start": 489,
+            "end": 779
+          },
+          {
+            "w": "پڑی۔",
+            "start": 779,
+            "end": 1589
+          },
+          {
+            "w": "\"سایہ",
+            "start": 1709,
+            "end": 2069
+          },
+          {
+            "w": "تو",
+            "start": 2069,
+            "end": 2309
+          },
+          {
+            "w": "درخت",
+            "start": 2309,
+            "end": 2779
+          },
+          {
+            "w": "کا",
+            "start": 2779,
+            "end": 2849
+          },
+          {
+            "w": "ناچ",
+            "start": 2849,
+            "end": 3489
+          },
+          {
+            "w": "ہے!\"",
+            "start": 3489,
+            "end": 3669
+          },
+          {
+            "w": "اب",
+            "start": 3669,
+            "end": 3889
+          },
+          {
+            "w": "وہ",
+            "start": 3889,
+            "end": 4139
+          },
+          {
+            "w": "بالکل",
+            "start": 4139,
+            "end": 4659
+          },
+          {
+            "w": "بھی",
+            "start": 4659,
+            "end": 4849
+          },
+          {
+            "w": "ڈراؤنا",
+            "start": 4849,
+            "end": 5579
+          },
+          {
+            "w": "نہیں",
+            "start": 5579,
+            "end": 5789
+          },
+          {
+            "w": "لگ",
+            "start": 5789,
+            "end": 5929
+          },
+          {
+            "w": "رہا",
+            "start": 5929,
+            "end": 6139
+          },
+          {
+            "w": "تھا۔",
+            "start": 6139,
+            "end": 6389
+          }
+        ]
+      }
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": "p8",
+      "scene": "bedroom_night",
+      "text": {
+        "en": "Ammi sat next to her. \"Remember, Fatima, Allah is always with us, even in the dark. Let's say Bismillah and close our eyes.\"",
+        "ur": "امی اس کے پاس بیٹھ گئیں۔ \"یاد رکھو فاطمہ، اللہ تعالیٰ ہر وقت ہمارے ساتھ ہیں، اندھیرے میں بھی۔ چلو بسم اللہ پڑھ کر آنکھیں بند کرتے ہیں۔\""
+      },
+      "cast": [
+        {
+          "art": "prop:window_night",
+          "x": 0.3,
+          "y": 0.42,
+          "size": 0.17
+        },
+        {
+          "art": "puppet:ammi",
+          "x": 0.78,
+          "y": 0.62,
+          "size": 0.29,
+          "pose": "tuck",
+          "act": "tuck+talk",
+          "mood": "happy",
+          "look": "downLeft"
+        },
+        {
+          "art": "prop:bed",
+          "x": 0.5,
+          "y": 0.69,
+          "size": 0.13
+        },
+        {
+          "art": "puppet:fatima",
+          "x": 0.45,
+          "y": 0.73,
+          "size": 0.21,
+          "turn": -90,
+          "pose": "lie",
+          "face": "happy",
+          "look": "right"
+        },
+        {
+          "art": "prop:blanket",
+          "x": 0.57,
+          "y": 0.69,
+          "size": 0.075
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "امی",
+            "start": 16,
+            "end": 346
+          },
+          {
+            "w": "اس",
+            "start": 346,
+            "end": 566
+          },
+          {
+            "w": "کے",
+            "start": 566,
+            "end": 916
+          },
+          {
+            "w": "پاس",
+            "start": 916,
+            "end": 1136
+          },
+          {
+            "w": "بیٹھ",
+            "start": 1136,
+            "end": 1566
+          },
+          {
+            "w": "گئیں۔",
+            "start": 1566,
+            "end": 1976
+          },
+          {
+            "w": "\"یاد",
+            "start": 1976,
+            "end": 2206
+          },
+          {
+            "w": "رکھو",
+            "start": 2206,
+            "end": 2496
+          },
+          {
+            "w": "فاطمہ،",
+            "start": 2496,
+            "end": 2936
+          },
+          {
+            "w": "اللہ",
+            "start": 3456,
+            "end": 3626
+          },
+          {
+            "w": "تعالیٰ",
+            "start": 3626,
+            "end": 3976
+          },
+          {
+            "w": "ہر",
+            "start": 3976,
+            "end": 4186
+          },
+          {
+            "w": "وقت",
+            "start": 4186,
+            "end": 4526
+          },
+          {
+            "w": "ہمارے",
+            "start": 4526,
+            "end": 5196
+          },
+          {
+            "w": "ساتھ",
+            "start": 5196,
+            "end": 5566
+          },
+          {
+            "w": "ہیں،",
+            "start": 5566,
+            "end": 5976
+          },
+          {
+            "w": "اندھیرے",
+            "start": 5976,
+            "end": 6676
+          },
+          {
+            "w": "میں",
+            "start": 6676,
+            "end": 6916
+          },
+          {
+            "w": "بھی۔",
+            "start": 6916,
+            "end": 7236
+          },
+          {
+            "w": "چلو",
+            "start": 7236,
+            "end": 7996
+          },
+          {
+            "w": "بسم",
+            "start": 7996,
+            "end": 8206
+          },
+          {
+            "w": "اللہ",
+            "start": 8206,
+            "end": 8486
+          },
+          {
+            "w": "پڑھ",
+            "start": 8486,
+            "end": 8816
+          },
+          {
+            "w": "کر",
+            "start": 8816,
+            "end": 8986
+          },
+          {
+            "w": "آنکھیں",
+            "start": 8986,
+            "end": 9346
+          },
+          {
+            "w": "بند",
+            "start": 9346,
+            "end": 9546
+          },
+          {
+            "w": "کرتے",
+            "start": 9546,
+            "end": 9826
+          },
+          {
+            "w": "ہیں۔\"",
+            "start": 9826,
+            "end": 10136
+          }
+        ]
+      }
+    },
+    {
+      "id": "p8",
+      "type": "page",
+      "next": null,
+      "scene": "bedroom_night",
+      "text": {
+        "en": "\"Bismillah,\" whispered Fatima. She closed her eyes and smiled. Tap, tap, went the tree. But Fatima was already fast asleep.",
+        "ur": "\"بسم اللہ،\" فاطمہ نے آہستہ سے کہا۔ اس نے آنکھیں بند کیں اور مسکرا دی۔ ٹھک، ٹھک، درخت بولا۔ مگر فاطمہ تو مزے سے سو چکی تھی۔"
+      },
+      "cast": [
+        {
+          "art": "prop:window_tree",
+          "x": 0.3,
+          "y": 0.42,
+          "size": 0.17,
+          "mood": "worried"
+        },
+        {
+          "art": "prop:bed",
+          "x": 0.5,
+          "y": 0.69,
+          "size": 0.13
+        },
+        {
+          "art": "puppet:fatima",
+          "x": 0.45,
+          "y": 0.73,
+          "size": 0.21,
+          "turn": -90,
+          "pose": "lie",
+          "act": "sleep",
+          "face": "sleep"
+        },
+        {
+          "art": "prop:blanket",
+          "x": 0.57,
+          "y": 0.69,
+          "size": 0.075
+        },
+        {
+          "art": "prop:star",
+          "x": 0.72,
+          "y": 0.4,
+          "size": 0.025,
+          "mood": "twinkle",
+          "delay": 800
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "\"بسم",
+            "start": 26,
+            "end": 356
+          },
+          {
+            "w": "اللہ،\"",
+            "start": 356,
+            "end": 826
+          },
+          {
+            "w": "فاطمہ",
+            "start": 1566,
+            "end": 1756
+          },
+          {
+            "w": "نے",
+            "start": 1756,
+            "end": 1826
+          },
+          {
+            "w": "آہستہ",
+            "start": 1826,
+            "end": 2536
+          },
+          {
+            "w": "سے",
+            "start": 2536,
+            "end": 2746
+          },
+          {
+            "w": "کہا۔",
+            "start": 2746,
+            "end": 3346
+          },
+          {
+            "w": "اس",
+            "start": 3346,
+            "end": 3546
+          },
+          {
+            "w": "نے",
+            "start": 3546,
+            "end": 3816
+          },
+          {
+            "w": "آنکھیں",
+            "start": 3816,
+            "end": 4346
+          },
+          {
+            "w": "بند",
+            "start": 4346,
+            "end": 4526
+          },
+          {
+            "w": "کیں",
+            "start": 4526,
+            "end": 5186
+          },
+          {
+            "w": "اور",
+            "start": 5186,
+            "end": 5286
+          },
+          {
+            "w": "مسکرا",
+            "start": 5286,
+            "end": 5806
+          },
+          {
+            "w": "دی۔",
+            "start": 5806,
+            "end": 6326
+          },
+          {
+            "w": "ٹھک،",
+            "start": 6326,
+            "end": 6846
+          },
+          {
+            "w": "ٹھک،",
+            "start": 6846,
+            "end": 7366
+          },
+          {
+            "w": "درخت",
+            "start": 7366,
+            "end": 7966
+          },
+          {
+            "w": "بولا۔",
+            "start": 7966,
+            "end": 8606
+          },
+          {
+            "w": "مگر",
+            "start": 8606,
+            "end": 8936
+          },
+          {
+            "w": "فاطمہ",
+            "start": 8936,
+            "end": 9546
+          },
+          {
+            "w": "تو",
+            "start": 9546,
+            "end": 9726
+          },
+          {
+            "w": "مزے",
+            "start": 9726,
+            "end": 10046
+          },
+          {
+            "w": "سے",
+            "start": 10046,
+            "end": 10396
+          },
+          {
+            "w": "سو",
+            "start": 10396,
+            "end": 10516
+          },
+          {
+            "w": "چکی",
+            "start": 10516,
+            "end": 10836
+          },
+          {
+            "w": "تھی۔",
+            "start": 10836,
+            "end": 11326
+          }
+        ]
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "id": "dark",
+      "word": {
+        "en": "dark",
+        "ur": "اندھیرا"
+      },
+      "forms": {
+        "en": [
+          "darkness"
+        ],
+        "ur": [
+          "اندھیرے"
+        ]
+      }
+    },
+    {
+      "id": "shadow",
+      "picture": "prop:shadow",
+      "word": {
+        "en": "shadow",
+        "ur": "سایہ"
+      },
+      "forms": {
+        "en": [
+          "shadows"
+        ],
+        "ur": []
+      }
+    },
+    {
+      "id": "brave",
+      "word": {
+        "en": "brave",
+        "ur": "بہادر"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "window",
+      "picture": "prop:window_night",
+      "word": {
+        "en": "window",
+        "ur": "کھڑکی"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "tree",
+      "picture": "prop:tree",
+      "word": {
+        "en": "tree",
+        "ur": "درخت"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "blanket",
+      "picture": "prop:blanket",
+      "word": {
+        "en": "blanket",
+        "ur": "کمبل"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "night",
+      "picture": "prop:moon",
+      "word": {
+        "en": "night",
+        "ur": "رات"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "curtain",
+      "word": {
+        "en": "curtain",
+        "ur": "پردہ"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "branch",
+      "picture": "prop:branch",
+      "word": {
+        "en": "branch",
+        "ur": "ٹہنی"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "bed",
+      "picture": "prop:bed",
+      "word": {
+        "en": "bed",
+        "ur": "بستر"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    }
+  ],
+  "vocabulary": [
+    "dark",
+    "shadow",
+    "brave"
+  ],
+  "quiz": [
+    {
+      "question": {
+        "en": "What made the tapping sound?",
+        "ur": "ٹھک ٹھک کی آواز کس کی تھی؟"
+      },
+      "options": [
+        {
+          "picture": "prop:tree",
+          "correct": true
+        },
+        {
+          "picture": "prop:dog"
+        },
+        {
+          "picture": "prop:door"
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "Who came to help Fatima?",
+        "ur": "فاطمہ کی مدد کو کون آیا؟"
+      },
+      "options": [
+        {
+          "picture": "puppet:ammi",
+          "correct": true
+        },
+        {
+          "picture": "prop:lion"
+        },
+        {
+          "picture": "prop:robot"
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "What did Fatima say before sleeping?",
+        "ur": "سونے سے پہلے فاطمہ نے کیا کہا؟"
+      },
+      "options": [
+        {
+          "picture": "prop:bismillah",
+          "correct": true,
+          "label": {
+            "en": "Bismillah",
+            "ur": "بسم اللہ"
+          }
+        },
+        {
+          "picture": "prop:wave_hand",
+          "label": {
+            "en": "Hello",
+            "ur": "ہیلو"
+          }
+        },
+        {
+          "picture": "prop:hand_stop",
+          "label": {
+            "en": "Bye bye",
+            "ur": "بائے بائے"
+          }
+        }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": {
+        "en": "Put the blanket on Fatima!",
+        "ur": "فاطمہ کو کمبل اوڑھاؤ!"
+      },
+      "item": "prop:blanket",
+      "options": [
+        {
+          "picture": "puppet:ammi"
+        },
+        {
+          "picture": "puppet:fatima",
+          "correct": true
+        },
+        {
+          "picture": "prop:window_night"
+        }
+      ]
+    }
+  ]
+}

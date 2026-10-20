@@ -102,14 +102,116 @@
       ]
     },
     {
+      "id": "ghar",
+      "name": {
+        "en": "Home",
+        "ur": "گھر"
+      },
+      "badge": "home",
+      "unlockAfter": null,
+      "stories": [
+        {
+          "id": "zoya_messy_room",
+          "title": {
+            "en": "Zoya's Messy Room",
+            "ur": "زویا کا بکھرا کمرہ"
+          },
+          "value": "cleanliness",
+          "character": "zoya"
+        },
+        {
+          "id": "ahmed_dada_glasses",
+          "title": {
+            "en": "Dada Jaan's Glasses",
+            "ur": "دادا جان کی عینک"
+          },
+          "value": "respect",
+          "character": "ahmed"
+        },
+        {
+          "id": "sara_iftar_helper",
+          "title": {
+            "en": "Sara the Iftar Helper",
+            "ur": "سارہ کی افطاری"
+          },
+          "value": "helping",
+          "character": "sara"
+        },
+        {
+          "id": "usman_asks_first",
+          "title": {
+            "en": "Usman Asks First",
+            "ur": "عثمان پہلے پوچھتا ہے"
+          },
+          "value": "manners",
+          "character": "usman"
+        },
+        {
+          "id": "fatima_not_afraid",
+          "title": {
+            "en": "Fatima Is Not Afraid",
+            "ur": "فاطمہ اب نہیں ڈرتی"
+          },
+          "value": "courage",
+          "character": "fatima"
+        }
+      ]
+    },
+    {
       "id": "samandar",
       "name": {
         "en": "Sea",
         "ur": "سمندر"
       },
       "badge": "sea",
-      "unlockAfter": "jungle",
-      "stories": []
+      "unlockAfter": null,
+      "stories": [
+        {
+          "id": "hassan_moti_fish",
+          "title": {
+            "en": "Moti the Little Fish",
+            "ur": "ننھی مچھلی موتی"
+          },
+          "value": "kindness",
+          "character": "hassan"
+        },
+        {
+          "id": "kaku_crab_walk",
+          "title": {
+            "en": "Kaku Crab's Special Walk",
+            "ur": "کیکڑا کاکو کی خاص چال"
+          },
+          "value": "kindness",
+          "character": "kaku"
+        },
+        {
+          "id": "zain_nana_boat",
+          "title": {
+            "en": "Zain and Nana's Boat",
+            "ur": "زین اور نانا کی کشتی"
+          },
+          "value": "patience",
+          "character": "zain"
+        },
+        {
+          "id": "maryam_seashell",
+          "title": {
+            "en": "Maryam's Seashell",
+            "ur": "مریم کی سیپی"
+          },
+          "value": "sharing",
+          "character": "maryam"
+        },
+        {
+          "id": "hamid_holds_hand",
+          "title": {
+            "en": "Hamid Holds Abbu's Hand",
+            "ur": "حامد اور ابو کا ہاتھ"
+          },
+          "value": "safety",
+          "character": "hamid"
+        }
+      ]
     },
     {
       "id": "gaon",

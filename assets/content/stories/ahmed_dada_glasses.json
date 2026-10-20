@@ -1,0 +1,1863 @@
+{
+  "schemaVersion": 1,
+  "id": "ahmed_dada_glasses",
+  "start": "p1",
+  "characters": {
+    "ahmed": {
+      "en": "Ahmed",
+      "ur": "احمد"
+    },
+    "dada": {
+      "en": "Dada",
+      "ur": "دادا"
+    }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "living_room",
+      "text": {
+        "en": "Ahmed loved his Dada Jaan. Dada Jaan had a white beard and the kindest smile.",
+        "ur": "احمد کو اپنے دادا جان سے بہت پیار تھا۔ دادا جان کی سفید داڑھی تھی اور بہت پیاری مسکراہٹ۔"
+      },
+      "cast": [
+        {
+          "art": "prop:lamp",
+          "x": 0.08,
+          "y": 0.62,
+          "size": 0.3
+        },
+        {
+          "art": "prop:armchair",
+          "x": 0.3,
+          "y": 0.67,
+          "size": 0.17
+        },
+        {
+          "art": "puppet:dada",
+          "x": 0.3,
+          "y": 0.66,
+          "size": 0.25,
+          "pose": "sit",
+          "hold": "prop:book",
+          "holdSize": 0.2,
+          "face": "happy",
+          "look": "right"
+        },
+        {
+          "art": "puppet:ahmed",
+          "x": 0.7,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "wave",
+          "act": "wave",
+          "face": "happy",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "احمد",
+            "start": 74,
+            "end": 384
+          },
+          {
+            "w": "کو",
+            "start": 384,
+            "end": 594
+          },
+          {
+            "w": "اپنے",
+            "start": 594,
+            "end": 994
+          },
+          {
+            "w": "دادا",
+            "start": 994,
+            "end": 1404
+          },
+          {
+            "w": "جان",
+            "start": 1404,
+            "end": 1714
+          },
+          {
+            "w": "سے",
+            "start": 1714,
+            "end": 1924
+          },
+          {
+            "w": "بہت",
+            "start": 1924,
+            "end": 2324
+          },
+          {
+            "w": "پیار",
+            "start": 2324,
+            "end": 2614
+          },
+          {
+            "w": "تھا۔",
+            "start": 2614,
+            "end": 3134
+          },
+          {
+            "w": "دادا",
+            "start": 3134,
+            "end": 3514
+          },
+          {
+            "w": "جان",
+            "start": 3514,
+            "end": 3804
+          },
+          {
+            "w": "کی",
+            "start": 3804,
+            "end": 4004
+          },
+          {
+            "w": "سفید",
+            "start": 4004,
+            "end": 4374
+          },
+          {
+            "w": "داڑھی",
+            "start": 4374,
+            "end": 5034
+          },
+          {
+            "w": "تھی",
+            "start": 5034,
+            "end": 5334
+          },
+          {
+            "w": "اور",
+            "start": 5334,
+            "end": 5764
+          },
+          {
+            "w": "بہت",
+            "start": 5764,
+            "end": 6104
+          },
+          {
+            "w": "پیاری",
+            "start": 6104,
+            "end": 6714
+          },
+          {
+            "w": "مسکراہٹ۔",
+            "start": 6714,
+            "end": 6964
+          }
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "living_room",
+      "text": {
+        "en": "One evening, Ahmed was watching cartoons. Ha ha! The cartoon was so funny!",
+        "ur": "ایک شام احمد کارٹون دیکھ رہا تھا۔ ہا ہا! کارٹون بہت مزے کا تھا!"
+      },
+      "cast": [
+        {
+          "art": "prop:tv",
+          "x": 0.76,
+          "y": 0.63,
+          "size": 0.17
+        },
+        {
+          "art": "puppet:ahmed",
+          "x": 0.38,
+          "y": 0.71,
+          "size": 0.18,
+          "pose": "sit",
+          "act": "laugh",
+          "face": "laugh",
+          "look": "right"
+        },
+        {
+          "art": "prop:sofa",
+          "x": 0.14,
+          "y": 0.62,
+          "size": 0.1
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "ایک",
+            "start": 960,
+            "end": 1260
+          },
+          {
+            "w": "شام",
+            "start": 1260,
+            "end": 1560
+          },
+          {
+            "w": "احمد",
+            "start": 1560,
+            "end": 1960
+          },
+          {
+            "w": "کارٹون",
+            "start": 1960,
+            "end": 2550
+          },
+          {
+            "w": "دیکھ",
+            "start": 2550,
+            "end": 2960
+          },
+          {
+            "w": "رہا",
+            "start": 2960,
+            "end": 3310
+          },
+          {
+            "w": "تھا۔",
+            "start": 3310,
+            "end": 3640
+          },
+          {
+            "w": "ہا",
+            "start": 3640,
+            "end": 3890
+          },
+          {
+            "w": "ہا!",
+            "start": 3890,
+            "end": 4140
+          },
+          {
+            "w": "کارٹون",
+            "start": 3890,
+            "end": 4690
+          },
+          {
+            "w": "بہت",
+            "start": 4690,
+            "end": 5220
+          },
+          {
+            "w": "مزے",
+            "start": 5220,
+            "end": 5730
+          },
+          {
+            "w": "کا",
+            "start": 5730,
+            "end": 6080
+          },
+          {
+            "w": "تھا!",
+            "start": 6080,
+            "end": 6680
+          }
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "living_room",
+      "text": {
+        "en": "Then Dada Jaan called, \"Ahmed beta, I can't find my glasses. Without them, I can't read my book.\"",
+        "ur": "تب دادا جان نے آواز دی، \"احمد بیٹا، میری عینک نہیں مل رہی۔ عینک کے بغیر میں اپنی کتاب نہیں پڑھ سکتا۔\""
+      },
+      "cast": [
+        {
+          "art": "prop:armchair",
+          "x": 0.2,
+          "y": 0.66,
+          "size": 0.15
+        },
+        {
+          "art": "prop:tv",
+          "x": 0.88,
+          "y": 0.63,
+          "size": 0.15
+        },
+        {
+          "art": "puppet:dada",
+          "x": 0.36,
+          "y": 0.66,
+          "size": 0.29,
+          "pose": "tummy",
+          "act": "fidget",
+          "face": "worried",
+          "look": "right"
+        },
+        {
+          "art": "puppet:ahmed",
+          "x": 0.64,
+          "y": 0.71,
+          "size": 0.18,
+          "pose": "sit",
+          "face": "surprised",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "تب",
+            "start": 19,
+            "end": 259
+          },
+          {
+            "w": "دادا",
+            "start": 259,
+            "end": 789
+          },
+          {
+            "w": "جان",
+            "start": 789,
+            "end": 1119
+          },
+          {
+            "w": "نے",
+            "start": 1119,
+            "end": 1369
+          },
+          {
+            "w": "آواز",
+            "start": 1369,
+            "end": 1929
+          },
+          {
+            "w": "دی،",
+            "start": 1929,
+            "end": 2179
+          },
+          {
+            "w": "\"احمد",
+            "start": 2179,
+            "end": 2699
+          },
+          {
+            "w": "بیٹا،",
+            "start": 2699,
+            "end": 3149
+          },
+          {
+            "w": "میری",
+            "start": 3149,
+            "end": 3629
+          },
+          {
+            "w": "عینک",
+            "start": 3629,
+            "end": 4109
+          },
+          {
+            "w": "نہیں",
+            "start": 4109,
+            "end": 4599
+          },
+          {
+            "w": "مل",
+            "start": 4599,
+            "end": 4829
+          },
+          {
+            "w": "رہی۔",
+            "start": 4829,
+            "end": 5299
+          },
+          {
+            "w": "عینک",
+            "start": 5299,
+            "end": 5669
+          },
+          {
+            "w": "کے",
+            "start": 5669,
+            "end": 5859
+          },
+          {
+            "w": "بغیر",
+            "start": 5859,
+            "end": 6219
+          },
+          {
+            "w": "میں",
+            "start": 6219,
+            "end": 6509
+          },
+          {
+            "w": "اپنی",
+            "start": 6509,
+            "end": 6909
+          },
+          {
+            "w": "کتاب",
+            "start": 6909,
+            "end": 7239
+          },
+          {
+            "w": "نہیں",
+            "start": 7239,
+            "end": 7649
+          },
+          {
+            "w": "پڑھ",
+            "start": 7649,
+            "end": 7989
+          },
+          {
+            "w": "سکتا۔\"",
+            "start": 7989,
+            "end": 8559
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "choice",
+      "scene": "living_room",
+      "text": {
+        "en": "Ahmed looked at the TV. The cartoon was at the best part! What should Ahmed do?",
+        "ur": "احمد نے ٹی وی کی طرف دیکھا۔ کارٹون سب سے مزے والی جگہ پر تھا! احمد کو کیا کرنا چاہیے؟"
+      },
+      "cast": [
+        {
+          "art": "prop:tv",
+          "x": 0.84,
+          "y": 0.63,
+          "size": 0.16
+        },
+        {
+          "art": "puppet:dada",
+          "x": 0.18,
+          "y": 0.66,
+          "size": 0.29,
+          "face": "worried",
+          "look": "right"
+        },
+        {
+          "art": "puppet:ahmed",
+          "x": 0.52,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "think",
+          "face": "think",
+          "look": "right"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "احمد",
+            "start": 17,
+            "end": 427
+          },
+          {
+            "w": "نے",
+            "start": 427,
+            "end": 637
+          },
+          {
+            "w": "ٹی",
+            "start": 637,
+            "end": 937
+          },
+          {
+            "w": "وی",
+            "start": 937,
+            "end": 1147
+          },
+          {
+            "w": "کی",
+            "start": 1147,
+            "end": 1347
+          },
+          {
+            "w": "طرف",
+            "start": 1347,
+            "end": 1657
+          },
+          {
+            "w": "دیکھا۔",
+            "start": 1657,
+            "end": 2297
+          },
+          {
+            "w": "کارٹون",
+            "start": 2297,
+            "end": 2957
+          },
+          {
+            "w": "سب",
+            "start": 2957,
+            "end": 3177
+          },
+          {
+            "w": "سے",
+            "start": 3177,
+            "end": 3397
+          },
+          {
+            "w": "مزے",
+            "start": 3397,
+            "end": 3727
+          },
+          {
+            "w": "والی",
+            "start": 3727,
+            "end": 4207
+          },
+          {
+            "w": "جگہ",
+            "start": 4207,
+            "end": 4507
+          },
+          {
+            "w": "پر",
+            "start": 4507,
+            "end": 4727
+          },
+          {
+            "w": "تھا!",
+            "start": 4727,
+            "end": 5137
+          },
+          {
+            "w": "احمد",
+            "start": 5137,
+            "end": 5657
+          },
+          {
+            "w": "کو",
+            "start": 5657,
+            "end": 5817
+          },
+          {
+            "w": "کیا",
+            "start": 5817,
+            "end": 6157
+          },
+          {
+            "w": "کرنا",
+            "start": 6157,
+            "end": 6617
+          },
+          {
+            "w": "چاہیے؟",
+            "start": 6617,
+            "end": 7217
+          }
+        ]
+      }
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": {
+        "en": "What should Ahmed do?",
+        "ur": "احمد کو کیا کرنا چاہیے؟"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "en": "Help right away",
+            "ur": "فوراً مدد کرے"
+          },
+          "picture": "prop:glasses",
+          "next": "choice_a"
+        },
+        {
+          "id": "b",
+          "label": {
+            "en": "Keep watching",
+            "ur": "کارٹون دیکھتا رہے"
+          },
+          "picture": "prop:tv_watch",
+          "next": "choice_b"
+        }
+      ]
+    },
+    {
+      "id": "choice_a",
+      "type": "page",
+      "next": "p5",
+      "scene": "living_room",
+      "text": {
+        "en": "Ahmed switched off the TV right away. \"I'm coming, Dada Jaan! I will help you find them.\"",
+        "ur": "احمد نے فوراً ٹی وی بند کیا۔ \"آیا دادا جان! میں آپ کی عینک ڈھونڈنے میں مدد کرتا ہوں۔\""
+      },
+      "help": {
+        "kind": "tap",
+        "item": 0,
+        "steps": 1
+      },
+      "cast": [
+        {
+          "art": "prop:tv",
+          "x": 0.8,
+          "y": 0.63,
+          "size": 0.17,
+          "helpHide": 1
+        },
+        {
+          "art": "prop:tv_off",
+          "x": 0.8,
+          "y": 0.63,
+          "size": 0.17,
+          "helpStep": 1
+        },
+        {
+          "art": "puppet:dada",
+          "x": 0.2,
+          "y": 0.66,
+          "size": 0.29,
+          "face": "happy",
+          "look": "right"
+        },
+        {
+          "art": "puppet:ahmed",
+          "x": 0.5,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "point",
+          "act": "talk",
+          "mood": "happy",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "احمد",
+            "start": 45,
+            "end": 315
+          },
+          {
+            "w": "نے",
+            "start": 315,
+            "end": 495
+          },
+          {
+            "w": "فوراً",
+            "start": 495,
+            "end": 945
+          },
+          {
+            "w": "ٹی",
+            "start": 945,
+            "end": 1225
+          },
+          {
+            "w": "وی",
+            "start": 1225,
+            "end": 1395
+          },
+          {
+            "w": "بند",
+            "start": 1395,
+            "end": 1665
+          },
+          {
+            "w": "کیا۔",
+            "start": 1665,
+            "end": 2015
+          },
+          {
+            "w": "\"آیا",
+            "start": 2015,
+            "end": 2355
+          },
+          {
+            "w": "دادا",
+            "start": 2355,
+            "end": 2805
+          },
+          {
+            "w": "جان!",
+            "start": 2805,
+            "end": 3195
+          },
+          {
+            "w": "میں",
+            "start": 3195,
+            "end": 3415
+          },
+          {
+            "w": "آپ",
+            "start": 3415,
+            "end": 3605
+          },
+          {
+            "w": "کی",
+            "start": 3605,
+            "end": 3715
+          },
+          {
+            "w": "عینک",
+            "start": 3715,
+            "end": 4005
+          },
+          {
+            "w": "ڈھونڈنے",
+            "start": 4005,
+            "end": 4645
+          },
+          {
+            "w": "میں",
+            "start": 4645,
+            "end": 4855
+          },
+          {
+            "w": "مدد",
+            "start": 4855,
+            "end": 5035
+          },
+          {
+            "w": "کرتا",
+            "start": 5035,
+            "end": 5385
+          },
+          {
+            "w": "ہوں۔\"",
+            "start": 5385,
+            "end": 5695
+          }
+        ]
+      }
+    },
+    {
+      "id": "choice_b",
+      "type": "page",
+      "next": "p5",
+      "scene": "living_room",
+      "text": {
+        "en": "\"Just one minute, Dada Jaan!\" said Ahmed. But then he thought, \"Dada Jaan needs me now.\" He switched off the TV. \"I'm coming, Dada Jaan!\"",
+        "ur": "\"بس ایک منٹ، دادا جان!\" احمد نے کہا۔ پھر اس نے سوچا، \"دادا جان کو ابھی میری ضرورت ہے۔\" اس نے ٹی وی بند کیا۔ \"آیا دادا جان!\""
+      },
+      "help": {
+        "kind": "tap",
+        "item": 0,
+        "steps": 1,
+        "when": "after"
+      },
+      "cast": [
+        {
+          "art": "prop:tv",
+          "x": 0.8,
+          "y": 0.63,
+          "size": 0.17,
+          "helpHide": 1
+        },
+        {
+          "art": "prop:tv_off",
+          "x": 0.8,
+          "y": 0.63,
+          "size": 0.17,
+          "helpStep": 1
+        },
+        {
+          "art": "puppet:dada",
+          "x": 0.2,
+          "y": 0.66,
+          "size": 0.29,
+          "face": "worried",
+          "look": "right"
+        },
+        {
+          "art": "puppet:ahmed",
+          "x": 0.52,
+          "y": 0.71,
+          "size": 0.18,
+          "pose": "sit",
+          "act": "laugh",
+          "face": "laugh",
+          "look": "right",
+          "until": 2910
+        },
+        {
+          "art": "puppet:ahmed",
+          "x": 0.5,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "think",
+          "act": "talk",
+          "face": "happy",
+          "look": "left",
+          "delay": 2910
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "\"بس",
+            "start": 0,
+            "end": 240
+          },
+          {
+            "w": "ایک",
+            "start": 240,
+            "end": 600
+          },
+          {
+            "w": "منٹ،",
+            "start": 600,
+            "end": 970
+          },
+          {
+            "w": "دادا",
+            "start": 970,
+            "end": 1440
+          },
+          {
+            "w": "جان!\"",
+            "start": 1440,
+            "end": 1840
+          },
+          {
+            "w": "احمد",
+            "start": 1840,
+            "end": 2370
+          },
+          {
+            "w": "نے",
+            "start": 2370,
+            "end": 2640
+          },
+          {
+            "w": "کہا۔",
+            "start": 2640,
+            "end": 3060
+          },
+          {
+            "w": "پھر",
+            "start": 3060,
+            "end": 3420
+          },
+          {
+            "w": "اس",
+            "start": 3420,
+            "end": 3670
+          },
+          {
+            "w": "نے",
+            "start": 3670,
+            "end": 3920
+          },
+          {
+            "w": "سوچا،",
+            "start": 3920,
+            "end": 4460
+          },
+          {
+            "w": "\"دادا",
+            "start": 4460,
+            "end": 4960
+          },
+          {
+            "w": "جان",
+            "start": 4960,
+            "end": 5160
+          },
+          {
+            "w": "کو",
+            "start": 5160,
+            "end": 5410
+          },
+          {
+            "w": "ابھی",
+            "start": 5410,
+            "end": 5780
+          },
+          {
+            "w": "میری",
+            "start": 5780,
+            "end": 6180
+          },
+          {
+            "w": "ضرورت",
+            "start": 6180,
+            "end": 6690
+          },
+          {
+            "w": "ہے۔\"",
+            "start": 6690,
+            "end": 6980
+          },
+          {
+            "w": "اس",
+            "start": 6980,
+            "end": 7220
+          },
+          {
+            "w": "نے",
+            "start": 7220,
+            "end": 7500
+          },
+          {
+            "w": "ٹی",
+            "start": 7500,
+            "end": 7800
+          },
+          {
+            "w": "وی",
+            "start": 7800,
+            "end": 8030
+          },
+          {
+            "w": "بند",
+            "start": 8030,
+            "end": 8380
+          },
+          {
+            "w": "کیا۔",
+            "start": 8380,
+            "end": 8780
+          },
+          {
+            "w": "\"آیا",
+            "start": 8780,
+            "end": 9100
+          },
+          {
+            "w": "دادا",
+            "start": 9100,
+            "end": 9550
+          },
+          {
+            "w": "جان!\"",
+            "start": 9550,
+            "end": 9880
+          }
+        ]
+      }
+    },
+    {
+      "id": "p5",
+      "type": "page",
+      "next": "p6",
+      "scene": "living_room",
+      "text": {
+        "en": "Ahmed looked on the table. No glasses. Under the sofa? No glasses. Then he looked up at Dada Jaan.",
+        "ur": "احمد نے میز پر دیکھا۔ عینک نہیں تھی۔ صوفے کے نیچے؟ وہاں بھی نہیں۔ پھر اس نے دادا جان کی طرف دیکھا۔"
+      },
+      "cast": [
+        {
+          "art": "prop:sofa",
+          "x": 0.42,
+          "y": 0.63,
+          "size": 0.1
+        },
+        {
+          "art": "prop:side_table",
+          "x": 0.12,
+          "y": 0.66,
+          "size": 0.07
+        },
+        {
+          "art": "puppet:ahmed",
+          "x": 0.4,
+          "y": 0.71,
+          "size": 0.19,
+          "pose": "kneel",
+          "act": "look",
+          "face": "think",
+          "until": 5956
+        },
+        {
+          "art": "puppet:ahmed",
+          "x": 0.42,
+          "y": 0.68,
+          "size": 0.22,
+          "pose": "point",
+          "act": "laugh",
+          "face": "laugh",
+          "look": "right",
+          "delay": 5956
+        },
+        {
+          "art": "puppet:dada",
+          "x": 0.78,
+          "y": 0.66,
+          "size": 0.29,
+          "pose": "tummy",
+          "face": "worried",
+          "look": "left"
+        },
+        {
+          "art": "prop:glasses",
+          "x": 0.78,
+          "y": 0.396,
+          "size": 0.025
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "احمد",
+            "start": 6,
+            "end": 566
+          },
+          {
+            "w": "نے",
+            "start": 566,
+            "end": 856
+          },
+          {
+            "w": "میز",
+            "start": 856,
+            "end": 1286
+          },
+          {
+            "w": "پر",
+            "start": 1286,
+            "end": 1596
+          },
+          {
+            "w": "دیکھا۔",
+            "start": 1596,
+            "end": 2326
+          },
+          {
+            "w": "عینک",
+            "start": 2326,
+            "end": 2646
+          },
+          {
+            "w": "نہیں",
+            "start": 2646,
+            "end": 2966
+          },
+          {
+            "w": "تھی۔",
+            "start": 2966,
+            "end": 3226
+          },
+          {
+            "w": "صوفے",
+            "start": 3226,
+            "end": 3836
+          },
+          {
+            "w": "کے",
+            "start": 3836,
+            "end": 4146
+          },
+          {
+            "w": "نیچے؟",
+            "start": 4146,
+            "end": 4786
+          },
+          {
+            "w": "وہاں",
+            "start": 4786,
+            "end": 5306
+          },
+          {
+            "w": "بھی",
+            "start": 5306,
+            "end": 5596
+          },
+          {
+            "w": "نہیں۔",
+            "start": 5596,
+            "end": 6106
+          },
+          {
+            "w": "پھر",
+            "start": 6106,
+            "end": 6406
+          },
+          {
+            "w": "اس",
+            "start": 6406,
+            "end": 6626
+          },
+          {
+            "w": "نے",
+            "start": 6626,
+            "end": 6876
+          },
+          {
+            "w": "دادا",
+            "start": 6876,
+            "end": 7236
+          },
+          {
+            "w": "جان",
+            "start": 7236,
+            "end": 7546
+          },
+          {
+            "w": "کی",
+            "start": 7546,
+            "end": 7756
+          },
+          {
+            "w": "طرف",
+            "start": 7756,
+            "end": 8066
+          },
+          {
+            "w": "دیکھا۔",
+            "start": 8066,
+            "end": 8666
+          }
+        ]
+      }
+    },
+    {
+      "id": "p6",
+      "type": "page",
+      "next": "p7",
+      "scene": "living_room",
+      "text": {
+        "en": "\"Dada Jaan! Your glasses are on your head!\" Dada Jaan touched his head and laughed too. \"Oh ho! They were with me all along!\"",
+        "ur": "\"دادا جان! عینک تو آپ کے سر پر ہے!\" دادا جان نے سر پر ہاتھ رکھا اور ہنس پڑے۔ \"ارے واہ! عینک تو میرے پاس ہی تھی!\""
+      },
+      "cast": [
+        {
+          "art": "puppet:dada",
+          "x": 0.36,
+          "y": 0.67,
+          "size": 0.32,
+          "pose": "think",
+          "act": "laugh",
+          "face": "laugh",
+          "look": "right"
+        },
+        {
+          "art": "prop:glasses",
+          "x": 0.36,
+          "y": 0.392,
+          "size": 0.028
+        },
+        {
+          "art": "puppet:ahmed",
+          "x": 0.7,
+          "y": 0.68,
+          "size": 0.22,
+          "pose": "point",
+          "act": "laugh",
+          "face": "laugh",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "\"دادا",
+            "start": 20,
+            "end": 790
+          },
+          {
+            "w": "جان!",
+            "start": 790,
+            "end": 1370
+          },
+          {
+            "w": "عینک",
+            "start": 1370,
+            "end": 2140
+          },
+          {
+            "w": "تو",
+            "start": 2140,
+            "end": 2530
+          },
+          {
+            "w": "آپ",
+            "start": 2530,
+            "end": 3310
+          },
+          {
+            "w": "کے",
+            "start": 3310,
+            "end": 3390
+          },
+          {
+            "w": "سر",
+            "start": 3390,
+            "end": 3690
+          },
+          {
+            "w": "پر",
+            "start": 3690,
+            "end": 4060
+          },
+          {
+            "w": "ہے!\"",
+            "start": 4060,
+            "end": 4560
+          },
+          {
+            "w": "دادا",
+            "start": 4990,
+            "end": 5270
+          },
+          {
+            "w": "جان",
+            "start": 5270,
+            "end": 5550
+          },
+          {
+            "w": "نے",
+            "start": 5550,
+            "end": 5740
+          },
+          {
+            "w": "سر",
+            "start": 5740,
+            "end": 5920
+          },
+          {
+            "w": "پر",
+            "start": 5920,
+            "end": 6100
+          },
+          {
+            "w": "ہاتھ",
+            "start": 6100,
+            "end": 6510
+          },
+          {
+            "w": "رکھا",
+            "start": 6510,
+            "end": 6920
+          },
+          {
+            "w": "اور",
+            "start": 6920,
+            "end": 7250
+          },
+          {
+            "w": "ہنس",
+            "start": 7250,
+            "end": 7440
+          },
+          {
+            "w": "پڑے۔",
+            "start": 7440,
+            "end": 7880
+          },
+          {
+            "w": "\"ارے",
+            "start": 7880,
+            "end": 8510
+          },
+          {
+            "w": "واہ!",
+            "start": 8510,
+            "end": 9180
+          },
+          {
+            "w": "عینک",
+            "start": 9180,
+            "end": 9560
+          },
+          {
+            "w": "تو",
+            "start": 9560,
+            "end": 9790
+          },
+          {
+            "w": "میرے",
+            "start": 9790,
+            "end": 10230
+          },
+          {
+            "w": "پاس",
+            "start": 10230,
+            "end": 10430
+          },
+          {
+            "w": "ہی",
+            "start": 10430,
+            "end": 10620
+          },
+          {
+            "w": "تھی!\"",
+            "start": 10620,
+            "end": 10980
+          }
+        ]
+      }
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": "p8",
+      "scene": "living_room",
+      "text": {
+        "en": "Dada Jaan hugged Ahmed. \"JazakAllah, beta. When we help our elders, Allah is happy with us.\"",
+        "ur": "دادا جان نے احمد کو گلے لگایا۔ \"جزاک اللہ بیٹا۔ جب ہم بڑوں کی مدد کرتے ہیں تو اللہ تعالیٰ ہم سے خوش ہوتے ہیں۔\""
+      },
+      "cast": [
+        {
+          "art": "prop:armchair",
+          "x": 0.14,
+          "y": 0.66,
+          "size": 0.15
+        },
+        {
+          "art": "puppet:dada",
+          "x": 0.42,
+          "y": 0.66,
+          "size": 0.3,
+          "pose": "hug",
+          "act": "hug+talk",
+          "mood": "happy",
+          "look": "right"
+        },
+        {
+          "art": "puppet:ahmed",
+          "x": 0.56,
+          "y": 0.68,
+          "size": 0.22,
+          "pose": "hug",
+          "face": "happy",
+          "look": "left"
+        },
+        {
+          "art": "prop:heart",
+          "x": 0.5,
+          "y": 0.3,
+          "size": 0.03,
+          "mood": "float",
+          "delay": 500
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "دادا",
+            "start": 8,
+            "end": 528
+          },
+          {
+            "w": "جان",
+            "start": 528,
+            "end": 778
+          },
+          {
+            "w": "نے",
+            "start": 778,
+            "end": 958
+          },
+          {
+            "w": "احمد",
+            "start": 958,
+            "end": 1378
+          },
+          {
+            "w": "کو",
+            "start": 1378,
+            "end": 1598
+          },
+          {
+            "w": "گلے",
+            "start": 1598,
+            "end": 1918
+          },
+          {
+            "w": "لگایا۔",
+            "start": 1918,
+            "end": 2528
+          },
+          {
+            "w": "\"جزاک",
+            "start": 2528,
+            "end": 3048
+          },
+          {
+            "w": "اللہ",
+            "start": 3048,
+            "end": 3498
+          },
+          {
+            "w": "بیٹا۔",
+            "start": 3498,
+            "end": 4008
+          },
+          {
+            "w": "جب",
+            "start": 4008,
+            "end": 4208
+          },
+          {
+            "w": "ہم",
+            "start": 4208,
+            "end": 4408
+          },
+          {
+            "w": "بڑوں",
+            "start": 4408,
+            "end": 4908
+          },
+          {
+            "w": "کی",
+            "start": 4908,
+            "end": 5108
+          },
+          {
+            "w": "مدد",
+            "start": 5108,
+            "end": 5408
+          },
+          {
+            "w": "کرتے",
+            "start": 5408,
+            "end": 5918
+          },
+          {
+            "w": "ہیں",
+            "start": 5918,
+            "end": 6148
+          },
+          {
+            "w": "تو",
+            "start": 6148,
+            "end": 6328
+          },
+          {
+            "w": "اللہ",
+            "start": 6328,
+            "end": 6688
+          },
+          {
+            "w": "تعالیٰ",
+            "start": 6688,
+            "end": 7138
+          },
+          {
+            "w": "ہم",
+            "start": 7138,
+            "end": 7318
+          },
+          {
+            "w": "سے",
+            "start": 7318,
+            "end": 7498
+          },
+          {
+            "w": "خوش",
+            "start": 7498,
+            "end": 7768
+          },
+          {
+            "w": "ہوتے",
+            "start": 7768,
+            "end": 8128
+          },
+          {
+            "w": "ہیں۔\"",
+            "start": 8128,
+            "end": 8428
+          }
+        ]
+      }
+    },
+    {
+      "id": "p8",
+      "type": "page",
+      "next": null,
+      "scene": "living_room_evening",
+      "text": {
+        "en": "Then Dada Jaan read Ahmed a story from his book. It was even better than the cartoon!",
+        "ur": "پھر دادا جان نے احمد کو اپنی کتاب سے ایک کہانی سنائی۔ وہ کارٹون سے بھی زیادہ مزے کی تھی!"
+      },
+      "cast": [
+        {
+          "art": "prop:lamp",
+          "x": 0.1,
+          "y": 0.62,
+          "size": 0.3
+        },
+        {
+          "art": "prop:armchair",
+          "x": 0.4,
+          "y": 0.67,
+          "size": 0.17
+        },
+        {
+          "art": "puppet:dada",
+          "x": 0.4,
+          "y": 0.66,
+          "size": 0.25,
+          "pose": "sit",
+          "hold": "prop:book",
+          "holdSize": 0.2,
+          "act": "talk",
+          "mood": "happy",
+          "look": "right"
+        },
+        {
+          "art": "puppet:ahmed",
+          "x": 0.66,
+          "y": 0.71,
+          "size": 0.17,
+          "pose": "sit",
+          "face": "happy",
+          "look": "left"
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.55,
+          "y": 0.42,
+          "size": 0.03,
+          "mood": "twinkle",
+          "delay": 1500
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "پھر",
+            "start": 17,
+            "end": 317
+          },
+          {
+            "w": "دادا",
+            "start": 317,
+            "end": 787
+          },
+          {
+            "w": "جان",
+            "start": 787,
+            "end": 1037
+          },
+          {
+            "w": "نے",
+            "start": 1037,
+            "end": 1247
+          },
+          {
+            "w": "احمد",
+            "start": 1247,
+            "end": 1657
+          },
+          {
+            "w": "کو",
+            "start": 1657,
+            "end": 1937
+          },
+          {
+            "w": "اپنی",
+            "start": 1937,
+            "end": 2367
+          },
+          {
+            "w": "کتاب",
+            "start": 2367,
+            "end": 2657
+          },
+          {
+            "w": "سے",
+            "start": 2657,
+            "end": 2857
+          },
+          {
+            "w": "ایک",
+            "start": 2857,
+            "end": 3327
+          },
+          {
+            "w": "کہانی",
+            "start": 3327,
+            "end": 3607
+          },
+          {
+            "w": "سنائی۔",
+            "start": 3607,
+            "end": 4157
+          },
+          {
+            "w": "وہ",
+            "start": 4157,
+            "end": 4357
+          },
+          {
+            "w": "کارٹون",
+            "start": 4357,
+            "end": 4957
+          },
+          {
+            "w": "سے",
+            "start": 4957,
+            "end": 5157
+          },
+          {
+            "w": "بھی",
+            "start": 5157,
+            "end": 5457
+          },
+          {
+            "w": "زیادہ",
+            "start": 5457,
+            "end": 6057
+          },
+          {
+            "w": "مزے",
+            "start": 6057,
+            "end": 6257
+          },
+          {
+            "w": "کی",
+            "start": 6257,
+            "end": 6507
+          },
+          {
+            "w": "تھی!",
+            "start": 6507,
+            "end": 6857
+          }
+        ]
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "id": "glasses",
+      "picture": "prop:glasses",
+      "word": {
+        "en": "glasses",
+        "ur": "عینک"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "help",
+      "word": {
+        "en": "help",
+        "ur": "مدد"
+      },
+      "forms": {
+        "en": [
+          "helps",
+          "helped"
+        ],
+        "ur": []
+      }
+    },
+    {
+      "id": "elders",
+      "picture": "puppet:dada",
+      "word": {
+        "en": "elders",
+        "ur": "بڑے"
+      },
+      "forms": {
+        "en": [
+          "elder"
+        ],
+        "ur": [
+          "بڑوں"
+        ]
+      }
+    },
+    {
+      "id": "book",
+      "picture": "prop:book",
+      "word": {
+        "en": "book",
+        "ur": "کتاب"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "cartoon",
+      "picture": "prop:tv",
+      "word": {
+        "en": "cartoon",
+        "ur": "کارٹون"
+      },
+      "forms": {
+        "en": [
+          "cartoons"
+        ],
+        "ur": []
+      }
+    },
+    {
+      "id": "tv",
+      "picture": "prop:tv",
+      "word": {
+        "en": "TV",
+        "ur": "ٹی وی"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "beard",
+      "word": {
+        "en": "beard",
+        "ur": "داڑھی"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "story",
+      "word": {
+        "en": "story",
+        "ur": "کہانی"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "head",
+      "word": {
+        "en": "head",
+        "ur": "سر"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "sofa",
+      "picture": "prop:sofa",
+      "word": {
+        "en": "sofa",
+        "ur": "صوفہ"
+      },
+      "forms": {
+        "en": [],
+        "ur": [
+          "صوفے"
+        ]
+      }
+    }
+  ],
+  "vocabulary": [
+    "glasses",
+    "help",
+    "elders"
+  ],
+  "quiz": [
+    {
+      "question": {
+        "en": "What did Dada Jaan lose?",
+        "ur": "دادا جان کی کیا چیز گم ہوئی؟"
+      },
+      "options": [
+        {
+          "picture": "prop:glasses",
+          "correct": true
+        },
+        {
+          "picture": "prop:shoes"
+        },
+        {
+          "picture": "prop:keys"
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "Where were the glasses?",
+        "ur": "عینک کہاں تھی؟"
+      },
+      "options": [
+        {
+          "picture": "puppet:dada",
+          "correct": true,
+          "label": {
+            "en": "On his head",
+            "ur": "سر پر"
+          }
+        },
+        {
+          "picture": "prop:sofa",
+          "label": {
+            "en": "Under the sofa",
+            "ur": "صوفے کے نیچے"
+          }
+        },
+        {
+          "picture": "prop:kitchen",
+          "label": {
+            "en": "In the kitchen",
+            "ur": "کچن میں"
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "What did they do at the end?",
+        "ur": "آخر میں انہوں نے کیا کیا؟"
+      },
+      "options": [
+        {
+          "picture": "prop:book",
+          "correct": true,
+          "label": {
+            "en": "Read a story",
+            "ur": "کہانی پڑھی"
+          }
+        },
+        {
+          "picture": "prop:tv_watch",
+          "label": {
+            "en": "Watched TV",
+            "ur": "ٹی وی دیکھا"
+          }
+        },
+        {
+          "picture": "prop:sleep",
+          "label": {
+            "en": "Slept",
+            "ur": "سو گئے"
+          }
+        }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": {
+        "en": "Give Dada Jaan his glasses!",
+        "ur": "دادا جان کو ان کی عینک دو!"
+      },
+      "item": "prop:glasses",
+      "options": [
+        {
+          "picture": "puppet:ahmed"
+        },
+        {
+          "picture": "puppet:dada",
+          "correct": true
+        },
+        {
+          "picture": "prop:tv"
+        }
+      ]
+    }
+  ]
+}

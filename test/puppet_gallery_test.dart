@@ -100,7 +100,7 @@ void main() {
   setUp(rootBundle.clear);
 
   testWidgets('puppets standing', skip: !_enabled, (tester) async {
-    await _shoot(tester, 'all', const Size(1000, 360), (p) {
+    await _shoot(tester, 'all', const Size(1000, 720), (p) {
       return Wrap(children: [for (final id in p.ids) _cell(id, label: id)]);
     });
   });
@@ -113,6 +113,8 @@ void main() {
     'bunty',
     'bhalu',
     'tippu',
+    'kaku',
+    'dada',
   ]) {
     testWidgets('poses $id', skip: !_enabled, (tester) async {
       await _shoot(tester, 'poses_$id', const Size(1000, 540), (p) {

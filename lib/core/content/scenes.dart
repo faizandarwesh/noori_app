@@ -78,7 +78,7 @@ class SceneSpec {
 
   final List<SceneLayerSpec> layers;
 
-  /// Soundscape looped under the narration: birds, river or wind.
+  /// Soundscape looped under the narration: birds, river, wind or waves.
   final String? ambient;
 
   /// Hidden surprises to find in the scene while a story plays.

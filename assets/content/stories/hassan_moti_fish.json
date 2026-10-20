@@ -1,0 +1,1942 @@
+{
+  "schemaVersion": 1,
+  "id": "hassan_moti_fish",
+  "start": "p1",
+  "characters": {
+    "hassan": {
+      "en": "Hassan",
+      "ur": "حسن"
+    },
+    "baba": {
+      "en": "Abbu",
+      "ur": "ابو"
+    }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "beach",
+      "text": {
+        "en": "On Sunday, Hassan and Abbu went to the beach. The sea was big and blue, and the waves went splash, splash!",
+        "ur": "اتوار کے دن حسن ابو کے ساتھ سمندر کنارے گیا۔ سمندر بڑا اور نیلا تھا، اور لہریں چھپاک، چھپاک کر رہی تھیں!"
+      },
+      "cast": [
+        {
+          "art": "prop:umbrella",
+          "x": 0.86,
+          "y": 0.66,
+          "size": 0.2
+        },
+        {
+          "art": "puppet:hassan",
+          "x": 0.36,
+          "y": 0.67,
+          "size": 0.22,
+          "act": "run",
+          "face": "laugh",
+          "enter": "left"
+        },
+        {
+          "art": "puppet:baba",
+          "x": 0.62,
+          "y": 0.65,
+          "size": 0.29,
+          "act": "walk",
+          "mood": "happy",
+          "enter": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "اتوار",
+            "start": 44,
+            "end": 384
+          },
+          {
+            "w": "کے",
+            "start": 384,
+            "end": 554
+          },
+          {
+            "w": "دن",
+            "start": 554,
+            "end": 794
+          },
+          {
+            "w": "حسن",
+            "start": 794,
+            "end": 1034
+          },
+          {
+            "w": "ابو",
+            "start": 1034,
+            "end": 1284
+          },
+          {
+            "w": "کے",
+            "start": 1284,
+            "end": 1444
+          },
+          {
+            "w": "ساتھ",
+            "start": 1444,
+            "end": 1944
+          },
+          {
+            "w": "سمندر",
+            "start": 1944,
+            "end": 2304
+          },
+          {
+            "w": "کنارے",
+            "start": 2304,
+            "end": 2754
+          },
+          {
+            "w": "گیا۔",
+            "start": 2754,
+            "end": 3134
+          },
+          {
+            "w": "سمندر",
+            "start": 3134,
+            "end": 3744
+          },
+          {
+            "w": "بڑا",
+            "start": 3744,
+            "end": 4304
+          },
+          {
+            "w": "اور",
+            "start": 4304,
+            "end": 4604
+          },
+          {
+            "w": "نیلا",
+            "start": 4604,
+            "end": 5154
+          },
+          {
+            "w": "تھا،",
+            "start": 5154,
+            "end": 5574
+          },
+          {
+            "w": "اور",
+            "start": 5574,
+            "end": 5874
+          },
+          {
+            "w": "لہریں",
+            "start": 5874,
+            "end": 6474
+          },
+          {
+            "w": "چھپاک،",
+            "start": 6474,
+            "end": 6874
+          },
+          {
+            "w": "چھپاک",
+            "start": 6874,
+            "end": 7374
+          },
+          {
+            "w": "کر",
+            "start": 7374,
+            "end": 7574
+          },
+          {
+            "w": "رہی",
+            "start": 7574,
+            "end": 7874
+          },
+          {
+            "w": "تھیں!",
+            "start": 7874,
+            "end": 8294
+          }
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "beach",
+      "text": {
+        "en": "Abbu bought Hassan a packet of chips. Crunch, crunch! When the chips were finished, Hassan held the empty wrapper.",
+        "ur": "ابو نے حسن کو چپس کا ایک پیکٹ لے کر دیا۔ کرچ، کرچ! جب چپس ختم ہو گئے تو حسن کے ہاتھ میں خالی پیکٹ رہ گیا۔"
+      },
+      "cast": [
+        {
+          "art": "prop:umbrella",
+          "x": 0.86,
+          "y": 0.66,
+          "size": 0.2
+        },
+        {
+          "art": "puppet:hassan",
+          "x": 0.42,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "eat",
+          "act": "eat",
+          "hold": "prop:chips",
+          "holdSize": 0.25,
+          "face": "full",
+          "until": 4573
+        },
+        {
+          "art": "puppet:hassan",
+          "x": 0.42,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "hold",
+          "hold": "prop:wrapper",
+          "holdSize": 0.18,
+          "face": "happy",
+          "look": "down",
+          "delay": 4573
+        },
+        {
+          "art": "puppet:baba",
+          "x": 0.66,
+          "y": 0.65,
+          "size": 0.29,
+          "mood": "happy",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "ابو",
+            "start": 13,
+            "end": 323
+          },
+          {
+            "w": "نے",
+            "start": 323,
+            "end": 553
+          },
+          {
+            "w": "حسن",
+            "start": 553,
+            "end": 833
+          },
+          {
+            "w": "کو",
+            "start": 833,
+            "end": 1043
+          },
+          {
+            "w": "چپس",
+            "start": 1043,
+            "end": 1343
+          },
+          {
+            "w": "کا",
+            "start": 1343,
+            "end": 1543
+          },
+          {
+            "w": "ایک",
+            "start": 1543,
+            "end": 1963
+          },
+          {
+            "w": "پیکٹ",
+            "start": 1963,
+            "end": 2263
+          },
+          {
+            "w": "لے",
+            "start": 2263,
+            "end": 2463
+          },
+          {
+            "w": "کر",
+            "start": 2463,
+            "end": 2673
+          },
+          {
+            "w": "دیا۔",
+            "start": 2673,
+            "end": 3173
+          },
+          {
+            "w": "کرچ،",
+            "start": 3173,
+            "end": 3973
+          },
+          {
+            "w": "کرچ!",
+            "start": 3973,
+            "end": 4723
+          },
+          {
+            "w": "جب",
+            "start": 4723,
+            "end": 4943
+          },
+          {
+            "w": "چپس",
+            "start": 4943,
+            "end": 5273
+          },
+          {
+            "w": "ختم",
+            "start": 5273,
+            "end": 5613
+          },
+          {
+            "w": "ہو",
+            "start": 5613,
+            "end": 5843
+          },
+          {
+            "w": "گئے",
+            "start": 5843,
+            "end": 6433
+          },
+          {
+            "w": "تو",
+            "start": 6433,
+            "end": 6523
+          },
+          {
+            "w": "حسن",
+            "start": 6523,
+            "end": 6703
+          },
+          {
+            "w": "کے",
+            "start": 6703,
+            "end": 6883
+          },
+          {
+            "w": "ہاتھ",
+            "start": 6883,
+            "end": 7303
+          },
+          {
+            "w": "میں",
+            "start": 7303,
+            "end": 7513
+          },
+          {
+            "w": "خالی",
+            "start": 7513,
+            "end": 7873
+          },
+          {
+            "w": "پیکٹ",
+            "start": 7873,
+            "end": 8233
+          },
+          {
+            "w": "رہ",
+            "start": 8233,
+            "end": 8413
+          },
+          {
+            "w": "گیا۔",
+            "start": 8413,
+            "end": 8813
+          }
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "beach",
+      "text": {
+        "en": "Near the water, Hassan saw a little orange fish. Her name was Moti. She was stuck in an old plastic bag!",
+        "ur": "پانی کے پاس حسن نے ایک ننھی سی نارنجی مچھلی دیکھی۔ اس کا نام موتی تھا۔ وہ ایک پرانی پلاسٹک کی تھیلی میں پھنسی ہوئی تھی!"
+      },
+      "cast": [
+        {
+          "art": "prop:moti_stuck",
+          "x": 0.56,
+          "y": 0.61,
+          "size": 0.065,
+          "mood": "worried"
+        },
+        {
+          "art": "puppet:hassan",
+          "x": 0.26,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "point",
+          "face": "surprised",
+          "look": "right"
+        },
+        {
+          "art": "puppet:baba",
+          "x": 0.84,
+          "y": 0.65,
+          "size": 0.29,
+          "face": "worried",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "پانی",
+            "start": 10,
+            "end": 380
+          },
+          {
+            "w": "کے",
+            "start": 380,
+            "end": 560
+          },
+          {
+            "w": "پاس",
+            "start": 560,
+            "end": 940
+          },
+          {
+            "w": "حسن",
+            "start": 940,
+            "end": 1210
+          },
+          {
+            "w": "نے",
+            "start": 1210,
+            "end": 1400
+          },
+          {
+            "w": "ایک",
+            "start": 1400,
+            "end": 1710
+          },
+          {
+            "w": "ننھی",
+            "start": 1710,
+            "end": 2040
+          },
+          {
+            "w": "سی",
+            "start": 2040,
+            "end": 2220
+          },
+          {
+            "w": "نارنجی",
+            "start": 2220,
+            "end": 2770
+          },
+          {
+            "w": "مچھلی",
+            "start": 2770,
+            "end": 3310
+          },
+          {
+            "w": "دیکھی۔",
+            "start": 3310,
+            "end": 4050
+          },
+          {
+            "w": "اس",
+            "start": 4050,
+            "end": 4310
+          },
+          {
+            "w": "کا",
+            "start": 4310,
+            "end": 4590
+          },
+          {
+            "w": "نام",
+            "start": 4590,
+            "end": 4960
+          },
+          {
+            "w": "موتی",
+            "start": 4960,
+            "end": 5480
+          },
+          {
+            "w": "تھا۔",
+            "start": 5480,
+            "end": 6050
+          },
+          {
+            "w": "وہ",
+            "start": 6050,
+            "end": 6250
+          },
+          {
+            "w": "ایک",
+            "start": 6250,
+            "end": 6450
+          },
+          {
+            "w": "پرانی",
+            "start": 6450,
+            "end": 6850
+          },
+          {
+            "w": "پلاسٹک",
+            "start": 6850,
+            "end": 7330
+          },
+          {
+            "w": "کی",
+            "start": 7330,
+            "end": 7490
+          },
+          {
+            "w": "تھیلی",
+            "start": 7490,
+            "end": 8070
+          },
+          {
+            "w": "میں",
+            "start": 8070,
+            "end": 8130
+          },
+          {
+            "w": "پھنسی",
+            "start": 8130,
+            "end": 8470
+          },
+          {
+            "w": "ہوئی",
+            "start": 8470,
+            "end": 8770
+          },
+          {
+            "w": "تھی!",
+            "start": 8770,
+            "end": 9170
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "p5",
+      "scene": "beach",
+      "text": {
+        "en": "Abbu gently took Moti out of the bag, and she swam away. Splash!",
+        "ur": "ابو نے آہستہ سے موتی کو تھیلی سے نکالا اور وہ تیر کر چلی گئی۔ چھپاک!"
+      },
+      "help": {
+        "kind": "tap",
+        "item": 0,
+        "steps": 1
+      },
+      "cast": [
+        {
+          "art": "prop:moti_stuck",
+          "x": 0.52,
+          "y": 0.61,
+          "size": 0.065,
+          "mood": "worried",
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:baba",
+          "x": 0.66,
+          "y": 0.67,
+          "size": 0.26,
+          "pose": "kneel",
+          "act": "talk",
+          "mood": "happy",
+          "look": "left"
+        },
+        {
+          "art": "prop:splash",
+          "x": 0.46,
+          "y": 0.57,
+          "size": 0.06,
+          "helpStep": 1
+        },
+        {
+          "art": "prop:moti",
+          "x": 0.44,
+          "y": 0.48,
+          "size": 0.05,
+          "mood": "float",
+          "helpStep": 1
+        },
+        {
+          "art": "puppet:hassan",
+          "x": 0.2,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "clap",
+          "act": "clap",
+          "face": "happy",
+          "look": "right"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "ابو",
+            "start": 45,
+            "end": 285
+          },
+          {
+            "w": "نے",
+            "start": 285,
+            "end": 515
+          },
+          {
+            "w": "آہستہ",
+            "start": 515,
+            "end": 1005
+          },
+          {
+            "w": "سے",
+            "start": 1005,
+            "end": 1215
+          },
+          {
+            "w": "موتی",
+            "start": 1215,
+            "end": 1675
+          },
+          {
+            "w": "کو",
+            "start": 1675,
+            "end": 1925
+          },
+          {
+            "w": "تھیلی",
+            "start": 1925,
+            "end": 2335
+          },
+          {
+            "w": "سے",
+            "start": 2335,
+            "end": 2545
+          },
+          {
+            "w": "نکالا",
+            "start": 2545,
+            "end": 3335
+          },
+          {
+            "w": "اور",
+            "start": 3335,
+            "end": 3485
+          },
+          {
+            "w": "وہ",
+            "start": 3485,
+            "end": 3695
+          },
+          {
+            "w": "تیر",
+            "start": 3695,
+            "end": 4105
+          },
+          {
+            "w": "کر",
+            "start": 4105,
+            "end": 4205
+          },
+          {
+            "w": "چلی",
+            "start": 4205,
+            "end": 4505
+          },
+          {
+            "w": "گئی۔",
+            "start": 4505,
+            "end": 4975
+          },
+          {
+            "w": "چھپاک!",
+            "start": 4975,
+            "end": 5725
+          }
+        ]
+      }
+    },
+    {
+      "id": "p5",
+      "type": "page",
+      "next": "choice",
+      "scene": "beach",
+      "text": {
+        "en": "Hassan looked at his empty wrapper. The bin was far away. What should Hassan do?",
+        "ur": "حسن نے اپنا خالی پیکٹ دیکھا۔ کوڑے دان بہت دور تھا۔ حسن کو کیا کرنا چاہیے؟"
+      },
+      "cast": [
+        {
+          "art": "prop:bin",
+          "x": 0.9,
+          "y": 0.585,
+          "size": 0.06
+        },
+        {
+          "art": "puppet:hassan",
+          "x": 0.34,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "think",
+          "hold": "prop:wrapper",
+          "holdSize": 0.18,
+          "face": "think",
+          "look": "right"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "حسن",
+            "start": 4,
+            "end": 424
+          },
+          {
+            "w": "نے",
+            "start": 424,
+            "end": 574
+          },
+          {
+            "w": "اپنا",
+            "start": 574,
+            "end": 1034
+          },
+          {
+            "w": "خالی",
+            "start": 1034,
+            "end": 1494
+          },
+          {
+            "w": "پیکٹ",
+            "start": 1494,
+            "end": 1944
+          },
+          {
+            "w": "دیکھا۔",
+            "start": 1944,
+            "end": 2754
+          },
+          {
+            "w": "کوڑے",
+            "start": 2754,
+            "end": 3304
+          },
+          {
+            "w": "دان",
+            "start": 3304,
+            "end": 3634
+          },
+          {
+            "w": "بہت",
+            "start": 3634,
+            "end": 3964
+          },
+          {
+            "w": "دور",
+            "start": 3964,
+            "end": 4294
+          },
+          {
+            "w": "تھا۔",
+            "start": 4294,
+            "end": 4794
+          },
+          {
+            "w": "حسن",
+            "start": 4794,
+            "end": 5034
+          },
+          {
+            "w": "کو",
+            "start": 5034,
+            "end": 5194
+          },
+          {
+            "w": "کیا",
+            "start": 5194,
+            "end": 5434
+          },
+          {
+            "w": "کرنا",
+            "start": 5434,
+            "end": 5754
+          },
+          {
+            "w": "چاہیے؟",
+            "start": 5754,
+            "end": 6254
+          }
+        ]
+      }
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": {
+        "en": "What should Hassan do?",
+        "ur": "حسن کو کیا کرنا چاہیے؟"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "en": "Walk to the bin",
+            "ur": "کوڑے دان تک جائے"
+          },
+          "picture": "prop:bin",
+          "next": "choice_a"
+        },
+        {
+          "id": "b",
+          "label": {
+            "en": "Drop it on the sand",
+            "ur": "ریت پر پھینک دے"
+          },
+          "picture": "prop:wrapper",
+          "next": "choice_b"
+        }
+      ]
+    },
+    {
+      "id": "choice_a",
+      "type": "page",
+      "next": "p6",
+      "scene": "beach",
+      "text": {
+        "en": "\"I will put it in the bin!\" Hassan walked all the way to the bin and dropped the wrapper in. Plop!",
+        "ur": "\"میں اسے کوڑے دان میں ڈالوں گا!\" حسن چلتا ہوا کوڑے دان تک گیا اور پیکٹ اندر ڈال دیا۔ ٹپ!"
+      },
+      "help": {
+        "kind": "drag",
+        "item": 1,
+        "to": 0
+      },
+      "cast": [
+        {
+          "art": "prop:bin",
+          "x": 0.78,
+          "y": 0.67,
+          "size": 0.09
+        },
+        {
+          "art": "prop:wrapper",
+          "x": 0.46,
+          "y": 0.71,
+          "size": 0.035,
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:hassan",
+          "x": 0.3,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "point",
+          "act": "talk",
+          "mood": "happy",
+          "look": "right",
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:hassan",
+          "x": 0.3,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "thumbs_up",
+          "act": "bounce",
+          "face": "laugh",
+          "look": "right",
+          "helpStep": 1
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.78,
+          "y": 0.53,
+          "size": 0.035,
+          "mood": "twinkle",
+          "helpStep": 1
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "\"میں",
+            "start": 283,
+            "end": 343
+          },
+          {
+            "w": "اسے",
+            "start": 283,
+            "end": 363
+          },
+          {
+            "w": "کوڑے",
+            "start": 363,
+            "end": 823
+          },
+          {
+            "w": "دان",
+            "start": 823,
+            "end": 1123
+          },
+          {
+            "w": "میں",
+            "start": 1123,
+            "end": 1423
+          },
+          {
+            "w": "ڈالوں",
+            "start": 1423,
+            "end": 2023
+          },
+          {
+            "w": "گا!\"",
+            "start": 2023,
+            "end": 2363
+          },
+          {
+            "w": "حسن",
+            "start": 2363,
+            "end": 2633
+          },
+          {
+            "w": "چلتا",
+            "start": 2633,
+            "end": 2993
+          },
+          {
+            "w": "ہوا",
+            "start": 2993,
+            "end": 3273
+          },
+          {
+            "w": "کوڑے",
+            "start": 3273,
+            "end": 3733
+          },
+          {
+            "w": "دان",
+            "start": 3733,
+            "end": 4063
+          },
+          {
+            "w": "تک",
+            "start": 4063,
+            "end": 4283
+          },
+          {
+            "w": "گیا",
+            "start": 4283,
+            "end": 4473
+          },
+          {
+            "w": "اور",
+            "start": 4473,
+            "end": 4783
+          },
+          {
+            "w": "پیکٹ",
+            "start": 4783,
+            "end": 5103
+          },
+          {
+            "w": "اندر",
+            "start": 5103,
+            "end": 5493
+          },
+          {
+            "w": "ڈال",
+            "start": 5493,
+            "end": 5863
+          },
+          {
+            "w": "دیا۔",
+            "start": 5863,
+            "end": 6483
+          },
+          {
+            "w": "ٹپ!",
+            "start": 6483,
+            "end": 6923
+          }
+        ]
+      }
+    },
+    {
+      "id": "choice_b",
+      "type": "page",
+      "next": "p6",
+      "scene": "beach",
+      "text": {
+        "en": "Hassan almost dropped the wrapper on the sand. Then he remembered little Moti. \"No! A fish could get stuck in this too.\" He walked to the bin and dropped it in. Plop!",
+        "ur": "حسن ریت پر پیکٹ پھینکنے ہی والا تھا۔ پھر اسے ننھی موتی یاد آئی۔ \"نہیں! اس میں بھی کوئی مچھلی پھنس سکتی ہے۔\" وہ کوڑے دان تک گیا اور پیکٹ اندر ڈال دیا۔ ٹپ!"
+      },
+      "help": {
+        "kind": "drag",
+        "item": 1,
+        "to": 0,
+        "when": "after"
+      },
+      "cast": [
+        {
+          "art": "prop:bin",
+          "x": 0.78,
+          "y": 0.67,
+          "size": 0.09
+        },
+        {
+          "art": "prop:wrapper",
+          "x": 0.46,
+          "y": 0.71,
+          "size": 0.035,
+          "delay": 3071,
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:hassan",
+          "x": 0.3,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "hold",
+          "hold": "prop:wrapper",
+          "holdSize": 0.18,
+          "face": "happy",
+          "look": "down",
+          "until": 3071
+        },
+        {
+          "art": "puppet:hassan",
+          "x": 0.3,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "think",
+          "face": "think",
+          "delay": 3071,
+          "until": 8031
+        },
+        {
+          "art": "puppet:hassan",
+          "x": 0.3,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "point",
+          "act": "talk",
+          "mood": "happy",
+          "look": "right",
+          "delay": 8031,
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:hassan",
+          "x": 0.3,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "thumbs_up",
+          "act": "bounce",
+          "face": "laugh",
+          "look": "right",
+          "helpStep": 1
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.78,
+          "y": 0.53,
+          "size": 0.035,
+          "mood": "twinkle",
+          "helpStep": 1
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "حسن",
+            "start": 1,
+            "end": 331
+          },
+          {
+            "w": "ریت",
+            "start": 331,
+            "end": 731
+          },
+          {
+            "w": "پر",
+            "start": 731,
+            "end": 881
+          },
+          {
+            "w": "پیکٹ",
+            "start": 881,
+            "end": 1321
+          },
+          {
+            "w": "پھینکنے",
+            "start": 1321,
+            "end": 2091
+          },
+          {
+            "w": "ہی",
+            "start": 2091,
+            "end": 2301
+          },
+          {
+            "w": "والا",
+            "start": 2301,
+            "end": 2911
+          },
+          {
+            "w": "تھا۔",
+            "start": 2911,
+            "end": 3221
+          },
+          {
+            "w": "پھر",
+            "start": 3221,
+            "end": 3491
+          },
+          {
+            "w": "اسے",
+            "start": 3491,
+            "end": 3771
+          },
+          {
+            "w": "ننھی",
+            "start": 3771,
+            "end": 4131
+          },
+          {
+            "w": "موتی",
+            "start": 4131,
+            "end": 4491
+          },
+          {
+            "w": "یاد",
+            "start": 4491,
+            "end": 4751
+          },
+          {
+            "w": "آئی۔",
+            "start": 4751,
+            "end": 5221
+          },
+          {
+            "w": "\"نہیں!",
+            "start": 5301,
+            "end": 5671
+          },
+          {
+            "w": "اس",
+            "start": 5671,
+            "end": 5851
+          },
+          {
+            "w": "میں",
+            "start": 5851,
+            "end": 6121
+          },
+          {
+            "w": "بھی",
+            "start": 6121,
+            "end": 6391
+          },
+          {
+            "w": "کوئی",
+            "start": 6391,
+            "end": 6751
+          },
+          {
+            "w": "مچھلی",
+            "start": 6751,
+            "end": 7241
+          },
+          {
+            "w": "پھنس",
+            "start": 7241,
+            "end": 7471
+          },
+          {
+            "w": "سکتی",
+            "start": 7471,
+            "end": 7831
+          },
+          {
+            "w": "ہے۔\"",
+            "start": 7831,
+            "end": 8181
+          },
+          {
+            "w": "وہ",
+            "start": 8181,
+            "end": 8381
+          },
+          {
+            "w": "کوڑے",
+            "start": 8381,
+            "end": 8811
+          },
+          {
+            "w": "دان",
+            "start": 8811,
+            "end": 9081
+          },
+          {
+            "w": "تک",
+            "start": 9081,
+            "end": 9261
+          },
+          {
+            "w": "گیا",
+            "start": 9261,
+            "end": 9531
+          },
+          {
+            "w": "اور",
+            "start": 9531,
+            "end": 9881
+          },
+          {
+            "w": "پیکٹ",
+            "start": 9881,
+            "end": 10201
+          },
+          {
+            "w": "اندر",
+            "start": 10201,
+            "end": 10531
+          },
+          {
+            "w": "ڈال",
+            "start": 10531,
+            "end": 10891
+          },
+          {
+            "w": "دیا۔",
+            "start": 10891,
+            "end": 11361
+          },
+          {
+            "w": "ٹپ!",
+            "start": 11361,
+            "end": 11801
+          }
+        ]
+      }
+    },
+    {
+      "id": "p6",
+      "type": "page",
+      "next": "p7",
+      "scene": "beach",
+      "text": {
+        "en": "Then Hassan had an idea. \"Abbu, let's pick up more trash!\" Together, they filled a whole bag.",
+        "ur": "پھر حسن کو ایک خیال آیا۔ \"ابو، چلیں اور کچرا بھی اٹھاتے ہیں!\" دونوں نے مل کر ایک پورا تھیلا بھر دیا۔"
+      },
+      "cast": [
+        {
+          "art": "prop:wrapper",
+          "x": 0.18,
+          "y": 0.75,
+          "size": 0.03,
+          "until": 4770
+        },
+        {
+          "art": "prop:wrapper",
+          "x": 0.82,
+          "y": 0.73,
+          "size": 0.03,
+          "until": 4770
+        },
+        {
+          "art": "puppet:hassan",
+          "x": 0.36,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "give",
+          "act": "give",
+          "hold": "prop:wrapper",
+          "holdSize": 0.16,
+          "mood": "happy",
+          "look": "right"
+        },
+        {
+          "art": "puppet:baba",
+          "x": 0.62,
+          "y": 0.65,
+          "size": 0.29,
+          "pose": "hold",
+          "hold": "prop:trash_bag",
+          "holdSize": 0.2,
+          "mood": "happy",
+          "look": "left"
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.82,
+          "y": 0.68,
+          "size": 0.03,
+          "mood": "twinkle",
+          "delay": 4970
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "پھر",
+            "start": 20,
+            "end": 350
+          },
+          {
+            "w": "حسن",
+            "start": 350,
+            "end": 750
+          },
+          {
+            "w": "کو",
+            "start": 750,
+            "end": 910
+          },
+          {
+            "w": "ایک",
+            "start": 910,
+            "end": 1280
+          },
+          {
+            "w": "خیال",
+            "start": 1280,
+            "end": 1700
+          },
+          {
+            "w": "آیا۔",
+            "start": 1700,
+            "end": 2280
+          },
+          {
+            "w": "\"ابو،",
+            "start": 2280,
+            "end": 2640
+          },
+          {
+            "w": "چلیں",
+            "start": 2640,
+            "end": 3000
+          },
+          {
+            "w": "اور",
+            "start": 3000,
+            "end": 3270
+          },
+          {
+            "w": "کچرا",
+            "start": 3270,
+            "end": 3720
+          },
+          {
+            "w": "بھی",
+            "start": 3720,
+            "end": 3990
+          },
+          {
+            "w": "اٹھاتے",
+            "start": 3990,
+            "end": 4530
+          },
+          {
+            "w": "ہیں!\"",
+            "start": 4530,
+            "end": 4920
+          },
+          {
+            "w": "دونوں",
+            "start": 4920,
+            "end": 5400
+          },
+          {
+            "w": "نے",
+            "start": 5400,
+            "end": 5590
+          },
+          {
+            "w": "مل",
+            "start": 5590,
+            "end": 5780
+          },
+          {
+            "w": "کر",
+            "start": 5780,
+            "end": 5970
+          },
+          {
+            "w": "ایک",
+            "start": 5970,
+            "end": 6260
+          },
+          {
+            "w": "پورا",
+            "start": 6260,
+            "end": 6640
+          },
+          {
+            "w": "تھیلا",
+            "start": 6640,
+            "end": 7110
+          },
+          {
+            "w": "بھر",
+            "start": 7110,
+            "end": 7390
+          },
+          {
+            "w": "دیا۔",
+            "start": 7390,
+            "end": 7900
+          }
+        ]
+      }
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": "p8",
+      "scene": "beach_sunset",
+      "text": {
+        "en": "Abbu smiled. \"Allah made this beautiful sea for all of us, and for the fish too. We must keep it clean.\"",
+        "ur": "ابو مسکرائے۔ \"اللہ تعالیٰ نے یہ خوبصورت سمندر ہم سب کے لیے بنایا ہے، اور مچھلیوں کے لیے بھی۔ ہمیں اسے صاف رکھنا ہے۔\""
+      },
+      "cast": [
+        {
+          "art": "puppet:baba",
+          "x": 0.44,
+          "y": 0.65,
+          "size": 0.29,
+          "pose": "hand_on_shoulder",
+          "act": "talk",
+          "mood": "happy",
+          "look": "right"
+        },
+        {
+          "art": "puppet:hassan",
+          "x": 0.62,
+          "y": 0.67,
+          "size": 0.22,
+          "face": "happy",
+          "look": "up"
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.25,
+          "y": 0.42,
+          "size": 0.03,
+          "mood": "twinkle",
+          "delay": 800
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "ابو",
+            "start": 11,
+            "end": 371
+          },
+          {
+            "w": "مسکرائے۔",
+            "start": 371,
+            "end": 1371
+          },
+          {
+            "w": "\"اللہ",
+            "start": 1371,
+            "end": 1711
+          },
+          {
+            "w": "تعالیٰ",
+            "start": 1711,
+            "end": 2291
+          },
+          {
+            "w": "نے",
+            "start": 2291,
+            "end": 2541
+          },
+          {
+            "w": "یہ",
+            "start": 2541,
+            "end": 2631
+          },
+          {
+            "w": "خوبصورت",
+            "start": 2631,
+            "end": 3291
+          },
+          {
+            "w": "سمندر",
+            "start": 3291,
+            "end": 3621
+          },
+          {
+            "w": "ہم",
+            "start": 3621,
+            "end": 3791
+          },
+          {
+            "w": "سب",
+            "start": 3791,
+            "end": 3941
+          },
+          {
+            "w": "کے",
+            "start": 3941,
+            "end": 4101
+          },
+          {
+            "w": "لیے",
+            "start": 4101,
+            "end": 4351
+          },
+          {
+            "w": "بنایا",
+            "start": 4351,
+            "end": 4871
+          },
+          {
+            "w": "ہے،",
+            "start": 4871,
+            "end": 5471
+          },
+          {
+            "w": "اور",
+            "start": 5471,
+            "end": 5711
+          },
+          {
+            "w": "مچھلیوں",
+            "start": 5711,
+            "end": 6221
+          },
+          {
+            "w": "کے",
+            "start": 6221,
+            "end": 6381
+          },
+          {
+            "w": "لیے",
+            "start": 6381,
+            "end": 6641
+          },
+          {
+            "w": "بھی۔",
+            "start": 6641,
+            "end": 6991
+          },
+          {
+            "w": "ہمیں",
+            "start": 6991,
+            "end": 7401
+          },
+          {
+            "w": "اسے",
+            "start": 7401,
+            "end": 7711
+          },
+          {
+            "w": "صاف",
+            "start": 7711,
+            "end": 8021
+          },
+          {
+            "w": "رکھنا",
+            "start": 8021,
+            "end": 8531
+          },
+          {
+            "w": "ہے۔\"",
+            "start": 8531,
+            "end": 8931
+          }
+        ]
+      }
+    },
+    {
+      "id": "p8",
+      "type": "page",
+      "next": null,
+      "scene": "beach_sunset",
+      "text": {
+        "en": "Splash! Moti jumped out of the water, as if she was saying goodbye. \"Bye bye, Moti!\" Hassan waved.",
+        "ur": "چھپاک! موتی پانی سے اچھلی، جیسے خدا حافظ کہہ رہی ہو۔ \"خدا حافظ، موتی!\" حسن نے ہاتھ ہلایا۔"
+      },
+      "cast": [
+        {
+          "art": "prop:splash",
+          "x": 0.62,
+          "y": 0.53,
+          "size": 0.06,
+          "delay": 400
+        },
+        {
+          "art": "prop:moti",
+          "x": 0.62,
+          "y": 0.43,
+          "size": 0.05,
+          "mood": "float",
+          "enter": "grow",
+          "delay": 300
+        },
+        {
+          "art": "puppet:hassan",
+          "x": 0.32,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "wave",
+          "act": "wave",
+          "face": "laugh",
+          "look": "right"
+        },
+        {
+          "art": "puppet:baba",
+          "x": 0.14,
+          "y": 0.65,
+          "size": 0.29,
+          "mood": "happy",
+          "look": "right"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "چھپاک!",
+            "start": 41,
+            "end": 631
+          },
+          {
+            "w": "موتی",
+            "start": 631,
+            "end": 1141
+          },
+          {
+            "w": "پانی",
+            "start": 1141,
+            "end": 1511
+          },
+          {
+            "w": "سے",
+            "start": 1511,
+            "end": 1741
+          },
+          {
+            "w": "اچھلی،",
+            "start": 1741,
+            "end": 2291
+          },
+          {
+            "w": "جیسے",
+            "start": 2291,
+            "end": 2721
+          },
+          {
+            "w": "خدا",
+            "start": 2721,
+            "end": 3171
+          },
+          {
+            "w": "حافظ",
+            "start": 3171,
+            "end": 3501
+          },
+          {
+            "w": "کہہ",
+            "start": 3501,
+            "end": 3841
+          },
+          {
+            "w": "رہی",
+            "start": 3841,
+            "end": 4171
+          },
+          {
+            "w": "ہو۔",
+            "start": 4171,
+            "end": 4691
+          },
+          {
+            "w": "\"خدا",
+            "start": 4691,
+            "end": 5171
+          },
+          {
+            "w": "حافظ،",
+            "start": 5171,
+            "end": 5861
+          },
+          {
+            "w": "موتی!\"",
+            "start": 5861,
+            "end": 6871
+          },
+          {
+            "w": "حسن",
+            "start": 6871,
+            "end": 7171
+          },
+          {
+            "w": "نے",
+            "start": 7171,
+            "end": 7411
+          },
+          {
+            "w": "ہاتھ",
+            "start": 7411,
+            "end": 7771
+          },
+          {
+            "w": "ہلایا۔",
+            "start": 7771,
+            "end": 8431
+          }
+        ]
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "id": "sea",
+      "picture": "prop:wave_small",
+      "word": {
+        "en": "sea",
+        "ur": "سمندر"
+      },
+      "forms": {
+        "en": [
+          "beach"
+        ],
+        "ur": []
+      }
+    },
+    {
+      "id": "moti",
+      "picture": "prop:moti",
+      "word": {
+        "en": "fish",
+        "ur": "مچھلی"
+      },
+      "forms": {
+        "en": [
+          "Moti",
+          "fishes"
+        ],
+        "ur": [
+          "موتی",
+          "مچھلیوں",
+          "مچھلیاں"
+        ]
+      }
+    },
+    {
+      "id": "trash",
+      "picture": "prop:trash_bag",
+      "word": {
+        "en": "trash",
+        "ur": "کچرا"
+      },
+      "forms": {
+        "en": [
+          "rubbish"
+        ],
+        "ur": []
+      }
+    },
+    {
+      "id": "bin",
+      "picture": "prop:bin",
+      "word": {
+        "en": "bin",
+        "ur": "کوڑے دان"
+      },
+      "forms": {
+        "en": [],
+        "ur": [
+          "کوڑے"
+        ]
+      }
+    },
+    {
+      "id": "bag",
+      "picture": "prop:plastic_bag",
+      "word": {
+        "en": "bag",
+        "ur": "تھیلی"
+      },
+      "forms": {
+        "en": [],
+        "ur": [
+          "تھیلا"
+        ]
+      }
+    },
+    {
+      "id": "chips",
+      "picture": "prop:chips",
+      "word": {
+        "en": "chips",
+        "ur": "چپس"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "wrapper",
+      "picture": "prop:wrapper",
+      "word": {
+        "en": "wrapper",
+        "ur": "پیکٹ"
+      },
+      "forms": {
+        "en": [
+          "packet"
+        ],
+        "ur": []
+      }
+    },
+    {
+      "id": "sand",
+      "word": {
+        "en": "sand",
+        "ur": "ریت"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "waves",
+      "picture": "prop:wave_small",
+      "word": {
+        "en": "waves",
+        "ur": "لہریں"
+      },
+      "forms": {
+        "en": [
+          "wave"
+        ],
+        "ur": [
+          "لہر"
+        ]
+      }
+    }
+  ],
+  "vocabulary": [
+    "sea",
+    "moti",
+    "trash"
+  ],
+  "quiz": [
+    {
+      "question": {
+        "en": "What color was Moti?",
+        "ur": "موتی کس رنگ کی تھی؟"
+      },
+      "options": [
+        {
+          "picture": "prop:orange_dot",
+          "correct": true,
+          "label": {
+            "en": "Orange",
+            "ur": "نارنجی"
+          }
+        },
+        {
+          "picture": "prop:purple_dot",
+          "label": {
+            "en": "Purple",
+            "ur": "جامنی"
+          }
+        },
+        {
+          "picture": "prop:black_dot",
+          "label": {
+            "en": "Black",
+            "ur": "کالا"
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "What was Moti stuck in?",
+        "ur": "موتی کس میں پھنسی تھی؟"
+      },
+      "options": [
+        {
+          "picture": "prop:plastic_bag",
+          "correct": true
+        },
+        {
+          "picture": "prop:bucket"
+        },
+        {
+          "picture": "prop:balloon_red"
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "Where did Hassan put the wrapper?",
+        "ur": "حسن نے پیکٹ کہاں ڈالا؟"
+      },
+      "options": [
+        {
+          "picture": "prop:bin",
+          "correct": true,
+          "label": {
+            "en": "In the bin",
+            "ur": "کوڑے دان میں"
+          }
+        },
+        {
+          "picture": "prop:wave_small",
+          "label": {
+            "en": "In the sea",
+            "ur": "سمندر میں"
+          }
+        },
+        {
+          "picture": "prop:footprints",
+          "label": {
+            "en": "On the sand",
+            "ur": "ریت پر"
+          }
+        }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": {
+        "en": "Put the wrapper in the bin!",
+        "ur": "پیکٹ کوڑے دان میں ڈالو!"
+      },
+      "item": "prop:wrapper",
+      "options": [
+        {
+          "picture": "prop:wave_small"
+        },
+        {
+          "picture": "prop:umbrella"
+        },
+        {
+          "picture": "prop:bin",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

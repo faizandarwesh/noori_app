@@ -3466,6 +3466,3334 @@
         "beakColor": "#FFB703"
       },
       "hands": {}
+    },
+    "zoya": {
+      "rig": "biped",
+      "size": [
+        100,
+        170
+      ],
+      "card": [
+        0,
+        0.6
+      ],
+      "tap": "cheer",
+      "parts": [
+        {
+          "id": "legL",
+          "pivot": [
+            43,
+            126
+          ],
+          "mirror": true
+        },
+        {
+          "id": "legR",
+          "pivot": [
+            57,
+            126
+          ]
+        },
+        {
+          "id": "body",
+          "pivot": [
+            50,
+            124
+          ]
+        },
+        {
+          "id": "head",
+          "pivot": [
+            50,
+            70
+          ]
+        },
+        {
+          "id": "upperL",
+          "pivot": [
+            33,
+            80
+          ],
+          "mirror": true
+        },
+        {
+          "id": "foreL",
+          "pivot": [
+            33,
+            100
+          ],
+          "parent": "upperL",
+          "mirror": true
+        },
+        {
+          "id": "upperR",
+          "pivot": [
+            67,
+            80
+          ]
+        },
+        {
+          "id": "foreR",
+          "pivot": [
+            67,
+            100
+          ],
+          "parent": "upperR"
+        }
+      ],
+      "face": {
+        "part": "head",
+        "skin": "#E9B892",
+        "eyes": [
+          [
+            40.5,
+            47.0,
+            4.6
+          ],
+          [
+            59.5,
+            47.0,
+            4.6
+          ]
+        ],
+        "mouth": [
+          50,
+          58,
+          9
+        ],
+        "cheeks": [
+          [
+            33.879999999999995,
+            54.92,
+            4.2
+          ],
+          [
+            66.12,
+            54.92,
+            4.2
+          ]
+        ],
+        "brows": "#2E1E1C"
+      },
+      "hands": {
+        "L": {
+          "part": "foreL",
+          "at": [
+            33,
+            122.0
+          ]
+        },
+        "R": {
+          "part": "foreR",
+          "at": [
+            67,
+            122.0
+          ]
+        }
+      },
+      "poses": {
+        "drink": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -160.6,
+          "foreR": -119.5,
+          "head": -6
+        },
+        "eat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -162.6,
+          "foreR": -110.2
+        },
+        "think": {
+          "upperL": -22.6,
+          "foreL": 92.5,
+          "upperR": -155.2,
+          "foreR": -128.3,
+          "face": "think",
+          "look": "upRight"
+        },
+        "shocked": {
+          "upperL": -120.4,
+          "foreL": -106.8,
+          "upperR": -120.4,
+          "foreR": -106.8
+        },
+        "cover_eyes": {
+          "upperL": -152.5,
+          "foreL": -77.1,
+          "upperR": -152.5,
+          "foreR": -77.1
+        },
+        "dua": {
+          "upperL": -33.2,
+          "foreL": 141.0,
+          "upperR": -33.2,
+          "foreR": 141.0,
+          "look": "up"
+        },
+        "clap": {
+          "upperL": -20.4,
+          "foreL": 122.9,
+          "upperR": -20.4,
+          "foreR": 122.9
+        },
+        "tummy": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -29.9,
+          "foreR": 84.8
+        },
+        "rub": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -15.1,
+          "foreR": 76.1
+        },
+        "hold": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hold_both": {
+          "upperL": -42.0,
+          "foreL": 118.5,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hug": {
+          "upperL": -58.2,
+          "foreL": 149.6,
+          "upperR": -58.2,
+          "foreR": 149.6
+        },
+        "thumbs_up": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -167.6,
+          "foreR": 163.2,
+          "face": "happy"
+        },
+        "wave": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -82.7,
+          "foreR": -118.2
+        },
+        "pat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -140.2,
+          "foreR": 126.5
+        }
+      }
+    },
+    "ahmed": {
+      "rig": "biped",
+      "size": [
+        100,
+        170
+      ],
+      "card": [
+        0,
+        0.6
+      ],
+      "tap": "cheer",
+      "parts": [
+        {
+          "id": "legL",
+          "pivot": [
+            43,
+            126
+          ],
+          "mirror": true
+        },
+        {
+          "id": "legR",
+          "pivot": [
+            57,
+            126
+          ]
+        },
+        {
+          "id": "body",
+          "pivot": [
+            50,
+            124
+          ]
+        },
+        {
+          "id": "head",
+          "pivot": [
+            50,
+            70
+          ]
+        },
+        {
+          "id": "upperL",
+          "pivot": [
+            33,
+            80
+          ],
+          "mirror": true
+        },
+        {
+          "id": "foreL",
+          "pivot": [
+            33,
+            100
+          ],
+          "parent": "upperL",
+          "mirror": true
+        },
+        {
+          "id": "upperR",
+          "pivot": [
+            67,
+            80
+          ]
+        },
+        {
+          "id": "foreR",
+          "pivot": [
+            67,
+            100
+          ],
+          "parent": "upperR"
+        }
+      ],
+      "face": {
+        "part": "head",
+        "skin": "#DCA47C",
+        "eyes": [
+          [
+            40.5,
+            47.0,
+            4.6
+          ],
+          [
+            59.5,
+            47.0,
+            4.6
+          ]
+        ],
+        "mouth": [
+          50,
+          58,
+          9
+        ],
+        "cheeks": [
+          [
+            33.879999999999995,
+            54.92,
+            4.2
+          ],
+          [
+            66.12,
+            54.92,
+            4.2
+          ]
+        ],
+        "brows": "#241A1C"
+      },
+      "hands": {
+        "L": {
+          "part": "foreL",
+          "at": [
+            33,
+            122.0
+          ]
+        },
+        "R": {
+          "part": "foreR",
+          "at": [
+            67,
+            122.0
+          ]
+        }
+      },
+      "poses": {
+        "drink": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -160.6,
+          "foreR": -119.5,
+          "head": -6
+        },
+        "eat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -162.6,
+          "foreR": -110.2
+        },
+        "think": {
+          "upperL": -22.6,
+          "foreL": 92.5,
+          "upperR": -155.2,
+          "foreR": -128.3,
+          "face": "think",
+          "look": "upRight"
+        },
+        "shocked": {
+          "upperL": -120.4,
+          "foreL": -106.8,
+          "upperR": -120.4,
+          "foreR": -106.8
+        },
+        "cover_eyes": {
+          "upperL": -152.5,
+          "foreL": -77.1,
+          "upperR": -152.5,
+          "foreR": -77.1
+        },
+        "dua": {
+          "upperL": -33.2,
+          "foreL": 141.0,
+          "upperR": -33.2,
+          "foreR": 141.0,
+          "look": "up"
+        },
+        "clap": {
+          "upperL": -20.4,
+          "foreL": 122.9,
+          "upperR": -20.4,
+          "foreR": 122.9
+        },
+        "tummy": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -29.9,
+          "foreR": 84.8
+        },
+        "rub": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -15.1,
+          "foreR": 76.1
+        },
+        "hold": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hold_both": {
+          "upperL": -42.0,
+          "foreL": 118.5,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hug": {
+          "upperL": -58.2,
+          "foreL": 149.6,
+          "upperR": -58.2,
+          "foreR": 149.6
+        },
+        "thumbs_up": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -167.6,
+          "foreR": 163.2,
+          "face": "happy"
+        },
+        "wave": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -82.7,
+          "foreR": -118.2
+        },
+        "pat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -140.2,
+          "foreR": 126.5
+        }
+      }
+    },
+    "dada": {
+      "rig": "biped",
+      "size": [
+        100,
+        170
+      ],
+      "card": [
+        0,
+        0.5
+      ],
+      "tap": "cheer",
+      "parts": [
+        {
+          "id": "legL",
+          "pivot": [
+            43,
+            122
+          ],
+          "mirror": true
+        },
+        {
+          "id": "legR",
+          "pivot": [
+            57,
+            122
+          ]
+        },
+        {
+          "id": "body",
+          "pivot": [
+            50,
+            120
+          ]
+        },
+        {
+          "id": "head",
+          "pivot": [
+            50,
+            50
+          ]
+        },
+        {
+          "id": "upperL",
+          "pivot": [
+            31,
+            64
+          ],
+          "mirror": true
+        },
+        {
+          "id": "foreL",
+          "pivot": [
+            31,
+            91
+          ],
+          "parent": "upperL",
+          "mirror": true
+        },
+        {
+          "id": "upperR",
+          "pivot": [
+            69,
+            64
+          ]
+        },
+        {
+          "id": "foreR",
+          "pivot": [
+            69,
+            91
+          ],
+          "parent": "upperR"
+        }
+      ],
+      "face": {
+        "part": "head",
+        "skin": "#DDA884",
+        "eyes": [
+          [
+            42.5,
+            32.0,
+            3.7
+          ],
+          [
+            57.5,
+            32.0,
+            3.7
+          ]
+        ],
+        "mouth": [
+          50,
+          42.5,
+          7.5
+        ],
+        "cheeks": [
+          [
+            37.6,
+            38.4,
+            3.2
+          ],
+          [
+            62.4,
+            38.4,
+            3.2
+          ]
+        ],
+        "brows": "#F2F0EC"
+      },
+      "hands": {
+        "L": {
+          "part": "foreL",
+          "at": [
+            31,
+            119.5
+          ]
+        },
+        "R": {
+          "part": "foreR",
+          "at": [
+            69,
+            119.5
+          ]
+        }
+      },
+      "poses": {
+        "drink": {
+          "upperL": -13.9,
+          "foreL": 20.9,
+          "upperR": -159.7,
+          "foreR": -132.6,
+          "head": -6
+        },
+        "eat": {
+          "upperL": -13.9,
+          "foreL": 20.9,
+          "upperR": -159.6,
+          "foreR": -126.3
+        },
+        "think": {
+          "upperL": -24.3,
+          "foreL": 90.8,
+          "upperR": -156.6,
+          "foreR": -138.9,
+          "face": "think",
+          "look": "upRight"
+        },
+        "shocked": {
+          "upperL": -125.2,
+          "foreL": -124.2,
+          "upperR": -125.2,
+          "foreR": -124.2
+        },
+        "cover_eyes": {
+          "upperL": -144.8,
+          "foreL": -106.9,
+          "upperR": -144.8,
+          "foreR": -106.9
+        },
+        "dua": {
+          "upperL": -34.5,
+          "foreL": 141.3,
+          "upperR": -34.5,
+          "foreR": 141.3,
+          "look": "up"
+        },
+        "clap": {
+          "upperL": -24.6,
+          "foreL": 127.9,
+          "upperR": -24.6,
+          "foreR": 127.9
+        },
+        "tummy": {
+          "upperL": -29.4,
+          "foreL": 84.1,
+          "upperR": -29.4,
+          "foreR": 84.1
+        },
+        "rub": {
+          "upperL": -13.9,
+          "foreL": 20.9,
+          "upperR": -18.6,
+          "foreR": 78.2
+        },
+        "hold": {
+          "upperL": -13.9,
+          "foreL": 20.9,
+          "upperR": -42.4,
+          "foreR": 124.2
+        },
+        "hold_both": {
+          "upperL": -42.4,
+          "foreL": 124.2,
+          "upperR": -42.4,
+          "foreR": 124.2
+        },
+        "hug": {
+          "upperL": -52.4,
+          "foreL": 147.4,
+          "upperR": -52.4,
+          "foreR": 147.4
+        },
+        "thumbs_up": {
+          "upperL": -29.4,
+          "foreL": 84.1,
+          "upperR": -149.3,
+          "foreR": 165.2,
+          "face": "happy"
+        },
+        "wave": {
+          "upperL": -13.9,
+          "foreL": 20.9,
+          "upperR": -90.1,
+          "foreR": -121.6
+        },
+        "pat": {
+          "upperL": -13.9,
+          "foreL": 20.9,
+          "upperR": -142.4,
+          "foreR": 126.5
+        }
+      }
+    },
+    "sara": {
+      "rig": "biped",
+      "size": [
+        100,
+        170
+      ],
+      "card": [
+        0,
+        0.6
+      ],
+      "tap": "cheer",
+      "parts": [
+        {
+          "id": "legL",
+          "pivot": [
+            43,
+            126
+          ],
+          "mirror": true
+        },
+        {
+          "id": "legR",
+          "pivot": [
+            57,
+            126
+          ]
+        },
+        {
+          "id": "body",
+          "pivot": [
+            50,
+            124
+          ]
+        },
+        {
+          "id": "head",
+          "pivot": [
+            50,
+            70
+          ]
+        },
+        {
+          "id": "upperL",
+          "pivot": [
+            33,
+            80
+          ],
+          "mirror": true
+        },
+        {
+          "id": "foreL",
+          "pivot": [
+            33,
+            100
+          ],
+          "parent": "upperL",
+          "mirror": true
+        },
+        {
+          "id": "upperR",
+          "pivot": [
+            67,
+            80
+          ]
+        },
+        {
+          "id": "foreR",
+          "pivot": [
+            67,
+            100
+          ],
+          "parent": "upperR"
+        }
+      ],
+      "face": {
+        "part": "head",
+        "skin": "#E6B38C",
+        "eyes": [
+          [
+            40.5,
+            47.0,
+            4.6
+          ],
+          [
+            59.5,
+            47.0,
+            4.6
+          ]
+        ],
+        "mouth": [
+          50,
+          58,
+          9
+        ],
+        "cheeks": [
+          [
+            33.879999999999995,
+            54.92,
+            4.2
+          ],
+          [
+            66.12,
+            54.92,
+            4.2
+          ]
+        ],
+        "brows": "#2A1C1E"
+      },
+      "hands": {
+        "L": {
+          "part": "foreL",
+          "at": [
+            33,
+            122.0
+          ]
+        },
+        "R": {
+          "part": "foreR",
+          "at": [
+            67,
+            122.0
+          ]
+        }
+      },
+      "poses": {
+        "drink": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -160.6,
+          "foreR": -119.5,
+          "head": -6
+        },
+        "eat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -162.6,
+          "foreR": -110.2
+        },
+        "think": {
+          "upperL": -22.6,
+          "foreL": 92.5,
+          "upperR": -155.2,
+          "foreR": -128.3,
+          "face": "think",
+          "look": "upRight"
+        },
+        "shocked": {
+          "upperL": -120.4,
+          "foreL": -106.8,
+          "upperR": -120.4,
+          "foreR": -106.8
+        },
+        "cover_eyes": {
+          "upperL": -152.5,
+          "foreL": -77.1,
+          "upperR": -152.5,
+          "foreR": -77.1
+        },
+        "dua": {
+          "upperL": -33.2,
+          "foreL": 141.0,
+          "upperR": -33.2,
+          "foreR": 141.0,
+          "look": "up"
+        },
+        "clap": {
+          "upperL": -20.4,
+          "foreL": 122.9,
+          "upperR": -20.4,
+          "foreR": 122.9
+        },
+        "tummy": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -29.9,
+          "foreR": 84.8
+        },
+        "rub": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -15.1,
+          "foreR": 76.1
+        },
+        "hold": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hold_both": {
+          "upperL": -42.0,
+          "foreL": 118.5,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hug": {
+          "upperL": -58.2,
+          "foreL": 149.6,
+          "upperR": -58.2,
+          "foreR": 149.6
+        },
+        "thumbs_up": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -167.6,
+          "foreR": 163.2,
+          "face": "happy"
+        },
+        "wave": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -82.7,
+          "foreR": -118.2
+        },
+        "pat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -140.2,
+          "foreR": 126.5
+        }
+      }
+    },
+    "usman": {
+      "rig": "biped",
+      "size": [
+        100,
+        170
+      ],
+      "card": [
+        0,
+        0.6
+      ],
+      "tap": "cheer",
+      "parts": [
+        {
+          "id": "legL",
+          "pivot": [
+            43,
+            126
+          ],
+          "mirror": true
+        },
+        {
+          "id": "legR",
+          "pivot": [
+            57,
+            126
+          ]
+        },
+        {
+          "id": "body",
+          "pivot": [
+            50,
+            124
+          ]
+        },
+        {
+          "id": "head",
+          "pivot": [
+            50,
+            70
+          ]
+        },
+        {
+          "id": "upperL",
+          "pivot": [
+            33,
+            80
+          ],
+          "mirror": true
+        },
+        {
+          "id": "foreL",
+          "pivot": [
+            33,
+            100
+          ],
+          "parent": "upperL",
+          "mirror": true
+        },
+        {
+          "id": "upperR",
+          "pivot": [
+            67,
+            80
+          ]
+        },
+        {
+          "id": "foreR",
+          "pivot": [
+            67,
+            100
+          ],
+          "parent": "upperR"
+        }
+      ],
+      "face": {
+        "part": "head",
+        "skin": "#E2AE86",
+        "eyes": [
+          [
+            40.5,
+            47.0,
+            4.6
+          ],
+          [
+            59.5,
+            47.0,
+            4.6
+          ]
+        ],
+        "mouth": [
+          50,
+          58,
+          9
+        ],
+        "cheeks": [
+          [
+            33.879999999999995,
+            54.92,
+            4.2
+          ],
+          [
+            66.12,
+            54.92,
+            4.2
+          ]
+        ],
+        "brows": "#2B2024"
+      },
+      "hands": {
+        "L": {
+          "part": "foreL",
+          "at": [
+            33,
+            122.0
+          ]
+        },
+        "R": {
+          "part": "foreR",
+          "at": [
+            67,
+            122.0
+          ]
+        }
+      },
+      "poses": {
+        "drink": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -160.6,
+          "foreR": -119.5,
+          "head": -6
+        },
+        "eat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -162.6,
+          "foreR": -110.2
+        },
+        "think": {
+          "upperL": -22.6,
+          "foreL": 92.5,
+          "upperR": -155.2,
+          "foreR": -128.3,
+          "face": "think",
+          "look": "upRight"
+        },
+        "shocked": {
+          "upperL": -120.4,
+          "foreL": -106.8,
+          "upperR": -120.4,
+          "foreR": -106.8
+        },
+        "cover_eyes": {
+          "upperL": -152.5,
+          "foreL": -77.1,
+          "upperR": -152.5,
+          "foreR": -77.1
+        },
+        "dua": {
+          "upperL": -33.2,
+          "foreL": 141.0,
+          "upperR": -33.2,
+          "foreR": 141.0,
+          "look": "up"
+        },
+        "clap": {
+          "upperL": -20.4,
+          "foreL": 122.9,
+          "upperR": -20.4,
+          "foreR": 122.9
+        },
+        "tummy": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -29.9,
+          "foreR": 84.8
+        },
+        "rub": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -15.1,
+          "foreR": 76.1
+        },
+        "hold": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hold_both": {
+          "upperL": -42.0,
+          "foreL": 118.5,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hug": {
+          "upperL": -58.2,
+          "foreL": 149.6,
+          "upperR": -58.2,
+          "foreR": 149.6
+        },
+        "thumbs_up": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -167.6,
+          "foreR": 163.2,
+          "face": "happy"
+        },
+        "wave": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -82.7,
+          "foreR": -118.2
+        },
+        "pat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -140.2,
+          "foreR": 126.5
+        }
+      }
+    },
+    "rayan": {
+      "rig": "biped",
+      "size": [
+        100,
+        170
+      ],
+      "card": [
+        0,
+        0.6
+      ],
+      "tap": "cheer",
+      "parts": [
+        {
+          "id": "legL",
+          "pivot": [
+            43,
+            126
+          ],
+          "mirror": true
+        },
+        {
+          "id": "legR",
+          "pivot": [
+            57,
+            126
+          ]
+        },
+        {
+          "id": "body",
+          "pivot": [
+            50,
+            124
+          ]
+        },
+        {
+          "id": "head",
+          "pivot": [
+            50,
+            70
+          ]
+        },
+        {
+          "id": "upperL",
+          "pivot": [
+            33,
+            80
+          ],
+          "mirror": true
+        },
+        {
+          "id": "foreL",
+          "pivot": [
+            33,
+            100
+          ],
+          "parent": "upperL",
+          "mirror": true
+        },
+        {
+          "id": "upperR",
+          "pivot": [
+            67,
+            80
+          ]
+        },
+        {
+          "id": "foreR",
+          "pivot": [
+            67,
+            100
+          ],
+          "parent": "upperR"
+        }
+      ],
+      "face": {
+        "part": "head",
+        "skin": "#D49B72",
+        "eyes": [
+          [
+            40.5,
+            47.0,
+            4.6
+          ],
+          [
+            59.5,
+            47.0,
+            4.6
+          ]
+        ],
+        "mouth": [
+          50,
+          58,
+          9
+        ],
+        "cheeks": [
+          [
+            33.879999999999995,
+            54.92,
+            4.2
+          ],
+          [
+            66.12,
+            54.92,
+            4.2
+          ]
+        ],
+        "brows": "#3A2A22"
+      },
+      "hands": {
+        "L": {
+          "part": "foreL",
+          "at": [
+            33,
+            122.0
+          ]
+        },
+        "R": {
+          "part": "foreR",
+          "at": [
+            67,
+            122.0
+          ]
+        }
+      },
+      "poses": {
+        "drink": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -160.6,
+          "foreR": -119.5,
+          "head": -6
+        },
+        "eat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -162.6,
+          "foreR": -110.2
+        },
+        "think": {
+          "upperL": -22.6,
+          "foreL": 92.5,
+          "upperR": -155.2,
+          "foreR": -128.3,
+          "face": "think",
+          "look": "upRight"
+        },
+        "shocked": {
+          "upperL": -120.4,
+          "foreL": -106.8,
+          "upperR": -120.4,
+          "foreR": -106.8
+        },
+        "cover_eyes": {
+          "upperL": -152.5,
+          "foreL": -77.1,
+          "upperR": -152.5,
+          "foreR": -77.1
+        },
+        "dua": {
+          "upperL": -33.2,
+          "foreL": 141.0,
+          "upperR": -33.2,
+          "foreR": 141.0,
+          "look": "up"
+        },
+        "clap": {
+          "upperL": -20.4,
+          "foreL": 122.9,
+          "upperR": -20.4,
+          "foreR": 122.9
+        },
+        "tummy": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -29.9,
+          "foreR": 84.8
+        },
+        "rub": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -15.1,
+          "foreR": 76.1
+        },
+        "hold": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hold_both": {
+          "upperL": -42.0,
+          "foreL": 118.5,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hug": {
+          "upperL": -58.2,
+          "foreL": 149.6,
+          "upperR": -58.2,
+          "foreR": 149.6
+        },
+        "thumbs_up": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -167.6,
+          "foreR": 163.2,
+          "face": "happy"
+        },
+        "wave": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -82.7,
+          "foreR": -118.2
+        },
+        "pat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -140.2,
+          "foreR": 126.5
+        }
+      }
+    },
+    "fatima": {
+      "rig": "biped",
+      "size": [
+        100,
+        170
+      ],
+      "card": [
+        0,
+        0.6
+      ],
+      "tap": "cheer",
+      "parts": [
+        {
+          "id": "legL",
+          "pivot": [
+            43,
+            126
+          ],
+          "mirror": true
+        },
+        {
+          "id": "legR",
+          "pivot": [
+            57,
+            126
+          ]
+        },
+        {
+          "id": "body",
+          "pivot": [
+            50,
+            124
+          ]
+        },
+        {
+          "id": "head",
+          "pivot": [
+            50,
+            70
+          ]
+        },
+        {
+          "id": "upperL",
+          "pivot": [
+            33,
+            80
+          ],
+          "mirror": true
+        },
+        {
+          "id": "foreL",
+          "pivot": [
+            33,
+            100
+          ],
+          "parent": "upperL",
+          "mirror": true
+        },
+        {
+          "id": "upperR",
+          "pivot": [
+            67,
+            80
+          ]
+        },
+        {
+          "id": "foreR",
+          "pivot": [
+            67,
+            100
+          ],
+          "parent": "upperR"
+        }
+      ],
+      "face": {
+        "part": "head",
+        "skin": "#E8B791",
+        "eyes": [
+          [
+            40.5,
+            47.0,
+            4.6
+          ],
+          [
+            59.5,
+            47.0,
+            4.6
+          ]
+        ],
+        "mouth": [
+          50,
+          58,
+          9
+        ],
+        "cheeks": [
+          [
+            33.879999999999995,
+            54.92,
+            4.2
+          ],
+          [
+            66.12,
+            54.92,
+            4.2
+          ]
+        ],
+        "brows": "#241819"
+      },
+      "hands": {
+        "L": {
+          "part": "foreL",
+          "at": [
+            33,
+            122.0
+          ]
+        },
+        "R": {
+          "part": "foreR",
+          "at": [
+            67,
+            122.0
+          ]
+        }
+      },
+      "poses": {
+        "drink": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -160.6,
+          "foreR": -119.5,
+          "head": -6
+        },
+        "eat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -162.6,
+          "foreR": -110.2
+        },
+        "think": {
+          "upperL": -22.6,
+          "foreL": 92.5,
+          "upperR": -155.2,
+          "foreR": -128.3,
+          "face": "think",
+          "look": "upRight"
+        },
+        "shocked": {
+          "upperL": -120.4,
+          "foreL": -106.8,
+          "upperR": -120.4,
+          "foreR": -106.8
+        },
+        "cover_eyes": {
+          "upperL": -152.5,
+          "foreL": -77.1,
+          "upperR": -152.5,
+          "foreR": -77.1
+        },
+        "dua": {
+          "upperL": -33.2,
+          "foreL": 141.0,
+          "upperR": -33.2,
+          "foreR": 141.0,
+          "look": "up"
+        },
+        "clap": {
+          "upperL": -20.4,
+          "foreL": 122.9,
+          "upperR": -20.4,
+          "foreR": 122.9
+        },
+        "tummy": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -29.9,
+          "foreR": 84.8
+        },
+        "rub": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -15.1,
+          "foreR": 76.1
+        },
+        "hold": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hold_both": {
+          "upperL": -42.0,
+          "foreL": 118.5,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hug": {
+          "upperL": -58.2,
+          "foreL": 149.6,
+          "upperR": -58.2,
+          "foreR": 149.6
+        },
+        "thumbs_up": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -167.6,
+          "foreR": 163.2,
+          "face": "happy"
+        },
+        "wave": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -82.7,
+          "foreR": -118.2
+        },
+        "pat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -140.2,
+          "foreR": 126.5
+        }
+      }
+    },
+    "hassan": {
+      "rig": "biped",
+      "size": [
+        100,
+        170
+      ],
+      "card": [
+        0,
+        0.6
+      ],
+      "tap": "cheer",
+      "parts": [
+        {
+          "id": "legL",
+          "pivot": [
+            43,
+            126
+          ],
+          "mirror": true
+        },
+        {
+          "id": "legR",
+          "pivot": [
+            57,
+            126
+          ]
+        },
+        {
+          "id": "body",
+          "pivot": [
+            50,
+            124
+          ]
+        },
+        {
+          "id": "head",
+          "pivot": [
+            50,
+            70
+          ]
+        },
+        {
+          "id": "upperL",
+          "pivot": [
+            33,
+            80
+          ],
+          "mirror": true
+        },
+        {
+          "id": "foreL",
+          "pivot": [
+            33,
+            100
+          ],
+          "parent": "upperL",
+          "mirror": true
+        },
+        {
+          "id": "upperR",
+          "pivot": [
+            67,
+            80
+          ]
+        },
+        {
+          "id": "foreR",
+          "pivot": [
+            67,
+            100
+          ],
+          "parent": "upperR"
+        }
+      ],
+      "face": {
+        "part": "head",
+        "skin": "#DFA77F",
+        "eyes": [
+          [
+            40.5,
+            47.0,
+            4.6
+          ],
+          [
+            59.5,
+            47.0,
+            4.6
+          ]
+        ],
+        "mouth": [
+          50,
+          58,
+          9
+        ],
+        "cheeks": [
+          [
+            33.879999999999995,
+            54.92,
+            4.2
+          ],
+          [
+            66.12,
+            54.92,
+            4.2
+          ]
+        ],
+        "brows": "#231A1D"
+      },
+      "hands": {
+        "L": {
+          "part": "foreL",
+          "at": [
+            33,
+            122.0
+          ]
+        },
+        "R": {
+          "part": "foreR",
+          "at": [
+            67,
+            122.0
+          ]
+        }
+      },
+      "poses": {
+        "drink": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -160.6,
+          "foreR": -119.5,
+          "head": -6
+        },
+        "eat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -162.6,
+          "foreR": -110.2
+        },
+        "think": {
+          "upperL": -22.6,
+          "foreL": 92.5,
+          "upperR": -155.2,
+          "foreR": -128.3,
+          "face": "think",
+          "look": "upRight"
+        },
+        "shocked": {
+          "upperL": -120.4,
+          "foreL": -106.8,
+          "upperR": -120.4,
+          "foreR": -106.8
+        },
+        "cover_eyes": {
+          "upperL": -152.5,
+          "foreL": -77.1,
+          "upperR": -152.5,
+          "foreR": -77.1
+        },
+        "dua": {
+          "upperL": -33.2,
+          "foreL": 141.0,
+          "upperR": -33.2,
+          "foreR": 141.0,
+          "look": "up"
+        },
+        "clap": {
+          "upperL": -20.4,
+          "foreL": 122.9,
+          "upperR": -20.4,
+          "foreR": 122.9
+        },
+        "tummy": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -29.9,
+          "foreR": 84.8
+        },
+        "rub": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -15.1,
+          "foreR": 76.1
+        },
+        "hold": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hold_both": {
+          "upperL": -42.0,
+          "foreL": 118.5,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hug": {
+          "upperL": -58.2,
+          "foreL": 149.6,
+          "upperR": -58.2,
+          "foreR": 149.6
+        },
+        "thumbs_up": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -167.6,
+          "foreR": 163.2,
+          "face": "happy"
+        },
+        "wave": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -82.7,
+          "foreR": -118.2
+        },
+        "pat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -140.2,
+          "foreR": 126.5
+        }
+      }
+    },
+    "kaku": {
+      "rig": "biped",
+      "size": [
+        140,
+        120
+      ],
+      "card": [
+        0,
+        1
+      ],
+      "tap": "cheer",
+      "parts": [
+        {
+          "id": "legL",
+          "pivot": [
+            46,
+            92
+          ],
+          "mirror": true
+        },
+        {
+          "id": "legR",
+          "pivot": [
+            94,
+            92
+          ]
+        },
+        {
+          "id": "body",
+          "pivot": [
+            70,
+            104
+          ]
+        },
+        {
+          "id": "head",
+          "pivot": [
+            70,
+            100
+          ]
+        },
+        {
+          "id": "upperL",
+          "pivot": [
+            30,
+            76
+          ],
+          "mirror": true
+        },
+        {
+          "id": "foreL",
+          "pivot": [
+            30,
+            88
+          ],
+          "parent": "upperL",
+          "mirror": true
+        },
+        {
+          "id": "upperR",
+          "pivot": [
+            110,
+            76
+          ]
+        },
+        {
+          "id": "foreR",
+          "pivot": [
+            110,
+            88
+          ],
+          "parent": "upperR"
+        }
+      ],
+      "face": {
+        "part": "head",
+        "skin": "#F0563F",
+        "eyes": [
+          [
+            56,
+            33,
+            4.6
+          ],
+          [
+            84,
+            33,
+            4.6
+          ]
+        ],
+        "mouth": [
+          70,
+          82,
+          10
+        ],
+        "cheeks": [
+          [
+            52,
+            80,
+            4.2
+          ],
+          [
+            88,
+            80,
+            4.2
+          ]
+        ]
+      },
+      "hands": {
+        "L": {
+          "part": "foreL",
+          "at": [
+            30,
+            104
+          ]
+        },
+        "R": {
+          "part": "foreR",
+          "at": [
+            110,
+            104
+          ]
+        }
+      },
+      "poses": {
+        "drink": {
+          "upperL": -22.6,
+          "foreL": 28.3,
+          "upperR": 69.3,
+          "foreR": 3.1,
+          "head": -6
+        },
+        "eat": {
+          "upperL": -22.6,
+          "foreL": 28.3,
+          "upperR": 73.9,
+          "foreR": 3.1
+        },
+        "think": {
+          "upperL": 69.8,
+          "foreL": 3.1,
+          "upperR": 65.6,
+          "foreR": 3.1,
+          "face": "think",
+          "look": "upRight"
+        },
+        "shocked": {
+          "upperL": 27.1,
+          "foreL": 87.6,
+          "upperR": 27.1,
+          "foreR": 87.6
+        },
+        "cover_eyes": {
+          "upperL": 150.0,
+          "foreL": -3.1,
+          "upperR": 150.0,
+          "foreR": -3.1
+        },
+        "dua": {
+          "upperL": 81.3,
+          "foreL": 3.1,
+          "upperR": 81.3,
+          "foreR": 3.1,
+          "look": "up"
+        },
+        "clap": {
+          "upperL": 76.2,
+          "foreL": 3.1,
+          "upperR": 76.2,
+          "foreR": 3.1
+        },
+        "tummy": {
+          "upperL": 60.9,
+          "foreL": 3.1,
+          "upperR": 60.9,
+          "foreR": 3.1
+        },
+        "rub": {
+          "upperL": -22.6,
+          "foreL": 28.3,
+          "upperR": 64.8,
+          "foreR": 3.1
+        },
+        "hold": {
+          "upperL": -22.6,
+          "foreL": 28.3,
+          "upperR": 63.9,
+          "foreR": 3.1
+        },
+        "hold_both": {
+          "upperL": 63.9,
+          "foreL": 3.1,
+          "upperR": 63.9,
+          "foreR": 3.1
+        },
+        "hug": {
+          "upperL": 80.1,
+          "foreL": 3.1,
+          "upperR": 80.1,
+          "foreR": 3.1
+        },
+        "thumbs_up": {
+          "upperL": 60.9,
+          "foreL": 3.1,
+          "upperR": 23.7,
+          "foreR": -161.1,
+          "face": "happy"
+        },
+        "wave": {
+          "upperL": -22.6,
+          "foreL": 28.3,
+          "upperR": -64.5,
+          "foreR": -111.3
+        },
+        "pat": {
+          "upperL": -22.6,
+          "foreL": 28.3,
+          "upperR": -143.1,
+          "foreR": 130.1
+        }
+      }
+    },
+    "tara": {
+      "rig": "biped",
+      "size": [
+        120,
+        150
+      ],
+      "card": [
+        0,
+        1
+      ],
+      "tap": "cheer",
+      "parts": [
+        {
+          "id": "legL",
+          "pivot": [
+            47,
+            126
+          ],
+          "mirror": true
+        },
+        {
+          "id": "legR",
+          "pivot": [
+            73,
+            126
+          ]
+        },
+        {
+          "id": "body",
+          "pivot": [
+            60,
+            139
+          ]
+        },
+        {
+          "id": "head",
+          "pivot": [
+            60,
+            72
+          ]
+        },
+        {
+          "id": "upperL",
+          "pivot": [
+            28,
+            88
+          ],
+          "mirror": true
+        },
+        {
+          "id": "foreL",
+          "pivot": [
+            28,
+            101
+          ],
+          "parent": "upperL",
+          "mirror": true
+        },
+        {
+          "id": "upperR",
+          "pivot": [
+            92,
+            88
+          ]
+        },
+        {
+          "id": "foreR",
+          "pivot": [
+            92,
+            101
+          ],
+          "parent": "upperR"
+        }
+      ],
+      "face": {
+        "part": "head",
+        "skin": "#86D3C6",
+        "eyes": [
+          [
+            51,
+            50,
+            4.4
+          ],
+          [
+            69,
+            50,
+            4.4
+          ]
+        ],
+        "mouth": [
+          60,
+          61,
+          10
+        ],
+        "cheeks": [
+          [
+            43,
+            57,
+            4
+          ],
+          [
+            77,
+            57,
+            4
+          ]
+        ]
+      },
+      "hands": {
+        "L": {
+          "part": "foreL",
+          "at": [
+            28,
+            116
+          ]
+        },
+        "R": {
+          "part": "foreR",
+          "at": [
+            92,
+            116
+          ]
+        }
+      },
+      "poses": {
+        "drink": {
+          "upperL": -21.4,
+          "foreL": 28.1,
+          "upperR": 125.3,
+          "foreR": -3.1,
+          "head": -6
+        },
+        "eat": {
+          "upperL": -21.4,
+          "foreL": 28.1,
+          "upperR": 128.2,
+          "foreR": -3.1
+        },
+        "think": {
+          "upperL": 52.8,
+          "foreL": 3.1,
+          "upperR": 124.4,
+          "foreR": -3.1,
+          "face": "think",
+          "look": "upRight"
+        },
+        "shocked": {
+          "upperL": 158.9,
+          "foreL": -3.1,
+          "upperR": 158.9,
+          "foreR": -3.1
+        },
+        "cover_eyes": {
+          "upperL": 149.8,
+          "foreL": -3.1,
+          "upperR": 149.8,
+          "foreR": -3.1
+        },
+        "dua": {
+          "upperL": 51.3,
+          "foreL": 46.8,
+          "upperR": 51.3,
+          "foreR": 46.8,
+          "look": "up"
+        },
+        "clap": {
+          "upperL": 69.6,
+          "foreL": 3.1,
+          "upperR": 69.6,
+          "foreR": 3.1
+        },
+        "tummy": {
+          "upperL": 42.1,
+          "foreL": 3.1,
+          "upperR": 42.1,
+          "foreR": 3.1
+        },
+        "rub": {
+          "upperL": -21.4,
+          "foreL": 28.1,
+          "upperR": 48.7,
+          "foreR": 3.1
+        },
+        "hold": {
+          "upperL": -21.4,
+          "foreL": 28.1,
+          "upperR": 53.5,
+          "foreR": 3.1
+        },
+        "hold_both": {
+          "upperL": 53.5,
+          "foreL": 3.1,
+          "upperR": 53.5,
+          "foreR": 3.1
+        },
+        "hug": {
+          "upperL": 27.7,
+          "foreL": 83.8,
+          "upperR": 27.7,
+          "foreR": 83.8
+        },
+        "thumbs_up": {
+          "upperL": 42.1,
+          "foreL": 3.1,
+          "upperR": -177.4,
+          "foreR": 156.3,
+          "face": "happy"
+        },
+        "wave": {
+          "upperL": -21.4,
+          "foreL": 28.1,
+          "upperR": -75.3,
+          "foreR": -106.9
+        },
+        "pat": {
+          "upperL": -21.4,
+          "foreL": 28.1,
+          "upperR": -132.9,
+          "foreR": 124.5
+        }
+      }
+    },
+    "zain": {
+      "rig": "biped",
+      "size": [
+        100,
+        170
+      ],
+      "card": [
+        0,
+        0.6
+      ],
+      "tap": "cheer",
+      "parts": [
+        {
+          "id": "legL",
+          "pivot": [
+            43,
+            126
+          ],
+          "mirror": true
+        },
+        {
+          "id": "legR",
+          "pivot": [
+            57,
+            126
+          ]
+        },
+        {
+          "id": "body",
+          "pivot": [
+            50,
+            124
+          ]
+        },
+        {
+          "id": "head",
+          "pivot": [
+            50,
+            70
+          ]
+        },
+        {
+          "id": "upperL",
+          "pivot": [
+            33,
+            80
+          ],
+          "mirror": true
+        },
+        {
+          "id": "foreL",
+          "pivot": [
+            33,
+            100
+          ],
+          "parent": "upperL",
+          "mirror": true
+        },
+        {
+          "id": "upperR",
+          "pivot": [
+            67,
+            80
+          ]
+        },
+        {
+          "id": "foreR",
+          "pivot": [
+            67,
+            100
+          ],
+          "parent": "upperR"
+        }
+      ],
+      "face": {
+        "part": "head",
+        "skin": "#D9A07A",
+        "eyes": [
+          [
+            40.5,
+            47.0,
+            4.6
+          ],
+          [
+            59.5,
+            47.0,
+            4.6
+          ]
+        ],
+        "mouth": [
+          50,
+          58,
+          9
+        ],
+        "cheeks": [
+          [
+            33.879999999999995,
+            54.92,
+            4.2
+          ],
+          [
+            66.12,
+            54.92,
+            4.2
+          ]
+        ],
+        "brows": "#2A1E1E"
+      },
+      "hands": {
+        "L": {
+          "part": "foreL",
+          "at": [
+            33,
+            122.0
+          ]
+        },
+        "R": {
+          "part": "foreR",
+          "at": [
+            67,
+            122.0
+          ]
+        }
+      },
+      "poses": {
+        "drink": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -160.6,
+          "foreR": -119.5,
+          "head": -6
+        },
+        "eat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -162.6,
+          "foreR": -110.2
+        },
+        "think": {
+          "upperL": -22.6,
+          "foreL": 92.5,
+          "upperR": -155.2,
+          "foreR": -128.3,
+          "face": "think",
+          "look": "upRight"
+        },
+        "shocked": {
+          "upperL": -120.4,
+          "foreL": -106.8,
+          "upperR": -120.4,
+          "foreR": -106.8
+        },
+        "cover_eyes": {
+          "upperL": -152.5,
+          "foreL": -77.1,
+          "upperR": -152.5,
+          "foreR": -77.1
+        },
+        "dua": {
+          "upperL": -33.2,
+          "foreL": 141.0,
+          "upperR": -33.2,
+          "foreR": 141.0,
+          "look": "up"
+        },
+        "clap": {
+          "upperL": -20.4,
+          "foreL": 122.9,
+          "upperR": -20.4,
+          "foreR": 122.9
+        },
+        "tummy": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -29.9,
+          "foreR": 84.8
+        },
+        "rub": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -15.1,
+          "foreR": 76.1
+        },
+        "hold": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hold_both": {
+          "upperL": -42.0,
+          "foreL": 118.5,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hug": {
+          "upperL": -58.2,
+          "foreL": 149.6,
+          "upperR": -58.2,
+          "foreR": 149.6
+        },
+        "thumbs_up": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -167.6,
+          "foreR": 163.2,
+          "face": "happy"
+        },
+        "wave": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -82.7,
+          "foreR": -118.2
+        },
+        "pat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -140.2,
+          "foreR": 126.5
+        }
+      }
+    },
+    "nana": {
+      "rig": "biped",
+      "size": [
+        100,
+        170
+      ],
+      "card": [
+        0,
+        0.5
+      ],
+      "tap": "cheer",
+      "parts": [
+        {
+          "id": "legL",
+          "pivot": [
+            43,
+            122
+          ],
+          "mirror": true
+        },
+        {
+          "id": "legR",
+          "pivot": [
+            57,
+            122
+          ]
+        },
+        {
+          "id": "body",
+          "pivot": [
+            50,
+            120
+          ]
+        },
+        {
+          "id": "head",
+          "pivot": [
+            50,
+            50
+          ]
+        },
+        {
+          "id": "upperL",
+          "pivot": [
+            31,
+            64
+          ],
+          "mirror": true
+        },
+        {
+          "id": "foreL",
+          "pivot": [
+            31,
+            91
+          ],
+          "parent": "upperL",
+          "mirror": true
+        },
+        {
+          "id": "upperR",
+          "pivot": [
+            69,
+            64
+          ]
+        },
+        {
+          "id": "foreR",
+          "pivot": [
+            69,
+            91
+          ],
+          "parent": "upperR"
+        }
+      ],
+      "face": {
+        "part": "head",
+        "skin": "#C98E66",
+        "eyes": [
+          [
+            42.5,
+            32.0,
+            3.7
+          ],
+          [
+            57.5,
+            32.0,
+            3.7
+          ]
+        ],
+        "mouth": [
+          50,
+          42.5,
+          7.5
+        ],
+        "cheeks": [
+          [
+            37.6,
+            38.4,
+            3.2
+          ],
+          [
+            62.4,
+            38.4,
+            3.2
+          ]
+        ],
+        "brows": "#E9E6E1"
+      },
+      "hands": {
+        "L": {
+          "part": "foreL",
+          "at": [
+            31,
+            119.5
+          ]
+        },
+        "R": {
+          "part": "foreR",
+          "at": [
+            69,
+            119.5
+          ]
+        }
+      },
+      "poses": {
+        "drink": {
+          "upperL": -13.9,
+          "foreL": 20.9,
+          "upperR": -159.7,
+          "foreR": -132.6,
+          "head": -6
+        },
+        "eat": {
+          "upperL": -13.9,
+          "foreL": 20.9,
+          "upperR": -159.6,
+          "foreR": -126.3
+        },
+        "think": {
+          "upperL": -24.3,
+          "foreL": 90.8,
+          "upperR": -156.6,
+          "foreR": -138.9,
+          "face": "think",
+          "look": "upRight"
+        },
+        "shocked": {
+          "upperL": -125.2,
+          "foreL": -124.2,
+          "upperR": -125.2,
+          "foreR": -124.2
+        },
+        "cover_eyes": {
+          "upperL": -144.8,
+          "foreL": -106.9,
+          "upperR": -144.8,
+          "foreR": -106.9
+        },
+        "dua": {
+          "upperL": -34.5,
+          "foreL": 141.3,
+          "upperR": -34.5,
+          "foreR": 141.3,
+          "look": "up"
+        },
+        "clap": {
+          "upperL": -24.6,
+          "foreL": 127.9,
+          "upperR": -24.6,
+          "foreR": 127.9
+        },
+        "tummy": {
+          "upperL": -29.4,
+          "foreL": 84.1,
+          "upperR": -29.4,
+          "foreR": 84.1
+        },
+        "rub": {
+          "upperL": -13.9,
+          "foreL": 20.9,
+          "upperR": -18.6,
+          "foreR": 78.2
+        },
+        "hold": {
+          "upperL": -13.9,
+          "foreL": 20.9,
+          "upperR": -42.4,
+          "foreR": 124.2
+        },
+        "hold_both": {
+          "upperL": -42.4,
+          "foreL": 124.2,
+          "upperR": -42.4,
+          "foreR": 124.2
+        },
+        "hug": {
+          "upperL": -52.4,
+          "foreL": 147.4,
+          "upperR": -52.4,
+          "foreR": 147.4
+        },
+        "thumbs_up": {
+          "upperL": -29.4,
+          "foreL": 84.1,
+          "upperR": -149.3,
+          "foreR": 165.2,
+          "face": "happy"
+        },
+        "wave": {
+          "upperL": -13.9,
+          "foreL": 20.9,
+          "upperR": -90.1,
+          "foreR": -121.6
+        },
+        "pat": {
+          "upperL": -13.9,
+          "foreL": 20.9,
+          "upperR": -142.4,
+          "foreR": 126.5
+        }
+      }
+    },
+    "maryam": {
+      "rig": "biped",
+      "size": [
+        100,
+        170
+      ],
+      "card": [
+        0,
+        0.6
+      ],
+      "tap": "cheer",
+      "parts": [
+        {
+          "id": "legL",
+          "pivot": [
+            43,
+            126
+          ],
+          "mirror": true
+        },
+        {
+          "id": "legR",
+          "pivot": [
+            57,
+            126
+          ]
+        },
+        {
+          "id": "body",
+          "pivot": [
+            50,
+            124
+          ]
+        },
+        {
+          "id": "head",
+          "pivot": [
+            50,
+            70
+          ]
+        },
+        {
+          "id": "upperL",
+          "pivot": [
+            33,
+            80
+          ],
+          "mirror": true
+        },
+        {
+          "id": "foreL",
+          "pivot": [
+            33,
+            100
+          ],
+          "parent": "upperL",
+          "mirror": true
+        },
+        {
+          "id": "upperR",
+          "pivot": [
+            67,
+            80
+          ]
+        },
+        {
+          "id": "foreR",
+          "pivot": [
+            67,
+            100
+          ],
+          "parent": "upperR"
+        }
+      ],
+      "face": {
+        "part": "head",
+        "skin": "#EDBD98",
+        "eyes": [
+          [
+            40.5,
+            47.0,
+            4.6
+          ],
+          [
+            59.5,
+            47.0,
+            4.6
+          ]
+        ],
+        "mouth": [
+          50,
+          58,
+          9
+        ],
+        "cheeks": [
+          [
+            33.879999999999995,
+            54.92,
+            4.2
+          ],
+          [
+            66.12,
+            54.92,
+            4.2
+          ]
+        ],
+        "brows": "#2A1C1E"
+      },
+      "hands": {
+        "L": {
+          "part": "foreL",
+          "at": [
+            33,
+            122.0
+          ]
+        },
+        "R": {
+          "part": "foreR",
+          "at": [
+            67,
+            122.0
+          ]
+        }
+      },
+      "poses": {
+        "drink": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -160.6,
+          "foreR": -119.5,
+          "head": -6
+        },
+        "eat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -162.6,
+          "foreR": -110.2
+        },
+        "think": {
+          "upperL": -22.6,
+          "foreL": 92.5,
+          "upperR": -155.2,
+          "foreR": -128.3,
+          "face": "think",
+          "look": "upRight"
+        },
+        "shocked": {
+          "upperL": -120.4,
+          "foreL": -106.8,
+          "upperR": -120.4,
+          "foreR": -106.8
+        },
+        "cover_eyes": {
+          "upperL": -152.5,
+          "foreL": -77.1,
+          "upperR": -152.5,
+          "foreR": -77.1
+        },
+        "dua": {
+          "upperL": -33.2,
+          "foreL": 141.0,
+          "upperR": -33.2,
+          "foreR": 141.0,
+          "look": "up"
+        },
+        "clap": {
+          "upperL": -20.4,
+          "foreL": 122.9,
+          "upperR": -20.4,
+          "foreR": 122.9
+        },
+        "tummy": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -29.9,
+          "foreR": 84.8
+        },
+        "rub": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -15.1,
+          "foreR": 76.1
+        },
+        "hold": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hold_both": {
+          "upperL": -42.0,
+          "foreL": 118.5,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hug": {
+          "upperL": -58.2,
+          "foreL": 149.6,
+          "upperR": -58.2,
+          "foreR": 149.6
+        },
+        "thumbs_up": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -167.6,
+          "foreR": 163.2,
+          "face": "happy"
+        },
+        "wave": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -82.7,
+          "foreR": -118.2
+        },
+        "pat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -140.2,
+          "foreR": 126.5
+        }
+      }
+    },
+    "musa": {
+      "rig": "biped",
+      "size": [
+        100,
+        170
+      ],
+      "card": [
+        0,
+        0.6
+      ],
+      "tap": "cheer",
+      "parts": [
+        {
+          "id": "legL",
+          "pivot": [
+            43,
+            126
+          ],
+          "mirror": true
+        },
+        {
+          "id": "legR",
+          "pivot": [
+            57,
+            126
+          ]
+        },
+        {
+          "id": "body",
+          "pivot": [
+            50,
+            124
+          ]
+        },
+        {
+          "id": "head",
+          "pivot": [
+            50,
+            70
+          ]
+        },
+        {
+          "id": "upperL",
+          "pivot": [
+            33,
+            80
+          ],
+          "mirror": true
+        },
+        {
+          "id": "foreL",
+          "pivot": [
+            33,
+            100
+          ],
+          "parent": "upperL",
+          "mirror": true
+        },
+        {
+          "id": "upperR",
+          "pivot": [
+            67,
+            80
+          ]
+        },
+        {
+          "id": "foreR",
+          "pivot": [
+            67,
+            100
+          ],
+          "parent": "upperR"
+        }
+      ],
+      "face": {
+        "part": "head",
+        "skin": "#EDBD98",
+        "eyes": [
+          [
+            40.5,
+            47.0,
+            4.6
+          ],
+          [
+            59.5,
+            47.0,
+            4.6
+          ]
+        ],
+        "mouth": [
+          50,
+          58,
+          9
+        ],
+        "cheeks": [
+          [
+            33.879999999999995,
+            54.92,
+            4.2
+          ],
+          [
+            66.12,
+            54.92,
+            4.2
+          ]
+        ],
+        "brows": "#2E2022"
+      },
+      "hands": {
+        "L": {
+          "part": "foreL",
+          "at": [
+            33,
+            122.0
+          ]
+        },
+        "R": {
+          "part": "foreR",
+          "at": [
+            67,
+            122.0
+          ]
+        }
+      },
+      "poses": {
+        "drink": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -160.6,
+          "foreR": -119.5,
+          "head": -6
+        },
+        "eat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -162.6,
+          "foreR": -110.2
+        },
+        "think": {
+          "upperL": -22.6,
+          "foreL": 92.5,
+          "upperR": -155.2,
+          "foreR": -128.3,
+          "face": "think",
+          "look": "upRight"
+        },
+        "shocked": {
+          "upperL": -120.4,
+          "foreL": -106.8,
+          "upperR": -120.4,
+          "foreR": -106.8
+        },
+        "cover_eyes": {
+          "upperL": -152.5,
+          "foreL": -77.1,
+          "upperR": -152.5,
+          "foreR": -77.1
+        },
+        "dua": {
+          "upperL": -33.2,
+          "foreL": 141.0,
+          "upperR": -33.2,
+          "foreR": 141.0,
+          "look": "up"
+        },
+        "clap": {
+          "upperL": -20.4,
+          "foreL": 122.9,
+          "upperR": -20.4,
+          "foreR": 122.9
+        },
+        "tummy": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -29.9,
+          "foreR": 84.8
+        },
+        "rub": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -15.1,
+          "foreR": 76.1
+        },
+        "hold": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hold_both": {
+          "upperL": -42.0,
+          "foreL": 118.5,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hug": {
+          "upperL": -58.2,
+          "foreL": 149.6,
+          "upperR": -58.2,
+          "foreR": 149.6
+        },
+        "thumbs_up": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -167.6,
+          "foreR": 163.2,
+          "face": "happy"
+        },
+        "wave": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -82.7,
+          "foreR": -118.2
+        },
+        "pat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -140.2,
+          "foreR": 126.5
+        }
+      }
+    },
+    "hamid": {
+      "rig": "biped",
+      "size": [
+        100,
+        170
+      ],
+      "card": [
+        0,
+        0.6
+      ],
+      "tap": "cheer",
+      "parts": [
+        {
+          "id": "legL",
+          "pivot": [
+            43,
+            126
+          ],
+          "mirror": true
+        },
+        {
+          "id": "legR",
+          "pivot": [
+            57,
+            126
+          ]
+        },
+        {
+          "id": "body",
+          "pivot": [
+            50,
+            124
+          ]
+        },
+        {
+          "id": "head",
+          "pivot": [
+            50,
+            70
+          ]
+        },
+        {
+          "id": "upperL",
+          "pivot": [
+            33,
+            80
+          ],
+          "mirror": true
+        },
+        {
+          "id": "foreL",
+          "pivot": [
+            33,
+            100
+          ],
+          "parent": "upperL",
+          "mirror": true
+        },
+        {
+          "id": "upperR",
+          "pivot": [
+            67,
+            80
+          ]
+        },
+        {
+          "id": "foreR",
+          "pivot": [
+            67,
+            100
+          ],
+          "parent": "upperR"
+        }
+      ],
+      "face": {
+        "part": "head",
+        "skin": "#D9A27B",
+        "eyes": [
+          [
+            40.5,
+            47.0,
+            4.6
+          ],
+          [
+            59.5,
+            47.0,
+            4.6
+          ]
+        ],
+        "mouth": [
+          50,
+          58,
+          9
+        ],
+        "cheeks": [
+          [
+            33.879999999999995,
+            54.92,
+            4.2
+          ],
+          [
+            66.12,
+            54.92,
+            4.2
+          ]
+        ],
+        "brows": "#231A1D"
+      },
+      "hands": {
+        "L": {
+          "part": "foreL",
+          "at": [
+            33,
+            122.0
+          ]
+        },
+        "R": {
+          "part": "foreR",
+          "at": [
+            67,
+            122.0
+          ]
+        }
+      },
+      "poses": {
+        "drink": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -160.6,
+          "foreR": -119.5,
+          "head": -6
+        },
+        "eat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -162.6,
+          "foreR": -110.2
+        },
+        "think": {
+          "upperL": -22.6,
+          "foreL": 92.5,
+          "upperR": -155.2,
+          "foreR": -128.3,
+          "face": "think",
+          "look": "upRight"
+        },
+        "shocked": {
+          "upperL": -120.4,
+          "foreL": -106.8,
+          "upperR": -120.4,
+          "foreR": -106.8
+        },
+        "cover_eyes": {
+          "upperL": -152.5,
+          "foreL": -77.1,
+          "upperR": -152.5,
+          "foreR": -77.1
+        },
+        "dua": {
+          "upperL": -33.2,
+          "foreL": 141.0,
+          "upperR": -33.2,
+          "foreR": 141.0,
+          "look": "up"
+        },
+        "clap": {
+          "upperL": -20.4,
+          "foreL": 122.9,
+          "upperR": -20.4,
+          "foreR": 122.9
+        },
+        "tummy": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -29.9,
+          "foreR": 84.8
+        },
+        "rub": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -15.1,
+          "foreR": 76.1
+        },
+        "hold": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hold_both": {
+          "upperL": -42.0,
+          "foreL": 118.5,
+          "upperR": -42.0,
+          "foreR": 118.5
+        },
+        "hug": {
+          "upperL": -58.2,
+          "foreL": 149.6,
+          "upperR": -58.2,
+          "foreR": 149.6
+        },
+        "thumbs_up": {
+          "upperL": -29.9,
+          "foreL": 84.8,
+          "upperR": -167.6,
+          "foreR": 163.2,
+          "face": "happy"
+        },
+        "wave": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -82.7,
+          "foreR": -118.2
+        },
+        "pat": {
+          "upperL": -16.6,
+          "foreL": 23.7,
+          "upperR": -140.2,
+          "foreR": 126.5
+        }
+      }
     }
   }
 }

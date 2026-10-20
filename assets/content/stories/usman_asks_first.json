@@ -1,0 +1,1738 @@
+{
+  "schemaVersion": 1,
+  "id": "usman_asks_first",
+  "start": "p1",
+  "characters": {
+    "usman": {
+      "en": "Usman",
+      "ur": "عثمان"
+    },
+    "rayan": {
+      "en": "Rayan",
+      "ur": "ریان"
+    },
+    "ammi": {
+      "en": "Ammi",
+      "ur": "امی"
+    }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "living_room",
+      "text": {
+        "en": "Usman's cousin Rayan came to visit. He brought a shiny new toy car! Vroom, vroom!",
+        "ur": "عثمان کا کزن ریان ملنے آیا۔ وہ ایک چمکتی ہوئی نئی کھلونا گاڑی لایا تھا! ووم، ووم!"
+      },
+      "cast": [
+        {
+          "art": "prop:door",
+          "x": 0.13,
+          "y": 0.585,
+          "size": 0.27
+        },
+        {
+          "art": "puppet:rayan",
+          "x": 0.32,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "hold",
+          "hold": "prop:car",
+          "holdSize": 0.28,
+          "act": "talk",
+          "face": "happy",
+          "look": "right",
+          "enter": "left"
+        },
+        {
+          "art": "puppet:usman",
+          "x": 0.68,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "cheer",
+          "act": "bounce",
+          "face": "laugh",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "عثمان",
+            "start": 44,
+            "end": 494
+          },
+          {
+            "w": "کا",
+            "start": 494,
+            "end": 684
+          },
+          {
+            "w": "کزن",
+            "start": 684,
+            "end": 974
+          },
+          {
+            "w": "ریان",
+            "start": 974,
+            "end": 1474
+          },
+          {
+            "w": "ملنے",
+            "start": 1474,
+            "end": 1874
+          },
+          {
+            "w": "آیا۔",
+            "start": 1874,
+            "end": 2254
+          },
+          {
+            "w": "وہ",
+            "start": 2254,
+            "end": 2474
+          },
+          {
+            "w": "ایک",
+            "start": 2474,
+            "end": 2744
+          },
+          {
+            "w": "چمکتی",
+            "start": 2744,
+            "end": 3204
+          },
+          {
+            "w": "ہوئی",
+            "start": 3204,
+            "end": 3654
+          },
+          {
+            "w": "نئی",
+            "start": 3654,
+            "end": 3894
+          },
+          {
+            "w": "کھلونا",
+            "start": 3894,
+            "end": 4454
+          },
+          {
+            "w": "گاڑی",
+            "start": 4454,
+            "end": 4774
+          },
+          {
+            "w": "لایا",
+            "start": 4774,
+            "end": 5124
+          },
+          {
+            "w": "تھا!",
+            "start": 5124,
+            "end": 5414
+          },
+          {
+            "w": "ووم،",
+            "start": 5414,
+            "end": 5664
+          },
+          {
+            "w": "ووم!",
+            "start": 5664,
+            "end": 5914
+          }
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "living_room",
+      "text": {
+        "en": "The car was red and very fast. It zoomed across the floor. Usman's eyes went big. \"Wow!\"",
+        "ur": "گاڑی لال رنگ کی تھی اور بہت تیز چلتی تھی۔ وہ فرش پر تیزی سے دوڑی۔ عثمان کی آنکھیں بڑی ہو گئیں۔ \"واہ!\""
+      },
+      "cast": [
+        {
+          "art": "prop:car",
+          "x": 0.45,
+          "y": 0.76,
+          "size": 0.07,
+          "orbit": {
+            "rx": 0.22,
+            "ry": 0.015,
+            "ms": 2600
+          }
+        },
+        {
+          "art": "puppet:usman",
+          "x": 0.72,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "shocked",
+          "face": "surprised",
+          "look": "left"
+        },
+        {
+          "art": "puppet:rayan",
+          "x": 0.9,
+          "y": 0.67,
+          "size": 0.2,
+          "act": "laugh",
+          "face": "laugh",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "گاڑی",
+            "start": 1887,
+            "end": 2337
+          },
+          {
+            "w": "لال",
+            "start": 2337,
+            "end": 2607
+          },
+          {
+            "w": "رنگ",
+            "start": 2607,
+            "end": 2877
+          },
+          {
+            "w": "کی",
+            "start": 2877,
+            "end": 3057
+          },
+          {
+            "w": "تھی",
+            "start": 3057,
+            "end": 3367
+          },
+          {
+            "w": "اور",
+            "start": 3367,
+            "end": 3767
+          },
+          {
+            "w": "بہت",
+            "start": 3767,
+            "end": 4137
+          },
+          {
+            "w": "تیز",
+            "start": 4137,
+            "end": 4427
+          },
+          {
+            "w": "چلتی",
+            "start": 4427,
+            "end": 4867
+          },
+          {
+            "w": "تھی۔",
+            "start": 4867,
+            "end": 5287
+          },
+          {
+            "w": "وہ",
+            "start": 5287,
+            "end": 5537
+          },
+          {
+            "w": "فرش",
+            "start": 5537,
+            "end": 5887
+          },
+          {
+            "w": "پر",
+            "start": 5887,
+            "end": 6167
+          },
+          {
+            "w": "تیزی",
+            "start": 6167,
+            "end": 6607
+          },
+          {
+            "w": "سے",
+            "start": 6607,
+            "end": 6847
+          },
+          {
+            "w": "دوڑی۔",
+            "start": 6847,
+            "end": 7527
+          },
+          {
+            "w": "عثمان",
+            "start": 7527,
+            "end": 7997
+          },
+          {
+            "w": "کی",
+            "start": 7997,
+            "end": 8237
+          },
+          {
+            "w": "آنکھیں",
+            "start": 8237,
+            "end": 8737
+          },
+          {
+            "w": "بڑی",
+            "start": 8737,
+            "end": 9097
+          },
+          {
+            "w": "ہو",
+            "start": 9097,
+            "end": 9287
+          },
+          {
+            "w": "گئیں۔",
+            "start": 9287,
+            "end": 9767
+          },
+          {
+            "w": "\"واہ!\"",
+            "start": 9767,
+            "end": 11007
+          }
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "living_room",
+      "text": {
+        "en": "Rayan put the car down and went to drink water. The car was right there, all alone.",
+        "ur": "ریان گاڑی رکھ کر پانی پینے چلا گیا۔ گاڑی وہیں اکیلی پڑی تھی۔"
+      },
+      "cast": [
+        {
+          "art": "prop:car",
+          "x": 0.42,
+          "y": 0.77,
+          "size": 0.07
+        },
+        {
+          "art": "puppet:rayan",
+          "x": 0.84,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "walk",
+          "act": "walk",
+          "look": "right"
+        },
+        {
+          "art": "puppet:usman",
+          "x": 0.22,
+          "y": 0.67,
+          "size": 0.22,
+          "face": "surprised",
+          "look": "right"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "ریان",
+            "start": 9,
+            "end": 469
+          },
+          {
+            "w": "گاڑی",
+            "start": 469,
+            "end": 919
+          },
+          {
+            "w": "رکھ",
+            "start": 919,
+            "end": 1189
+          },
+          {
+            "w": "کر",
+            "start": 1189,
+            "end": 1379
+          },
+          {
+            "w": "پانی",
+            "start": 1379,
+            "end": 1749
+          },
+          {
+            "w": "پینے",
+            "start": 1749,
+            "end": 2089
+          },
+          {
+            "w": "چلا",
+            "start": 2089,
+            "end": 2399
+          },
+          {
+            "w": "گیا۔",
+            "start": 2399,
+            "end": 2809
+          },
+          {
+            "w": "گاڑی",
+            "start": 2809,
+            "end": 3329
+          },
+          {
+            "w": "وہیں",
+            "start": 3329,
+            "end": 3729
+          },
+          {
+            "w": "اکیلی",
+            "start": 3729,
+            "end": 4229
+          },
+          {
+            "w": "پڑی",
+            "start": 4229,
+            "end": 4629
+          },
+          {
+            "w": "تھی۔",
+            "start": 4629,
+            "end": 5089
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "choice",
+      "scene": "living_room",
+      "text": {
+        "en": "Usman really wanted to play with it. He could just take it, or he could ask Rayan first. What should Usman do?",
+        "ur": "عثمان کا بہت دل چاہ رہا تھا کہ وہ گاڑی سے کھیلے۔ وہ اسے ایسے ہی اٹھا سکتا تھا، یا پہلے ریان سے پوچھ سکتا تھا۔ عثمان کو کیا کرنا چاہیے؟"
+      },
+      "cast": [
+        {
+          "art": "prop:car",
+          "x": 0.68,
+          "y": 0.76,
+          "size": 0.07,
+          "mood": "twinkle"
+        },
+        {
+          "art": "puppet:usman",
+          "x": 0.4,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "think",
+          "face": "think",
+          "look": "downRight"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "عثمان",
+            "start": 21,
+            "end": 541
+          },
+          {
+            "w": "کا",
+            "start": 541,
+            "end": 731
+          },
+          {
+            "w": "بہت",
+            "start": 731,
+            "end": 1021
+          },
+          {
+            "w": "دل",
+            "start": 1021,
+            "end": 1221
+          },
+          {
+            "w": "چاہ",
+            "start": 1221,
+            "end": 1521
+          },
+          {
+            "w": "رہا",
+            "start": 1521,
+            "end": 1821
+          },
+          {
+            "w": "تھا",
+            "start": 1821,
+            "end": 2291
+          },
+          {
+            "w": "کہ",
+            "start": 2291,
+            "end": 2361
+          },
+          {
+            "w": "وہ",
+            "start": 2361,
+            "end": 2561
+          },
+          {
+            "w": "گاڑی",
+            "start": 2561,
+            "end": 3061
+          },
+          {
+            "w": "سے",
+            "start": 3061,
+            "end": 3301
+          },
+          {
+            "w": "کھیلے۔",
+            "start": 3301,
+            "end": 3821
+          },
+          {
+            "w": "وہ",
+            "start": 3891,
+            "end": 4041
+          },
+          {
+            "w": "اسے",
+            "start": 4041,
+            "end": 4341
+          },
+          {
+            "w": "ایسے",
+            "start": 4341,
+            "end": 4741
+          },
+          {
+            "w": "ہی",
+            "start": 4741,
+            "end": 4941
+          },
+          {
+            "w": "اٹھا",
+            "start": 4941,
+            "end": 5341
+          },
+          {
+            "w": "سکتا",
+            "start": 5341,
+            "end": 5741
+          },
+          {
+            "w": "تھا،",
+            "start": 5741,
+            "end": 6181
+          },
+          {
+            "w": "یا",
+            "start": 6181,
+            "end": 6401
+          },
+          {
+            "w": "پہلے",
+            "start": 6401,
+            "end": 6781
+          },
+          {
+            "w": "ریان",
+            "start": 6781,
+            "end": 7281
+          },
+          {
+            "w": "سے",
+            "start": 7281,
+            "end": 7481
+          },
+          {
+            "w": "پوچھ",
+            "start": 7481,
+            "end": 7881
+          },
+          {
+            "w": "سکتا",
+            "start": 7881,
+            "end": 8261
+          },
+          {
+            "w": "تھا۔",
+            "start": 8261,
+            "end": 8661
+          },
+          {
+            "w": "عثمان",
+            "start": 8661,
+            "end": 9371
+          },
+          {
+            "w": "کو",
+            "start": 9371,
+            "end": 9641
+          },
+          {
+            "w": "کیا",
+            "start": 9641,
+            "end": 10061
+          },
+          {
+            "w": "کرنا",
+            "start": 10061,
+            "end": 10621
+          },
+          {
+            "w": "چاہیے؟",
+            "start": 10621,
+            "end": 11341
+          }
+        ]
+      }
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": {
+        "en": "What should Usman do?",
+        "ur": "عثمان کو کیا کرنا چاہیے؟"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "en": "Ask first",
+            "ur": "پہلے پوچھے"
+          },
+          "picture": "prop:hand_raise",
+          "next": "choice_a"
+        },
+        {
+          "id": "b",
+          "label": {
+            "en": "Just take it",
+            "ur": "ایسے ہی اٹھا لے"
+          },
+          "picture": "prop:car",
+          "next": "choice_b"
+        }
+      ]
+    },
+    {
+      "id": "choice_a",
+      "type": "page",
+      "next": "p5",
+      "scene": "living_room",
+      "text": {
+        "en": "Usman waited for Rayan. \"Rayan, please, can I play with your car?\"",
+        "ur": "عثمان نے ریان کا انتظار کیا۔ \"ریان، کیا میں تمہاری گاڑی سے کھیل سکتا ہوں؟\""
+      },
+      "cast": [
+        {
+          "art": "prop:car",
+          "x": 0.54,
+          "y": 0.77,
+          "size": 0.07
+        },
+        {
+          "art": "puppet:usman",
+          "x": 0.3,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "shy",
+          "act": "talk",
+          "mood": "happy",
+          "look": "right"
+        },
+        {
+          "art": "puppet:rayan",
+          "x": 0.76,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "hold",
+          "hold": "prop:water_glass",
+          "holdSize": 0.15,
+          "look": "left",
+          "enter": "right"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "عثمان",
+            "start": 4,
+            "end": 524
+          },
+          {
+            "w": "نے",
+            "start": 524,
+            "end": 714
+          },
+          {
+            "w": "ریان",
+            "start": 714,
+            "end": 1204
+          },
+          {
+            "w": "کا",
+            "start": 1204,
+            "end": 1404
+          },
+          {
+            "w": "انتظار",
+            "start": 1404,
+            "end": 1994
+          },
+          {
+            "w": "کیا۔",
+            "start": 1994,
+            "end": 2364
+          },
+          {
+            "w": "\"ریان،",
+            "start": 2364,
+            "end": 3444
+          },
+          {
+            "w": "کیا",
+            "start": 3444,
+            "end": 3684
+          },
+          {
+            "w": "میں",
+            "start": 3684,
+            "end": 3934
+          },
+          {
+            "w": "تمہاری",
+            "start": 3934,
+            "end": 4414
+          },
+          {
+            "w": "گاڑی",
+            "start": 4414,
+            "end": 4884
+          },
+          {
+            "w": "سے",
+            "start": 4884,
+            "end": 4974
+          },
+          {
+            "w": "کھیل",
+            "start": 4974,
+            "end": 5294
+          },
+          {
+            "w": "سکتا",
+            "start": 5294,
+            "end": 5644
+          },
+          {
+            "w": "ہوں؟\"",
+            "start": 5644,
+            "end": 5964
+          }
+        ]
+      }
+    },
+    {
+      "id": "choice_b",
+      "type": "page",
+      "next": "p5",
+      "scene": "living_room",
+      "text": {
+        "en": "Usman picked up the car. But his heart said, \"This is not mine.\" He put it back and waited. \"Rayan, please, can I play with your car?\"",
+        "ur": "عثمان نے گاڑی اٹھا لی۔ مگر اس کے دل نے کہا، \"یہ میری نہیں ہے۔\" اس نے گاڑی واپس رکھی اور انتظار کیا۔ \"ریان، کیا میں تمہاری گاڑی سے کھیل سکتا ہوں؟\""
+      },
+      "cast": [
+        {
+          "art": "puppet:usman",
+          "x": 0.36,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "hold",
+          "hold": "prop:car",
+          "holdSize": 0.28,
+          "face": "worried",
+          "until": 5138
+        },
+        {
+          "art": "prop:car",
+          "x": 0.54,
+          "y": 0.77,
+          "size": 0.07,
+          "delay": 5138
+        },
+        {
+          "art": "puppet:usman",
+          "x": 0.3,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "shy",
+          "act": "talk",
+          "mood": "happy",
+          "look": "right",
+          "delay": 5138
+        },
+        {
+          "art": "puppet:rayan",
+          "x": 0.76,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "hold",
+          "hold": "prop:water_glass",
+          "holdSize": 0.15,
+          "look": "left",
+          "enter": "right",
+          "delay": 8298
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "عثمان",
+            "start": 8,
+            "end": 558
+          },
+          {
+            "w": "نے",
+            "start": 558,
+            "end": 778
+          },
+          {
+            "w": "گاڑی",
+            "start": 778,
+            "end": 1328
+          },
+          {
+            "w": "اٹھا",
+            "start": 1328,
+            "end": 1768
+          },
+          {
+            "w": "لی۔",
+            "start": 1768,
+            "end": 2008
+          },
+          {
+            "w": "مگر",
+            "start": 2008,
+            "end": 2348
+          },
+          {
+            "w": "اس",
+            "start": 2348,
+            "end": 2588
+          },
+          {
+            "w": "کے",
+            "start": 2588,
+            "end": 2828
+          },
+          {
+            "w": "دل",
+            "start": 2828,
+            "end": 3058
+          },
+          {
+            "w": "نے",
+            "start": 3058,
+            "end": 3298
+          },
+          {
+            "w": "کہا،",
+            "start": 3298,
+            "end": 3688
+          },
+          {
+            "w": "\"یہ",
+            "start": 3688,
+            "end": 3948
+          },
+          {
+            "w": "میری",
+            "start": 3948,
+            "end": 4528
+          },
+          {
+            "w": "نہیں",
+            "start": 4528,
+            "end": 4998
+          },
+          {
+            "w": "ہے۔\"",
+            "start": 4998,
+            "end": 5288
+          },
+          {
+            "w": "اس",
+            "start": 5288,
+            "end": 5508
+          },
+          {
+            "w": "نے",
+            "start": 5508,
+            "end": 5688
+          },
+          {
+            "w": "گاڑی",
+            "start": 5688,
+            "end": 6188
+          },
+          {
+            "w": "واپس",
+            "start": 6188,
+            "end": 6588
+          },
+          {
+            "w": "رکھی",
+            "start": 6588,
+            "end": 7008
+          },
+          {
+            "w": "اور",
+            "start": 7008,
+            "end": 7358
+          },
+          {
+            "w": "انتظار",
+            "start": 7358,
+            "end": 8158
+          },
+          {
+            "w": "کیا۔",
+            "start": 8158,
+            "end": 8448
+          },
+          {
+            "w": "\"ریان،",
+            "start": 8448,
+            "end": 9478
+          },
+          {
+            "w": "کیا",
+            "start": 9478,
+            "end": 9688
+          },
+          {
+            "w": "میں",
+            "start": 9688,
+            "end": 9898
+          },
+          {
+            "w": "تمہاری",
+            "start": 9898,
+            "end": 10318
+          },
+          {
+            "w": "گاڑی",
+            "start": 10318,
+            "end": 10698
+          },
+          {
+            "w": "سے",
+            "start": 10698,
+            "end": 10808
+          },
+          {
+            "w": "کھیل",
+            "start": 10808,
+            "end": 11088
+          },
+          {
+            "w": "سکتا",
+            "start": 11088,
+            "end": 11368
+          },
+          {
+            "w": "ہوں؟\"",
+            "start": 11368,
+            "end": 11688
+          }
+        ]
+      }
+    },
+    {
+      "id": "p5",
+      "type": "page",
+      "next": "p6",
+      "scene": "living_room",
+      "text": {
+        "en": "Rayan smiled. \"Of course! Thank you for asking. Let's play together!\"",
+        "ur": "ریان مسکرایا۔ \"ہاں ضرور! پوچھنے کا شکریہ۔ چلو مل کر کھیلتے ہیں!\""
+      },
+      "cast": [
+        {
+          "art": "puppet:usman",
+          "x": 0.36,
+          "y": 0.67,
+          "size": 0.22,
+          "face": "laugh",
+          "look": "right"
+        },
+        {
+          "art": "puppet:rayan",
+          "x": 0.62,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "give",
+          "act": "give+talk",
+          "hold": "prop:car",
+          "holdSize": 0.28,
+          "mood": "happy",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "ریان",
+            "start": 20,
+            "end": 270
+          },
+          {
+            "w": "مسکرایا۔",
+            "start": 270,
+            "end": 520
+          },
+          {
+            "w": "\"ہاں",
+            "start": 270,
+            "end": 430
+          },
+          {
+            "w": "ضرور!",
+            "start": 430,
+            "end": 930
+          },
+          {
+            "w": "پوچھنے",
+            "start": 930,
+            "end": 1530
+          },
+          {
+            "w": "کا",
+            "start": 1530,
+            "end": 1730
+          },
+          {
+            "w": "شکریہ۔",
+            "start": 1730,
+            "end": 2250
+          },
+          {
+            "w": "چلو",
+            "start": 2250,
+            "end": 2610
+          },
+          {
+            "w": "مل",
+            "start": 2610,
+            "end": 2790
+          },
+          {
+            "w": "کر",
+            "start": 2790,
+            "end": 2980
+          },
+          {
+            "w": "کھیلتے",
+            "start": 2980,
+            "end": 3530
+          },
+          {
+            "w": "ہیں!\"",
+            "start": 3530,
+            "end": 3870
+          }
+        ]
+      }
+    },
+    {
+      "id": "p6",
+      "type": "page",
+      "next": "p7",
+      "scene": "living_room",
+      "text": {
+        "en": "They built a road with books and blocks. The red car zoomed up the hill and down again! Vroom!",
+        "ur": "دونوں نے کتابوں اور بلاکس سے ایک سڑک بنائی۔ لال گاڑی اوپر گئی اور پھر نیچے آئی! ووم!"
+      },
+      "help": {
+        "kind": "tap",
+        "item": 1,
+        "steps": 3,
+        "when": "after"
+      },
+      "cast": [
+        {
+          "art": "prop:books_road",
+          "x": 0.5,
+          "y": 0.74,
+          "size": 0.08
+        },
+        {
+          "art": "prop:car",
+          "x": 0.4,
+          "y": 0.69,
+          "size": 0.05,
+          "mood": "happy"
+        },
+        {
+          "art": "puppet:usman",
+          "x": 0.14,
+          "y": 0.69,
+          "size": 0.2,
+          "pose": "cheer",
+          "act": "bounce",
+          "face": "laugh"
+        },
+        {
+          "art": "puppet:rayan",
+          "x": 0.87,
+          "y": 0.69,
+          "size": 0.2,
+          "pose": "clap",
+          "act": "clap",
+          "face": "laugh",
+          "look": "left"
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.36,
+          "y": 0.6,
+          "size": 0.03,
+          "mood": "twinkle",
+          "helpStep": 1
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.52,
+          "y": 0.56,
+          "size": 0.03,
+          "mood": "twinkle",
+          "helpStep": 2
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.68,
+          "y": 0.63,
+          "size": 0.03,
+          "mood": "twinkle",
+          "helpStep": 3
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "دونوں",
+            "start": 4,
+            "end": 454
+          },
+          {
+            "w": "نے",
+            "start": 454,
+            "end": 714
+          },
+          {
+            "w": "کتابوں",
+            "start": 714,
+            "end": 1174
+          },
+          {
+            "w": "اور",
+            "start": 1174,
+            "end": 1454
+          },
+          {
+            "w": "بلاکس",
+            "start": 1454,
+            "end": 1814
+          },
+          {
+            "w": "سے",
+            "start": 1814,
+            "end": 1994
+          },
+          {
+            "w": "ایک",
+            "start": 1994,
+            "end": 2254
+          },
+          {
+            "w": "سڑک",
+            "start": 2254,
+            "end": 2624
+          },
+          {
+            "w": "بنائی۔",
+            "start": 2624,
+            "end": 3224
+          },
+          {
+            "w": "لال",
+            "start": 3224,
+            "end": 3554
+          },
+          {
+            "w": "گاڑی",
+            "start": 3554,
+            "end": 4104
+          },
+          {
+            "w": "اوپر",
+            "start": 4104,
+            "end": 4544
+          },
+          {
+            "w": "گئی",
+            "start": 4544,
+            "end": 4874
+          },
+          {
+            "w": "اور",
+            "start": 4874,
+            "end": 5204
+          },
+          {
+            "w": "پھر",
+            "start": 5204,
+            "end": 5534
+          },
+          {
+            "w": "نیچے",
+            "start": 5534,
+            "end": 6084
+          },
+          {
+            "w": "آئی!",
+            "start": 6084,
+            "end": 6324
+          },
+          {
+            "w": "ووم!",
+            "start": 6324,
+            "end": 6574
+          }
+        ]
+      }
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": "p8",
+      "scene": "living_room",
+      "text": {
+        "en": "Ammi was watching. \"Masha Allah, Usman. When we ask first, everyone feels happy.\"",
+        "ur": "امی دیکھ رہی تھیں۔ \"ماشاءاللہ عثمان۔ جب ہم پہلے پوچھتے ہیں تو سب خوش ہوتے ہیں۔\""
+      },
+      "cast": [
+        {
+          "art": "prop:door",
+          "x": 0.13,
+          "y": 0.585,
+          "size": 0.27
+        },
+        {
+          "art": "puppet:ammi",
+          "x": 0.22,
+          "y": 0.65,
+          "size": 0.29,
+          "act": "talk",
+          "mood": "happy",
+          "look": "right"
+        },
+        {
+          "art": "prop:books_road",
+          "x": 0.64,
+          "y": 0.75,
+          "size": 0.07
+        },
+        {
+          "art": "puppet:usman",
+          "x": 0.48,
+          "y": 0.71,
+          "size": 0.18,
+          "pose": "sit",
+          "face": "happy",
+          "look": "left"
+        },
+        {
+          "art": "puppet:rayan",
+          "x": 0.84,
+          "y": 0.71,
+          "size": 0.18,
+          "pose": "sit",
+          "face": "laugh",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "امی",
+            "start": 2,
+            "end": 582
+          },
+          {
+            "w": "دیکھ",
+            "start": 582,
+            "end": 1362
+          },
+          {
+            "w": "رہی",
+            "start": 1362,
+            "end": 1942
+          },
+          {
+            "w": "تھیں۔",
+            "start": 1942,
+            "end": 2602
+          },
+          {
+            "w": "\"ماشاءاللہ",
+            "start": 2602,
+            "end": 3712
+          },
+          {
+            "w": "عثمان۔",
+            "start": 3712,
+            "end": 4382
+          },
+          {
+            "w": "جب",
+            "start": 4382,
+            "end": 4602
+          },
+          {
+            "w": "ہم",
+            "start": 4602,
+            "end": 4822
+          },
+          {
+            "w": "پہلے",
+            "start": 4822,
+            "end": 5262
+          },
+          {
+            "w": "پوچھتے",
+            "start": 5262,
+            "end": 5922
+          },
+          {
+            "w": "ہیں",
+            "start": 5922,
+            "end": 6252
+          },
+          {
+            "w": "تو",
+            "start": 6252,
+            "end": 6442
+          },
+          {
+            "w": "سب",
+            "start": 6442,
+            "end": 6692
+          },
+          {
+            "w": "خوش",
+            "start": 6692,
+            "end": 7022
+          },
+          {
+            "w": "ہوتے",
+            "start": 7022,
+            "end": 7462
+          },
+          {
+            "w": "ہیں۔\"",
+            "start": 7462,
+            "end": 7822
+          }
+        ]
+      }
+    },
+    {
+      "id": "p8",
+      "type": "page",
+      "next": null,
+      "scene": "living_room",
+      "text": {
+        "en": "When it was time to go, Usman gave the car back. \"Thank you, Rayan!\" \"Next time, come to my house and we'll play again!\" said Rayan.",
+        "ur": "جانے کا وقت ہوا تو عثمان نے گاڑی واپس کر دی۔ \"شکریہ ریان!\" \"اگلی بار میرے گھر آنا، پھر کھیلیں گے!\" ریان نے کہا۔"
+      },
+      "cast": [
+        {
+          "art": "prop:door",
+          "x": 0.86,
+          "y": 0.585,
+          "size": 0.27
+        },
+        {
+          "art": "puppet:usman",
+          "x": 0.36,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "give",
+          "act": "give",
+          "hold": "prop:car",
+          "holdSize": 0.28,
+          "mood": "happy",
+          "look": "right"
+        },
+        {
+          "art": "puppet:rayan",
+          "x": 0.62,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "wave",
+          "act": "wave+talk",
+          "face": "laugh",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "جانے",
+            "start": 12,
+            "end": 342
+          },
+          {
+            "w": "کا",
+            "start": 342,
+            "end": 532
+          },
+          {
+            "w": "وقت",
+            "start": 532,
+            "end": 762
+          },
+          {
+            "w": "ہوا",
+            "start": 762,
+            "end": 1012
+          },
+          {
+            "w": "تو",
+            "start": 1012,
+            "end": 1182
+          },
+          {
+            "w": "عثمان",
+            "start": 1182,
+            "end": 1602
+          },
+          {
+            "w": "نے",
+            "start": 1602,
+            "end": 1772
+          },
+          {
+            "w": "گاڑی",
+            "start": 1772,
+            "end": 2272
+          },
+          {
+            "w": "واپس",
+            "start": 2272,
+            "end": 2532
+          },
+          {
+            "w": "کر",
+            "start": 2532,
+            "end": 2672
+          },
+          {
+            "w": "دی۔",
+            "start": 2672,
+            "end": 2952
+          },
+          {
+            "w": "\"شکریہ",
+            "start": 2952,
+            "end": 3662
+          },
+          {
+            "w": "ریان!\"",
+            "start": 3662,
+            "end": 4312
+          },
+          {
+            "w": "\"اگلی",
+            "start": 4312,
+            "end": 4752
+          },
+          {
+            "w": "بار",
+            "start": 4752,
+            "end": 5082
+          },
+          {
+            "w": "میرے",
+            "start": 5082,
+            "end": 5522
+          },
+          {
+            "w": "گھر",
+            "start": 5522,
+            "end": 5852
+          },
+          {
+            "w": "آنا،",
+            "start": 5852,
+            "end": 6212
+          },
+          {
+            "w": "پھر",
+            "start": 6212,
+            "end": 6532
+          },
+          {
+            "w": "کھیلیں",
+            "start": 6532,
+            "end": 6952
+          },
+          {
+            "w": "گے!\"",
+            "start": 6952,
+            "end": 7172
+          },
+          {
+            "w": "ریان",
+            "start": 7172,
+            "end": 7772
+          },
+          {
+            "w": "نے",
+            "start": 7772,
+            "end": 8052
+          },
+          {
+            "w": "کہا۔",
+            "start": 8052,
+            "end": 8412
+          }
+        ]
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "id": "car",
+      "picture": "prop:car",
+      "word": {
+        "en": "car",
+        "ur": "گاڑی"
+      },
+      "forms": {
+        "en": [
+          "cars"
+        ],
+        "ur": []
+      }
+    },
+    {
+      "id": "ask",
+      "picture": "prop:hand_raise",
+      "word": {
+        "en": "ask",
+        "ur": "پوچھنا"
+      },
+      "forms": {
+        "en": [
+          "asks",
+          "asked",
+          "asking"
+        ],
+        "ur": [
+          "پوچھ",
+          "پوچھا",
+          "پوچھنے",
+          "پوچھتے",
+          "پوچھتا"
+        ]
+      }
+    },
+    {
+      "id": "thanks",
+      "word": {
+        "en": "thank you",
+        "ur": "شکریہ"
+      },
+      "forms": {
+        "en": [
+          "thank",
+          "thanks"
+        ],
+        "ur": []
+      }
+    },
+    {
+      "id": "water",
+      "picture": "prop:water_glass",
+      "word": {
+        "en": "water",
+        "ur": "پانی"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "road",
+      "picture": "prop:road",
+      "word": {
+        "en": "road",
+        "ur": "سڑک"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "books",
+      "picture": "prop:book",
+      "word": {
+        "en": "books",
+        "ur": "کتابیں"
+      },
+      "forms": {
+        "en": [
+          "book"
+        ],
+        "ur": [
+          "کتابوں"
+        ]
+      }
+    },
+    {
+      "id": "cousin",
+      "word": {
+        "en": "cousin",
+        "ur": "کزن"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "toy",
+      "picture": "prop:teddy",
+      "word": {
+        "en": "toy",
+        "ur": "کھلونا"
+      },
+      "forms": {
+        "en": [
+          "toys"
+        ],
+        "ur": []
+      }
+    }
+  ],
+  "vocabulary": [
+    "car",
+    "ask",
+    "thanks"
+  ],
+  "quiz": [
+    {
+      "question": {
+        "en": "What toy did Rayan bring?",
+        "ur": "ریان کون سا کھلونا لایا؟"
+      },
+      "options": [
+        {
+          "picture": "prop:car",
+          "correct": true
+        },
+        {
+          "picture": "prop:kite"
+        },
+        {
+          "picture": "prop:teddy"
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "What did Usman do before playing?",
+        "ur": "کھیلنے سے پہلے عثمان نے کیا کیا؟"
+      },
+      "options": [
+        {
+          "picture": "prop:hand_raise",
+          "correct": true,
+          "label": {
+            "en": "Asked",
+            "ur": "پوچھا"
+          }
+        },
+        {
+          "picture": "prop:run_away",
+          "label": {
+            "en": "Ran away",
+            "ur": "بھاگ گیا"
+          }
+        },
+        {
+          "picture": "prop:cry",
+          "label": {
+            "en": "Cried",
+            "ur": "رویا"
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "What did they build?",
+        "ur": "انہوں نے کیا بنایا؟"
+      },
+      "options": [
+        {
+          "picture": "prop:road",
+          "correct": true
+        },
+        {
+          "picture": "prop:castle"
+        },
+        {
+          "picture": "prop:rocket"
+        }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": {
+        "en": "Give the car back to Rayan!",
+        "ur": "گاڑی ریان کو واپس دو!"
+      },
+      "item": "prop:car",
+      "options": [
+        {
+          "picture": "puppet:usman"
+        },
+        {
+          "picture": "puppet:rayan",
+          "correct": true
+        },
+        {
+          "picture": "puppet:ammi"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 70">
+  <path d="M0 10 Q100 46 200 18 Q300 46 400 10" fill="none" stroke="#5A4A6A" stroke-width="2.5"/>
+  <g fill="#FFD166"><circle cx="30" cy="26" r="6"/><circle cx="110" cy="36" r="6"/><circle cx="170" cy="24" r="6"/><circle cx="240" cy="28" r="6"/><circle cx="300" cy="36" r="6"/><circle cx="370" cy="24" r="6"/></g>
+  <g fill="#FF8FB8"><circle cx="70" cy="34" r="6"/><circle cx="270" cy="34" r="6"/></g>
+  <g fill="#7FD6C9"><circle cx="140" cy="32" r="6"/><circle cx="340" cy="30" r="6"/></g>
+  <path d="M207 22 A14 14 0 1 0 216 48 A11 11 0 1 1 207 22 Z" fill="#FFE08A"/>
+  <path d="M196.0 52.0 L197.6 55.8 L201.7 56.1 L198.6 58.8 L199.5 62.9 L196.0 60.7 L192.5 62.9 L193.4 58.8 L190.3 56.1 L194.4 55.8 Z" fill="#FFE08A"/><path d="M60.0 51.0 L61.3 54.2 L64.8 54.5 L62.1 56.7 L62.9 60.0 L60.0 58.3 L57.1 60.0 L57.9 56.7 L55.2 54.5 L58.7 54.2 Z" fill="#FFE08A"/><path d="M330.0 51.0 L331.3 54.2 L334.8 54.5 L332.1 56.7 L332.9 60.0 L330.0 58.3 L327.1 60.0 L327.9 56.7 L325.2 54.5 L328.7 54.2 Z" fill="#FFE08A"/>
+</svg>

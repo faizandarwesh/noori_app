@@ -1,0 +1,1898 @@
+{
+  "schemaVersion": 1,
+  "id": "hamid_holds_hand",
+  "start": "p1",
+  "characters": {
+    "hamid": {
+      "en": "Hamid",
+      "ur": "حامد"
+    },
+    "baba": {
+      "en": "Abbu",
+      "ur": "ابو"
+    },
+    "ammi": {
+      "en": "Ammi",
+      "ur": "امی"
+    }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "beach",
+      "text": {
+        "en": "Hamid was at the beach for the very first time! The sand was warm, and the water was cool and sparkly.",
+        "ur": "حامد پہلی بار سمندر کنارے آیا تھا! ریت گرم تھی اور پانی ٹھنڈا اور چمکتا ہوا تھا۔"
+      },
+      "cast": [
+        {
+          "art": "prop:umbrella",
+          "x": 0.14,
+          "y": 0.66,
+          "size": 0.2
+        },
+        {
+          "art": "puppet:hamid",
+          "x": 0.52,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "cheer",
+          "act": "bounce",
+          "face": "laugh"
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.7,
+          "y": 0.5,
+          "size": 0.03,
+          "mood": "twinkle",
+          "delay": 700
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "حامد",
+            "start": 74,
+            "end": 524
+          },
+          {
+            "w": "پہلی",
+            "start": 524,
+            "end": 854
+          },
+          {
+            "w": "بار",
+            "start": 854,
+            "end": 1184
+          },
+          {
+            "w": "سمندر",
+            "start": 1184,
+            "end": 1764
+          },
+          {
+            "w": "کنارے",
+            "start": 1764,
+            "end": 2284
+          },
+          {
+            "w": "آیا",
+            "start": 2284,
+            "end": 2614
+          },
+          {
+            "w": "تھا!",
+            "start": 2614,
+            "end": 2954
+          },
+          {
+            "w": "ریت",
+            "start": 2954,
+            "end": 3514
+          },
+          {
+            "w": "گرم",
+            "start": 3514,
+            "end": 3794
+          },
+          {
+            "w": "تھی",
+            "start": 3794,
+            "end": 4254
+          },
+          {
+            "w": "اور",
+            "start": 4254,
+            "end": 4554
+          },
+          {
+            "w": "پانی",
+            "start": 4554,
+            "end": 4974
+          },
+          {
+            "w": "ٹھنڈا",
+            "start": 4974,
+            "end": 5434
+          },
+          {
+            "w": "اور",
+            "start": 5434,
+            "end": 5814
+          },
+          {
+            "w": "چمکتا",
+            "start": 5814,
+            "end": 6434
+          },
+          {
+            "w": "ہوا",
+            "start": 6434,
+            "end": 6814
+          },
+          {
+            "w": "تھا۔",
+            "start": 6814,
+            "end": 7254
+          }
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "beach",
+      "text": {
+        "en": "Abbu said, \"Hamid, the sea is big and strong. Always hold my hand in the water, okay?\" \"Okay, Abbu!\"",
+        "ur": "ابو نے کہا، \"حامد، سمندر بہت بڑا اور طاقتور ہے۔ پانی میں ہمیشہ میرا ہاتھ پکڑ کر رکھنا، ٹھیک ہے؟\" \"جی ابو!\""
+      },
+      "cast": [
+        {
+          "art": "puppet:baba",
+          "x": 0.4,
+          "y": 0.67,
+          "size": 0.26,
+          "pose": "kneel",
+          "act": "talk",
+          "mood": "happy",
+          "look": "right"
+        },
+        {
+          "art": "puppet:hamid",
+          "x": 0.62,
+          "y": 0.67,
+          "size": 0.22,
+          "act": "nod",
+          "face": "happy",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "ابو",
+            "start": 18,
+            "end": 628
+          },
+          {
+            "w": "نے",
+            "start": 628,
+            "end": 818
+          },
+          {
+            "w": "کہا،",
+            "start": 818,
+            "end": 1238
+          },
+          {
+            "w": "\"حامد،",
+            "start": 1238,
+            "end": 2058
+          },
+          {
+            "w": "سمندر",
+            "start": 2058,
+            "end": 2718
+          },
+          {
+            "w": "بہت",
+            "start": 2718,
+            "end": 3108
+          },
+          {
+            "w": "بڑا",
+            "start": 3108,
+            "end": 3618
+          },
+          {
+            "w": "اور",
+            "start": 3618,
+            "end": 4098
+          },
+          {
+            "w": "طاقتور",
+            "start": 4098,
+            "end": 4868
+          },
+          {
+            "w": "ہے۔",
+            "start": 4868,
+            "end": 5218
+          },
+          {
+            "w": "پانی",
+            "start": 5218,
+            "end": 5548
+          },
+          {
+            "w": "میں",
+            "start": 5548,
+            "end": 5828
+          },
+          {
+            "w": "ہمیشہ",
+            "start": 5828,
+            "end": 6198
+          },
+          {
+            "w": "میرا",
+            "start": 6198,
+            "end": 6498
+          },
+          {
+            "w": "ہاتھ",
+            "start": 6498,
+            "end": 6818
+          },
+          {
+            "w": "پکڑ",
+            "start": 6818,
+            "end": 7138
+          },
+          {
+            "w": "کر",
+            "start": 7138,
+            "end": 7298
+          },
+          {
+            "w": "رکھنا،",
+            "start": 7298,
+            "end": 7798
+          },
+          {
+            "w": "ٹھیک",
+            "start": 7798,
+            "end": 8408
+          },
+          {
+            "w": "ہے؟\"",
+            "start": 8408,
+            "end": 8678
+          },
+          {
+            "w": "\"جی",
+            "start": 8678,
+            "end": 9068
+          },
+          {
+            "w": "ابو!\"",
+            "start": 9068,
+            "end": 9318
+          }
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "beach",
+      "text": {
+        "en": "Hamid splashed in the small waves. Splash! Splash! It was so much fun!",
+        "ur": "حامد چھوٹی چھوٹی لہروں میں کھیلنے لگا۔ چھپاک! چھپاک! بہت مزہ آ رہا تھا!"
+      },
+      "cast": [
+        {
+          "art": "prop:splash",
+          "x": 0.36,
+          "y": 0.6,
+          "size": 0.05,
+          "delay": 400
+        },
+        {
+          "art": "prop:splash",
+          "x": 0.66,
+          "y": 0.6,
+          "size": 0.05,
+          "delay": 1200
+        },
+        {
+          "art": "puppet:hamid",
+          "x": 0.5,
+          "y": 0.62,
+          "size": 0.2,
+          "pose": "cheer",
+          "act": "bounce",
+          "face": "laugh"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "حامد",
+            "start": 853,
+            "end": 1213
+          },
+          {
+            "w": "چھوٹی",
+            "start": 1213,
+            "end": 1663
+          },
+          {
+            "w": "چھوٹی",
+            "start": 1663,
+            "end": 2113
+          },
+          {
+            "w": "لہروں",
+            "start": 2113,
+            "end": 2563
+          },
+          {
+            "w": "میں",
+            "start": 2563,
+            "end": 2833
+          },
+          {
+            "w": "کھیلنے",
+            "start": 2833,
+            "end": 3373
+          },
+          {
+            "w": "لگا۔",
+            "start": 3373,
+            "end": 3673
+          },
+          {
+            "w": "چھپاک!",
+            "start": 3673,
+            "end": 4463
+          },
+          {
+            "w": "چھپاک!",
+            "start": 4463,
+            "end": 5073
+          },
+          {
+            "w": "بہت",
+            "start": 5073,
+            "end": 5733
+          },
+          {
+            "w": "مزہ",
+            "start": 5733,
+            "end": 6393
+          },
+          {
+            "w": "آ",
+            "start": 6393,
+            "end": 6613
+          },
+          {
+            "w": "رہا",
+            "start": 6613,
+            "end": 7273
+          },
+          {
+            "w": "تھا!",
+            "start": 7273,
+            "end": 8013
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "p5",
+      "scene": "beach",
+      "text": {
+        "en": "Then Hamid saw a big, colorful ball floating far away in the deep water. Abbu was busy helping Ammi with the mat.",
+        "ur": "پھر حامد نے گہرے پانی میں دور ایک بڑی رنگ برنگی گیند تیرتی دیکھی۔ ابو امی کے ساتھ چٹائی بچھا رہے تھے۔"
+      },
+      "cast": [
+        {
+          "art": "prop:beach_ball",
+          "x": 0.84,
+          "y": 0.43,
+          "size": 0.03,
+          "mood": "float"
+        },
+        {
+          "art": "prop:beach_mat",
+          "x": 0.3,
+          "y": 0.74,
+          "size": 0.04
+        },
+        {
+          "art": "puppet:baba",
+          "x": 0.18,
+          "y": 0.67,
+          "size": 0.25,
+          "pose": "kneel",
+          "look": "right"
+        },
+        {
+          "art": "puppet:ammi",
+          "x": 0.42,
+          "y": 0.67,
+          "size": 0.25,
+          "pose": "kneel",
+          "act": "talk",
+          "mood": "happy",
+          "look": "left"
+        },
+        {
+          "art": "puppet:hamid",
+          "x": 0.7,
+          "y": 0.63,
+          "size": 0.2,
+          "pose": "point",
+          "face": "surprised",
+          "look": "upRight"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "پھر",
+            "start": 20,
+            "end": 320
+          },
+          {
+            "w": "حامد",
+            "start": 320,
+            "end": 720
+          },
+          {
+            "w": "نے",
+            "start": 720,
+            "end": 920
+          },
+          {
+            "w": "گہرے",
+            "start": 920,
+            "end": 1320
+          },
+          {
+            "w": "پانی",
+            "start": 1320,
+            "end": 1720
+          },
+          {
+            "w": "میں",
+            "start": 1720,
+            "end": 2100
+          },
+          {
+            "w": "دور",
+            "start": 2100,
+            "end": 2600
+          },
+          {
+            "w": "ایک",
+            "start": 2600,
+            "end": 2900
+          },
+          {
+            "w": "بڑی",
+            "start": 2900,
+            "end": 3140
+          },
+          {
+            "w": "رنگ",
+            "start": 3140,
+            "end": 3500
+          },
+          {
+            "w": "برنگی",
+            "start": 3500,
+            "end": 4100
+          },
+          {
+            "w": "گیند",
+            "start": 4100,
+            "end": 4350
+          },
+          {
+            "w": "تیرتی",
+            "start": 4350,
+            "end": 4900
+          },
+          {
+            "w": "دیکھی۔",
+            "start": 4900,
+            "end": 5520
+          },
+          {
+            "w": "ابو",
+            "start": 5780,
+            "end": 6010
+          },
+          {
+            "w": "امی",
+            "start": 6010,
+            "end": 6290
+          },
+          {
+            "w": "کے",
+            "start": 6290,
+            "end": 6400
+          },
+          {
+            "w": "ساتھ",
+            "start": 6400,
+            "end": 6780
+          },
+          {
+            "w": "چٹائی",
+            "start": 6780,
+            "end": 7120
+          },
+          {
+            "w": "بچھا",
+            "start": 7120,
+            "end": 7470
+          },
+          {
+            "w": "رہے",
+            "start": 7470,
+            "end": 7680
+          },
+          {
+            "w": "تھے۔",
+            "start": 7680,
+            "end": 8040
+          }
+        ]
+      }
+    },
+    {
+      "id": "p5",
+      "type": "page",
+      "next": "choice",
+      "scene": "beach",
+      "text": {
+        "en": "Hamid really wanted that ball. He could go into the deep water alone, or he could wait for Abbu. What should Hamid do?",
+        "ur": "حامد کا دل چاہ رہا تھا کہ وہ گیند لے آئے۔ وہ اکیلا گہرے پانی میں جا سکتا تھا، یا ابو کا انتظار کر سکتا تھا۔ حامد کو کیا کرنا چاہیے؟"
+      },
+      "cast": [
+        {
+          "art": "prop:beach_ball",
+          "x": 0.84,
+          "y": 0.43,
+          "size": 0.03,
+          "mood": "float"
+        },
+        {
+          "art": "puppet:hamid",
+          "x": 0.54,
+          "y": 0.62,
+          "size": 0.22,
+          "pose": "think",
+          "face": "think",
+          "look": "upRight"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "حامد",
+            "start": 20,
+            "end": 630
+          },
+          {
+            "w": "کا",
+            "start": 630,
+            "end": 740
+          },
+          {
+            "w": "دل",
+            "start": 740,
+            "end": 980
+          },
+          {
+            "w": "چاہ",
+            "start": 980,
+            "end": 1340
+          },
+          {
+            "w": "رہا",
+            "start": 1340,
+            "end": 1700
+          },
+          {
+            "w": "تھا",
+            "start": 1700,
+            "end": 2100
+          },
+          {
+            "w": "کہ",
+            "start": 2100,
+            "end": 2270
+          },
+          {
+            "w": "وہ",
+            "start": 2270,
+            "end": 2470
+          },
+          {
+            "w": "گیند",
+            "start": 2470,
+            "end": 2850
+          },
+          {
+            "w": "لے",
+            "start": 2850,
+            "end": 2930
+          },
+          {
+            "w": "آئے۔",
+            "start": 2930,
+            "end": 3220
+          },
+          {
+            "w": "وہ",
+            "start": 3220,
+            "end": 3420
+          },
+          {
+            "w": "اکیلا",
+            "start": 3420,
+            "end": 3920
+          },
+          {
+            "w": "گہرے",
+            "start": 3920,
+            "end": 4320
+          },
+          {
+            "w": "پانی",
+            "start": 4320,
+            "end": 4720
+          },
+          {
+            "w": "میں",
+            "start": 4720,
+            "end": 5030
+          },
+          {
+            "w": "جا",
+            "start": 5030,
+            "end": 5230
+          },
+          {
+            "w": "سکتا",
+            "start": 5230,
+            "end": 5670
+          },
+          {
+            "w": "تھا،",
+            "start": 5670,
+            "end": 6040
+          },
+          {
+            "w": "یا",
+            "start": 6040,
+            "end": 6280
+          },
+          {
+            "w": "ابو",
+            "start": 6280,
+            "end": 6770
+          },
+          {
+            "w": "کا",
+            "start": 6770,
+            "end": 7020
+          },
+          {
+            "w": "انتظار",
+            "start": 7020,
+            "end": 7750
+          },
+          {
+            "w": "کر",
+            "start": 7750,
+            "end": 8000
+          },
+          {
+            "w": "سکتا",
+            "start": 8000,
+            "end": 8480
+          },
+          {
+            "w": "تھا۔",
+            "start": 8480,
+            "end": 8920
+          },
+          {
+            "w": "حامد",
+            "start": 8920,
+            "end": 9280
+          },
+          {
+            "w": "کو",
+            "start": 9280,
+            "end": 9530
+          },
+          {
+            "w": "کیا",
+            "start": 9530,
+            "end": 9730
+          },
+          {
+            "w": "کرنا",
+            "start": 9730,
+            "end": 10090
+          },
+          {
+            "w": "چاہیے؟",
+            "start": 10090,
+            "end": 10660
+          }
+        ]
+      }
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": {
+        "en": "What should Hamid do?",
+        "ur": "حامد کو کیا کرنا چاہیے؟"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "en": "Wait for Abbu",
+            "ur": "ابو کا انتظار کرے"
+          },
+          "picture": "puppet:baba",
+          "next": "choice_a"
+        },
+        {
+          "id": "b",
+          "label": {
+            "en": "Go in alone",
+            "ur": "اکیلا پانی میں جائے"
+          },
+          "picture": "prop:big_wave",
+          "next": "choice_b"
+        }
+      ]
+    },
+    {
+      "id": "choice_a",
+      "type": "page",
+      "next": "p6",
+      "scene": "beach",
+      "text": {
+        "en": "Hamid stopped and remembered Abbu's words. He ran back. \"Abbu! There's a ball out there. Will you come with me?\"",
+        "ur": "حامد رک گیا اور اسے ابو کی بات یاد آئی۔ وہ واپس بھاگا۔ \"ابو! وہاں ایک گیند ہے۔ آپ میرے ساتھ چلیں گے؟\""
+      },
+      "help": {
+        "kind": "drag",
+        "item": 2,
+        "to": 1
+      },
+      "cast": [
+        {
+          "art": "prop:beach_ball",
+          "x": 0.84,
+          "y": 0.43,
+          "size": 0.03,
+          "mood": "float"
+        },
+        {
+          "art": "puppet:baba",
+          "x": 0.24,
+          "y": 0.65,
+          "size": 0.29,
+          "mood": "happy",
+          "look": "right",
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:hamid",
+          "x": 0.62,
+          "y": 0.65,
+          "size": 0.22,
+          "act": "run+talk",
+          "face": "happy",
+          "look": "left",
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:baba",
+          "x": 0.3,
+          "y": 0.65,
+          "size": 0.29,
+          "pose": "hold_hand",
+          "act": "talk",
+          "mood": "happy",
+          "look": "right",
+          "helpStep": 1
+        },
+        {
+          "art": "puppet:hamid",
+          "x": 0.48,
+          "y": 0.66,
+          "size": 0.22,
+          "pose": "hold_hand_l",
+          "face": "laugh",
+          "look": "left",
+          "helpStep": 1
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "حامد",
+            "start": 306,
+            "end": 366
+          },
+          {
+            "w": "رک",
+            "start": 306,
+            "end": 366
+          },
+          {
+            "w": "گیا",
+            "start": 306,
+            "end": 516
+          },
+          {
+            "w": "اور",
+            "start": 516,
+            "end": 916
+          },
+          {
+            "w": "اسے",
+            "start": 916,
+            "end": 1206
+          },
+          {
+            "w": "ابو",
+            "start": 1206,
+            "end": 1726
+          },
+          {
+            "w": "کی",
+            "start": 1726,
+            "end": 1886
+          },
+          {
+            "w": "بات",
+            "start": 1886,
+            "end": 2226
+          },
+          {
+            "w": "یاد",
+            "start": 2226,
+            "end": 2566
+          },
+          {
+            "w": "آئی۔",
+            "start": 2566,
+            "end": 3006
+          },
+          {
+            "w": "وہ",
+            "start": 3006,
+            "end": 3256
+          },
+          {
+            "w": "واپس",
+            "start": 3256,
+            "end": 3746
+          },
+          {
+            "w": "بھاگا۔",
+            "start": 3746,
+            "end": 4426
+          },
+          {
+            "w": "\"ابو!",
+            "start": 4426,
+            "end": 5036
+          },
+          {
+            "w": "وہاں",
+            "start": 5036,
+            "end": 5326
+          },
+          {
+            "w": "ایک",
+            "start": 5326,
+            "end": 5666
+          },
+          {
+            "w": "گیند",
+            "start": 5666,
+            "end": 6116
+          },
+          {
+            "w": "ہے۔",
+            "start": 6116,
+            "end": 6446
+          },
+          {
+            "w": "آپ",
+            "start": 6446,
+            "end": 6626
+          },
+          {
+            "w": "میرے",
+            "start": 6626,
+            "end": 6986
+          },
+          {
+            "w": "ساتھ",
+            "start": 6986,
+            "end": 7346
+          },
+          {
+            "w": "چلیں",
+            "start": 7346,
+            "end": 7706
+          },
+          {
+            "w": "گے؟\"",
+            "start": 7706,
+            "end": 8466
+          }
+        ]
+      }
+    },
+    {
+      "id": "choice_b",
+      "type": "page",
+      "next": "p6",
+      "scene": "beach",
+      "text": {
+        "en": "Hamid took a few steps into the water. Whoosh! A big wave splashed right in his face. \"Abbu said always hold his hand!\" He ran back. \"Abbu! Will you come with me?\"",
+        "ur": "حامد نے پانی میں چند قدم بڑھائے۔ شوں! ایک بڑی لہر سیدھی اس کے منہ پر آئی۔ \"ابو نے کہا تھا ہمیشہ ان کا ہاتھ پکڑ کر رکھنا!\" وہ واپس بھاگا۔ \"ابو! آپ میرے ساتھ چلیں گے؟\""
+      },
+      "help": {
+        "kind": "drag",
+        "item": 4,
+        "to": 1,
+        "when": "after"
+      },
+      "cast": [
+        {
+          "art": "prop:beach_ball",
+          "x": 0.84,
+          "y": 0.43,
+          "size": 0.03,
+          "mood": "float"
+        },
+        {
+          "art": "puppet:baba",
+          "x": 0.24,
+          "y": 0.65,
+          "size": 0.29,
+          "look": "right",
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:hamid",
+          "x": 0.64,
+          "y": 0.62,
+          "size": 0.22,
+          "act": "walk",
+          "face": "happy",
+          "look": "upRight",
+          "until": 2252
+        },
+        {
+          "art": "prop:big_wave",
+          "x": 0.74,
+          "y": 0.6,
+          "size": 0.15,
+          "enter": "right",
+          "delay": 2252,
+          "until": 6512
+        },
+        {
+          "art": "puppet:hamid",
+          "x": 0.62,
+          "y": 0.65,
+          "size": 0.22,
+          "pose": "shocked",
+          "act": "run+talk",
+          "face": "surprised",
+          "look": "left",
+          "delay": 2252,
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:baba",
+          "x": 0.3,
+          "y": 0.65,
+          "size": 0.29,
+          "pose": "hold_hand",
+          "act": "talk",
+          "mood": "happy",
+          "look": "right",
+          "helpStep": 1
+        },
+        {
+          "art": "puppet:hamid",
+          "x": 0.48,
+          "y": 0.66,
+          "size": 0.22,
+          "pose": "hold_hand_l",
+          "face": "laugh",
+          "look": "left",
+          "helpStep": 1
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "حامد",
+            "start": 2,
+            "end": 362
+          },
+          {
+            "w": "نے",
+            "start": 362,
+            "end": 612
+          },
+          {
+            "w": "پانی",
+            "start": 612,
+            "end": 902
+          },
+          {
+            "w": "میں",
+            "start": 902,
+            "end": 1172
+          },
+          {
+            "w": "چند",
+            "start": 1172,
+            "end": 1442
+          },
+          {
+            "w": "قدم",
+            "start": 1442,
+            "end": 1712
+          },
+          {
+            "w": "بڑھائے۔",
+            "start": 1712,
+            "end": 2402
+          },
+          {
+            "w": "شوں!",
+            "start": 2402,
+            "end": 2652
+          },
+          {
+            "w": "ایک",
+            "start": 2402,
+            "end": 2972
+          },
+          {
+            "w": "بڑی",
+            "start": 2972,
+            "end": 3392
+          },
+          {
+            "w": "لہر",
+            "start": 3392,
+            "end": 3822
+          },
+          {
+            "w": "سیدھی",
+            "start": 3822,
+            "end": 4652
+          },
+          {
+            "w": "اس",
+            "start": 4652,
+            "end": 4942
+          },
+          {
+            "w": "کے",
+            "start": 4942,
+            "end": 5262
+          },
+          {
+            "w": "منہ",
+            "start": 5262,
+            "end": 5527
+          },
+          {
+            "w": "پر",
+            "start": 5527,
+            "end": 5792
+          },
+          {
+            "w": "آئی۔",
+            "start": 5792,
+            "end": 6422
+          },
+          {
+            "w": "\"ابو",
+            "start": 6662,
+            "end": 6922
+          },
+          {
+            "w": "نے",
+            "start": 6922,
+            "end": 7172
+          },
+          {
+            "w": "کہا",
+            "start": 7172,
+            "end": 7372
+          },
+          {
+            "w": "تھا",
+            "start": 7372,
+            "end": 7662
+          },
+          {
+            "w": "ہمیشہ",
+            "start": 7662,
+            "end": 8092
+          },
+          {
+            "w": "ان",
+            "start": 8092,
+            "end": 8272
+          },
+          {
+            "w": "کا",
+            "start": 8272,
+            "end": 8452
+          },
+          {
+            "w": "ہاتھ",
+            "start": 8452,
+            "end": 8812
+          },
+          {
+            "w": "پکڑ",
+            "start": 8812,
+            "end": 9172
+          },
+          {
+            "w": "کر",
+            "start": 9172,
+            "end": 9422
+          },
+          {
+            "w": "رکھنا!\"",
+            "start": 9422,
+            "end": 9922
+          },
+          {
+            "w": "وہ",
+            "start": 9922,
+            "end": 10202
+          },
+          {
+            "w": "واپس",
+            "start": 10202,
+            "end": 10762
+          },
+          {
+            "w": "بھاگا۔",
+            "start": 10762,
+            "end": 11482
+          },
+          {
+            "w": "\"ابو!",
+            "start": 11482,
+            "end": 12092
+          },
+          {
+            "w": "آپ",
+            "start": 12092,
+            "end": 12162
+          },
+          {
+            "w": "میرے",
+            "start": 12162,
+            "end": 12612
+          },
+          {
+            "w": "ساتھ",
+            "start": 12612,
+            "end": 13062
+          },
+          {
+            "w": "چلیں",
+            "start": 13062,
+            "end": 13522
+          },
+          {
+            "w": "گے؟\"",
+            "start": 13522,
+            "end": 14242
+          }
+        ]
+      }
+    },
+    {
+      "id": "p6",
+      "type": "page",
+      "next": "p7",
+      "scene": "beach",
+      "text": {
+        "en": "Abbu hugged Hamid tight. \"Shabash, Hamid! You did the right thing. Deep water is not safe for little ones alone.\"",
+        "ur": "ابو نے حامد کو زور سے گلے لگایا۔ \"شاباش حامد! تم نے بالکل ٹھیک کیا۔ گہرا پانی بچوں کے لیے اکیلے میں محفوظ نہیں ہوتا۔\""
+      },
+      "cast": [
+        {
+          "art": "puppet:hamid",
+          "x": 0.56,
+          "y": 0.68,
+          "size": 0.22,
+          "pose": "hug",
+          "face": "happy",
+          "look": "left"
+        },
+        {
+          "art": "puppet:baba",
+          "x": 0.42,
+          "y": 0.67,
+          "size": 0.27,
+          "pose": "hug",
+          "act": "hug+talk",
+          "mood": "happy",
+          "look": "right"
+        },
+        {
+          "art": "prop:heart",
+          "x": 0.5,
+          "y": 0.33,
+          "size": 0.03,
+          "mood": "float",
+          "delay": 600
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "ابو",
+            "start": 6,
+            "end": 366
+          },
+          {
+            "w": "نے",
+            "start": 366,
+            "end": 616
+          },
+          {
+            "w": "حامد",
+            "start": 616,
+            "end": 906
+          },
+          {
+            "w": "کو",
+            "start": 906,
+            "end": 1106
+          },
+          {
+            "w": "زور",
+            "start": 1106,
+            "end": 1426
+          },
+          {
+            "w": "سے",
+            "start": 1426,
+            "end": 1536
+          },
+          {
+            "w": "گلے",
+            "start": 1536,
+            "end": 1806
+          },
+          {
+            "w": "لگایا۔",
+            "start": 1806,
+            "end": 2306
+          },
+          {
+            "w": "\"شاباش",
+            "start": 2306,
+            "end": 2916
+          },
+          {
+            "w": "حامد!",
+            "start": 2916,
+            "end": 3406
+          },
+          {
+            "w": "تم",
+            "start": 3406,
+            "end": 3626
+          },
+          {
+            "w": "نے",
+            "start": 3626,
+            "end": 3866
+          },
+          {
+            "w": "بالکل",
+            "start": 3866,
+            "end": 4476
+          },
+          {
+            "w": "ٹھیک",
+            "start": 4476,
+            "end": 5166
+          },
+          {
+            "w": "کیا۔",
+            "start": 5166,
+            "end": 5526
+          },
+          {
+            "w": "گہرا",
+            "start": 5526,
+            "end": 5896
+          },
+          {
+            "w": "پانی",
+            "start": 5896,
+            "end": 6266
+          },
+          {
+            "w": "بچوں",
+            "start": 6266,
+            "end": 6636
+          },
+          {
+            "w": "کے",
+            "start": 6636,
+            "end": 6826
+          },
+          {
+            "w": "لیے",
+            "start": 6826,
+            "end": 7096
+          },
+          {
+            "w": "اکیلے",
+            "start": 7096,
+            "end": 7546
+          },
+          {
+            "w": "میں",
+            "start": 7546,
+            "end": 7826
+          },
+          {
+            "w": "محفوظ",
+            "start": 7826,
+            "end": 8416
+          },
+          {
+            "w": "نہیں",
+            "start": 8416,
+            "end": 8656
+          },
+          {
+            "w": "ہوتا۔\"",
+            "start": 8656,
+            "end": 9146
+          }
+        ]
+      }
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": "p8",
+      "scene": "beach",
+      "text": {
+        "en": "Holding hands, they walked into the water together. Abbu reached out and caught the ball. \"Got it!\"",
+        "ur": "دونوں ہاتھ پکڑ کر پانی میں گئے۔ ابو نے ہاتھ بڑھا کر گیند پکڑ لی۔ \"مل گئی!\""
+      },
+      "cast": [
+        {
+          "art": "prop:beach_ball",
+          "x": 0.74,
+          "y": 0.45,
+          "size": 0.03,
+          "mood": "float",
+          "until": 2333
+        },
+        {
+          "art": "puppet:hamid",
+          "x": 0.32,
+          "y": 0.62,
+          "size": 0.2,
+          "pose": "hold_hand",
+          "act": "walk",
+          "mood": "happy"
+        },
+        {
+          "art": "puppet:baba",
+          "x": 0.5,
+          "y": 0.61,
+          "size": 0.29,
+          "pose": "hold_hand_l",
+          "act": "walk",
+          "mood": "happy",
+          "until": 2333
+        },
+        {
+          "art": "puppet:baba",
+          "x": 0.5,
+          "y": 0.61,
+          "size": 0.29,
+          "pose": "cheer",
+          "hold": "prop:beach_ball",
+          "holdSize": 0.14,
+          "act": "talk",
+          "face": "laugh",
+          "delay": 2333
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "دونوں",
+            "start": 3,
+            "end": 563
+          },
+          {
+            "w": "ہاتھ",
+            "start": 563,
+            "end": 843
+          },
+          {
+            "w": "پکڑ",
+            "start": 843,
+            "end": 1203
+          },
+          {
+            "w": "کر",
+            "start": 1203,
+            "end": 1423
+          },
+          {
+            "w": "پانی",
+            "start": 1423,
+            "end": 1793
+          },
+          {
+            "w": "میں",
+            "start": 1793,
+            "end": 2053
+          },
+          {
+            "w": "گئے۔",
+            "start": 2053,
+            "end": 2483
+          },
+          {
+            "w": "ابو",
+            "start": 2483,
+            "end": 2843
+          },
+          {
+            "w": "نے",
+            "start": 2843,
+            "end": 3093
+          },
+          {
+            "w": "ہاتھ",
+            "start": 3093,
+            "end": 3383
+          },
+          {
+            "w": "بڑھا",
+            "start": 3383,
+            "end": 3903
+          },
+          {
+            "w": "کر",
+            "start": 3903,
+            "end": 4013
+          },
+          {
+            "w": "گیند",
+            "start": 4013,
+            "end": 4373
+          },
+          {
+            "w": "پکڑ",
+            "start": 4373,
+            "end": 4733
+          },
+          {
+            "w": "لی۔",
+            "start": 4733,
+            "end": 5023
+          },
+          {
+            "w": "\"مل",
+            "start": 5023,
+            "end": 5663
+          },
+          {
+            "w": "گئی!\"",
+            "start": 5663,
+            "end": 6643
+          }
+        ]
+      }
+    },
+    {
+      "id": "p8",
+      "type": "page",
+      "next": null,
+      "scene": "beach_sunset",
+      "text": {
+        "en": "Hamid and Abbu played catch on the sand until the sun went down. \"Alhamdulillah,\" said Hamid. \"Best beach day ever!\"",
+        "ur": "حامد اور ابو شام تک ریت پر گیند سے کھیلتے رہے۔ \"الحمدللہ،\" حامد نے کہا۔ \"آج کا دن سب سے اچھا تھا!\""
+      },
+      "cast": [
+        {
+          "art": "prop:beach_ball",
+          "x": 0.5,
+          "y": 0.42,
+          "size": 0.035,
+          "orbit": {
+            "rx": 0.2,
+            "ry": 0.06,
+            "ms": 2800
+          }
+        },
+        {
+          "art": "puppet:baba",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 0.29,
+          "pose": "cheer",
+          "act": "bounce",
+          "mood": "happy"
+        },
+        {
+          "art": "puppet:hamid",
+          "x": 0.8,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "cheer",
+          "act": "bounce",
+          "face": "laugh"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "حامد",
+            "start": 8,
+            "end": 618
+          },
+          {
+            "w": "اور",
+            "start": 618,
+            "end": 788
+          },
+          {
+            "w": "ابو",
+            "start": 788,
+            "end": 1228
+          },
+          {
+            "w": "شام",
+            "start": 1228,
+            "end": 1558
+          },
+          {
+            "w": "تک",
+            "start": 1558,
+            "end": 1798
+          },
+          {
+            "w": "ریت",
+            "start": 1798,
+            "end": 2108
+          },
+          {
+            "w": "پر",
+            "start": 2108,
+            "end": 2328
+          },
+          {
+            "w": "گیند",
+            "start": 2328,
+            "end": 2868
+          },
+          {
+            "w": "سے",
+            "start": 2868,
+            "end": 2988
+          },
+          {
+            "w": "کھیلتے",
+            "start": 2988,
+            "end": 3648
+          },
+          {
+            "w": "رہے۔",
+            "start": 3648,
+            "end": 4108
+          },
+          {
+            "w": "\"الحمدللہ،\"",
+            "start": 4108,
+            "end": 5068
+          },
+          {
+            "w": "حامد",
+            "start": 5168,
+            "end": 5808
+          },
+          {
+            "w": "نے",
+            "start": 5808,
+            "end": 6178
+          },
+          {
+            "w": "کہا۔",
+            "start": 6178,
+            "end": 6768
+          },
+          {
+            "w": "\"آج",
+            "start": 6768,
+            "end": 7018
+          },
+          {
+            "w": "کا",
+            "start": 7018,
+            "end": 7378
+          },
+          {
+            "w": "دن",
+            "start": 7378,
+            "end": 7548
+          },
+          {
+            "w": "سب",
+            "start": 7548,
+            "end": 7868
+          },
+          {
+            "w": "سے",
+            "start": 7868,
+            "end": 8068
+          },
+          {
+            "w": "اچھا",
+            "start": 8068,
+            "end": 8588
+          },
+          {
+            "w": "تھا!\"",
+            "start": 8588,
+            "end": 9008
+          }
+        ]
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "id": "wave",
+      "picture": "prop:big_wave",
+      "word": {
+        "en": "wave",
+        "ur": "لہر"
+      },
+      "forms": {
+        "en": [
+          "waves"
+        ],
+        "ur": [
+          "لہروں",
+          "لہریں"
+        ]
+      }
+    },
+    {
+      "id": "deep",
+      "word": {
+        "en": "deep",
+        "ur": "گہرا"
+      },
+      "forms": {
+        "en": [],
+        "ur": [
+          "گہرے"
+        ]
+      }
+    },
+    {
+      "id": "safe",
+      "word": {
+        "en": "safe",
+        "ur": "محفوظ"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "sea",
+      "picture": "prop:wave_small",
+      "word": {
+        "en": "sea",
+        "ur": "سمندر"
+      },
+      "forms": {
+        "en": [
+          "beach"
+        ],
+        "ur": []
+      }
+    },
+    {
+      "id": "ball",
+      "picture": "prop:beach_ball",
+      "word": {
+        "en": "ball",
+        "ur": "گیند"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "hand",
+      "picture": "prop:hand_raise",
+      "word": {
+        "en": "hand",
+        "ur": "ہاتھ"
+      },
+      "forms": {
+        "en": [
+          "hands"
+        ],
+        "ur": []
+      }
+    },
+    {
+      "id": "sand",
+      "word": {
+        "en": "sand",
+        "ur": "ریت"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "water",
+      "word": {
+        "en": "water",
+        "ur": "پانی"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    }
+  ],
+  "vocabulary": [
+    "wave",
+    "deep",
+    "safe"
+  ],
+  "quiz": [
+    {
+      "question": {
+        "en": "What did Abbu ask Hamid to do in the water?",
+        "ur": "ابو نے پانی میں حامد سے کیا کہا؟"
+      },
+      "options": [
+        {
+          "picture": "prop:hand_raise",
+          "correct": true,
+          "label": {
+            "en": "Hold his hand",
+            "ur": "ہاتھ پکڑو"
+          }
+        },
+        {
+          "picture": "prop:run_away",
+          "label": {
+            "en": "Run fast",
+            "ur": "تیز بھاگو"
+          }
+        },
+        {
+          "picture": "prop:sleep",
+          "label": {
+            "en": "Go to sleep",
+            "ur": "سو جاؤ"
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "What did Hamid see far away?",
+        "ur": "حامد نے دور کیا دیکھا؟"
+      },
+      "options": [
+        {
+          "picture": "prop:beach_ball",
+          "correct": true
+        },
+        {
+          "picture": "prop:ship"
+        },
+        {
+          "picture": "prop:whale"
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "Who caught the ball?",
+        "ur": "گیند کس نے پکڑی؟"
+      },
+      "options": [
+        {
+          "picture": "puppet:baba",
+          "correct": true
+        },
+        {
+          "picture": "prop:fish"
+        },
+        {
+          "picture": "prop:gull"
+        }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": {
+        "en": "Throw the ball to Hamid!",
+        "ur": "گیند حامد کی طرف پھینکو!"
+      },
+      "item": "prop:beach_ball",
+      "options": [
+        {
+          "picture": "puppet:hamid",
+          "correct": true
+        },
+        {
+          "picture": "puppet:ammi"
+        },
+        {
+          "picture": "prop:umbrella"
+        }
+      ]
+    }
+  ]
+}

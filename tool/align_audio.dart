@@ -38,6 +38,8 @@
 //   --force           re-align pages that are already done
 //   --split <file>    cut one whole-story recording into page files (needs
 //                     one story id and --lang)
+//   --listen          with --split: only run Whisper and keep what it heard,
+//                     so the split itself later takes seconds
 import 'dart:convert';
 import 'dart:io';
 import 'dart:math' as math;
@@ -82,7 +84,14 @@ Future<void> main(List<String> args) async {
         'tippu_seed --lang ur --split tippu.mp3',
       );
     }
-    await _splitStory(files.single, opts.lang!, recording, whisper, model);
+    await _splitStory(
+      files.single,
+      opts.lang!,
+      recording,
+      whisper,
+      model,
+      listenOnly: opts.listen,
+    );
     return;
   }
   final langs = opts.lang == null ? _langs : [opts.lang!];
@@ -508,8 +517,9 @@ Future<void> _splitStory(
   String lang,
   String recording,
   String whisper,
-  String model,
-) async {
+  String model, {
+  bool listenOnly = false,
+}) async {
   final audio = File(recording);
   if (!audio.existsSync()) _fail('No recording $recording');
   final story = jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;
@@ -529,38 +539,10 @@ Future<void> _splitStory(
   final totalMs = frames.fold(0.0, (t, f) => t + f.ms).round();
 
   stdout.writeln('Listening to $recording (${_sec(totalMs)} s)...');
-  // What Whisper heard is kept, so running again after a change to the
-  // story text or this tool takes seconds instead of minutes.
-  final cache = File('build/align_cache/${storyId}_$lang.json');
-  final List<Heard> heard;
-  if (cache.existsSync() &&
-      cache.lastModifiedSync().isAfter(audio.lastModifiedSync())) {
-    heard = [
-      for (final h in jsonDecode(cache.readAsStringSync()) as List)
-        (
-          word: h['w'] as String,
-          start: h['start'] as int,
-          end: h['end'] as int,
-        ),
-    ];
-  } else {
-    heard = await _transcribe(
-      whisper,
-      model,
-      audio.path,
-      lang,
-      // The last page sets the script and names. Not the first: Whisper can
-      // take a recording that opens with its prompt as already heard, skip
-      // it, and restart its clock there.
-      (pages.last['text'] as Map)[lang] as String,
-    );
-    cache
-      ..parent.createSync(recursive: true)
-      ..writeAsStringSync(
-        jsonEncode([
-          for (final h in heard) {'w': h.word, 'start': h.start, 'end': h.end},
-        ]),
-      );
+  final heard = await _hear(story, lang, audio, whisper, model);
+  if (listenOnly) {
+    stdout.writeln('  ${heard.length} words heard and kept for --split');
+    return;
   }
   final spans = planPages(texts, heard);
   // Words heard after the last page (often its last words, misheard) belong
@@ -638,6 +620,52 @@ Future<void> _splitStory(
 
   file.writeAsStringSync('${prettyJson(story)}\n');
   stdout.writeln('${file.path}: ${timed.length} of ${pages.length} pages');
+}
+
+/// What Whisper heard in a whole-story [audio]. It is kept, so running again
+/// after a change to the story text or this tool takes seconds instead of
+/// minutes.
+Future<List<Heard>> _hear(
+  Map<String, dynamic> story,
+  String lang,
+  File audio,
+  String whisper,
+  String model,
+) async {
+  final cache = File('build/align_cache/${story['id']}_$lang.json');
+  if (cache.existsSync() &&
+      cache.lastModifiedSync().isAfter(audio.lastModifiedSync())) {
+    return [
+      for (final h in jsonDecode(cache.readAsStringSync()) as List)
+        (
+          word: h['w'] as String,
+          start: h['start'] as int,
+          end: h['end'] as int,
+        ),
+    ];
+  }
+  final pages = [
+    for (final n in (story['nodes'] as List).cast<Map<String, dynamic>>())
+      if ((n['type'] ?? 'page') == 'page') n,
+  ];
+  final heard = await _transcribe(
+    whisper,
+    model,
+    audio.path,
+    lang,
+    // The last page sets the script and names. Not the first: Whisper can
+    // take a recording that opens with its prompt as already heard, skip
+    // it, and restart its clock there.
+    (pages.last['text'] as Map)[lang] as String,
+  );
+  cache
+    ..parent.createSync(recursive: true)
+    ..writeAsStringSync(
+      jsonEncode([
+        for (final h in heard) {'w': h.word, 'start': h.start, 'end': h.end},
+      ]),
+    );
+  return heard;
 }
 
 String _sec(int ms) => (ms / 1000).toStringAsFixed(1);
@@ -742,7 +770,7 @@ String _flat(Object? value) => switch (value) {
 // ---- Options ---------------------------------------------------------------
 
 class _Options {
-  bool check = false, force = false;
+  bool check = false, force = false, listen = false;
   String? model, whisper, lang, split;
   final stories = <String>[];
 
@@ -756,6 +784,8 @@ class _Options {
           o.check = true;
         case '--force':
           o.force = true;
+        case '--listen':
+          o.listen = true;
         case '--model':
           o.model = value();
         case '--whisper':

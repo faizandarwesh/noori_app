@@ -1,0 +1,1947 @@
+{
+  "schemaVersion": 1,
+  "id": "kaku_crab_walk",
+  "start": "p1",
+  "characters": {
+    "kaku": {
+      "en": "Kaku",
+      "ur": "کاکو"
+    },
+    "tara": {
+      "en": "Tara",
+      "ur": "تارا"
+    }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "beach_rocks",
+      "text": {
+        "en": "Kaku was a little red crab. He lived on the beach, near a big rock.",
+        "ur": "کاکو ایک ننھا سا لال کیکڑا تھا۔ وہ سمندر کنارے ایک بڑے پتھر کے پاس رہتا تھا۔"
+      },
+      "cast": [
+        {
+          "art": "puppet:kaku",
+          "x": 0.52,
+          "y": 0.67,
+          "size": 0.12,
+          "pose": "wave",
+          "act": "wave",
+          "face": "happy"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "کاکو",
+            "start": 78,
+            "end": 408
+          },
+          {
+            "w": "ایک",
+            "start": 408,
+            "end": 768
+          },
+          {
+            "w": "ننھا",
+            "start": 768,
+            "end": 1208
+          },
+          {
+            "w": "سا",
+            "start": 1208,
+            "end": 1508
+          },
+          {
+            "w": "لال",
+            "start": 1508,
+            "end": 1788
+          },
+          {
+            "w": "کیکڑا",
+            "start": 1788,
+            "end": 2468
+          },
+          {
+            "w": "تھا۔",
+            "start": 2468,
+            "end": 3088
+          },
+          {
+            "w": "وہ",
+            "start": 3088,
+            "end": 3288
+          },
+          {
+            "w": "سمندر",
+            "start": 3288,
+            "end": 3788
+          },
+          {
+            "w": "کنارے",
+            "start": 3788,
+            "end": 4288
+          },
+          {
+            "w": "ایک",
+            "start": 4288,
+            "end": 4648
+          },
+          {
+            "w": "بڑے",
+            "start": 4648,
+            "end": 4988
+          },
+          {
+            "w": "پتھر",
+            "start": 4988,
+            "end": 5388
+          },
+          {
+            "w": "کے",
+            "start": 5388,
+            "end": 5588
+          },
+          {
+            "w": "پاس",
+            "start": 5588,
+            "end": 5888
+          },
+          {
+            "w": "رہتا",
+            "start": 5888,
+            "end": 6438
+          },
+          {
+            "w": "تھا۔",
+            "start": 6438,
+            "end": 6688
+          }
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "beach_rocks",
+      "text": {
+        "en": "Kaku did not walk straight like the others. He walked sideways! Tip-tap, tip-tap, this way and that way.",
+        "ur": "کاکو دوسروں کی طرح سیدھا نہیں چلتا تھا۔ وہ ٹیڑھا چلتا تھا! ٹپ ٹپ، ٹپ ٹپ، اِدھر سے اُدھر۔"
+      },
+      "cast": [
+        {
+          "art": "prop:footprints",
+          "x": 0.42,
+          "y": 0.74,
+          "size": 0.035
+        },
+        {
+          "art": "puppet:kaku",
+          "x": 0.5,
+          "y": 0.68,
+          "size": 0.12,
+          "act": "walk",
+          "face": "happy",
+          "orbit": {
+            "rx": 0.2,
+            "ry": 0.004,
+            "ms": 4200
+          }
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "کاکو",
+            "start": 0,
+            "end": 370
+          },
+          {
+            "w": "دوسروں",
+            "start": 370,
+            "end": 900
+          },
+          {
+            "w": "کی",
+            "start": 900,
+            "end": 1080
+          },
+          {
+            "w": "طرح",
+            "start": 1080,
+            "end": 1530
+          },
+          {
+            "w": "سیدھا",
+            "start": 1530,
+            "end": 1890
+          },
+          {
+            "w": "نہیں",
+            "start": 1890,
+            "end": 2260
+          },
+          {
+            "w": "چلتا",
+            "start": 2260,
+            "end": 2620
+          },
+          {
+            "w": "تھا۔",
+            "start": 2620,
+            "end": 3000
+          },
+          {
+            "w": "وہ",
+            "start": 3000,
+            "end": 3210
+          },
+          {
+            "w": "ٹیڑھا",
+            "start": 3210,
+            "end": 3910
+          },
+          {
+            "w": "چلتا",
+            "start": 3910,
+            "end": 4310
+          },
+          {
+            "w": "تھا!",
+            "start": 4310,
+            "end": 4800
+          },
+          {
+            "w": "ٹپ",
+            "start": 4800,
+            "end": 5170
+          },
+          {
+            "w": "ٹپ،",
+            "start": 5170,
+            "end": 5450
+          },
+          {
+            "w": "ٹپ",
+            "start": 5450,
+            "end": 5700
+          },
+          {
+            "w": "ٹپ،",
+            "start": 5700,
+            "end": 6150
+          },
+          {
+            "w": "اِدھر",
+            "start": 6150,
+            "end": 6590
+          },
+          {
+            "w": "سے",
+            "start": 6590,
+            "end": 6810
+          },
+          {
+            "w": "اُدھر۔",
+            "start": 6810,
+            "end": 7300
+          }
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "beach_rocks",
+      "text": {
+        "en": "Two little fish, Chunnu and Munnu, laughed at him. \"Ha ha! Kaku can't even walk properly!\" Kaku felt very sad.",
+        "ur": "دو ننھی مچھلیاں، چنو اور منو، اس پر ہنسنے لگیں۔ \"ہا ہا! کاکو کو تو چلنا بھی نہیں آتا!\" کاکو بہت اداس ہو گیا۔"
+      },
+      "cast": [
+        {
+          "art": "prop:fish_blue",
+          "x": 0.4,
+          "y": 0.69,
+          "size": 0.045,
+          "mood": "happy"
+        },
+        {
+          "art": "prop:fish_pink",
+          "x": 0.58,
+          "y": 0.69,
+          "size": 0.045,
+          "mood": "happy",
+          "flip": true
+        },
+        {
+          "art": "puppet:kaku",
+          "x": 0.84,
+          "y": 0.71,
+          "size": 0.11,
+          "face": "sad",
+          "mood": "sad",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "دو",
+            "start": 12,
+            "end": 272
+          },
+          {
+            "w": "ننھی",
+            "start": 272,
+            "end": 832
+          },
+          {
+            "w": "مچھلیاں،",
+            "start": 832,
+            "end": 1812
+          },
+          {
+            "w": "چنو",
+            "start": 1812,
+            "end": 2372
+          },
+          {
+            "w": "اور",
+            "start": 2372,
+            "end": 2742
+          },
+          {
+            "w": "منو،",
+            "start": 2742,
+            "end": 3412
+          },
+          {
+            "w": "اس",
+            "start": 3412,
+            "end": 3622
+          },
+          {
+            "w": "پر",
+            "start": 3622,
+            "end": 3822
+          },
+          {
+            "w": "ہنسنے",
+            "start": 3822,
+            "end": 4222
+          },
+          {
+            "w": "لگیں۔",
+            "start": 4222,
+            "end": 4812
+          },
+          {
+            "w": "\"ہا",
+            "start": 4812,
+            "end": 5062
+          },
+          {
+            "w": "ہا!",
+            "start": 5062,
+            "end": 5312
+          },
+          {
+            "w": "کاکو",
+            "start": 5062,
+            "end": 5382
+          },
+          {
+            "w": "کو",
+            "start": 5382,
+            "end": 5692
+          },
+          {
+            "w": "تو",
+            "start": 5692,
+            "end": 5962
+          },
+          {
+            "w": "چلنا",
+            "start": 5962,
+            "end": 6542
+          },
+          {
+            "w": "بھی",
+            "start": 6542,
+            "end": 7012
+          },
+          {
+            "w": "نہیں",
+            "start": 7012,
+            "end": 7562
+          },
+          {
+            "w": "آتا!\"",
+            "start": 7562,
+            "end": 8112
+          },
+          {
+            "w": "کاکو",
+            "start": 8112,
+            "end": 8602
+          },
+          {
+            "w": "بہت",
+            "start": 8602,
+            "end": 8992
+          },
+          {
+            "w": "اداس",
+            "start": 8992,
+            "end": 9472
+          },
+          {
+            "w": "ہو",
+            "start": 9472,
+            "end": 9722
+          },
+          {
+            "w": "گیا۔",
+            "start": 9722,
+            "end": 10312
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "choice",
+      "scene": "beach_rocks",
+      "text": {
+        "en": "Tara the turtle saw everything. Chunnu called, \"Tara, come and laugh with us!\" What should Tara do?",
+        "ur": "تارا کچھوی یہ سب دیکھ رہی تھی۔ چنو نے آواز دی، \"تارا، آؤ تم بھی ہنسو!\" تارا کو کیا کرنا چاہیے؟"
+      },
+      "cast": [
+        {
+          "art": "prop:fish_blue",
+          "x": 0.4,
+          "y": 0.69,
+          "size": 0.045,
+          "mood": "happy"
+        },
+        {
+          "art": "prop:fish_pink",
+          "x": 0.58,
+          "y": 0.69,
+          "size": 0.045,
+          "mood": "happy",
+          "flip": true
+        },
+        {
+          "art": "puppet:tara",
+          "x": 0.2,
+          "y": 0.69,
+          "size": 0.16,
+          "face": "think",
+          "look": "right"
+        },
+        {
+          "art": "puppet:kaku",
+          "x": 0.86,
+          "y": 0.71,
+          "size": 0.1,
+          "face": "sad",
+          "mood": "sad",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "تارا",
+            "start": 20,
+            "end": 430
+          },
+          {
+            "w": "کچھوی",
+            "start": 430,
+            "end": 840
+          },
+          {
+            "w": "یہ",
+            "start": 840,
+            "end": 1030
+          },
+          {
+            "w": "سب",
+            "start": 1030,
+            "end": 1230
+          },
+          {
+            "w": "دیکھ",
+            "start": 1230,
+            "end": 1630
+          },
+          {
+            "w": "رہی",
+            "start": 1630,
+            "end": 1930
+          },
+          {
+            "w": "تھی۔",
+            "start": 1930,
+            "end": 2440
+          },
+          {
+            "w": "چنو",
+            "start": 2560,
+            "end": 2920
+          },
+          {
+            "w": "نے",
+            "start": 2920,
+            "end": 3160
+          },
+          {
+            "w": "آواز",
+            "start": 3160,
+            "end": 3640
+          },
+          {
+            "w": "دی،",
+            "start": 3640,
+            "end": 4020
+          },
+          {
+            "w": "\"تارا،",
+            "start": 4020,
+            "end": 4670
+          },
+          {
+            "w": "آؤ",
+            "start": 4670,
+            "end": 5060
+          },
+          {
+            "w": "تم",
+            "start": 5060,
+            "end": 5330
+          },
+          {
+            "w": "بھی",
+            "start": 5330,
+            "end": 5720
+          },
+          {
+            "w": "ہنسو!\"",
+            "start": 5720,
+            "end": 6320
+          },
+          {
+            "w": "تارا",
+            "start": 6320,
+            "end": 6730
+          },
+          {
+            "w": "کو",
+            "start": 6730,
+            "end": 6970
+          },
+          {
+            "w": "کیا",
+            "start": 6970,
+            "end": 7250
+          },
+          {
+            "w": "کرنا",
+            "start": 7250,
+            "end": 7670
+          },
+          {
+            "w": "چاہیے؟",
+            "start": 7670,
+            "end": 8380
+          }
+        ]
+      }
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": {
+        "en": "What should Tara do?",
+        "ur": "تارا کو کیا کرنا چاہیے؟"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "en": "Stand with Kaku",
+            "ur": "کاکو کا ساتھ دے"
+          },
+          "picture": "puppet:kaku",
+          "next": "choice_a"
+        },
+        {
+          "id": "b",
+          "label": {
+            "en": "Laugh with them",
+            "ur": "ان کے ساتھ ہنسے"
+          },
+          "picture": "prop:fish_blue",
+          "next": "choice_b"
+        }
+      ]
+    },
+    {
+      "id": "choice_a",
+      "type": "page",
+      "next": "p5",
+      "scene": "beach_rocks",
+      "text": {
+        "en": "Tara shook her head. \"No. Making fun of someone is not nice.\" She went to Kaku. \"Kaku, will you be my friend?\"",
+        "ur": "تارا نے سر ہلایا۔ \"نہیں۔ کسی کا مذاق اڑانا اچھی بات نہیں۔\" وہ کاکو کے پاس آئی۔ \"کاکو، کیا تم میرے دوست بنو گے؟\""
+      },
+      "cast": [
+        {
+          "art": "prop:fish_blue",
+          "x": 0.4,
+          "y": 0.69,
+          "size": 0.045,
+          "mood": "idle"
+        },
+        {
+          "art": "prop:fish_pink",
+          "x": 0.58,
+          "y": 0.69,
+          "size": 0.045,
+          "mood": "idle",
+          "flip": true
+        },
+        {
+          "art": "puppet:tara",
+          "x": 0.56,
+          "y": 0.7,
+          "size": 0.16,
+          "act": "walk+talk",
+          "mood": "happy",
+          "look": "right",
+          "enter": "left"
+        },
+        {
+          "art": "puppet:kaku",
+          "x": 0.82,
+          "y": 0.71,
+          "size": 0.11,
+          "face": "surprised",
+          "look": "left",
+          "until": 6951
+        },
+        {
+          "art": "puppet:kaku",
+          "x": 0.82,
+          "y": 0.71,
+          "size": 0.11,
+          "pose": "cheer",
+          "act": "bounce",
+          "face": "happy",
+          "look": "left",
+          "delay": 6951
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "تارا",
+            "start": 21,
+            "end": 471
+          },
+          {
+            "w": "نے",
+            "start": 471,
+            "end": 701
+          },
+          {
+            "w": "سر",
+            "start": 701,
+            "end": 921
+          },
+          {
+            "w": "ہلایا۔",
+            "start": 921,
+            "end": 1661
+          },
+          {
+            "w": "\"نہیں۔",
+            "start": 1661,
+            "end": 2181
+          },
+          {
+            "w": "کسی",
+            "start": 2181,
+            "end": 2481
+          },
+          {
+            "w": "کا",
+            "start": 2481,
+            "end": 2691
+          },
+          {
+            "w": "مذاق",
+            "start": 2691,
+            "end": 3091
+          },
+          {
+            "w": "اڑانا",
+            "start": 3091,
+            "end": 3691
+          },
+          {
+            "w": "اچھی",
+            "start": 3691,
+            "end": 4091
+          },
+          {
+            "w": "بات",
+            "start": 4091,
+            "end": 4391
+          },
+          {
+            "w": "نہیں۔\"",
+            "start": 4391,
+            "end": 5021
+          },
+          {
+            "w": "وہ",
+            "start": 5021,
+            "end": 5221
+          },
+          {
+            "w": "کاکو",
+            "start": 5221,
+            "end": 5671
+          },
+          {
+            "w": "کے",
+            "start": 5671,
+            "end": 5841
+          },
+          {
+            "w": "پاس",
+            "start": 5841,
+            "end": 6121
+          },
+          {
+            "w": "آئی۔",
+            "start": 6121,
+            "end": 6541
+          },
+          {
+            "w": "\"کاکو،",
+            "start": 6541,
+            "end": 7101
+          },
+          {
+            "w": "کیا",
+            "start": 7101,
+            "end": 7441
+          },
+          {
+            "w": "تم",
+            "start": 7441,
+            "end": 7671
+          },
+          {
+            "w": "میرے",
+            "start": 7671,
+            "end": 8121
+          },
+          {
+            "w": "دوست",
+            "start": 8121,
+            "end": 8571
+          },
+          {
+            "w": "بنو",
+            "start": 8571,
+            "end": 8911
+          },
+          {
+            "w": "گے؟\"",
+            "start": 8911,
+            "end": 9321
+          }
+        ]
+      }
+    },
+    {
+      "id": "choice_b",
+      "type": "page",
+      "next": "p5",
+      "scene": "beach_rocks",
+      "text": {
+        "en": "Tara giggled a little. Then she saw Kaku's sad face. \"Oh no. That was not nice.\" She went to Kaku. \"Sorry, Kaku. Will you be my friend?\"",
+        "ur": "تارا تھوڑا سا ہنسی۔ پھر اس نے کاکو کا اداس چہرہ دیکھا۔ \"اوہ! یہ اچھا نہیں تھا۔\" وہ کاکو کے پاس آئی۔ \"معاف کرنا کاکو۔ کیا تم میرے دوست بنو گے؟\""
+      },
+      "cast": [
+        {
+          "art": "prop:fish_blue",
+          "x": 0.4,
+          "y": 0.69,
+          "size": 0.045,
+          "mood": "happy"
+        },
+        {
+          "art": "prop:fish_pink",
+          "x": 0.58,
+          "y": 0.69,
+          "size": 0.045,
+          "mood": "happy",
+          "flip": true
+        },
+        {
+          "art": "puppet:tara",
+          "x": 0.22,
+          "y": 0.69,
+          "size": 0.16,
+          "act": "laugh",
+          "face": "laugh",
+          "until": 2491
+        },
+        {
+          "art": "puppet:tara",
+          "x": 0.22,
+          "y": 0.69,
+          "size": 0.16,
+          "face": "sad",
+          "look": "right",
+          "delay": 2491,
+          "until": 7531
+        },
+        {
+          "art": "puppet:tara",
+          "x": 0.6,
+          "y": 0.7,
+          "size": 0.16,
+          "act": "walk+talk",
+          "face": "shy",
+          "look": "right",
+          "enter": "left",
+          "delay": 7531
+        },
+        {
+          "art": "puppet:kaku",
+          "x": 0.84,
+          "y": 0.71,
+          "size": 0.11,
+          "face": "sad",
+          "look": "left",
+          "until": 10371
+        },
+        {
+          "art": "puppet:kaku",
+          "x": 0.84,
+          "y": 0.71,
+          "size": 0.11,
+          "pose": "cheer",
+          "act": "bounce",
+          "face": "happy",
+          "look": "left",
+          "delay": 10371
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "تارا",
+            "start": 21,
+            "end": 671
+          },
+          {
+            "w": "تھوڑا",
+            "start": 671,
+            "end": 1621
+          },
+          {
+            "w": "سا",
+            "start": 1621,
+            "end": 1941
+          },
+          {
+            "w": "ہنسی۔",
+            "start": 1941,
+            "end": 2641
+          },
+          {
+            "w": "پھر",
+            "start": 2641,
+            "end": 2911
+          },
+          {
+            "w": "اس",
+            "start": 2911,
+            "end": 3101
+          },
+          {
+            "w": "نے",
+            "start": 3101,
+            "end": 3291
+          },
+          {
+            "w": "کاکو",
+            "start": 3291,
+            "end": 3661
+          },
+          {
+            "w": "کا",
+            "start": 3661,
+            "end": 3851
+          },
+          {
+            "w": "اداس",
+            "start": 3851,
+            "end": 4221
+          },
+          {
+            "w": "چہرہ",
+            "start": 4221,
+            "end": 4581
+          },
+          {
+            "w": "دیکھا۔",
+            "start": 4581,
+            "end": 5281
+          },
+          {
+            "w": "\"اوہ!",
+            "start": 5281,
+            "end": 5801
+          },
+          {
+            "w": "یہ",
+            "start": 5801,
+            "end": 6101
+          },
+          {
+            "w": "اچھا",
+            "start": 6101,
+            "end": 6581
+          },
+          {
+            "w": "نہیں",
+            "start": 6581,
+            "end": 7111
+          },
+          {
+            "w": "تھا۔\"",
+            "start": 7111,
+            "end": 7681
+          },
+          {
+            "w": "وہ",
+            "start": 7681,
+            "end": 7891
+          },
+          {
+            "w": "کاکو",
+            "start": 7891,
+            "end": 8331
+          },
+          {
+            "w": "کے",
+            "start": 8331,
+            "end": 8511
+          },
+          {
+            "w": "پاس",
+            "start": 8511,
+            "end": 8821
+          },
+          {
+            "w": "آئی۔",
+            "start": 8821,
+            "end": 9281
+          },
+          {
+            "w": "\"معاف",
+            "start": 9281,
+            "end": 9651
+          },
+          {
+            "w": "کرنا",
+            "start": 9651,
+            "end": 10011
+          },
+          {
+            "w": "کاکو۔",
+            "start": 10011,
+            "end": 10521
+          },
+          {
+            "w": "کیا",
+            "start": 10521,
+            "end": 10841
+          },
+          {
+            "w": "تم",
+            "start": 10841,
+            "end": 11041
+          },
+          {
+            "w": "میرے",
+            "start": 11041,
+            "end": 11491
+          },
+          {
+            "w": "دوست",
+            "start": 11491,
+            "end": 11881
+          },
+          {
+            "w": "بنو",
+            "start": 11881,
+            "end": 12171
+          },
+          {
+            "w": "گے؟\"",
+            "start": 12171,
+            "end": 12581
+          }
+        ]
+      }
+    },
+    {
+      "id": "p5",
+      "type": "page",
+      "next": "p6",
+      "scene": "beach_rocks",
+      "text": {
+        "en": "Just then, a big wave came. Whoosh! Chunnu and Munnu's ball got stuck between the rocks. \"Oh no! We can't reach it!\"",
+        "ur": "اتنے میں ایک بڑی لہر آئی۔ شوں! چنو منو کی گیند پتھروں کے بیچ میں پھنس گئی۔ \"ارے! ہم وہاں تک نہیں پہنچ سکتے!\""
+      },
+      "cast": [
+        {
+          "art": "prop:ball_stuck",
+          "x": 0.5,
+          "y": 0.64,
+          "size": 0.16
+        },
+        {
+          "art": "prop:big_wave",
+          "x": 0.72,
+          "y": 0.6,
+          "size": 0.16,
+          "enter": "right",
+          "until": 2955
+        },
+        {
+          "art": "prop:fish_blue",
+          "x": 0.2,
+          "y": 0.7,
+          "size": 0.045,
+          "mood": "worried"
+        },
+        {
+          "art": "prop:fish_pink",
+          "x": 0.34,
+          "y": 0.7,
+          "size": 0.045,
+          "mood": "worried",
+          "flip": true
+        },
+        {
+          "art": "puppet:kaku",
+          "x": 0.84,
+          "y": 0.71,
+          "size": 0.1,
+          "face": "surprised",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "اتنے",
+            "start": 68,
+            "end": 458
+          },
+          {
+            "w": "میں",
+            "start": 458,
+            "end": 858
+          },
+          {
+            "w": "ایک",
+            "start": 858,
+            "end": 1258
+          },
+          {
+            "w": "بڑی",
+            "start": 1258,
+            "end": 1778
+          },
+          {
+            "w": "لہر",
+            "start": 1778,
+            "end": 2168
+          },
+          {
+            "w": "آئی۔",
+            "start": 2168,
+            "end": 2798
+          },
+          {
+            "w": "شوں!",
+            "start": 2798,
+            "end": 3105
+          },
+          {
+            "w": "چنو",
+            "start": 3105,
+            "end": 3411
+          },
+          {
+            "w": "منو",
+            "start": 3411,
+            "end": 3718
+          },
+          {
+            "w": "کی",
+            "start": 3718,
+            "end": 3948
+          },
+          {
+            "w": "گیند",
+            "start": 3948,
+            "end": 4408
+          },
+          {
+            "w": "پتھروں",
+            "start": 4408,
+            "end": 5088
+          },
+          {
+            "w": "کے",
+            "start": 5088,
+            "end": 5318
+          },
+          {
+            "w": "بیچ",
+            "start": 5318,
+            "end": 5568
+          },
+          {
+            "w": "میں",
+            "start": 5568,
+            "end": 6128
+          },
+          {
+            "w": "پھنس",
+            "start": 6128,
+            "end": 6458
+          },
+          {
+            "w": "گئی۔",
+            "start": 6458,
+            "end": 7098
+          },
+          {
+            "w": "\"ارے!",
+            "start": 7098,
+            "end": 7578
+          },
+          {
+            "w": "ہم",
+            "start": 7578,
+            "end": 7818
+          },
+          {
+            "w": "وہاں",
+            "start": 7818,
+            "end": 8298
+          },
+          {
+            "w": "تک",
+            "start": 8298,
+            "end": 8658
+          },
+          {
+            "w": "نہیں",
+            "start": 8658,
+            "end": 9018
+          },
+          {
+            "w": "پہنچ",
+            "start": 9018,
+            "end": 9498
+          },
+          {
+            "w": "سکتے!\"",
+            "start": 9498,
+            "end": 10138
+          }
+        ]
+      }
+    },
+    {
+      "id": "p6",
+      "type": "page",
+      "next": "p7",
+      "scene": "beach_rocks",
+      "text": {
+        "en": "But Kaku could! Tip-tap, tip-tap, he walked sideways into the gap and pushed the ball out. \"Here you go!\"",
+        "ur": "مگر کاکو پہنچ سکتا تھا! ٹپ ٹپ، ٹپ ٹپ، وہ ٹیڑھا چلتا ہوا اندر گیا اور گیند باہر نکال دی۔ \"یہ لو!\""
+      },
+      "help": {
+        "kind": "drag",
+        "item": 5,
+        "to": 0
+      },
+      "cast": [
+        {
+          "art": "prop:ball_stuck",
+          "x": 0.5,
+          "y": 0.63,
+          "size": 0.12,
+          "helpHide": 1
+        },
+        {
+          "art": "prop:big_rocks",
+          "x": 0.5,
+          "y": 0.64,
+          "size": 0.16,
+          "helpStep": 1
+        },
+        {
+          "art": "prop:ball",
+          "x": 0.38,
+          "y": 0.7,
+          "size": 0.045,
+          "enter": "grow",
+          "helpStep": 1
+        },
+        {
+          "art": "prop:fish_blue",
+          "x": 0.16,
+          "y": 0.7,
+          "size": 0.045,
+          "mood": "happy",
+          "helpStep": 1
+        },
+        {
+          "art": "prop:fish_pink",
+          "x": 0.28,
+          "y": 0.7,
+          "size": 0.045,
+          "mood": "happy",
+          "flip": true,
+          "helpStep": 1
+        },
+        {
+          "art": "puppet:kaku",
+          "x": 0.82,
+          "y": 0.71,
+          "size": 0.1,
+          "act": "walk",
+          "face": "happy",
+          "look": "left",
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:kaku",
+          "x": 0.62,
+          "y": 0.71,
+          "size": 0.1,
+          "pose": "cheer",
+          "act": "bounce",
+          "face": "laugh",
+          "helpStep": 1
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "مگر",
+            "start": 2,
+            "end": 372
+          },
+          {
+            "w": "کاکو",
+            "start": 372,
+            "end": 822
+          },
+          {
+            "w": "پہنچ",
+            "start": 822,
+            "end": 1212
+          },
+          {
+            "w": "سکتا",
+            "start": 1212,
+            "end": 1652
+          },
+          {
+            "w": "تھا!",
+            "start": 1652,
+            "end": 2142
+          },
+          {
+            "w": "ٹپ",
+            "start": 2142,
+            "end": 2422
+          },
+          {
+            "w": "ٹپ،",
+            "start": 2422,
+            "end": 2792
+          },
+          {
+            "w": "ٹپ",
+            "start": 2792,
+            "end": 3072
+          },
+          {
+            "w": "ٹپ،",
+            "start": 3072,
+            "end": 3542
+          },
+          {
+            "w": "وہ",
+            "start": 3542,
+            "end": 3702
+          },
+          {
+            "w": "ٹیڑھا",
+            "start": 3702,
+            "end": 4202
+          },
+          {
+            "w": "چلتا",
+            "start": 4202,
+            "end": 4502
+          },
+          {
+            "w": "ہوا",
+            "start": 4502,
+            "end": 4742
+          },
+          {
+            "w": "اندر",
+            "start": 4742,
+            "end": 5022
+          },
+          {
+            "w": "گیا",
+            "start": 5022,
+            "end": 5492
+          },
+          {
+            "w": "اور",
+            "start": 5492,
+            "end": 5722
+          },
+          {
+            "w": "گیند",
+            "start": 5722,
+            "end": 6162
+          },
+          {
+            "w": "باہر",
+            "start": 6162,
+            "end": 6602
+          },
+          {
+            "w": "نکال",
+            "start": 6602,
+            "end": 7042
+          },
+          {
+            "w": "دی۔",
+            "start": 7042,
+            "end": 7422
+          },
+          {
+            "w": "\"یہ",
+            "start": 7422,
+            "end": 7832
+          },
+          {
+            "w": "لو!\"",
+            "start": 7832,
+            "end": 8422
+          }
+        ]
+      }
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": "p8",
+      "scene": "beach_rocks",
+      "text": {
+        "en": "Chunnu and Munnu felt sorry. \"Sorry, Kaku. We were wrong. Your walk is special!\"",
+        "ur": "چنو اور منو کو بہت افسوس ہوا۔ \"معاف کرنا کاکو۔ ہم غلط تھے۔ تمہاری چال تو خاص ہے!\""
+      },
+      "cast": [
+        {
+          "art": "prop:ball",
+          "x": 0.18,
+          "y": 0.72,
+          "size": 0.04
+        },
+        {
+          "art": "prop:fish_blue",
+          "x": 0.34,
+          "y": 0.69,
+          "size": 0.045,
+          "mood": "shy"
+        },
+        {
+          "art": "prop:fish_pink",
+          "x": 0.5,
+          "y": 0.69,
+          "size": 0.045,
+          "mood": "shy",
+          "flip": true
+        },
+        {
+          "art": "puppet:kaku",
+          "x": 0.76,
+          "y": 0.71,
+          "size": 0.11,
+          "face": "happy",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "چنو",
+            "start": 11,
+            "end": 451
+          },
+          {
+            "w": "اور",
+            "start": 451,
+            "end": 831
+          },
+          {
+            "w": "منو",
+            "start": 831,
+            "end": 1221
+          },
+          {
+            "w": "کو",
+            "start": 1221,
+            "end": 1441
+          },
+          {
+            "w": "بہت",
+            "start": 1441,
+            "end": 1771
+          },
+          {
+            "w": "افسوس",
+            "start": 1771,
+            "end": 2311
+          },
+          {
+            "w": "ہوا۔",
+            "start": 2311,
+            "end": 2831
+          },
+          {
+            "w": "\"معاف",
+            "start": 2831,
+            "end": 3241
+          },
+          {
+            "w": "کرنا",
+            "start": 3241,
+            "end": 3771
+          },
+          {
+            "w": "کاکو۔",
+            "start": 3771,
+            "end": 4431
+          },
+          {
+            "w": "ہم",
+            "start": 4431,
+            "end": 4691
+          },
+          {
+            "w": "غلط",
+            "start": 4691,
+            "end": 5081
+          },
+          {
+            "w": "تھے۔",
+            "start": 5081,
+            "end": 5691
+          },
+          {
+            "w": "تمہاری",
+            "start": 5691,
+            "end": 6431
+          },
+          {
+            "w": "چال",
+            "start": 6431,
+            "end": 6801
+          },
+          {
+            "w": "تو",
+            "start": 6801,
+            "end": 7051
+          },
+          {
+            "w": "خاص",
+            "start": 7051,
+            "end": 7421
+          },
+          {
+            "w": "ہے!\"",
+            "start": 7421,
+            "end": 7831
+          }
+        ]
+      }
+    },
+    {
+      "id": "p8",
+      "type": "page",
+      "next": null,
+      "scene": "beach_rocks_sunset",
+      "text": {
+        "en": "Allah made everyone different, and everyone special. Now all four friends play together every day. Tip-tap, splash, splash!",
+        "ur": "اللہ تعالیٰ نے ہر ایک کو الگ بنایا ہے، اور ہر ایک کو خاص۔ اب چاروں دوست روز مل کر کھیلتے ہیں۔ ٹپ ٹپ، چھپاک چھپاک!"
+      },
+      "cast": [
+        {
+          "art": "prop:ball",
+          "x": 0.5,
+          "y": 0.52,
+          "size": 0.04,
+          "orbit": {
+            "rx": 0.16,
+            "ry": 0.05,
+            "ms": 3000
+          }
+        },
+        {
+          "art": "puppet:tara",
+          "x": 0.22,
+          "y": 0.7,
+          "size": 0.16,
+          "pose": "cheer",
+          "act": "bounce",
+          "face": "laugh"
+        },
+        {
+          "art": "puppet:kaku",
+          "x": 0.5,
+          "y": 0.72,
+          "size": 0.11,
+          "pose": "cheer",
+          "act": "bounce",
+          "face": "laugh"
+        },
+        {
+          "art": "prop:fish_blue",
+          "x": 0.72,
+          "y": 0.69,
+          "size": 0.045,
+          "mood": "float"
+        },
+        {
+          "art": "prop:fish_pink",
+          "x": 0.86,
+          "y": 0.69,
+          "size": 0.045,
+          "mood": "float",
+          "flip": true
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "اللہ",
+            "start": 20,
+            "end": 390
+          },
+          {
+            "w": "تعالیٰ",
+            "start": 390,
+            "end": 940
+          },
+          {
+            "w": "نے",
+            "start": 940,
+            "end": 1110
+          },
+          {
+            "w": "ہر",
+            "start": 1110,
+            "end": 1270
+          },
+          {
+            "w": "ایک",
+            "start": 1270,
+            "end": 1580
+          },
+          {
+            "w": "کو",
+            "start": 1580,
+            "end": 1690
+          },
+          {
+            "w": "الگ",
+            "start": 1690,
+            "end": 1940
+          },
+          {
+            "w": "بنایا",
+            "start": 1940,
+            "end": 2380
+          },
+          {
+            "w": "ہے،",
+            "start": 2380,
+            "end": 3040
+          },
+          {
+            "w": "اور",
+            "start": 3170,
+            "end": 3460
+          },
+          {
+            "w": "ہر",
+            "start": 3460,
+            "end": 3740
+          },
+          {
+            "w": "ایک",
+            "start": 3740,
+            "end": 4160
+          },
+          {
+            "w": "کو",
+            "start": 4160,
+            "end": 4440
+          },
+          {
+            "w": "خاص۔",
+            "start": 4440,
+            "end": 5020
+          },
+          {
+            "w": "اب",
+            "start": 5020,
+            "end": 5270
+          },
+          {
+            "w": "چاروں",
+            "start": 5270,
+            "end": 5900
+          },
+          {
+            "w": "دوست",
+            "start": 5900,
+            "end": 6380
+          },
+          {
+            "w": "روز",
+            "start": 6380,
+            "end": 6740
+          },
+          {
+            "w": "مل",
+            "start": 6740,
+            "end": 6980
+          },
+          {
+            "w": "کر",
+            "start": 6980,
+            "end": 7220
+          },
+          {
+            "w": "کھیلتے",
+            "start": 7220,
+            "end": 8330
+          },
+          {
+            "w": "ہیں۔",
+            "start": 8330,
+            "end": 8560
+          },
+          {
+            "w": "ٹپ",
+            "start": 8560,
+            "end": 8930
+          },
+          {
+            "w": "ٹپ،",
+            "start": 8930,
+            "end": 9260
+          },
+          {
+            "w": "چھپاک",
+            "start": 9260,
+            "end": 9660
+          },
+          {
+            "w": "چھپاک!",
+            "start": 9660,
+            "end": 10200
+          }
+        ]
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "id": "crab",
+      "picture": "puppet:kaku",
+      "word": {
+        "en": "crab",
+        "ur": "کیکڑا"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "special",
+      "picture": "prop:star",
+      "word": {
+        "en": "special",
+        "ur": "خاص"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "different",
+      "word": {
+        "en": "different",
+        "ur": "الگ"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "turtle",
+      "picture": "puppet:tara",
+      "word": {
+        "en": "turtle",
+        "ur": "کچھوا"
+      },
+      "forms": {
+        "en": [],
+        "ur": [
+          "کچھوی"
+        ]
+      }
+    },
+    {
+      "id": "fish_blue",
+      "picture": "prop:fish_blue",
+      "word": {
+        "en": "fish",
+        "ur": "مچھلی"
+      },
+      "forms": {
+        "en": [
+          "Chunnu"
+        ],
+        "ur": [
+          "چنو",
+          "مچھلیاں"
+        ]
+      }
+    },
+    {
+      "id": "fish_pink",
+      "picture": "prop:fish_pink",
+      "word": {
+        "en": "fish",
+        "ur": "مچھلی"
+      },
+      "forms": {
+        "en": [
+          "Munnu"
+        ],
+        "ur": [
+          "منو"
+        ]
+      }
+    },
+    {
+      "id": "ball",
+      "picture": "prop:ball",
+      "word": {
+        "en": "ball",
+        "ur": "گیند"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "wave",
+      "picture": "prop:big_wave",
+      "word": {
+        "en": "wave",
+        "ur": "لہر"
+      },
+      "forms": {
+        "en": [
+          "waves"
+        ],
+        "ur": []
+      }
+    },
+    {
+      "id": "rock",
+      "picture": "prop:rock",
+      "word": {
+        "en": "rock",
+        "ur": "پتھر"
+      },
+      "forms": {
+        "en": [
+          "rocks"
+        ],
+        "ur": [
+          "پتھروں"
+        ]
+      }
+    },
+    {
+      "id": "friend",
+      "word": {
+        "en": "friend",
+        "ur": "دوست"
+      },
+      "forms": {
+        "en": [
+          "friends"
+        ],
+        "ur": []
+      }
+    }
+  ],
+  "vocabulary": [
+    "crab",
+    "special",
+    "different"
+  ],
+  "quiz": [
+    {
+      "question": {
+        "en": "What color was Kaku?",
+        "ur": "کاکو کس رنگ کا تھا؟"
+      },
+      "options": [
+        {
+          "picture": "prop:red_dot",
+          "correct": true,
+          "label": {
+            "en": "Red",
+            "ur": "لال"
+          }
+        },
+        {
+          "picture": "prop:green_dot",
+          "label": {
+            "en": "Green",
+            "ur": "ہرا"
+          }
+        },
+        {
+          "picture": "prop:blue_dot",
+          "label": {
+            "en": "Blue",
+            "ur": "نیلا"
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "How did Kaku walk?",
+        "ur": "کاکو کیسے چلتا تھا؟"
+      },
+      "options": [
+        {
+          "picture": "prop:arrow_side",
+          "correct": true,
+          "label": {
+            "en": "Sideways",
+            "ur": "ٹیڑھا"
+          }
+        },
+        {
+          "picture": "prop:arrow_up",
+          "label": {
+            "en": "Straight",
+            "ur": "سیدھا"
+          }
+        },
+        {
+          "picture": "prop:jump",
+          "label": {
+            "en": "Jumping",
+            "ur": "اچھل کر"
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "What did Kaku get out of the rocks?",
+        "ur": "کاکو نے پتھروں سے کیا نکالا؟"
+      },
+      "options": [
+        {
+          "picture": "prop:ball",
+          "correct": true
+        },
+        {
+          "picture": "prop:shell_white"
+        },
+        {
+          "picture": "prop:balloon_red"
+        }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": {
+        "en": "Give the ball to Chunnu!",
+        "ur": "گیند چنو کو دو!"
+      },
+      "item": "prop:ball",
+      "options": [
+        {
+          "picture": "puppet:tara"
+        },
+        {
+          "picture": "prop:fish_blue",
+          "correct": true
+        },
+        {
+          "picture": "prop:rock"
+        }
+      ]
+    }
+  ]
+}

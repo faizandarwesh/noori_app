@@ -809,6 +809,585 @@
           "size": 0.045
         }
       ]
+    },
+    "kids_room": {
+      "layers": [
+        {
+          "art": "scenes/home/room_wall.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/home/room_near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/home/warm.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "mouse",
+          "x": 0.92,
+          "y": 0.6,
+          "size": 0.045
+        },
+        {
+          "kind": "ladybird",
+          "x": 0.78,
+          "y": 0.3,
+          "size": 0.03
+        }
+      ]
+    },
+    "kids_room_night": {
+      "layers": [
+        {
+          "art": "scenes/home/room_wall_night.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/home/room_near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/home/warm.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        },
+        {
+          "art": "scenes/skies/wash_night.svg",
+          "depth": 0,
+          "drift": 0
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "mouse",
+          "x": 0.92,
+          "y": 0.6,
+          "size": 0.045
+        }
+      ]
+    },
+    "living_room": {
+      "layers": [
+        {
+          "art": "scenes/home/living_wall.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/home/living_near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/home/warm.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "mouse",
+          "x": 0.08,
+          "y": 0.6,
+          "size": 0.045
+        },
+        {
+          "kind": "butterfly",
+          "x": 0.8,
+          "y": 0.28,
+          "size": 0.03
+        }
+      ]
+    },
+    "living_room_evening": {
+      "layers": [
+        {
+          "art": "scenes/home/living_wall.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/home/window_dusk.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/home/living_near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/home/evening.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "mouse",
+          "x": 0.08,
+          "y": 0.6,
+          "size": 0.045
+        }
+      ]
+    },
+    "kitchen": {
+      "layers": [
+        {
+          "art": "scenes/home/kitchen_wall.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/home/warm.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "mouse",
+          "x": 0.5,
+          "y": 0.6,
+          "size": 0.04
+        },
+        {
+          "kind": "ladybird",
+          "x": 0.8,
+          "y": 0.16,
+          "size": 0.03
+        }
+      ]
+    },
+    "new_house_evening": {
+      "ambient": "birds",
+      "layers": [
+        {
+          "art": "scenes/skies/evening.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/newhouse/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/newhouse/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/newhouse/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        },
+        {
+          "art": "scenes/skies/wash_sunset.svg",
+          "depth": 0,
+          "drift": 0
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "snail",
+          "x": 0.86,
+          "y": 0.77,
+          "size": 0.035
+        }
+      ]
+    },
+    "beach": {
+      "ambient": "waves",
+      "layers": [
+        {
+          "art": "scenes/skies/day.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/beach/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/beach/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/beach/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "fish",
+          "x": 0.22,
+          "y": 0.44,
+          "size": 0.05
+        },
+        {
+          "kind": "snail",
+          "x": 0.88,
+          "y": 0.76,
+          "size": 0.035
+        }
+      ]
+    },
+    "beach_morning": {
+      "ambient": "waves",
+      "layers": [
+        {
+          "art": "scenes/skies/morning.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/beach/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/beach/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/beach/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        },
+        {
+          "art": "scenes/skies/wash_morning.svg",
+          "depth": 0,
+          "drift": 0
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "fish",
+          "x": 0.78,
+          "y": 0.42,
+          "size": 0.05
+        },
+        {
+          "kind": "snail",
+          "x": 0.1,
+          "y": 0.76,
+          "size": 0.035
+        }
+      ]
+    },
+    "beach_sunset": {
+      "ambient": "waves",
+      "layers": [
+        {
+          "art": "scenes/skies/sunset.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/beach/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/beach/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/beach/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        },
+        {
+          "art": "scenes/skies/wash_sunset.svg",
+          "depth": 0,
+          "drift": 0
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "fish",
+          "x": 0.3,
+          "y": 0.44,
+          "size": 0.05
+        },
+        {
+          "kind": "snail",
+          "x": 0.9,
+          "y": 0.76,
+          "size": 0.035
+        }
+      ]
+    },
+    "beach_rocks": {
+      "ambient": "waves",
+      "layers": [
+        {
+          "art": "scenes/skies/day.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/beach/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/beach/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/beach/rocks.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/beach/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "fish",
+          "x": 0.5,
+          "y": 0.42,
+          "size": 0.05
+        },
+        {
+          "kind": "snail",
+          "x": 0.12,
+          "y": 0.5,
+          "size": 0.035
+        }
+      ]
+    },
+    "beach_rocks_sunset": {
+      "ambient": "waves",
+      "layers": [
+        {
+          "art": "scenes/skies/sunset.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/beach/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/beach/near.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/beach/rocks.svg",
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/beach/fg.svg",
+          "depth": 1,
+          "drift": 12,
+          "bob": 3
+        },
+        {
+          "art": "scenes/skies/wash_sunset.svg",
+          "depth": 0,
+          "drift": 0
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "fish",
+          "x": 0.5,
+          "y": 0.42,
+          "size": 0.05
+        },
+        {
+          "kind": "snail",
+          "x": 0.88,
+          "y": 0.52,
+          "size": 0.035
+        }
+      ]
+    },
+    "sea": {
+      "ambient": "waves",
+      "layers": [
+        {
+          "art": "scenes/skies/day.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/sea/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/sea/near.svg",
+          "depth": 0.6,
+          "drift": 8,
+          "bob": 2
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/sea/fg.svg",
+          "depth": 1,
+          "drift": 14,
+          "bob": 5
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "fish",
+          "x": 0.15,
+          "y": 0.62,
+          "size": 0.05
+        },
+        {
+          "kind": "fish",
+          "x": 0.86,
+          "y": 0.7,
+          "size": 0.05
+        }
+      ]
+    },
+    "sea_morning": {
+      "ambient": "waves",
+      "layers": [
+        {
+          "art": "scenes/skies/morning.svg",
+          "depth": 0,
+          "drift": 0
+        },
+        {
+          "art": "scenes/sea/far.svg",
+          "depth": 0.3,
+          "drift": 12
+        },
+        {
+          "art": "scenes/sea/near.svg",
+          "depth": 0.6,
+          "drift": 8,
+          "bob": 2
+        },
+        {
+          "cast": true,
+          "depth": 0.6,
+          "drift": 8
+        },
+        {
+          "art": "scenes/sea/fg.svg",
+          "depth": 1,
+          "drift": 14,
+          "bob": 5
+        },
+        {
+          "art": "scenes/skies/wash_morning.svg",
+          "depth": 0,
+          "drift": 0
+        }
+      ],
+      "secrets": [
+        {
+          "kind": "fish",
+          "x": 0.14,
+          "y": 0.64,
+          "size": 0.05
+        },
+        {
+          "kind": "fish",
+          "x": 0.86,
+          "y": 0.72,
+          "size": 0.05
+        }
+      ]
     }
   }
 }

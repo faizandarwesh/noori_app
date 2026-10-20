@@ -1,0 +1,1918 @@
+{
+  "schemaVersion": 1,
+  "id": "zain_nana_boat",
+  "start": "p1",
+  "characters": {
+    "zain": {
+      "en": "Zain",
+      "ur": "زین"
+    },
+    "nana": {
+      "en": "Nana",
+      "ur": "نانا"
+    },
+    "nani": {
+      "en": "Neighbour",
+      "ur": "پڑوسن"
+    }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "beach_morning",
+      "text": {
+        "en": "Zain's Nana was a fisherman. Today, Zain was going with him on his little blue boat!",
+        "ur": "زین کے نانا مچھیرے تھے۔ آج زین ان کے ساتھ ان کی چھوٹی سی نیلی کشتی میں جا رہا تھا!"
+      },
+      "cast": [
+        {
+          "art": "puppet:nana",
+          "x": 0.62,
+          "y": 0.6,
+          "size": 0.27,
+          "pose": "wave",
+          "act": "wave",
+          "mood": "happy",
+          "look": "left"
+        },
+        {
+          "art": "prop:boat",
+          "x": 0.6,
+          "y": 0.63,
+          "size": 0.11
+        },
+        {
+          "art": "puppet:zain",
+          "x": 0.24,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "cheer",
+          "act": "bounce",
+          "face": "laugh",
+          "look": "right"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "زین",
+            "start": 44,
+            "end": 274
+          },
+          {
+            "w": "کے",
+            "start": 274,
+            "end": 494
+          },
+          {
+            "w": "نانا",
+            "start": 494,
+            "end": 884
+          },
+          {
+            "w": "مچھیرے",
+            "start": 884,
+            "end": 1594
+          },
+          {
+            "w": "تھے۔",
+            "start": 1594,
+            "end": 1974
+          },
+          {
+            "w": "آج",
+            "start": 1974,
+            "end": 2204
+          },
+          {
+            "w": "زین",
+            "start": 2204,
+            "end": 2554
+          },
+          {
+            "w": "ان",
+            "start": 2554,
+            "end": 2794
+          },
+          {
+            "w": "کے",
+            "start": 2794,
+            "end": 3034
+          },
+          {
+            "w": "ساتھ",
+            "start": 3034,
+            "end": 3534
+          },
+          {
+            "w": "ان",
+            "start": 3534,
+            "end": 3744
+          },
+          {
+            "w": "کی",
+            "start": 3744,
+            "end": 4054
+          },
+          {
+            "w": "چھوٹی",
+            "start": 4054,
+            "end": 4424
+          },
+          {
+            "w": "سی",
+            "start": 4424,
+            "end": 4674
+          },
+          {
+            "w": "نیلی",
+            "start": 4674,
+            "end": 4894
+          },
+          {
+            "w": "کشتی",
+            "start": 4894,
+            "end": 5134
+          },
+          {
+            "w": "میں",
+            "start": 5134,
+            "end": 5334
+          },
+          {
+            "w": "جا",
+            "start": 5334,
+            "end": 5454
+          },
+          {
+            "w": "رہا",
+            "start": 5454,
+            "end": 5634
+          },
+          {
+            "w": "تھا!",
+            "start": 5634,
+            "end": 5974
+          }
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "sea_morning",
+      "text": {
+        "en": "Nana said, \"Bismillah,\" and the boat moved slowly over the water. White birds flew above them.",
+        "ur": "نانا نے \"بسم اللہ\" کہا اور کشتی آہستہ آہستہ پانی پر چلنے لگی۔ اوپر سفید پرندے اڑ رہے تھے۔"
+      },
+      "cast": [
+        {
+          "art": "prop:gull",
+          "x": 0.3,
+          "y": 0.24,
+          "size": 0.035,
+          "orbit": {
+            "rx": 0.12,
+            "ry": 0.03,
+            "ms": 5200
+          }
+        },
+        {
+          "art": "prop:gull",
+          "x": 0.72,
+          "y": 0.18,
+          "size": 0.03,
+          "orbit": {
+            "rx": 0.1,
+            "ry": 0.02,
+            "ms": 6400
+          }
+        },
+        {
+          "art": "puppet:nana",
+          "x": 0.4,
+          "y": 0.76,
+          "size": 0.27,
+          "pose": "dua",
+          "act": "talk",
+          "mood": "happy"
+        },
+        {
+          "art": "puppet:zain",
+          "x": 0.62,
+          "y": 0.765,
+          "size": 0.21,
+          "pose": "cheer",
+          "face": "laugh",
+          "look": "up"
+        },
+        {
+          "art": "prop:boat",
+          "x": 0.5,
+          "y": 0.8,
+          "size": 0.13
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "نانا",
+            "start": 18,
+            "end": 748
+          },
+          {
+            "w": "نے",
+            "start": 748,
+            "end": 1118
+          },
+          {
+            "w": "\"بسم",
+            "start": 1118,
+            "end": 1628
+          },
+          {
+            "w": "اللہ\"",
+            "start": 1628,
+            "end": 2408
+          },
+          {
+            "w": "کہا",
+            "start": 2408,
+            "end": 3018
+          },
+          {
+            "w": "اور",
+            "start": 3018,
+            "end": 3418
+          },
+          {
+            "w": "کشتی",
+            "start": 3418,
+            "end": 3938
+          },
+          {
+            "w": "آہستہ",
+            "start": 3938,
+            "end": 4588
+          },
+          {
+            "w": "آہستہ",
+            "start": 4588,
+            "end": 5238
+          },
+          {
+            "w": "پانی",
+            "start": 5238,
+            "end": 5758
+          },
+          {
+            "w": "پر",
+            "start": 5758,
+            "end": 6018
+          },
+          {
+            "w": "چلنے",
+            "start": 6018,
+            "end": 6568
+          },
+          {
+            "w": "لگی۔",
+            "start": 6568,
+            "end": 7018
+          },
+          {
+            "w": "اوپر",
+            "start": 7018,
+            "end": 7378
+          },
+          {
+            "w": "سفید",
+            "start": 7378,
+            "end": 7738
+          },
+          {
+            "w": "پرندے",
+            "start": 7738,
+            "end": 8238
+          },
+          {
+            "w": "اڑ",
+            "start": 8238,
+            "end": 8458
+          },
+          {
+            "w": "رہے",
+            "start": 8458,
+            "end": 8728
+          },
+          {
+            "w": "تھے۔",
+            "start": 8728,
+            "end": 9018
+          }
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "sea",
+      "text": {
+        "en": "Nana threw the net into the sea. They waited, and waited. But the net came up empty.",
+        "ur": "نانا نے سمندر میں جال پھینکا۔ وہ انتظار کرتے رہے، اور کرتے رہے۔ مگر جال خالی نکلا۔"
+      },
+      "cast": [
+        {
+          "art": "prop:net",
+          "x": 0.14,
+          "y": 0.78,
+          "size": 0.07,
+          "mood": "float",
+          "delay": 1636
+        },
+        {
+          "art": "puppet:nana",
+          "x": 0.4,
+          "y": 0.76,
+          "size": 0.27,
+          "pose": "give",
+          "act": "talk",
+          "face": "happy",
+          "look": "left"
+        },
+        {
+          "art": "puppet:zain",
+          "x": 0.64,
+          "y": 0.765,
+          "size": 0.21,
+          "face": "happy",
+          "look": "left",
+          "until": 5856
+        },
+        {
+          "art": "puppet:zain",
+          "x": 0.64,
+          "y": 0.765,
+          "size": 0.21,
+          "face": "sad",
+          "look": "left",
+          "delay": 5856
+        },
+        {
+          "art": "prop:boat",
+          "x": 0.5,
+          "y": 0.8,
+          "size": 0.13
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "نانا",
+            "start": 6,
+            "end": 526
+          },
+          {
+            "w": "نے",
+            "start": 526,
+            "end": 786
+          },
+          {
+            "w": "سمندر",
+            "start": 786,
+            "end": 1436
+          },
+          {
+            "w": "میں",
+            "start": 1436,
+            "end": 1786
+          },
+          {
+            "w": "جال",
+            "start": 1786,
+            "end": 2216
+          },
+          {
+            "w": "پھینکا۔",
+            "start": 2216,
+            "end": 3006
+          },
+          {
+            "w": "وہ",
+            "start": 3006,
+            "end": 3136
+          },
+          {
+            "w": "انتظار",
+            "start": 3136,
+            "end": 3526
+          },
+          {
+            "w": "کرتے",
+            "start": 3526,
+            "end": 3766
+          },
+          {
+            "w": "رہے،",
+            "start": 3766,
+            "end": 4006
+          },
+          {
+            "w": "اور",
+            "start": 4006,
+            "end": 4626
+          },
+          {
+            "w": "کرتے",
+            "start": 4626,
+            "end": 5386
+          },
+          {
+            "w": "رہے۔",
+            "start": 5386,
+            "end": 6006
+          },
+          {
+            "w": "مگر",
+            "start": 6006,
+            "end": 6426
+          },
+          {
+            "w": "جال",
+            "start": 6426,
+            "end": 6846
+          },
+          {
+            "w": "خالی",
+            "start": 6846,
+            "end": 7406
+          },
+          {
+            "w": "نکلا۔",
+            "start": 7406,
+            "end": 8006
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "p5",
+      "scene": "sea",
+      "text": {
+        "en": "They tried again. Empty! And again. Empty! The sun was hot, and Zain was tired.",
+        "ur": "انہوں نے پھر کوشش کی۔ خالی! پھر کوشش کی۔ خالی! دھوپ تیز تھی اور زین تھک گیا تھا۔"
+      },
+      "cast": [
+        {
+          "art": "puppet:nana",
+          "x": 0.38,
+          "y": 0.76,
+          "size": 0.27,
+          "pose": "hold",
+          "hold": "prop:net",
+          "holdSize": 0.25,
+          "face": "idle",
+          "look": "left"
+        },
+        {
+          "art": "puppet:zain",
+          "x": 0.64,
+          "y": 0.765,
+          "size": 0.21,
+          "pose": "tummy",
+          "act": "fidget",
+          "face": "tired"
+        },
+        {
+          "art": "prop:boat",
+          "x": 0.5,
+          "y": 0.8,
+          "size": 0.13
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "انہوں",
+            "start": 12,
+            "end": 622
+          },
+          {
+            "w": "نے",
+            "start": 622,
+            "end": 872
+          },
+          {
+            "w": "پھر",
+            "start": 872,
+            "end": 1232
+          },
+          {
+            "w": "کوشش",
+            "start": 1232,
+            "end": 1722
+          },
+          {
+            "w": "کی۔",
+            "start": 1722,
+            "end": 2012
+          },
+          {
+            "w": "خالی!",
+            "start": 2012,
+            "end": 3012
+          },
+          {
+            "w": "پھر",
+            "start": 3012,
+            "end": 3342
+          },
+          {
+            "w": "کوشش",
+            "start": 3342,
+            "end": 3782
+          },
+          {
+            "w": "کی۔",
+            "start": 3782,
+            "end": 4012
+          },
+          {
+            "w": "خالی!",
+            "start": 4012,
+            "end": 6012
+          },
+          {
+            "w": "دھوپ",
+            "start": 6082,
+            "end": 6782
+          },
+          {
+            "w": "تیز",
+            "start": 6782,
+            "end": 7362
+          },
+          {
+            "w": "تھی",
+            "start": 7362,
+            "end": 8082
+          },
+          {
+            "w": "اور",
+            "start": 8082,
+            "end": 8212
+          },
+          {
+            "w": "زین",
+            "start": 8212,
+            "end": 8402
+          },
+          {
+            "w": "تھک",
+            "start": 8402,
+            "end": 8592
+          },
+          {
+            "w": "گیا",
+            "start": 8592,
+            "end": 8782
+          },
+          {
+            "w": "تھا۔",
+            "start": 8782,
+            "end": 9012
+          }
+        ]
+      }
+    },
+    {
+      "id": "p5",
+      "type": "page",
+      "next": "choice",
+      "scene": "sea",
+      "text": {
+        "en": "\"Nana, let's go home,\" said Zain. Nana smiled. \"Shall we try one more time?\" What should Zain say?",
+        "ur": "\"نانا، چلیں گھر چلتے ہیں،\" زین نے کہا۔ نانا مسکرائے۔ \"ایک بار اور کوشش کریں؟\" زین کو کیا کہنا چاہیے؟"
+      },
+      "cast": [
+        {
+          "art": "puppet:nana",
+          "x": 0.38,
+          "y": 0.76,
+          "size": 0.27,
+          "pose": "hold",
+          "hold": "prop:net",
+          "holdSize": 0.25,
+          "act": "talk",
+          "face": "happy",
+          "look": "right"
+        },
+        {
+          "art": "puppet:zain",
+          "x": 0.64,
+          "y": 0.765,
+          "size": 0.21,
+          "pose": "think",
+          "face": "tired",
+          "look": "left"
+        },
+        {
+          "art": "prop:boat",
+          "x": 0.5,
+          "y": 0.8,
+          "size": 0.13
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "\"نانا،",
+            "start": 26,
+            "end": 1026
+          },
+          {
+            "w": "چلیں",
+            "start": 1026,
+            "end": 1586
+          },
+          {
+            "w": "گھر",
+            "start": 1586,
+            "end": 2106
+          },
+          {
+            "w": "چلتے",
+            "start": 2106,
+            "end": 2566
+          },
+          {
+            "w": "ہیں،\"",
+            "start": 2566,
+            "end": 3026
+          },
+          {
+            "w": "زین",
+            "start": 3026,
+            "end": 3386
+          },
+          {
+            "w": "نے",
+            "start": 3386,
+            "end": 3636
+          },
+          {
+            "w": "کہا۔",
+            "start": 3636,
+            "end": 4026
+          },
+          {
+            "w": "نانا",
+            "start": 4026,
+            "end": 4386
+          },
+          {
+            "w": "مسکرائے۔",
+            "start": 4386,
+            "end": 5026
+          },
+          {
+            "w": "\"ایک",
+            "start": 5026,
+            "end": 5366
+          },
+          {
+            "w": "بار",
+            "start": 5366,
+            "end": 5706
+          },
+          {
+            "w": "اور",
+            "start": 5706,
+            "end": 6056
+          },
+          {
+            "w": "کوشش",
+            "start": 6056,
+            "end": 6506
+          },
+          {
+            "w": "کریں؟\"",
+            "start": 6506,
+            "end": 7026
+          },
+          {
+            "w": "زین",
+            "start": 7026,
+            "end": 7366
+          },
+          {
+            "w": "کو",
+            "start": 7366,
+            "end": 7596
+          },
+          {
+            "w": "کیا",
+            "start": 7596,
+            "end": 7936
+          },
+          {
+            "w": "کہنا",
+            "start": 7936,
+            "end": 8396
+          },
+          {
+            "w": "چاہیے؟",
+            "start": 8396,
+            "end": 9026
+          }
+        ]
+      }
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": {
+        "en": "What should Zain say?",
+        "ur": "زین کو کیا کہنا چاہیے؟"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "en": "One more time",
+            "ur": "ایک بار اور"
+          },
+          "picture": "prop:net",
+          "next": "choice_a"
+        },
+        {
+          "id": "b",
+          "label": {
+            "en": "Let's go home",
+            "ur": "گھر چلیں"
+          },
+          "picture": "prop:house",
+          "next": "choice_b"
+        }
+      ]
+    },
+    {
+      "id": "choice_a",
+      "type": "page",
+      "next": "p6",
+      "scene": "sea",
+      "text": {
+        "en": "\"Yes, Nana! One more time!\" Zain helped Nana throw the net, far, far into the sea.",
+        "ur": "\"جی نانا! ایک بار اور!\" زین نے نانا کے ساتھ مل کر جال دور سمندر میں پھینکا۔"
+      },
+      "help": {
+        "kind": "tap",
+        "item": 0,
+        "steps": 1
+      },
+      "cast": [
+        {
+          "art": "prop:net",
+          "x": 0.14,
+          "y": 0.78,
+          "size": 0.07,
+          "helpHide": 1
+        },
+        {
+          "art": "prop:splash",
+          "x": 0.14,
+          "y": 0.78,
+          "size": 0.06,
+          "helpStep": 1
+        },
+        {
+          "art": "prop:gull",
+          "x": 0.3,
+          "y": 0.24,
+          "size": 0.035,
+          "orbit": {
+            "rx": 0.12,
+            "ry": 0.03,
+            "ms": 5200
+          }
+        },
+        {
+          "art": "prop:gull",
+          "x": 0.72,
+          "y": 0.18,
+          "size": 0.03,
+          "orbit": {
+            "rx": 0.1,
+            "ry": 0.02,
+            "ms": 6400
+          }
+        },
+        {
+          "art": "puppet:nana",
+          "x": 0.4,
+          "y": 0.76,
+          "size": 0.27,
+          "pose": "cheer",
+          "act": "bounce",
+          "mood": "happy",
+          "look": "left"
+        },
+        {
+          "art": "puppet:zain",
+          "x": 0.64,
+          "y": 0.765,
+          "size": 0.21,
+          "pose": "point",
+          "act": "talk",
+          "face": "laugh",
+          "look": "left"
+        },
+        {
+          "art": "prop:boat",
+          "x": 0.5,
+          "y": 0.8,
+          "size": 0.13
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "\"جی",
+            "start": 14,
+            "end": 334
+          },
+          {
+            "w": "نانا!",
+            "start": 334,
+            "end": 1014
+          },
+          {
+            "w": "ایک",
+            "start": 1014,
+            "end": 1344
+          },
+          {
+            "w": "بار",
+            "start": 1344,
+            "end": 1624
+          },
+          {
+            "w": "اور!\"",
+            "start": 1624,
+            "end": 2014
+          },
+          {
+            "w": "زین",
+            "start": 2014,
+            "end": 2314
+          },
+          {
+            "w": "نے",
+            "start": 2314,
+            "end": 2534
+          },
+          {
+            "w": "نانا",
+            "start": 2534,
+            "end": 2924
+          },
+          {
+            "w": "کے",
+            "start": 2924,
+            "end": 3134
+          },
+          {
+            "w": "ساتھ",
+            "start": 3134,
+            "end": 3534
+          },
+          {
+            "w": "مل",
+            "start": 3534,
+            "end": 3734
+          },
+          {
+            "w": "کر",
+            "start": 3734,
+            "end": 4094
+          },
+          {
+            "w": "جال",
+            "start": 4094,
+            "end": 4344
+          },
+          {
+            "w": "دور",
+            "start": 4344,
+            "end": 4594
+          },
+          {
+            "w": "سمندر",
+            "start": 4594,
+            "end": 5064
+          },
+          {
+            "w": "میں",
+            "start": 5064,
+            "end": 5364
+          },
+          {
+            "w": "پھینکا۔",
+            "start": 5364,
+            "end": 6014
+          }
+        ]
+      }
+    },
+    {
+      "id": "choice_b",
+      "type": "page",
+      "next": "p6",
+      "scene": "sea",
+      "text": {
+        "en": "\"No, Nana. I'm too tired.\" Then Zain saw Nana, still smiling, still trying. \"Okay, Nana! One more time!\" Together, they threw the net far into the sea.",
+        "ur": "\"نہیں نانا، میں بہت تھک گیا ہوں۔\" پھر زین نے دیکھا کہ نانا اب بھی مسکرا رہے ہیں، اب بھی کوشش کر رہے ہیں۔ \"اچھا نانا! ایک بار اور!\" دونوں نے مل کر جال دور سمندر میں پھینکا۔"
+      },
+      "help": {
+        "kind": "tap",
+        "item": 0,
+        "steps": 1,
+        "when": "after"
+      },
+      "cast": [
+        {
+          "art": "prop:net",
+          "x": 0.14,
+          "y": 0.78,
+          "size": 0.07,
+          "helpHide": 1,
+          "delay": 7856
+        },
+        {
+          "art": "prop:splash",
+          "x": 0.14,
+          "y": 0.78,
+          "size": 0.06,
+          "helpStep": 1
+        },
+        {
+          "art": "puppet:nana",
+          "x": 0.4,
+          "y": 0.76,
+          "size": 0.27,
+          "pose": "hold",
+          "hold": "prop:net",
+          "holdSize": 0.25,
+          "face": "happy",
+          "look": "right",
+          "until": 7856
+        },
+        {
+          "art": "puppet:nana",
+          "x": 0.4,
+          "y": 0.76,
+          "size": 0.27,
+          "pose": "cheer",
+          "act": "bounce",
+          "mood": "happy",
+          "look": "left",
+          "delay": 7856
+        },
+        {
+          "art": "puppet:zain",
+          "x": 0.64,
+          "y": 0.765,
+          "size": 0.21,
+          "pose": "tummy",
+          "face": "tired",
+          "until": 7856
+        },
+        {
+          "art": "puppet:zain",
+          "x": 0.64,
+          "y": 0.765,
+          "size": 0.21,
+          "pose": "point",
+          "act": "talk",
+          "face": "laugh",
+          "look": "left",
+          "delay": 7856
+        },
+        {
+          "art": "prop:boat",
+          "x": 0.5,
+          "y": 0.8,
+          "size": 0.13
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "\"نہیں",
+            "start": 6,
+            "end": 526
+          },
+          {
+            "w": "نانا،",
+            "start": 526,
+            "end": 1006
+          },
+          {
+            "w": "میں",
+            "start": 1006,
+            "end": 1406
+          },
+          {
+            "w": "بہت",
+            "start": 1406,
+            "end": 1786
+          },
+          {
+            "w": "تھک",
+            "start": 1786,
+            "end": 2186
+          },
+          {
+            "w": "گیا",
+            "start": 2186,
+            "end": 2576
+          },
+          {
+            "w": "ہوں۔\"",
+            "start": 2576,
+            "end": 3006
+          },
+          {
+            "w": "پھر",
+            "start": 3006,
+            "end": 3236
+          },
+          {
+            "w": "زین",
+            "start": 3236,
+            "end": 3436
+          },
+          {
+            "w": "نے",
+            "start": 3436,
+            "end": 3586
+          },
+          {
+            "w": "دیکھا",
+            "start": 3586,
+            "end": 4006
+          },
+          {
+            "w": "کہ",
+            "start": 4006,
+            "end": 5056
+          },
+          {
+            "w": "نانا",
+            "start": 5056,
+            "end": 5186
+          },
+          {
+            "w": "اب",
+            "start": 5186,
+            "end": 5336
+          },
+          {
+            "w": "بھی",
+            "start": 5336,
+            "end": 5426
+          },
+          {
+            "w": "مسکرا",
+            "start": 5426,
+            "end": 5706
+          },
+          {
+            "w": "رہے",
+            "start": 5706,
+            "end": 5786
+          },
+          {
+            "w": "ہیں،",
+            "start": 5786,
+            "end": 6006
+          },
+          {
+            "w": "اب",
+            "start": 6006,
+            "end": 6236
+          },
+          {
+            "w": "بھی",
+            "start": 6236,
+            "end": 6576
+          },
+          {
+            "w": "کوشش",
+            "start": 6576,
+            "end": 7026
+          },
+          {
+            "w": "کر",
+            "start": 7026,
+            "end": 7256
+          },
+          {
+            "w": "رہے",
+            "start": 7256,
+            "end": 7576
+          },
+          {
+            "w": "ہیں۔",
+            "start": 7576,
+            "end": 8006
+          },
+          {
+            "w": "\"اچھا",
+            "start": 8006,
+            "end": 8446
+          },
+          {
+            "w": "نانا!",
+            "start": 8446,
+            "end": 8896
+          },
+          {
+            "w": "ایک",
+            "start": 8896,
+            "end": 9236
+          },
+          {
+            "w": "بار",
+            "start": 9236,
+            "end": 9576
+          },
+          {
+            "w": "اور!\"",
+            "start": 9576,
+            "end": 10006
+          },
+          {
+            "w": "دونوں",
+            "start": 10006,
+            "end": 10706
+          },
+          {
+            "w": "نے",
+            "start": 10706,
+            "end": 11006
+          },
+          {
+            "w": "مل",
+            "start": 11006,
+            "end": 11066
+          },
+          {
+            "w": "کر",
+            "start": 11006,
+            "end": 11066
+          },
+          {
+            "w": "جال",
+            "start": 11076,
+            "end": 11426
+          },
+          {
+            "w": "دور",
+            "start": 11426,
+            "end": 11846
+          },
+          {
+            "w": "سمندر",
+            "start": 11846,
+            "end": 12546
+          },
+          {
+            "w": "میں",
+            "start": 12546,
+            "end": 13006
+          },
+          {
+            "w": "پھینکا۔",
+            "start": 13006,
+            "end": 13066
+          }
+        ]
+      }
+    },
+    {
+      "id": "p6",
+      "type": "page",
+      "next": "p7",
+      "scene": "sea",
+      "text": {
+        "en": "The net felt heavy! They pulled and pulled. It was full of shiny silver fish! Flip, flop, flip!",
+        "ur": "جال بہت بھاری تھا! انہوں نے کھینچا اور کھینچا۔ جال چمکتی ہوئی مچھلیوں سے بھرا ہوا تھا!"
+      },
+      "help": {
+        "kind": "tap",
+        "item": 0,
+        "steps": 3
+      },
+      "cast": [
+        {
+          "art": "prop:net_full",
+          "x": 0.15,
+          "y": 0.8,
+          "size": 0.08,
+          "mood": "happy"
+        },
+        {
+          "art": "prop:fish_silver",
+          "x": 0.52,
+          "y": 0.68,
+          "size": 0.035,
+          "enter": "grow",
+          "helpStep": 1
+        },
+        {
+          "art": "prop:fish_silver",
+          "x": 0.62,
+          "y": 0.68,
+          "size": 0.035,
+          "enter": "grow",
+          "helpStep": 2
+        },
+        {
+          "art": "prop:fish_silver",
+          "x": 0.42,
+          "y": 0.68,
+          "size": 0.035,
+          "enter": "grow",
+          "helpStep": 3
+        },
+        {
+          "art": "puppet:nana",
+          "x": 0.38,
+          "y": 0.76,
+          "size": 0.27,
+          "pose": "hold_both",
+          "act": "dig",
+          "face": "surprised",
+          "look": "left"
+        },
+        {
+          "art": "puppet:zain",
+          "x": 0.6,
+          "y": 0.765,
+          "size": 0.21,
+          "pose": "hold_both",
+          "act": "dig",
+          "face": "laugh",
+          "look": "left"
+        },
+        {
+          "art": "prop:boat",
+          "x": 0.5,
+          "y": 0.8,
+          "size": 0.13
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "جال",
+            "start": 23,
+            "end": 653
+          },
+          {
+            "w": "بہت",
+            "start": 653,
+            "end": 1283
+          },
+          {
+            "w": "بھاری",
+            "start": 1283,
+            "end": 2353
+          },
+          {
+            "w": "تھا!",
+            "start": 2353,
+            "end": 3023
+          },
+          {
+            "w": "انہوں",
+            "start": 3023,
+            "end": 3393
+          },
+          {
+            "w": "نے",
+            "start": 3393,
+            "end": 3543
+          },
+          {
+            "w": "کھینچا",
+            "start": 3543,
+            "end": 4023
+          },
+          {
+            "w": "اور",
+            "start": 4023,
+            "end": 4353
+          },
+          {
+            "w": "کھینچا۔",
+            "start": 4353,
+            "end": 5023
+          },
+          {
+            "w": "جال",
+            "start": 5023,
+            "end": 5263
+          },
+          {
+            "w": "چمکتی",
+            "start": 5263,
+            "end": 5663
+          },
+          {
+            "w": "ہوئی",
+            "start": 5663,
+            "end": 6023
+          },
+          {
+            "w": "مچھلیوں",
+            "start": 6023,
+            "end": 6643
+          },
+          {
+            "w": "سے",
+            "start": 6643,
+            "end": 7013
+          },
+          {
+            "w": "بھرا",
+            "start": 7013,
+            "end": 7353
+          },
+          {
+            "w": "ہوا",
+            "start": 7353,
+            "end": 7723
+          },
+          {
+            "w": "تھا!",
+            "start": 7723,
+            "end": 8023
+          }
+        ]
+      }
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": "p8",
+      "scene": "sea",
+      "text": {
+        "en": "\"Alhamdulillah!\" said Nana. \"See, Zain? We never give up. We try our best, and Allah gives us.\"",
+        "ur": "\"الحمدللہ!\" نانا نے کہا۔ \"دیکھا زین؟ ہم ہمت نہیں ہارتے۔ ہم پوری کوشش کرتے ہیں، اور اللہ تعالیٰ دیتے ہیں۔\""
+      },
+      "cast": [
+        {
+          "art": "prop:gull",
+          "x": 0.3,
+          "y": 0.24,
+          "size": 0.035,
+          "orbit": {
+            "rx": 0.12,
+            "ry": 0.03,
+            "ms": 5200
+          }
+        },
+        {
+          "art": "prop:gull",
+          "x": 0.72,
+          "y": 0.18,
+          "size": 0.03,
+          "orbit": {
+            "rx": 0.1,
+            "ry": 0.02,
+            "ms": 6400
+          }
+        },
+        {
+          "art": "prop:net_full",
+          "x": 0.5,
+          "y": 0.68,
+          "size": 0.06
+        },
+        {
+          "art": "puppet:nana",
+          "x": 0.34,
+          "y": 0.76,
+          "size": 0.27,
+          "pose": "dua",
+          "act": "dua",
+          "face": "happy"
+        },
+        {
+          "art": "puppet:zain",
+          "x": 0.66,
+          "y": 0.765,
+          "size": 0.21,
+          "pose": "cheer",
+          "act": "bounce",
+          "face": "laugh"
+        },
+        {
+          "art": "prop:boat",
+          "x": 0.5,
+          "y": 0.8,
+          "size": 0.13
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "\"الحمدللہ!\"",
+            "start": 3,
+            "end": 1003
+          },
+          {
+            "w": "نانا",
+            "start": 1003,
+            "end": 1443
+          },
+          {
+            "w": "نے",
+            "start": 1443,
+            "end": 1623
+          },
+          {
+            "w": "کہا۔",
+            "start": 1623,
+            "end": 2003
+          },
+          {
+            "w": "\"دیکھا",
+            "start": 2003,
+            "end": 2603
+          },
+          {
+            "w": "زین؟",
+            "start": 2603,
+            "end": 3003
+          },
+          {
+            "w": "ہم",
+            "start": 3003,
+            "end": 4073
+          },
+          {
+            "w": "ہمت",
+            "start": 4073,
+            "end": 4333
+          },
+          {
+            "w": "نہیں",
+            "start": 4333,
+            "end": 4573
+          },
+          {
+            "w": "ہارتے۔",
+            "start": 4573,
+            "end": 5003
+          },
+          {
+            "w": "ہم",
+            "start": 5003,
+            "end": 5233
+          },
+          {
+            "w": "پوری",
+            "start": 5233,
+            "end": 5673
+          },
+          {
+            "w": "کوشش",
+            "start": 5673,
+            "end": 6123
+          },
+          {
+            "w": "کرتے",
+            "start": 6123,
+            "end": 6573
+          },
+          {
+            "w": "ہیں،",
+            "start": 6573,
+            "end": 7003
+          },
+          {
+            "w": "اور",
+            "start": 7003,
+            "end": 7283
+          },
+          {
+            "w": "اللہ",
+            "start": 7283,
+            "end": 7653
+          },
+          {
+            "w": "تعالیٰ",
+            "start": 7653,
+            "end": 8303
+          },
+          {
+            "w": "دیتے",
+            "start": 8303,
+            "end": 8663
+          },
+          {
+            "w": "ہیں۔\"",
+            "start": 8663,
+            "end": 9003
+          }
+        ]
+      }
+    },
+    {
+      "id": "p8",
+      "type": "page",
+      "next": null,
+      "scene": "new_house_evening",
+      "text": {
+        "en": "Back home, Nana and Zain shared the fish with their neighbors. That night, everyone had a yummy dinner!",
+        "ur": "گھر آ کر نانا اور زین نے پڑوسیوں کے ساتھ مچھلیاں بانٹیں۔ اس رات سب نے مزے کا کھانا کھایا!"
+      },
+      "cast": [
+        {
+          "art": "puppet:nani",
+          "x": 0.84,
+          "y": 0.65,
+          "size": 0.28,
+          "pose": "clap",
+          "mood": "happy",
+          "look": "left"
+        },
+        {
+          "art": "puppet:nana",
+          "x": 0.32,
+          "y": 0.65,
+          "size": 0.29,
+          "pose": "give",
+          "act": "give",
+          "hold": "prop:fish_silver",
+          "holdSize": 0.2,
+          "mood": "happy",
+          "look": "right"
+        },
+        {
+          "art": "puppet:zain",
+          "x": 0.58,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "give",
+          "act": "give",
+          "hold": "prop:fish_silver",
+          "holdSize": 0.25,
+          "face": "laugh",
+          "look": "right"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "گھر",
+            "start": 17,
+            "end": 537
+          },
+          {
+            "w": "آ",
+            "start": 537,
+            "end": 657
+          },
+          {
+            "w": "کر",
+            "start": 657,
+            "end": 1017
+          },
+          {
+            "w": "نانا",
+            "start": 1017,
+            "end": 1397
+          },
+          {
+            "w": "اور",
+            "start": 1397,
+            "end": 1697
+          },
+          {
+            "w": "زین",
+            "start": 1697,
+            "end": 2097
+          },
+          {
+            "w": "نے",
+            "start": 2097,
+            "end": 2157
+          },
+          {
+            "w": "پڑوسیوں",
+            "start": 2147,
+            "end": 2647
+          },
+          {
+            "w": "کے",
+            "start": 2647,
+            "end": 2777
+          },
+          {
+            "w": "ساتھ",
+            "start": 2777,
+            "end": 3027
+          },
+          {
+            "w": "مچھلیاں",
+            "start": 3027,
+            "end": 3457
+          },
+          {
+            "w": "بانٹیں۔",
+            "start": 3457,
+            "end": 4017
+          },
+          {
+            "w": "اس",
+            "start": 4017,
+            "end": 4417
+          },
+          {
+            "w": "رات",
+            "start": 4417,
+            "end": 5017
+          },
+          {
+            "w": "سب",
+            "start": 5017,
+            "end": 5507
+          },
+          {
+            "w": "نے",
+            "start": 5507,
+            "end": 6077
+          },
+          {
+            "w": "مزے",
+            "start": 6077,
+            "end": 6197
+          },
+          {
+            "w": "کا",
+            "start": 6197,
+            "end": 6347
+          },
+          {
+            "w": "کھانا",
+            "start": 6347,
+            "end": 6637
+          },
+          {
+            "w": "کھایا!",
+            "start": 6637,
+            "end": 7017
+          }
+        ]
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "id": "fisherman",
+      "picture": "puppet:nana",
+      "word": {
+        "en": "fisherman",
+        "ur": "مچھیرا"
+      },
+      "forms": {
+        "en": [],
+        "ur": [
+          "مچھیرے"
+        ]
+      }
+    },
+    {
+      "id": "net",
+      "picture": "prop:net",
+      "word": {
+        "en": "net",
+        "ur": "جال"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "try",
+      "picture": "prop:net_full",
+      "word": {
+        "en": "try",
+        "ur": "کوشش"
+      },
+      "forms": {
+        "en": [
+          "tried",
+          "trying"
+        ],
+        "ur": []
+      }
+    },
+    {
+      "id": "boat",
+      "picture": "prop:boat",
+      "word": {
+        "en": "boat",
+        "ur": "کشتی"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "fish",
+      "picture": "prop:fish_silver",
+      "word": {
+        "en": "fish",
+        "ur": "مچھلیاں"
+      },
+      "forms": {
+        "en": [],
+        "ur": [
+          "مچھلی",
+          "مچھلیوں"
+        ]
+      }
+    },
+    {
+      "id": "birds",
+      "picture": "prop:gull",
+      "word": {
+        "en": "birds",
+        "ur": "پرندے"
+      },
+      "forms": {
+        "en": [
+          "bird"
+        ],
+        "ur": []
+      }
+    },
+    {
+      "id": "sea",
+      "picture": "prop:wave_small",
+      "word": {
+        "en": "sea",
+        "ur": "سمندر"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "neighbors",
+      "picture": "prop:neighbors",
+      "word": {
+        "en": "neighbors",
+        "ur": "پڑوسی"
+      },
+      "forms": {
+        "en": [
+          "neighbor"
+        ],
+        "ur": [
+          "پڑوسیوں"
+        ]
+      }
+    },
+    {
+      "id": "sun",
+      "word": {
+        "en": "sun",
+        "ur": "دھوپ"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    }
+  ],
+  "vocabulary": [
+    "fisherman",
+    "net",
+    "try"
+  ],
+  "quiz": [
+    {
+      "question": {
+        "en": "What color was the boat?",
+        "ur": "کشتی کس رنگ کی تھی؟"
+      },
+      "options": [
+        {
+          "picture": "prop:blue_dot",
+          "correct": true,
+          "label": {
+            "en": "Blue",
+            "ur": "نیلا"
+          }
+        },
+        {
+          "picture": "prop:red_dot",
+          "label": {
+            "en": "Red",
+            "ur": "لال"
+          }
+        },
+        {
+          "picture": "prop:yellow_dot",
+          "label": {
+            "en": "Yellow",
+            "ur": "پیلا"
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "What did they use to catch fish?",
+        "ur": "انہوں نے مچھلیاں کس سے پکڑیں؟"
+      },
+      "options": [
+        {
+          "picture": "prop:net",
+          "correct": true
+        },
+        {
+          "picture": "prop:bucket"
+        },
+        {
+          "picture": "prop:spoon"
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "Who did they share the fish with?",
+        "ur": "انہوں نے مچھلیاں کس کے ساتھ بانٹیں؟"
+      },
+      "options": [
+        {
+          "picture": "prop:neighbors",
+          "correct": true,
+          "label": {
+            "en": "Neighbors",
+            "ur": "پڑوسی"
+          }
+        },
+        {
+          "picture": "prop:cat",
+          "label": {
+            "en": "Cats",
+            "ur": "بلیاں"
+          }
+        },
+        {
+          "picture": "prop:bird",
+          "label": {
+            "en": "Birds",
+            "ur": "پرندے"
+          }
+        }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": {
+        "en": "Put the fish in Nana's boat!",
+        "ur": "مچھلیاں نانا کی کشتی میں رکھو!"
+      },
+      "item": "prop:fish_silver",
+      "options": [
+        {
+          "picture": "prop:tree"
+        },
+        {
+          "picture": "prop:boat",
+          "correct": true
+        },
+        {
+          "picture": "prop:car"
+        }
+      ]
+    }
+  ]
+}

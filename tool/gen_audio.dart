@@ -33,6 +33,8 @@ void main() {
   // Cast reactions in the story player, also last for the same reason.
   _write('${sfx.path}/giggle.wav', _giggle());
   _write('${sfx.path}/boing.wav', _boing());
+  // The beach, also last for the same reason.
+  _write('${ambient.path}/waves.wav', _waves());
   stdout.writeln('Audio written to assets/audio/');
 }
 
@@ -519,6 +521,30 @@ Float64List _wind() {
     cutoff: (t) => 240 + 420 * _wave(t, 6, 1),
     highPass: 60,
     amp: 0.6,
+  );
+  return _normalise(_loopify(b), 0.4);
+}
+
+/// Waves rolling onto a beach: a surge and a long hiss every four seconds,
+/// over a soft steady sea.
+Float64List _waves() {
+  final b = _ambientBuffer();
+  // Each wave swells, breaks, then drains back down the sand.
+  double surge(double t) {
+    final x = (t % 4) / 4;
+    return x < 0.3
+        ? math.pow(x / 0.3, 2).toDouble()
+        : math.pow(1 - (x - 0.3) / 0.7, 1.6).toDouble();
+  }
+
+  _noise(
+    b,
+    0,
+    _ambientLoop + _ambientFade,
+    env: (t) => 0.18 + 0.82 * surge(t) * (0.8 + 0.2 * _wave(t, 12)),
+    cutoff: (t) => 500 + 1700 * surge(t),
+    highPass: 90,
+    amp: 0.55,
   );
   return _normalise(_loopify(b), 0.4);
 }

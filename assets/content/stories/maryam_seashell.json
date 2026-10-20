@@ -1,0 +1,2033 @@
+{
+  "schemaVersion": 1,
+  "id": "maryam_seashell",
+  "start": "p1",
+  "characters": {
+    "maryam": {
+      "en": "Maryam",
+      "ur": "مریم"
+    },
+    "musa": {
+      "en": "Musa",
+      "ur": "موسیٰ"
+    },
+    "ammi": {
+      "en": "Ammi",
+      "ur": "امی"
+    }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "beach",
+      "text": {
+        "en": "Maryam and her little brother Musa were collecting shells at the beach. \"Look, Musa! This one is white. This one is pink!\"",
+        "ur": "مریم اور اس کا چھوٹا بھائی موسیٰ سمندر کنارے سیپیاں جمع کر رہے تھے۔ \"دیکھو موسیٰ! یہ سفید ہے۔ یہ گلابی ہے!\""
+      },
+      "cast": [
+        {
+          "art": "prop:shells",
+          "x": 0.5,
+          "y": 0.74,
+          "size": 0.035
+        },
+        {
+          "art": "puppet:maryam",
+          "x": 0.36,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "hold",
+          "hold": "prop:shell_white",
+          "holdSize": 0.12,
+          "act": "talk",
+          "face": "happy",
+          "look": "right"
+        },
+        {
+          "art": "puppet:musa",
+          "x": 0.64,
+          "y": 0.69,
+          "size": 0.17,
+          "pose": "hold",
+          "hold": "prop:shell_pink",
+          "holdSize": 0.14,
+          "face": "laugh",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "مریم",
+            "start": 54,
+            "end": 294
+          },
+          {
+            "w": "اور",
+            "start": 294,
+            "end": 564
+          },
+          {
+            "w": "اس",
+            "start": 564,
+            "end": 704
+          },
+          {
+            "w": "کا",
+            "start": 704,
+            "end": 864
+          },
+          {
+            "w": "چھوٹا",
+            "start": 864,
+            "end": 1264
+          },
+          {
+            "w": "بھائی",
+            "start": 1264,
+            "end": 1664
+          },
+          {
+            "w": "موسیٰ",
+            "start": 1664,
+            "end": 2324
+          },
+          {
+            "w": "سمندر",
+            "start": 2324,
+            "end": 2684
+          },
+          {
+            "w": "کنارے",
+            "start": 2684,
+            "end": 3134
+          },
+          {
+            "w": "سیپیاں",
+            "start": 3134,
+            "end": 3674
+          },
+          {
+            "w": "جمع",
+            "start": 3674,
+            "end": 3944
+          },
+          {
+            "w": "کر",
+            "start": 3944,
+            "end": 4124
+          },
+          {
+            "w": "رہے",
+            "start": 4124,
+            "end": 4414
+          },
+          {
+            "w": "تھے۔",
+            "start": 4414,
+            "end": 4774
+          },
+          {
+            "w": "\"دیکھو",
+            "start": 4774,
+            "end": 5454
+          },
+          {
+            "w": "موسیٰ!",
+            "start": 5454,
+            "end": 6244
+          },
+          {
+            "w": "یہ",
+            "start": 6244,
+            "end": 6484
+          },
+          {
+            "w": "سفید",
+            "start": 6484,
+            "end": 6934
+          },
+          {
+            "w": "ہے۔",
+            "start": 6934,
+            "end": 7284
+          },
+          {
+            "w": "یہ",
+            "start": 7284,
+            "end": 7524
+          },
+          {
+            "w": "گلابی",
+            "start": 7524,
+            "end": 8184
+          },
+          {
+            "w": "ہے!\"",
+            "start": 8184,
+            "end": 8614
+          }
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "beach",
+      "text": {
+        "en": "Then Maryam found the most beautiful shell of all. It was round, and it shined with seven colors! \"Wow!\"",
+        "ur": "پھر مریم کو سب سے پیاری سیپی ملی۔ وہ گول تھی اور اس میں سات رنگ چمک رہے تھے! \"واہ!\""
+      },
+      "cast": [
+        {
+          "art": "prop:shells",
+          "x": 0.7,
+          "y": 0.74,
+          "size": 0.035
+        },
+        {
+          "art": "puppet:maryam",
+          "x": 0.44,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "cheer",
+          "hold": "prop:shell_rainbow",
+          "holdSize": 0.22,
+          "face": "surprised",
+          "look": "up"
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.6,
+          "y": 0.38,
+          "size": 0.035,
+          "mood": "twinkle",
+          "delay": 500
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "پھر",
+            "start": 20,
+            "end": 470
+          },
+          {
+            "w": "مریم",
+            "start": 470,
+            "end": 1070
+          },
+          {
+            "w": "کو",
+            "start": 1070,
+            "end": 1370
+          },
+          {
+            "w": "سب",
+            "start": 1370,
+            "end": 1670
+          },
+          {
+            "w": "سے",
+            "start": 1670,
+            "end": 1970
+          },
+          {
+            "w": "پیاری",
+            "start": 1970,
+            "end": 2720
+          },
+          {
+            "w": "سیپی",
+            "start": 2720,
+            "end": 3430
+          },
+          {
+            "w": "ملی۔",
+            "start": 3430,
+            "end": 3860
+          },
+          {
+            "w": "وہ",
+            "start": 3860,
+            "end": 4100
+          },
+          {
+            "w": "گول",
+            "start": 4100,
+            "end": 4450
+          },
+          {
+            "w": "تھی",
+            "start": 4450,
+            "end": 4830
+          },
+          {
+            "w": "اور",
+            "start": 4830,
+            "end": 5180
+          },
+          {
+            "w": "اس",
+            "start": 5180,
+            "end": 5420
+          },
+          {
+            "w": "میں",
+            "start": 5420,
+            "end": 5780
+          },
+          {
+            "w": "سات",
+            "start": 5780,
+            "end": 6230
+          },
+          {
+            "w": "رنگ",
+            "start": 6230,
+            "end": 6500
+          },
+          {
+            "w": "چمک",
+            "start": 6500,
+            "end": 6860
+          },
+          {
+            "w": "رہے",
+            "start": 6860,
+            "end": 7270
+          },
+          {
+            "w": "تھے!",
+            "start": 7270,
+            "end": 7620
+          },
+          {
+            "w": "\"واہ!\"",
+            "start": 7620,
+            "end": 9220
+          }
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "beach",
+      "text": {
+        "en": "Just then, Musa started to cry. A wave had washed away all his shells. \"My shells are gone!\"",
+        "ur": "اتنے میں موسیٰ رونے لگا۔ ایک لہر اس کی ساری سیپیاں بہا کر لے گئی تھی۔ \"میری سیپیاں چلی گئیں!\""
+      },
+      "cast": [
+        {
+          "art": "prop:big_wave",
+          "x": 0.76,
+          "y": 0.62,
+          "size": 0.15,
+          "enter": "right",
+          "until": 5634
+        },
+        {
+          "art": "puppet:maryam",
+          "x": 0.3,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "hold",
+          "hold": "prop:shell_rainbow",
+          "holdSize": 0.14,
+          "face": "worried",
+          "look": "right"
+        },
+        {
+          "art": "puppet:musa",
+          "x": 0.62,
+          "y": 0.69,
+          "size": 0.17,
+          "pose": "cover_eyes",
+          "face": "sad",
+          "mood": "sad"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "اتنے",
+            "start": 24,
+            "end": 464
+          },
+          {
+            "w": "میں",
+            "start": 464,
+            "end": 794
+          },
+          {
+            "w": "موسیٰ",
+            "start": 794,
+            "end": 1454
+          },
+          {
+            "w": "رونے",
+            "start": 1454,
+            "end": 1894
+          },
+          {
+            "w": "لگا۔",
+            "start": 1894,
+            "end": 2264
+          },
+          {
+            "w": "ایک",
+            "start": 2264,
+            "end": 2574
+          },
+          {
+            "w": "لہر",
+            "start": 2574,
+            "end": 2874
+          },
+          {
+            "w": "اس",
+            "start": 2874,
+            "end": 3084
+          },
+          {
+            "w": "کی",
+            "start": 3084,
+            "end": 3294
+          },
+          {
+            "w": "ساری",
+            "start": 3294,
+            "end": 3704
+          },
+          {
+            "w": "سیپیاں",
+            "start": 3704,
+            "end": 4344
+          },
+          {
+            "w": "بہا",
+            "start": 4344,
+            "end": 4734
+          },
+          {
+            "w": "کر",
+            "start": 4734,
+            "end": 4824
+          },
+          {
+            "w": "لے",
+            "start": 4824,
+            "end": 5024
+          },
+          {
+            "w": "گئی",
+            "start": 5024,
+            "end": 5324
+          },
+          {
+            "w": "تھی۔",
+            "start": 5324,
+            "end": 5784
+          },
+          {
+            "w": "\"میری",
+            "start": 5784,
+            "end": 6374
+          },
+          {
+            "w": "سیپیاں",
+            "start": 6374,
+            "end": 7014
+          },
+          {
+            "w": "چلی",
+            "start": 7014,
+            "end": 7344
+          },
+          {
+            "w": "گئیں!\"",
+            "start": 7344,
+            "end": 8024
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "choice",
+      "scene": "beach",
+      "text": {
+        "en": "Musa looked at Maryam's shiny shell with teary eyes. Maryam loved that shell so much. What should Maryam do?",
+        "ur": "موسیٰ نے آنسو بھری آنکھوں سے مریم کی چمکدار سیپی کو دیکھا۔ مریم کو وہ سیپی بہت پسند تھی۔ مریم کو کیا کرنا چاہیے؟"
+      },
+      "cast": [
+        {
+          "art": "puppet:maryam",
+          "x": 0.34,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "hold",
+          "hold": "prop:shell_rainbow",
+          "holdSize": 0.14,
+          "face": "think",
+          "look": "right"
+        },
+        {
+          "art": "puppet:musa",
+          "x": 0.64,
+          "y": 0.69,
+          "size": 0.17,
+          "face": "sad",
+          "mood": "sad",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "موسیٰ",
+            "start": 69,
+            "end": 479
+          },
+          {
+            "w": "نے",
+            "start": 479,
+            "end": 659
+          },
+          {
+            "w": "آنسو",
+            "start": 659,
+            "end": 989
+          },
+          {
+            "w": "بھری",
+            "start": 989,
+            "end": 1329
+          },
+          {
+            "w": "آنکھوں",
+            "start": 1329,
+            "end": 1829
+          },
+          {
+            "w": "سے",
+            "start": 1829,
+            "end": 2139
+          },
+          {
+            "w": "مریم",
+            "start": 2139,
+            "end": 2549
+          },
+          {
+            "w": "کی",
+            "start": 2549,
+            "end": 2759
+          },
+          {
+            "w": "چمکدار",
+            "start": 2759,
+            "end": 3389
+          },
+          {
+            "w": "سیپی",
+            "start": 3389,
+            "end": 3769
+          },
+          {
+            "w": "کو",
+            "start": 3769,
+            "end": 3979
+          },
+          {
+            "w": "دیکھا۔",
+            "start": 3979,
+            "end": 4619
+          },
+          {
+            "w": "مریم",
+            "start": 4619,
+            "end": 5139
+          },
+          {
+            "w": "کو",
+            "start": 5139,
+            "end": 5399
+          },
+          {
+            "w": "وہ",
+            "start": 5399,
+            "end": 5659
+          },
+          {
+            "w": "سیپی",
+            "start": 5659,
+            "end": 6179
+          },
+          {
+            "w": "بہت",
+            "start": 6179,
+            "end": 6569
+          },
+          {
+            "w": "پسند",
+            "start": 6569,
+            "end": 7089
+          },
+          {
+            "w": "تھی۔",
+            "start": 7089,
+            "end": 7499
+          },
+          {
+            "w": "مریم",
+            "start": 7499,
+            "end": 8029
+          },
+          {
+            "w": "کو",
+            "start": 8029,
+            "end": 8299
+          },
+          {
+            "w": "کیا",
+            "start": 8299,
+            "end": 8699
+          },
+          {
+            "w": "کرنا",
+            "start": 8699,
+            "end": 9239
+          },
+          {
+            "w": "چاہیے؟",
+            "start": 9239,
+            "end": 9979
+          }
+        ]
+      }
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": {
+        "en": "What should Maryam do?",
+        "ur": "مریم کو کیا کرنا چاہیے؟"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "en": "Give it to Musa",
+            "ur": "موسیٰ کو دے دے"
+          },
+          "picture": "puppet:musa",
+          "next": "choice_a"
+        },
+        {
+          "id": "b",
+          "label": {
+            "en": "Keep it",
+            "ur": "اپنے پاس رکھے"
+          },
+          "picture": "prop:shell_rainbow",
+          "next": "choice_b"
+        }
+      ]
+    },
+    {
+      "id": "choice_a",
+      "type": "page",
+      "next": "p5",
+      "scene": "beach",
+      "text": {
+        "en": "Maryam held out her shiny shell. \"Here, Musa. This is for you.\" Musa stopped crying at once.",
+        "ur": "مریم نے اپنی چمکدار سیپی آگے بڑھائی۔ \"یہ لو موسیٰ، یہ تمہارے لیے ہے۔\" موسیٰ نے فوراً رونا بند کر دیا۔"
+      },
+      "help": {
+        "kind": "drag",
+        "item": 1,
+        "to": 2
+      },
+      "cast": [
+        {
+          "art": "puppet:maryam",
+          "x": 0.34,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "give",
+          "act": "talk",
+          "mood": "happy",
+          "look": "right"
+        },
+        {
+          "art": "prop:shell_rainbow",
+          "x": 0.47,
+          "y": 0.6,
+          "size": 0.05,
+          "mood": "twinkle",
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:musa",
+          "x": 0.66,
+          "y": 0.69,
+          "size": 0.17,
+          "face": "sad",
+          "look": "left",
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:musa",
+          "x": 0.66,
+          "y": 0.69,
+          "size": 0.17,
+          "pose": "hold",
+          "hold": "prop:shell_rainbow",
+          "holdSize": 0.16,
+          "act": "bounce",
+          "face": "laugh",
+          "helpStep": 1
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "مریم",
+            "start": 26,
+            "end": 396
+          },
+          {
+            "w": "نے",
+            "start": 396,
+            "end": 616
+          },
+          {
+            "w": "اپنی",
+            "start": 616,
+            "end": 956
+          },
+          {
+            "w": "چمکدار",
+            "start": 956,
+            "end": 1496
+          },
+          {
+            "w": "سیپی",
+            "start": 1496,
+            "end": 1856
+          },
+          {
+            "w": "آگے",
+            "start": 1856,
+            "end": 2126
+          },
+          {
+            "w": "بڑھائی۔",
+            "start": 2126,
+            "end": 2986
+          },
+          {
+            "w": "\"یہ",
+            "start": 2986,
+            "end": 3256
+          },
+          {
+            "w": "لو",
+            "start": 3256,
+            "end": 3446
+          },
+          {
+            "w": "موسیٰ،",
+            "start": 3446,
+            "end": 4126
+          },
+          {
+            "w": "یہ",
+            "start": 4126,
+            "end": 4276
+          },
+          {
+            "w": "تمہارے",
+            "start": 4276,
+            "end": 4836
+          },
+          {
+            "w": "لیے",
+            "start": 4836,
+            "end": 5106
+          },
+          {
+            "w": "ہے۔\"",
+            "start": 5106,
+            "end": 5546
+          },
+          {
+            "w": "موسیٰ",
+            "start": 5546,
+            "end": 6156
+          },
+          {
+            "w": "نے",
+            "start": 6156,
+            "end": 6366
+          },
+          {
+            "w": "فوراً",
+            "start": 6366,
+            "end": 6876
+          },
+          {
+            "w": "رونا",
+            "start": 6876,
+            "end": 7286
+          },
+          {
+            "w": "بند",
+            "start": 7286,
+            "end": 7626
+          },
+          {
+            "w": "کر",
+            "start": 7626,
+            "end": 7896
+          },
+          {
+            "w": "دیا۔",
+            "start": 7896,
+            "end": 8186
+          }
+        ]
+      }
+    },
+    {
+      "id": "choice_b",
+      "type": "page",
+      "next": "p5",
+      "scene": "beach",
+      "text": {
+        "en": "Maryam hid the shell behind her back. But Musa was still crying, and that made her sad too. She held it out. \"Here, Musa. This is for you.\" Musa stopped crying at once.",
+        "ur": "مریم نے سیپی اپنی کمر کے پیچھے چھپا لی۔ مگر موسیٰ ابھی بھی رو رہا تھا، اور اسے دیکھ کر مریم بھی اداس ہو گئی۔ اس نے سیپی آگے بڑھائی۔ \"یہ لو موسیٰ، یہ تمہارے لیے ہے۔\" موسیٰ نے فوراً رونا بند کر دیا۔"
+      },
+      "help": {
+        "kind": "drag",
+        "item": 2,
+        "to": 3,
+        "when": "after"
+      },
+      "cast": [
+        {
+          "art": "puppet:maryam",
+          "x": 0.34,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "shy",
+          "face": "worried",
+          "look": "right",
+          "until": 8590
+        },
+        {
+          "art": "puppet:maryam",
+          "x": 0.34,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "give",
+          "act": "talk",
+          "mood": "happy",
+          "look": "right",
+          "delay": 8590
+        },
+        {
+          "art": "prop:shell_rainbow",
+          "x": 0.47,
+          "y": 0.6,
+          "size": 0.05,
+          "mood": "twinkle",
+          "delay": 8590,
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:musa",
+          "x": 0.66,
+          "y": 0.69,
+          "size": 0.17,
+          "face": "sad",
+          "mood": "sad",
+          "look": "left",
+          "helpHide": 1
+        },
+        {
+          "art": "puppet:musa",
+          "x": 0.66,
+          "y": 0.69,
+          "size": 0.17,
+          "pose": "hold",
+          "hold": "prop:shell_rainbow",
+          "holdSize": 0.16,
+          "act": "bounce",
+          "face": "laugh",
+          "helpStep": 1
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "مریم",
+            "start": 10,
+            "end": 410
+          },
+          {
+            "w": "نے",
+            "start": 410,
+            "end": 600
+          },
+          {
+            "w": "سیپی",
+            "start": 600,
+            "end": 1010
+          },
+          {
+            "w": "اپنی",
+            "start": 1010,
+            "end": 1440
+          },
+          {
+            "w": "کمر",
+            "start": 1440,
+            "end": 1710
+          },
+          {
+            "w": "کے",
+            "start": 1710,
+            "end": 1910
+          },
+          {
+            "w": "پیچھے",
+            "start": 1910,
+            "end": 2460
+          },
+          {
+            "w": "چھپا",
+            "start": 2460,
+            "end": 2810
+          },
+          {
+            "w": "لی۔",
+            "start": 2810,
+            "end": 3130
+          },
+          {
+            "w": "مگر",
+            "start": 3130,
+            "end": 3410
+          },
+          {
+            "w": "موسیٰ",
+            "start": 3410,
+            "end": 3970
+          },
+          {
+            "w": "ابھی",
+            "start": 3970,
+            "end": 4360
+          },
+          {
+            "w": "بھی",
+            "start": 4360,
+            "end": 4650
+          },
+          {
+            "w": "رو",
+            "start": 4650,
+            "end": 4840
+          },
+          {
+            "w": "رہا",
+            "start": 4840,
+            "end": 5110
+          },
+          {
+            "w": "تھا،",
+            "start": 5110,
+            "end": 5530
+          },
+          {
+            "w": "اور",
+            "start": 5530,
+            "end": 5850
+          },
+          {
+            "w": "اسے",
+            "start": 5850,
+            "end": 6160
+          },
+          {
+            "w": "دیکھ",
+            "start": 6160,
+            "end": 6570
+          },
+          {
+            "w": "کر",
+            "start": 6570,
+            "end": 6780
+          },
+          {
+            "w": "مریم",
+            "start": 6780,
+            "end": 7190
+          },
+          {
+            "w": "بھی",
+            "start": 7190,
+            "end": 7500
+          },
+          {
+            "w": "اداس",
+            "start": 7500,
+            "end": 8000
+          },
+          {
+            "w": "ہو",
+            "start": 8000,
+            "end": 8120
+          },
+          {
+            "w": "گئی۔",
+            "start": 8120,
+            "end": 8570
+          },
+          {
+            "w": "اس",
+            "start": 8740,
+            "end": 8800
+          },
+          {
+            "w": "نے",
+            "start": 8780,
+            "end": 8990
+          },
+          {
+            "w": "سیپی",
+            "start": 8990,
+            "end": 9390
+          },
+          {
+            "w": "آگے",
+            "start": 9390,
+            "end": 9710
+          },
+          {
+            "w": "بڑھائی۔",
+            "start": 9710,
+            "end": 10490
+          },
+          {
+            "w": "\"یہ",
+            "start": 10490,
+            "end": 10760
+          },
+          {
+            "w": "لو",
+            "start": 10760,
+            "end": 10950
+          },
+          {
+            "w": "موسیٰ،",
+            "start": 10950,
+            "end": 11630
+          },
+          {
+            "w": "یہ",
+            "start": 11630,
+            "end": 11780
+          },
+          {
+            "w": "تمہارے",
+            "start": 11780,
+            "end": 12340
+          },
+          {
+            "w": "لیے",
+            "start": 12340,
+            "end": 12610
+          },
+          {
+            "w": "ہے۔\"",
+            "start": 12610,
+            "end": 12970
+          },
+          {
+            "w": "موسیٰ",
+            "start": 12970,
+            "end": 13520
+          },
+          {
+            "w": "نے",
+            "start": 13520,
+            "end": 13710
+          },
+          {
+            "w": "فوراً",
+            "start": 13710,
+            "end": 14170
+          },
+          {
+            "w": "رونا",
+            "start": 14170,
+            "end": 14540
+          },
+          {
+            "w": "بند",
+            "start": 14540,
+            "end": 14820
+          },
+          {
+            "w": "کر",
+            "start": 14820,
+            "end": 15050
+          },
+          {
+            "w": "دیا۔",
+            "start": 15050,
+            "end": 15370
+          }
+        ]
+      }
+    },
+    {
+      "id": "p5",
+      "type": "page",
+      "next": "p6",
+      "scene": "beach",
+      "text": {
+        "en": "Musa held the shell to his ear. \"Maryam Baji, I can hear the sea!\" He gave her a big hug.",
+        "ur": "موسیٰ نے سیپی کان سے لگائی۔ \"مریم باجی، اس میں سمندر کی آواز آ رہی ہے!\" اس نے مریم کو زور سے گلے لگا لیا۔"
+      },
+      "cast": [
+        {
+          "art": "puppet:musa",
+          "x": 0.56,
+          "y": 0.69,
+          "size": 0.17,
+          "pose": "drink",
+          "hold": "prop:shell_rainbow",
+          "holdSize": 0.14,
+          "face": "happy",
+          "until": 3240
+        },
+        {
+          "art": "puppet:maryam",
+          "x": 0.34,
+          "y": 0.67,
+          "size": 0.22,
+          "face": "happy",
+          "look": "right",
+          "until": 3240
+        },
+        {
+          "art": "puppet:maryam",
+          "x": 0.4,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "hug",
+          "act": "hug",
+          "face": "laugh",
+          "look": "right",
+          "delay": 3240
+        },
+        {
+          "art": "puppet:musa",
+          "x": 0.55,
+          "y": 0.69,
+          "size": 0.17,
+          "pose": "hug",
+          "face": "laugh",
+          "look": "left",
+          "delay": 3240
+        },
+        {
+          "art": "prop:heart",
+          "x": 0.48,
+          "y": 0.38,
+          "size": 0.03,
+          "mood": "float",
+          "delay": 3640
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "موسیٰ",
+            "start": 10,
+            "end": 610
+          },
+          {
+            "w": "نے",
+            "start": 610,
+            "end": 810
+          },
+          {
+            "w": "سیپی",
+            "start": 810,
+            "end": 1210
+          },
+          {
+            "w": "کان",
+            "start": 1210,
+            "end": 1510
+          },
+          {
+            "w": "سے",
+            "start": 1510,
+            "end": 1710
+          },
+          {
+            "w": "لگائی۔",
+            "start": 1710,
+            "end": 2250
+          },
+          {
+            "w": "\"مریم",
+            "start": 2250,
+            "end": 2800
+          },
+          {
+            "w": "باجی،",
+            "start": 2800,
+            "end": 3390
+          },
+          {
+            "w": "اس",
+            "start": 3390,
+            "end": 3570
+          },
+          {
+            "w": "میں",
+            "start": 3570,
+            "end": 3900
+          },
+          {
+            "w": "سمندر",
+            "start": 3900,
+            "end": 4450
+          },
+          {
+            "w": "کی",
+            "start": 4450,
+            "end": 4720
+          },
+          {
+            "w": "آواز",
+            "start": 4720,
+            "end": 5120
+          },
+          {
+            "w": "آ",
+            "start": 5120,
+            "end": 5220
+          },
+          {
+            "w": "رہی",
+            "start": 5220,
+            "end": 5660
+          },
+          {
+            "w": "ہے!\"",
+            "start": 5660,
+            "end": 5930
+          },
+          {
+            "w": "اس",
+            "start": 5930,
+            "end": 6210
+          },
+          {
+            "w": "نے",
+            "start": 6210,
+            "end": 6520
+          },
+          {
+            "w": "مریم",
+            "start": 6520,
+            "end": 7070
+          },
+          {
+            "w": "کو",
+            "start": 7070,
+            "end": 7360
+          },
+          {
+            "w": "زور",
+            "start": 7360,
+            "end": 7720
+          },
+          {
+            "w": "سے",
+            "start": 7720,
+            "end": 8010
+          },
+          {
+            "w": "گلے",
+            "start": 8010,
+            "end": 8400
+          },
+          {
+            "w": "لگا",
+            "start": 8400,
+            "end": 8800
+          },
+          {
+            "w": "لیا۔",
+            "start": 8800,
+            "end": 9290
+          }
+        ]
+      }
+    },
+    {
+      "id": "p6",
+      "type": "page",
+      "next": "p7",
+      "scene": "beach",
+      "text": {
+        "en": "Ammi saw everything. \"Maryam, when we give away something we love, Allah gives us something even better.\"",
+        "ur": "امی نے سب دیکھ لیا تھا۔ \"مریم، جب ہم اپنی پسند کی چیز کسی کو دیتے ہیں تو اللہ تعالیٰ ہمیں اس سے بھی اچھی چیز دیتے ہیں۔\""
+      },
+      "cast": [
+        {
+          "art": "puppet:musa",
+          "x": 0.2,
+          "y": 0.69,
+          "size": 0.17,
+          "pose": "hold",
+          "hold": "prop:shell_rainbow",
+          "holdSize": 0.14,
+          "face": "happy"
+        },
+        {
+          "art": "puppet:maryam",
+          "x": 0.48,
+          "y": 0.67,
+          "size": 0.22,
+          "face": "shy",
+          "mood": "happy",
+          "look": "right"
+        },
+        {
+          "art": "puppet:ammi",
+          "x": 0.72,
+          "y": 0.65,
+          "size": 0.29,
+          "act": "talk",
+          "mood": "happy",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "امی",
+            "start": 16,
+            "end": 346
+          },
+          {
+            "w": "نے",
+            "start": 346,
+            "end": 606
+          },
+          {
+            "w": "سب",
+            "start": 606,
+            "end": 796
+          },
+          {
+            "w": "دیکھ",
+            "start": 796,
+            "end": 1246
+          },
+          {
+            "w": "لیا",
+            "start": 1246,
+            "end": 1586
+          },
+          {
+            "w": "تھا۔",
+            "start": 1586,
+            "end": 2016
+          },
+          {
+            "w": "\"مریم،",
+            "start": 2016,
+            "end": 3066
+          },
+          {
+            "w": "جب",
+            "start": 3066,
+            "end": 3246
+          },
+          {
+            "w": "ہم",
+            "start": 3246,
+            "end": 3446
+          },
+          {
+            "w": "اپنی",
+            "start": 3446,
+            "end": 3786
+          },
+          {
+            "w": "پسند",
+            "start": 3786,
+            "end": 4146
+          },
+          {
+            "w": "کی",
+            "start": 4146,
+            "end": 4366
+          },
+          {
+            "w": "چیز",
+            "start": 4366,
+            "end": 4596
+          },
+          {
+            "w": "کسی",
+            "start": 4596,
+            "end": 4886
+          },
+          {
+            "w": "کو",
+            "start": 4886,
+            "end": 5046
+          },
+          {
+            "w": "دیتے",
+            "start": 5046,
+            "end": 5436
+          },
+          {
+            "w": "ہیں",
+            "start": 5436,
+            "end": 5696
+          },
+          {
+            "w": "تو",
+            "start": 5696,
+            "end": 5866
+          },
+          {
+            "w": "اللہ",
+            "start": 5866,
+            "end": 6206
+          },
+          {
+            "w": "تعالیٰ",
+            "start": 6206,
+            "end": 6626
+          },
+          {
+            "w": "ہمیں",
+            "start": 6626,
+            "end": 6956
+          },
+          {
+            "w": "اس",
+            "start": 6956,
+            "end": 7126
+          },
+          {
+            "w": "سے",
+            "start": 7126,
+            "end": 7306
+          },
+          {
+            "w": "بھی",
+            "start": 7306,
+            "end": 7546
+          },
+          {
+            "w": "اچھی",
+            "start": 7546,
+            "end": 7876
+          },
+          {
+            "w": "چیز",
+            "start": 7876,
+            "end": 8166
+          },
+          {
+            "w": "دیتے",
+            "start": 8166,
+            "end": 8436
+          },
+          {
+            "w": "ہیں۔\"",
+            "start": 8436,
+            "end": 8896
+          }
+        ]
+      }
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": "p8",
+      "scene": "beach",
+      "text": {
+        "en": "And guess what? A new wave came and left something on the sand. Two shiny shells! One for Maryam, and one more for Musa!",
+        "ur": "اور پتا ہے کیا ہوا؟ ایک نئی لہر آئی اور ریت پر کچھ چھوڑ گئی۔ دو چمکدار سیپیاں! ایک مریم کے لیے، اور ایک اور موسیٰ کے لیے!"
+      },
+      "cast": [
+        {
+          "art": "prop:wave_small",
+          "x": 0.5,
+          "y": 0.64,
+          "size": 0.06,
+          "until": 5065
+        },
+        {
+          "art": "prop:shell_rainbow",
+          "x": 0.42,
+          "y": 0.73,
+          "size": 0.055,
+          "mood": "twinkle",
+          "enter": "grow",
+          "delay": 5065
+        },
+        {
+          "art": "prop:shell_rainbow",
+          "x": 0.58,
+          "y": 0.73,
+          "size": 0.055,
+          "mood": "twinkle",
+          "enter": "grow",
+          "delay": 5265
+        },
+        {
+          "art": "puppet:maryam",
+          "x": 0.22,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "cheer",
+          "act": "bounce",
+          "face": "laugh",
+          "look": "right"
+        },
+        {
+          "art": "puppet:musa",
+          "x": 0.8,
+          "y": 0.69,
+          "size": 0.17,
+          "pose": "cheer",
+          "act": "bounce",
+          "face": "laugh",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "اور",
+            "start": 15,
+            "end": 435
+          },
+          {
+            "w": "پتا",
+            "start": 435,
+            "end": 855
+          },
+          {
+            "w": "ہے",
+            "start": 855,
+            "end": 1165
+          },
+          {
+            "w": "کیا",
+            "start": 1165,
+            "end": 1555
+          },
+          {
+            "w": "ہوا؟",
+            "start": 1555,
+            "end": 2015
+          },
+          {
+            "w": "ایک",
+            "start": 2135,
+            "end": 2365
+          },
+          {
+            "w": "نئی",
+            "start": 2365,
+            "end": 2705
+          },
+          {
+            "w": "لہر",
+            "start": 2705,
+            "end": 3045
+          },
+          {
+            "w": "آئی",
+            "start": 3045,
+            "end": 3455
+          },
+          {
+            "w": "اور",
+            "start": 3455,
+            "end": 3725
+          },
+          {
+            "w": "ریت",
+            "start": 3725,
+            "end": 3995
+          },
+          {
+            "w": "پر",
+            "start": 3995,
+            "end": 4175
+          },
+          {
+            "w": "کچھ",
+            "start": 4175,
+            "end": 4485
+          },
+          {
+            "w": "چھوڑ",
+            "start": 4485,
+            "end": 4895
+          },
+          {
+            "w": "گئی۔",
+            "start": 4895,
+            "end": 5215
+          },
+          {
+            "w": "دو",
+            "start": 5215,
+            "end": 5495
+          },
+          {
+            "w": "چمکدار",
+            "start": 5495,
+            "end": 6355
+          },
+          {
+            "w": "سیپیاں!",
+            "start": 6355,
+            "end": 7215
+          },
+          {
+            "w": "ایک",
+            "start": 7215,
+            "end": 7525
+          },
+          {
+            "w": "مریم",
+            "start": 7525,
+            "end": 7935
+          },
+          {
+            "w": "کے",
+            "start": 7935,
+            "end": 8145
+          },
+          {
+            "w": "لیے،",
+            "start": 8145,
+            "end": 8505
+          },
+          {
+            "w": "اور",
+            "start": 8505,
+            "end": 8775
+          },
+          {
+            "w": "ایک",
+            "start": 8775,
+            "end": 9055
+          },
+          {
+            "w": "اور",
+            "start": 9055,
+            "end": 9335
+          },
+          {
+            "w": "موسیٰ",
+            "start": 9335,
+            "end": 9885
+          },
+          {
+            "w": "کے",
+            "start": 9885,
+            "end": 10085
+          },
+          {
+            "w": "لیے!",
+            "start": 10085,
+            "end": 10335
+          }
+        ]
+      }
+    },
+    {
+      "id": "p8",
+      "type": "page",
+      "next": null,
+      "scene": "beach_sunset",
+      "text": {
+        "en": "On the way home, Musa held Maryam's hand. \"You are the best Baji in the whole world!\"",
+        "ur": "گھر جاتے ہوئے موسیٰ نے مریم کا ہاتھ پکڑا ہوا تھا۔ \"آپ دنیا کی سب سے اچھی باجی ہیں!\""
+      },
+      "cast": [
+        {
+          "art": "puppet:maryam",
+          "x": 0.42,
+          "y": 0.66,
+          "size": 0.22,
+          "pose": "hold_hand",
+          "act": "walk+talk",
+          "mood": "happy",
+          "enter": "left"
+        },
+        {
+          "art": "puppet:musa",
+          "x": 0.58,
+          "y": 0.68,
+          "size": 0.17,
+          "pose": "hold_hand_l",
+          "act": "walk",
+          "mood": "happy",
+          "enter": "left"
+        },
+        {
+          "art": "prop:heart",
+          "x": 0.5,
+          "y": 0.36,
+          "size": 0.03,
+          "mood": "float",
+          "delay": 1200
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "گھر",
+            "start": 331,
+            "end": 631
+          },
+          {
+            "w": "جاتے",
+            "start": 631,
+            "end": 1041
+          },
+          {
+            "w": "ہوئے",
+            "start": 1041,
+            "end": 1531
+          },
+          {
+            "w": "موسیٰ",
+            "start": 1531,
+            "end": 2011
+          },
+          {
+            "w": "نے",
+            "start": 2011,
+            "end": 2171
+          },
+          {
+            "w": "مریم",
+            "start": 2171,
+            "end": 2491
+          },
+          {
+            "w": "کا",
+            "start": 2491,
+            "end": 2681
+          },
+          {
+            "w": "ہاتھ",
+            "start": 2681,
+            "end": 2971
+          },
+          {
+            "w": "پکڑا",
+            "start": 2971,
+            "end": 3371
+          },
+          {
+            "w": "ہوا",
+            "start": 3371,
+            "end": 3741
+          },
+          {
+            "w": "تھا۔",
+            "start": 3741,
+            "end": 3931
+          },
+          {
+            "w": "\"آپ",
+            "start": 3931,
+            "end": 4311
+          },
+          {
+            "w": "دنیا",
+            "start": 4311,
+            "end": 4861
+          },
+          {
+            "w": "کی",
+            "start": 4861,
+            "end": 5101
+          },
+          {
+            "w": "سب",
+            "start": 5101,
+            "end": 5361
+          },
+          {
+            "w": "سے",
+            "start": 5361,
+            "end": 5621
+          },
+          {
+            "w": "اچھی",
+            "start": 5621,
+            "end": 6141
+          },
+          {
+            "w": "باجی",
+            "start": 6141,
+            "end": 6661
+          },
+          {
+            "w": "ہیں!\"",
+            "start": 6661,
+            "end": 7131
+          }
+        ]
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "id": "shell",
+      "picture": "prop:shell_pink",
+      "word": {
+        "en": "shell",
+        "ur": "سیپی"
+      },
+      "forms": {
+        "en": [
+          "shells",
+          "seashell"
+        ],
+        "ur": [
+          "سیپیاں",
+          "سیپیوں"
+        ]
+      }
+    },
+    {
+      "id": "gift",
+      "picture": "prop:shell_rainbow",
+      "word": {
+        "en": "gift",
+        "ur": "تحفہ"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "brother",
+      "picture": "puppet:musa",
+      "word": {
+        "en": "brother",
+        "ur": "بھائی"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "wave",
+      "picture": "prop:wave_small",
+      "word": {
+        "en": "wave",
+        "ur": "لہر"
+      },
+      "forms": {
+        "en": [
+          "waves"
+        ],
+        "ur": []
+      }
+    },
+    {
+      "id": "sea",
+      "picture": "prop:big_wave",
+      "word": {
+        "en": "sea",
+        "ur": "سمندر"
+      },
+      "forms": {
+        "en": [
+          "beach"
+        ],
+        "ur": []
+      }
+    },
+    {
+      "id": "colors",
+      "word": {
+        "en": "colors",
+        "ur": "رنگ"
+      },
+      "forms": {
+        "en": [
+          "color"
+        ],
+        "ur": []
+      }
+    },
+    {
+      "id": "sister",
+      "picture": "puppet:maryam",
+      "word": {
+        "en": "Baji",
+        "ur": "باجی"
+      },
+      "forms": {
+        "en": [
+          "sister"
+        ],
+        "ur": []
+      }
+    },
+    {
+      "id": "sand",
+      "word": {
+        "en": "sand",
+        "ur": "ریت"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    }
+  ],
+  "vocabulary": [
+    "shell",
+    "gift",
+    "brother"
+  ],
+  "quiz": [
+    {
+      "question": {
+        "en": "What were they collecting?",
+        "ur": "وہ کیا جمع کر رہے تھے؟"
+      },
+      "options": [
+        {
+          "picture": "prop:shells",
+          "correct": true
+        },
+        {
+          "picture": "prop:stones"
+        },
+        {
+          "picture": "prop:candy"
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "Why was Musa crying?",
+        "ur": "موسیٰ کیوں رو رہا تھا؟"
+      },
+      "options": [
+        {
+          "picture": "prop:big_wave",
+          "correct": true,
+          "label": {
+            "en": "A wave took his shells",
+            "ur": "لہر سیپیاں لے گئی"
+          }
+        },
+        {
+          "picture": "prop:ice_cream",
+          "label": {
+            "en": "His ice cream fell",
+            "ur": "آئس کریم گر گئی"
+          }
+        },
+        {
+          "picture": "prop:dog",
+          "label": {
+            "en": "A dog barked",
+            "ur": "کتا بھونکا"
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "What did Musa hear in the shell?",
+        "ur": "موسیٰ کو سیپی میں کیا سنائی دیا؟"
+      },
+      "options": [
+        {
+          "picture": "prop:wave_small",
+          "correct": true,
+          "label": {
+            "en": "The sea",
+            "ur": "سمندر"
+          }
+        },
+        {
+          "picture": "prop:music",
+          "label": {
+            "en": "Music",
+            "ur": "گانا"
+          }
+        },
+        {
+          "picture": "prop:bird",
+          "label": {
+            "en": "Birds",
+            "ur": "پرندے"
+          }
+        }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": {
+        "en": "Give the shiny shell to Musa!",
+        "ur": "چمکدار سیپی موسیٰ کو دو!"
+      },
+      "item": "prop:shell_rainbow",
+      "options": [
+        {
+          "picture": "puppet:ammi"
+        },
+        {
+          "picture": "puppet:maryam"
+        },
+        {
+          "picture": "puppet:musa",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

@@ -37,7 +37,8 @@ enum MusicTrack {
 enum Ambience {
   birds,
   river,
-  wind;
+  wind,
+  waves;
 
   String get asset => 'audio/ambient/$name.wav';
 

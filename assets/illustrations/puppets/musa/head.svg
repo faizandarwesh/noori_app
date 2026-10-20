@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 170">
+  <defs><radialGradient id="s" cx="0.38" cy="0.3" r="0.8"><stop offset="0" stop-color="#F1CCAF"/><stop offset="1" stop-color="#EDBD98"/></radialGradient></defs>
+  <circle cx="24.5" cy="47.1" r="5.5" fill="#EDBD98"/>
+  <circle cx="24.5" cy="47.1" r="2.9" fill="#D6AB8C"/>
+  <circle cx="75.5" cy="47.1" r="5.5" fill="#EDBD98"/>
+  <circle cx="75.5" cy="47.1" r="2.9" fill="#D6AB8C"/>
+  <circle cx="50" cy="44" r="26" fill="url(#s)"/>
+  <path d="M25 45 Q22 17 50 16 Q78 17 75 45 Q73 32 64 28 Q56 34 46 30 Q38 34 31 31 Q25 36 25 45 Z" fill="#2E2022"/>
+  <g fill="#2E2022"><circle cx="29" cy="27.1" r="6"/><circle cx="36" cy="22.6" r="6"/><circle cx="43" cy="19.9" r="6"/><circle cx="50" cy="19.0" r="6"/><circle cx="57" cy="19.9" r="6"/><circle cx="64" cy="22.6" r="6"/><circle cx="71" cy="27.1" r="6"/></g>
+  <path d="M40 21 Q48 18 56 20" fill="none" stroke="#625859" stroke-width="2.4" stroke-linecap="round"/>
+</svg>

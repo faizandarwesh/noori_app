@@ -1,0 +1,1864 @@
+{
+  "schemaVersion": 1,
+  "id": "sara_iftar_helper",
+  "start": "p1",
+  "characters": {
+    "sara": {
+      "en": "Sara",
+      "ur": "سارہ"
+    },
+    "ammi": {
+      "en": "Ammi",
+      "ur": "امی"
+    },
+    "baba": {
+      "en": "Abbu",
+      "ur": "ابو"
+    },
+    "zainab": {
+      "en": "Zainab",
+      "ur": "زینب"
+    },
+    "bilal": {
+      "en": "Bilal",
+      "ur": "بلال"
+    }
+  },
+  "nodes": [
+    {
+      "id": "p1",
+      "type": "page",
+      "next": "p2",
+      "scene": "new_house_evening",
+      "text": {
+        "en": "It was Ramzan. Ammi and Abbu were fasting. Sara was too little to fast, but she loved Iftar time!",
+        "ur": "رمضان کا مہینہ تھا۔ امی اور ابو روزے سے تھے۔ سارہ ابھی چھوٹی تھی، مگر اسے افطاری کا وقت بہت پسند تھا!"
+      },
+      "cast": [
+        {
+          "art": "prop:moon",
+          "x": 0.82,
+          "y": 0.2,
+          "size": 0.07,
+          "mood": "float"
+        },
+        {
+          "art": "prop:string_lights",
+          "x": 0.33,
+          "y": 0.43,
+          "size": 0.05
+        },
+        {
+          "art": "puppet:sara",
+          "x": 0.5,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "cheer",
+          "act": "bounce",
+          "face": "laugh"
+        },
+        {
+          "art": "puppet:ammi",
+          "x": 0.7,
+          "y": 0.65,
+          "size": 0.29,
+          "act": "talk",
+          "mood": "happy",
+          "look": "left"
+        },
+        {
+          "art": "puppet:baba",
+          "x": 0.88,
+          "y": 0.65,
+          "size": 0.29,
+          "mood": "happy",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "رمضان",
+            "start": 78,
+            "end": 628
+          },
+          {
+            "w": "کا",
+            "start": 628,
+            "end": 858
+          },
+          {
+            "w": "مہینہ",
+            "start": 858,
+            "end": 1498
+          },
+          {
+            "w": "تھا۔",
+            "start": 1498,
+            "end": 2038
+          },
+          {
+            "w": "امی",
+            "start": 2038,
+            "end": 2308
+          },
+          {
+            "w": "اور",
+            "start": 2308,
+            "end": 2608
+          },
+          {
+            "w": "ابو",
+            "start": 2608,
+            "end": 2888
+          },
+          {
+            "w": "روزے",
+            "start": 2888,
+            "end": 3248
+          },
+          {
+            "w": "سے",
+            "start": 3248,
+            "end": 3418
+          },
+          {
+            "w": "تھے۔",
+            "start": 3418,
+            "end": 3988
+          },
+          {
+            "w": "سارہ",
+            "start": 3988,
+            "end": 4298
+          },
+          {
+            "w": "ابھی",
+            "start": 4298,
+            "end": 4718
+          },
+          {
+            "w": "چھوٹی",
+            "start": 4718,
+            "end": 5218
+          },
+          {
+            "w": "تھی،",
+            "start": 5218,
+            "end": 5798
+          },
+          {
+            "w": "مگر",
+            "start": 5798,
+            "end": 6028
+          },
+          {
+            "w": "اسے",
+            "start": 6028,
+            "end": 6358
+          },
+          {
+            "w": "افطاری",
+            "start": 6358,
+            "end": 7018
+          },
+          {
+            "w": "کا",
+            "start": 7018,
+            "end": 7218
+          },
+          {
+            "w": "وقت",
+            "start": 7218,
+            "end": 7568
+          },
+          {
+            "w": "بہت",
+            "start": 7568,
+            "end": 7898
+          },
+          {
+            "w": "پسند",
+            "start": 7898,
+            "end": 8338
+          },
+          {
+            "w": "تھا!",
+            "start": 8338,
+            "end": 8948
+          }
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "type": "page",
+      "next": "p3",
+      "scene": "kitchen",
+      "text": {
+        "en": "In the kitchen, Ammi was making pakoras and fruit chaat. She looked very tired.",
+        "ur": "کچن میں امی پکوڑے اور فروٹ چاٹ بنا رہی تھیں۔ وہ بہت تھکی ہوئی لگ رہی تھیں۔"
+      },
+      "cast": [
+        {
+          "art": "prop:stove",
+          "x": 0.64,
+          "y": 0.375,
+          "size": 0.09
+        },
+        {
+          "art": "prop:fruit_chaat",
+          "x": 0.14,
+          "y": 0.372,
+          "size": 0.055
+        },
+        {
+          "art": "prop:pakoras",
+          "x": 0.86,
+          "y": 0.372,
+          "size": 0.04
+        },
+        {
+          "art": "puppet:ammi",
+          "x": 0.4,
+          "y": 0.67,
+          "size": 0.29,
+          "pose": "pour",
+          "act": "pour",
+          "face": "tired",
+          "look": "right"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "کچن",
+            "start": 14,
+            "end": 214
+          },
+          {
+            "w": "میں",
+            "start": 214,
+            "end": 524
+          },
+          {
+            "w": "امی",
+            "start": 524,
+            "end": 824
+          },
+          {
+            "w": "پکوڑے",
+            "start": 824,
+            "end": 1424
+          },
+          {
+            "w": "اور",
+            "start": 1424,
+            "end": 1734
+          },
+          {
+            "w": "فروٹ",
+            "start": 1734,
+            "end": 2204
+          },
+          {
+            "w": "چاٹ",
+            "start": 2204,
+            "end": 2504
+          },
+          {
+            "w": "بنا",
+            "start": 2504,
+            "end": 2734
+          },
+          {
+            "w": "رہی",
+            "start": 2734,
+            "end": 3034
+          },
+          {
+            "w": "تھیں۔",
+            "start": 3034,
+            "end": 3464
+          },
+          {
+            "w": "وہ",
+            "start": 3464,
+            "end": 3834
+          },
+          {
+            "w": "بہت",
+            "start": 3834,
+            "end": 4144
+          },
+          {
+            "w": "تھکی",
+            "start": 4144,
+            "end": 4554
+          },
+          {
+            "w": "ہوئی",
+            "start": 4554,
+            "end": 5034
+          },
+          {
+            "w": "لگ",
+            "start": 5034,
+            "end": 5274
+          },
+          {
+            "w": "رہی",
+            "start": 5274,
+            "end": 5754
+          },
+          {
+            "w": "تھیں۔",
+            "start": 5754,
+            "end": 6004
+          }
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "type": "page",
+      "next": "p4",
+      "scene": "new_house_evening",
+      "text": {
+        "en": "Outside, Sara's friends were playing. \"Sara, come and play!\" they called.",
+        "ur": "باہر سارہ کی سہیلیاں کھیل رہی تھیں۔ \"سارہ، آؤ کھیلیں!\" انہوں نے آواز دی۔"
+      },
+      "cast": [
+        {
+          "art": "puppet:zainab",
+          "x": 0.3,
+          "y": 0.64,
+          "size": 0.2,
+          "act": "run",
+          "face": "laugh"
+        },
+        {
+          "art": "prop:ball",
+          "x": 0.42,
+          "y": 0.52,
+          "size": 0.05,
+          "mood": "float"
+        },
+        {
+          "art": "puppet:bilal",
+          "x": 0.54,
+          "y": 0.64,
+          "size": 0.2,
+          "pose": "wave",
+          "act": "wave",
+          "face": "laugh",
+          "look": "right"
+        },
+        {
+          "art": "puppet:sara",
+          "x": 0.84,
+          "y": 0.67,
+          "size": 0.22,
+          "face": "happy",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "باہر",
+            "start": 447,
+            "end": 717
+          },
+          {
+            "w": "سارہ",
+            "start": 717,
+            "end": 1077
+          },
+          {
+            "w": "کی",
+            "start": 1077,
+            "end": 1257
+          },
+          {
+            "w": "سہیلیاں",
+            "start": 1257,
+            "end": 1887
+          },
+          {
+            "w": "کھیل",
+            "start": 1887,
+            "end": 2247
+          },
+          {
+            "w": "رہی",
+            "start": 2247,
+            "end": 2517
+          },
+          {
+            "w": "تھیں۔",
+            "start": 2517,
+            "end": 3347
+          },
+          {
+            "w": "\"سارہ،",
+            "start": 3347,
+            "end": 3687
+          },
+          {
+            "w": "آؤ",
+            "start": 3687,
+            "end": 4007
+          },
+          {
+            "w": "کھیلیں!\"",
+            "start": 4007,
+            "end": 4627
+          },
+          {
+            "w": "انہوں",
+            "start": 4627,
+            "end": 5147
+          },
+          {
+            "w": "نے",
+            "start": 5147,
+            "end": 5357
+          },
+          {
+            "w": "آواز",
+            "start": 5357,
+            "end": 5777
+          },
+          {
+            "w": "دی۔",
+            "start": 5777,
+            "end": 6307
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "type": "page",
+      "next": "choice",
+      "scene": "kitchen",
+      "text": {
+        "en": "Sara looked at her friends. Then she looked at tired Ammi. What should Sara do?",
+        "ur": "سارہ نے سہیلیوں کی طرف دیکھا۔ پھر تھکی ہوئی امی کو دیکھا۔ سارہ کو کیا کرنا چاہیے؟"
+      },
+      "cast": [
+        {
+          "art": "prop:stove",
+          "x": 0.42,
+          "y": 0.375,
+          "size": 0.09
+        },
+        {
+          "art": "puppet:ammi",
+          "x": 0.2,
+          "y": 0.67,
+          "size": 0.29,
+          "pose": "pour",
+          "face": "tired",
+          "look": "right"
+        },
+        {
+          "art": "puppet:sara",
+          "x": 0.66,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "think",
+          "face": "think",
+          "look": "upRight"
+        },
+        {
+          "art": "prop:ball",
+          "x": 0.78,
+          "y": 0.2,
+          "size": 0.035,
+          "mood": "float"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "سارہ",
+            "start": 11,
+            "end": 381
+          },
+          {
+            "w": "نے",
+            "start": 381,
+            "end": 511
+          },
+          {
+            "w": "سہیلیوں",
+            "start": 511,
+            "end": 1211
+          },
+          {
+            "w": "کی",
+            "start": 1211,
+            "end": 1411
+          },
+          {
+            "w": "طرف",
+            "start": 1411,
+            "end": 1711
+          },
+          {
+            "w": "دیکھا۔",
+            "start": 1711,
+            "end": 2301
+          },
+          {
+            "w": "پھر",
+            "start": 2301,
+            "end": 2811
+          },
+          {
+            "w": "تھکی",
+            "start": 2811,
+            "end": 3011
+          },
+          {
+            "w": "ہوئی",
+            "start": 3011,
+            "end": 3411
+          },
+          {
+            "w": "امی",
+            "start": 3411,
+            "end": 3711
+          },
+          {
+            "w": "کو",
+            "start": 3711,
+            "end": 3911
+          },
+          {
+            "w": "دیکھا۔",
+            "start": 3911,
+            "end": 4791
+          },
+          {
+            "w": "سارہ",
+            "start": 4791,
+            "end": 5241
+          },
+          {
+            "w": "کو",
+            "start": 5241,
+            "end": 5391
+          },
+          {
+            "w": "کیا",
+            "start": 5391,
+            "end": 5751
+          },
+          {
+            "w": "کرنا",
+            "start": 5751,
+            "end": 6231
+          },
+          {
+            "w": "چاہیے؟",
+            "start": 6231,
+            "end": 6971
+          }
+        ]
+      }
+    },
+    {
+      "id": "choice",
+      "type": "choice",
+      "prompt": {
+        "en": "What should Sara do?",
+        "ur": "سارہ کو کیا کرنا چاہیے؟"
+      },
+      "options": [
+        {
+          "id": "a",
+          "label": {
+            "en": "Help Ammi",
+            "ur": "امی کی مدد کرے"
+          },
+          "picture": "prop:plates",
+          "next": "choice_a"
+        },
+        {
+          "id": "b",
+          "label": {
+            "en": "Go and play",
+            "ur": "کھیلنے جائے"
+          },
+          "picture": "prop:ball",
+          "next": "choice_b"
+        }
+      ]
+    },
+    {
+      "id": "choice_a",
+      "type": "page",
+      "next": "p5",
+      "scene": "living_room_evening",
+      "text": {
+        "en": "\"Ammi, let me help you!\" said Sara. She put the plates and glasses on the dastarkhwan, one by one.",
+        "ur": "\"امی، میں آپ کی مدد کرتی ہوں!\" سارہ نے کہا۔ اس نے ایک ایک کر کے پلیٹیں اور گلاس دسترخوان پر رکھے۔"
+      },
+      "help": {
+        "kind": "drag",
+        "item": 2,
+        "to": 0
+      },
+      "cast": [
+        {
+          "art": "prop:dastarkhwan_empty",
+          "x": 0.46,
+          "y": 0.74,
+          "size": 0.075,
+          "helpHide": 1
+        },
+        {
+          "art": "prop:dastarkhwan",
+          "x": 0.46,
+          "y": 0.74,
+          "size": 0.075,
+          "helpStep": 1
+        },
+        {
+          "art": "prop:plates",
+          "x": 0.84,
+          "y": 0.64,
+          "size": 0.05,
+          "helpHide": 1
+        },
+        {
+          "art": "prop:string_lights",
+          "x": 0.5,
+          "y": 0.1,
+          "size": 0.06
+        },
+        {
+          "art": "puppet:sara",
+          "x": 0.7,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "point",
+          "act": "talk",
+          "mood": "happy",
+          "look": "left"
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "\"امی،",
+            "start": 71,
+            "end": 271
+          },
+          {
+            "w": "میں",
+            "start": 271,
+            "end": 591
+          },
+          {
+            "w": "آپ",
+            "start": 591,
+            "end": 801
+          },
+          {
+            "w": "کی",
+            "start": 801,
+            "end": 1011
+          },
+          {
+            "w": "مدد",
+            "start": 1011,
+            "end": 1301
+          },
+          {
+            "w": "کرتی",
+            "start": 1301,
+            "end": 1651
+          },
+          {
+            "w": "ہوں!\"",
+            "start": 1651,
+            "end": 2131
+          },
+          {
+            "w": "سارہ",
+            "start": 2131,
+            "end": 2531
+          },
+          {
+            "w": "نے",
+            "start": 2531,
+            "end": 2751
+          },
+          {
+            "w": "کہا۔",
+            "start": 2751,
+            "end": 3161
+          },
+          {
+            "w": "اس",
+            "start": 3161,
+            "end": 3371
+          },
+          {
+            "w": "نے",
+            "start": 3371,
+            "end": 3571
+          },
+          {
+            "w": "ایک",
+            "start": 3571,
+            "end": 3681
+          },
+          {
+            "w": "ایک",
+            "start": 3681,
+            "end": 4271
+          },
+          {
+            "w": "کر",
+            "start": 4271,
+            "end": 4411
+          },
+          {
+            "w": "کے",
+            "start": 4411,
+            "end": 4611
+          },
+          {
+            "w": "پلیٹیں",
+            "start": 4611,
+            "end": 5231
+          },
+          {
+            "w": "اور",
+            "start": 5231,
+            "end": 5651
+          },
+          {
+            "w": "گلاس",
+            "start": 5651,
+            "end": 5961
+          },
+          {
+            "w": "دسترخوان",
+            "start": 5961,
+            "end": 6781
+          },
+          {
+            "w": "پر",
+            "start": 6781,
+            "end": 6981
+          },
+          {
+            "w": "رکھے۔",
+            "start": 6981,
+            "end": 7481
+          }
+        ]
+      }
+    },
+    {
+      "id": "choice_b",
+      "type": "page",
+      "next": "p5",
+      "scene": "living_room_evening",
+      "text": {
+        "en": "Sara ran outside to play. But she kept thinking of Ammi. She came back in. \"Ammi, let me help you!\" She put the plates and glasses on the dastarkhwan.",
+        "ur": "سارہ کھیلنے کے لیے باہر بھاگی۔ مگر اسے امی کا خیال آتا رہا۔ وہ واپس آئی۔ \"امی، میں آپ کی مدد کرتی ہوں!\" اس نے پلیٹیں اور گلاس دسترخوان پر رکھے۔"
+      },
+      "help": {
+        "kind": "drag",
+        "item": 2,
+        "to": 0,
+        "when": "after"
+      },
+      "cast": [
+        {
+          "art": "prop:dastarkhwan_empty",
+          "x": 0.46,
+          "y": 0.74,
+          "size": 0.075,
+          "helpHide": 1
+        },
+        {
+          "art": "prop:dastarkhwan",
+          "x": 0.46,
+          "y": 0.74,
+          "size": 0.075,
+          "helpStep": 1
+        },
+        {
+          "art": "prop:plates",
+          "x": 0.84,
+          "y": 0.64,
+          "size": 0.05,
+          "helpHide": 1,
+          "delay": 4830
+        },
+        {
+          "art": "prop:string_lights",
+          "x": 0.5,
+          "y": 0.1,
+          "size": 0.06
+        },
+        {
+          "art": "puppet:sara",
+          "x": 0.2,
+          "y": 0.67,
+          "size": 0.22,
+          "act": "run",
+          "face": "laugh",
+          "until": 2390
+        },
+        {
+          "art": "puppet:sara",
+          "x": 0.66,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "think",
+          "face": "think",
+          "delay": 2390,
+          "until": 4830
+        },
+        {
+          "art": "puppet:sara",
+          "x": 0.7,
+          "y": 0.67,
+          "size": 0.22,
+          "pose": "point",
+          "act": "talk",
+          "mood": "happy",
+          "look": "left",
+          "delay": 4830
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "سارہ",
+            "start": 10,
+            "end": 420
+          },
+          {
+            "w": "کھیلنے",
+            "start": 420,
+            "end": 1240
+          },
+          {
+            "w": "کے",
+            "start": 1240,
+            "end": 1300
+          },
+          {
+            "w": "لیے",
+            "start": 1240,
+            "end": 1620
+          },
+          {
+            "w": "باہر",
+            "start": 1620,
+            "end": 1940
+          },
+          {
+            "w": "بھاگی۔",
+            "start": 1940,
+            "end": 2540
+          },
+          {
+            "w": "مگر",
+            "start": 2540,
+            "end": 2840
+          },
+          {
+            "w": "اسے",
+            "start": 2840,
+            "end": 3200
+          },
+          {
+            "w": "امی",
+            "start": 3200,
+            "end": 3460
+          },
+          {
+            "w": "کا",
+            "start": 3460,
+            "end": 3690
+          },
+          {
+            "w": "خیال",
+            "start": 3690,
+            "end": 4070
+          },
+          {
+            "w": "آتا",
+            "start": 4070,
+            "end": 4370
+          },
+          {
+            "w": "رہا۔",
+            "start": 4370,
+            "end": 4980
+          },
+          {
+            "w": "وہ",
+            "start": 4980,
+            "end": 5040
+          },
+          {
+            "w": "واپس",
+            "start": 4980,
+            "end": 5390
+          },
+          {
+            "w": "آئی۔",
+            "start": 5390,
+            "end": 6740
+          },
+          {
+            "w": "\"امی،",
+            "start": 6740,
+            "end": 6990
+          },
+          {
+            "w": "میں",
+            "start": 6990,
+            "end": 7100
+          },
+          {
+            "w": "آپ",
+            "start": 7100,
+            "end": 7610
+          },
+          {
+            "w": "کی",
+            "start": 7610,
+            "end": 7700
+          },
+          {
+            "w": "مدد",
+            "start": 7700,
+            "end": 7860
+          },
+          {
+            "w": "کرتی",
+            "start": 7860,
+            "end": 8290
+          },
+          {
+            "w": "ہوں!\"",
+            "start": 8290,
+            "end": 8540
+          },
+          {
+            "w": "اس",
+            "start": 8540,
+            "end": 8790
+          },
+          {
+            "w": "نے",
+            "start": 8790,
+            "end": 8900
+          },
+          {
+            "w": "پلیٹیں",
+            "start": 8900,
+            "end": 9400
+          },
+          {
+            "w": "اور",
+            "start": 9400,
+            "end": 9660
+          },
+          {
+            "w": "گلاس",
+            "start": 9660,
+            "end": 10000
+          },
+          {
+            "w": "دسترخوان",
+            "start": 10000,
+            "end": 10670
+          },
+          {
+            "w": "پر",
+            "start": 10670,
+            "end": 10840
+          },
+          {
+            "w": "رکھے۔",
+            "start": 10840,
+            "end": 11520
+          }
+        ]
+      }
+    },
+    {
+      "id": "p5",
+      "type": "page",
+      "next": "p6",
+      "scene": "living_room_evening",
+      "text": {
+        "en": "Sara washed the dates and put them in a bowl. She poured sharbat into the glasses. The dastarkhwan looked so pretty!",
+        "ur": "سارہ نے کھجوریں دھو کر پیالے میں رکھیں۔ اس نے گلاسوں میں شربت ڈالا۔ دسترخوان بہت پیارا لگ رہا تھا!"
+      },
+      "cast": [
+        {
+          "art": "prop:string_lights",
+          "x": 0.5,
+          "y": 0.1,
+          "size": 0.06
+        },
+        {
+          "art": "puppet:sara",
+          "x": 0.34,
+          "y": 0.69,
+          "size": 0.2,
+          "pose": "kneel",
+          "hold": "prop:dates",
+          "holdSize": 0.25,
+          "face": "happy",
+          "look": "right"
+        },
+        {
+          "art": "prop:dastarkhwan",
+          "x": 0.56,
+          "y": 0.74,
+          "size": 0.06
+        },
+        {
+          "art": "prop:sharbat",
+          "x": 0.8,
+          "y": 0.7,
+          "size": 0.05
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.6,
+          "y": 0.62,
+          "size": 0.03,
+          "mood": "twinkle",
+          "delay": 1500
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "سارہ",
+            "start": 26,
+            "end": 366
+          },
+          {
+            "w": "نے",
+            "start": 366,
+            "end": 636
+          },
+          {
+            "w": "کھجوریں",
+            "start": 636,
+            "end": 1226
+          },
+          {
+            "w": "دھو",
+            "start": 1226,
+            "end": 1446
+          },
+          {
+            "w": "کر",
+            "start": 1446,
+            "end": 1696
+          },
+          {
+            "w": "پیالے",
+            "start": 1696,
+            "end": 2356
+          },
+          {
+            "w": "میں",
+            "start": 2356,
+            "end": 2416
+          },
+          {
+            "w": "رکھیں۔",
+            "start": 2386,
+            "end": 2806
+          },
+          {
+            "w": "اس",
+            "start": 2806,
+            "end": 3016
+          },
+          {
+            "w": "نے",
+            "start": 3016,
+            "end": 3166
+          },
+          {
+            "w": "گلاسوں",
+            "start": 3166,
+            "end": 3706
+          },
+          {
+            "w": "میں",
+            "start": 3706,
+            "end": 3986
+          },
+          {
+            "w": "شربت",
+            "start": 3986,
+            "end": 4346
+          },
+          {
+            "w": "ڈالا۔",
+            "start": 4346,
+            "end": 4886
+          },
+          {
+            "w": "دسترخوان",
+            "start": 4886,
+            "end": 5606
+          },
+          {
+            "w": "بہت",
+            "start": 5606,
+            "end": 5876
+          },
+          {
+            "w": "پیارا",
+            "start": 5876,
+            "end": 6326
+          },
+          {
+            "w": "لگ",
+            "start": 6326,
+            "end": 6506
+          },
+          {
+            "w": "رہا",
+            "start": 6506,
+            "end": 6956
+          },
+          {
+            "w": "تھا!",
+            "start": 6956,
+            "end": 7736
+          }
+        ]
+      }
+    },
+    {
+      "id": "p6",
+      "type": "page",
+      "next": "p7",
+      "scene": "living_room_evening",
+      "text": {
+        "en": "Then they heard the azan. Abbu said, \"Bismillah,\" and everyone opened their fast with a date.",
+        "ur": "پھر اذان کی آواز آئی۔ ابو نے \"بسم اللہ\" کہا اور سب نے کھجور سے روزہ کھولا۔"
+      },
+      "cast": [
+        {
+          "art": "prop:string_lights",
+          "x": 0.5,
+          "y": 0.1,
+          "size": 0.06
+        },
+        {
+          "art": "puppet:baba",
+          "x": 0.22,
+          "y": 0.67,
+          "size": 0.25,
+          "pose": "sit",
+          "hold": "prop:date",
+          "holdSize": 0.12,
+          "act": "talk",
+          "face": "happy",
+          "look": "right"
+        },
+        {
+          "art": "puppet:ammi",
+          "x": 0.5,
+          "y": 0.67,
+          "size": 0.25,
+          "pose": "dua",
+          "face": "happy"
+        },
+        {
+          "art": "puppet:sara",
+          "x": 0.76,
+          "y": 0.69,
+          "size": 0.19,
+          "pose": "dua",
+          "face": "happy",
+          "look": "left"
+        },
+        {
+          "art": "prop:dastarkhwan",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.06
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "پھر",
+            "start": 3,
+            "end": 253
+          },
+          {
+            "w": "اذان",
+            "start": 253,
+            "end": 483
+          },
+          {
+            "w": "کی",
+            "start": 483,
+            "end": 623
+          },
+          {
+            "w": "آواز",
+            "start": 623,
+            "end": 913
+          },
+          {
+            "w": "آئی۔",
+            "start": 913,
+            "end": 1273
+          },
+          {
+            "w": "ابو",
+            "start": 1403,
+            "end": 1603
+          },
+          {
+            "w": "نے",
+            "start": 1603,
+            "end": 1823
+          },
+          {
+            "w": "\"بسم",
+            "start": 1823,
+            "end": 2153
+          },
+          {
+            "w": "اللہ\"",
+            "start": 2153,
+            "end": 2593
+          },
+          {
+            "w": "کہا",
+            "start": 2593,
+            "end": 3253
+          },
+          {
+            "w": "اور",
+            "start": 3253,
+            "end": 3313
+          },
+          {
+            "w": "سب",
+            "start": 3303,
+            "end": 3473
+          },
+          {
+            "w": "نے",
+            "start": 3473,
+            "end": 3693
+          },
+          {
+            "w": "کھجور",
+            "start": 3693,
+            "end": 4243
+          },
+          {
+            "w": "سے",
+            "start": 4243,
+            "end": 4463
+          },
+          {
+            "w": "روزہ",
+            "start": 4463,
+            "end": 4903
+          },
+          {
+            "w": "کھولا۔",
+            "start": 4903,
+            "end": 5573
+          }
+        ]
+      }
+    },
+    {
+      "id": "p7",
+      "type": "page",
+      "next": "p8",
+      "scene": "living_room_evening",
+      "text": {
+        "en": "Ammi smiled at Sara. \"JazakAllah, my little helper. You made my work so easy today.\"",
+        "ur": "امی سارہ کو دیکھ کر مسکرائیں۔ \"جزاک اللہ، میری ننھی مددگار۔ آج تم نے میرا کام بہت آسان کر دیا۔\""
+      },
+      "cast": [
+        {
+          "art": "prop:string_lights",
+          "x": 0.5,
+          "y": 0.1,
+          "size": 0.06
+        },
+        {
+          "art": "prop:dastarkhwan",
+          "x": 0.5,
+          "y": 0.76,
+          "size": 0.05
+        },
+        {
+          "art": "puppet:ammi",
+          "x": 0.42,
+          "y": 0.66,
+          "size": 0.29,
+          "pose": "hand_on_shoulder",
+          "act": "talk",
+          "mood": "happy",
+          "look": "right"
+        },
+        {
+          "art": "puppet:sara",
+          "x": 0.6,
+          "y": 0.67,
+          "size": 0.22,
+          "face": "shy",
+          "mood": "happy",
+          "look": "up"
+        },
+        {
+          "art": "prop:heart",
+          "x": 0.52,
+          "y": 0.3,
+          "size": 0.03,
+          "mood": "float",
+          "delay": 800
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "امی",
+            "start": 9,
+            "end": 329
+          },
+          {
+            "w": "سارہ",
+            "start": 329,
+            "end": 769
+          },
+          {
+            "w": "کو",
+            "start": 769,
+            "end": 979
+          },
+          {
+            "w": "دیکھ",
+            "start": 979,
+            "end": 1559
+          },
+          {
+            "w": "کر",
+            "start": 1559,
+            "end": 1649
+          },
+          {
+            "w": "مسکرائیں۔",
+            "start": 1649,
+            "end": 2709
+          },
+          {
+            "w": "\"جزاک",
+            "start": 2709,
+            "end": 3209
+          },
+          {
+            "w": "اللہ،",
+            "start": 3209,
+            "end": 3669
+          },
+          {
+            "w": "میری",
+            "start": 3669,
+            "end": 4149
+          },
+          {
+            "w": "ننھی",
+            "start": 4149,
+            "end": 4759
+          },
+          {
+            "w": "مددگار۔",
+            "start": 4759,
+            "end": 5479
+          },
+          {
+            "w": "آج",
+            "start": 5479,
+            "end": 5719
+          },
+          {
+            "w": "تم",
+            "start": 5719,
+            "end": 5959
+          },
+          {
+            "w": "نے",
+            "start": 5959,
+            "end": 6199
+          },
+          {
+            "w": "میرا",
+            "start": 6199,
+            "end": 6679
+          },
+          {
+            "w": "کام",
+            "start": 6679,
+            "end": 7039
+          },
+          {
+            "w": "بہت",
+            "start": 7039,
+            "end": 7399
+          },
+          {
+            "w": "آسان",
+            "start": 7399,
+            "end": 7879
+          },
+          {
+            "w": "کر",
+            "start": 7879,
+            "end": 7939
+          },
+          {
+            "w": "دیا۔\"",
+            "start": 7929,
+            "end": 8599
+          }
+        ]
+      }
+    },
+    {
+      "id": "p8",
+      "type": "page",
+      "next": null,
+      "scene": "living_room_evening",
+      "text": {
+        "en": "Sara felt so happy inside. Helping Ammi was even more fun than playing! \"Can I help tomorrow too?\"",
+        "ur": "سارہ کو اندر سے بہت خوشی ہوئی۔ امی کی مدد کرنا کھیلنے سے بھی زیادہ مزے کا تھا! \"کیا میں کل بھی مدد کروں؟\""
+      },
+      "cast": [
+        {
+          "art": "prop:string_lights",
+          "x": 0.5,
+          "y": 0.1,
+          "size": 0.06
+        },
+        {
+          "art": "prop:dastarkhwan_empty",
+          "x": 0.5,
+          "y": 0.76,
+          "size": 0.05
+        },
+        {
+          "art": "puppet:sara",
+          "x": 0.5,
+          "y": 0.68,
+          "size": 0.24,
+          "pose": "hold",
+          "hold": "prop:plates",
+          "holdSize": 0.25,
+          "act": "bounce",
+          "face": "laugh"
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.3,
+          "y": 0.45,
+          "size": 0.03,
+          "mood": "twinkle",
+          "delay": 600
+        },
+        {
+          "art": "prop:sparkle",
+          "x": 0.72,
+          "y": 0.4,
+          "size": 0.03,
+          "mood": "twinkle",
+          "delay": 1100
+        }
+      ],
+      "words": {
+        "ur": [
+          {
+            "w": "سارہ",
+            "start": 5,
+            "end": 485
+          },
+          {
+            "w": "کو",
+            "start": 485,
+            "end": 745
+          },
+          {
+            "w": "اندر",
+            "start": 745,
+            "end": 1245
+          },
+          {
+            "w": "سے",
+            "start": 1245,
+            "end": 1445
+          },
+          {
+            "w": "بہت",
+            "start": 1445,
+            "end": 1925
+          },
+          {
+            "w": "خوشی",
+            "start": 1925,
+            "end": 2325
+          },
+          {
+            "w": "ہوئی۔",
+            "start": 2325,
+            "end": 3115
+          },
+          {
+            "w": "امی",
+            "start": 3115,
+            "end": 3415
+          },
+          {
+            "w": "کی",
+            "start": 3415,
+            "end": 3625
+          },
+          {
+            "w": "مدد",
+            "start": 3625,
+            "end": 3925
+          },
+          {
+            "w": "کرنا",
+            "start": 3925,
+            "end": 4345
+          },
+          {
+            "w": "کھیلنے",
+            "start": 4345,
+            "end": 5165
+          },
+          {
+            "w": "سے",
+            "start": 5165,
+            "end": 5225
+          },
+          {
+            "w": "بھی",
+            "start": 5195,
+            "end": 5475
+          },
+          {
+            "w": "زیادہ",
+            "start": 5475,
+            "end": 5985
+          },
+          {
+            "w": "مزے",
+            "start": 5985,
+            "end": 6285
+          },
+          {
+            "w": "کا",
+            "start": 6285,
+            "end": 6495
+          },
+          {
+            "w": "تھا!",
+            "start": 6495,
+            "end": 7115
+          },
+          {
+            "w": "\"کیا",
+            "start": 7115,
+            "end": 7485
+          },
+          {
+            "w": "میں",
+            "start": 7485,
+            "end": 7855
+          },
+          {
+            "w": "کل",
+            "start": 7855,
+            "end": 8095
+          },
+          {
+            "w": "بھی",
+            "start": 8095,
+            "end": 8505
+          },
+          {
+            "w": "مدد",
+            "start": 8505,
+            "end": 8825
+          },
+          {
+            "w": "کروں؟\"",
+            "start": 8825,
+            "end": 9515
+          }
+        ]
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "id": "helper",
+      "picture": "puppet:sara",
+      "word": {
+        "en": "helper",
+        "ur": "مددگار"
+      },
+      "forms": {
+        "en": [
+          "help",
+          "helping"
+        ],
+        "ur": [
+          "مدد"
+        ]
+      }
+    },
+    {
+      "id": "dates",
+      "picture": "prop:dates",
+      "word": {
+        "en": "dates",
+        "ur": "کھجور"
+      },
+      "forms": {
+        "en": [
+          "date"
+        ],
+        "ur": [
+          "کھجوریں",
+          "کھجوروں"
+        ]
+      }
+    },
+    {
+      "id": "fast",
+      "word": {
+        "en": "fast",
+        "ur": "روزہ"
+      },
+      "forms": {
+        "en": [
+          "fasting"
+        ],
+        "ur": [
+          "روزے"
+        ]
+      }
+    },
+    {
+      "id": "iftar",
+      "picture": "prop:dastarkhwan",
+      "word": {
+        "en": "Iftar",
+        "ur": "افطاری"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "plates",
+      "picture": "prop:plates",
+      "word": {
+        "en": "plates",
+        "ur": "پلیٹیں"
+      },
+      "forms": {
+        "en": [
+          "plate"
+        ],
+        "ur": [
+          "پلیٹ"
+        ]
+      }
+    },
+    {
+      "id": "pakoras",
+      "picture": "prop:pakoras",
+      "word": {
+        "en": "pakoras",
+        "ur": "پکوڑے"
+      },
+      "forms": {
+        "en": [
+          "pakora"
+        ],
+        "ur": []
+      }
+    },
+    {
+      "id": "sharbat",
+      "picture": "prop:sharbat",
+      "word": {
+        "en": "sharbat",
+        "ur": "شربت"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "azan",
+      "picture": "prop:mosque",
+      "word": {
+        "en": "azan",
+        "ur": "اذان"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "ramzan",
+      "picture": "prop:moon",
+      "word": {
+        "en": "Ramzan",
+        "ur": "رمضان"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    },
+    {
+      "id": "kitchen",
+      "picture": "prop:kitchen",
+      "word": {
+        "en": "kitchen",
+        "ur": "کچن"
+      },
+      "forms": {
+        "en": [],
+        "ur": []
+      }
+    }
+  ],
+  "vocabulary": [
+    "helper",
+    "dates",
+    "fast"
+  ],
+  "quiz": [
+    {
+      "question": {
+        "en": "Which month was it?",
+        "ur": "کون سا مہینہ تھا؟"
+      },
+      "options": [
+        {
+          "picture": "prop:moon",
+          "correct": true,
+          "label": {
+            "en": "Ramzan",
+            "ur": "رمضان"
+          }
+        },
+        {
+          "picture": "prop:snowflake",
+          "label": {
+            "en": "Winter holidays",
+            "ur": "سردیوں کی چھٹیاں"
+          }
+        },
+        {
+          "picture": "prop:cake",
+          "label": {
+            "en": "Birthday month",
+            "ur": "سالگرہ کا مہینہ"
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "What did they open their fast with?",
+        "ur": "سب نے روزہ کس سے کھولا؟"
+      },
+      "options": [
+        {
+          "picture": "prop:date",
+          "correct": true
+        },
+        {
+          "picture": "prop:ice_cream"
+        },
+        {
+          "picture": "prop:pizza"
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "Who did Sara help?",
+        "ur": "سارہ نے کس کی مدد کی؟"
+      },
+      "options": [
+        {
+          "picture": "puppet:ammi",
+          "correct": true
+        },
+        {
+          "picture": "prop:cat"
+        },
+        {
+          "picture": "prop:teddy"
+        }
+      ]
+    },
+    {
+      "type": "drag",
+      "question": {
+        "en": "Put the dates on the dastarkhwan!",
+        "ur": "کھجوریں دسترخوان پر رکھو!"
+      },
+      "item": "prop:dates",
+      "options": [
+        {
+          "picture": "prop:bed"
+        },
+        {
+          "picture": "prop:dastarkhwan_empty",
+          "correct": true
+        },
+        {
+          "picture": "prop:bin"
+        }
+      ]
+    }
+  ]
+}
