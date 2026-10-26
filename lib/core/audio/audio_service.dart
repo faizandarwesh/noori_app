@@ -114,9 +114,22 @@ class AudioService {
         AudioContextConfig(focus: AudioContextConfigFocus.mixWithOthers)
             .build(),
       );
+      // By default every player asks the platform for its position on every
+      // frame while it plays. SFX players (SoundPool) never report that they
+      // finished, so theirs never stopped, and each play added another
+      // per-frame poll: the app slowed down story by story. Only the voice
+      // needs positions (for karaoke), and the narrator fills in between
+      // reports, so it polls on a timer.
+      _music.positionUpdater = null;
+      _ambient.positionUpdater = null;
+      _voice.positionUpdater = TimerPositionUpdater(
+        getPosition: _voice.getCurrentPosition,
+        interval: const Duration(milliseconds: 200),
+      );
       await _music.setReleaseMode(ReleaseMode.loop);
       await _ambient.setReleaseMode(ReleaseMode.loop);
       for (final p in _sfxPool) {
+        p.positionUpdater = null;
         await p.setPlayerMode(PlayerMode.lowLatency);
         await p.setReleaseMode(ReleaseMode.stop);
       }

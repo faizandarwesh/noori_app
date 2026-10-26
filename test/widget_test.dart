@@ -80,7 +80,7 @@ void main() {
     await tester.tap(find.byType(Scaffold)); // skip splash
     await _pumpFrames(tester, const Duration(seconds: 2));
 
-    expect(find.text('Bunty and the Big Mango'), findsOneWidget);
+    expect(find.text('Ali and the Thirsty Sparrow'), findsOneWidget);
     expect(find.textContaining('Swipe'), findsOneWidget);
     // No map, no locked zones, no clutter.
     expect(find.text('Sea'), findsNothing);
@@ -116,10 +116,10 @@ void main() {
     await tester.tap(find.byType(Scaffold));
     await _pumpFrames(tester, const Duration(seconds: 2));
 
-    await tester.tap(find.text('Bunty and the Big Mango'));
+    await tester.tap(find.text('Ali and the Thirsty Sparrow'));
     await _pumpFrames(tester, const Duration(seconds: 2));
     expect(find.byType(ReaderScreen), findsOneWidget);
-    expect(find.text('Bunty'), findsWidgets);
+    expect(find.text('Ali'), findsWidgets);
     await _teardown(tester);
   });
 

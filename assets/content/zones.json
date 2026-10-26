@@ -10,51 +10,6 @@
       "unlockAfter": null,
       "stories": [
         {
-          "id": "bunty_big_mango",
-          "title": {
-            "en": "Bunty and the Big Mango",
-            "ur": "بنٹی اور بڑا آم"
-          },
-          "value": "sharing",
-          "character": "rabbit"
-        },
-        {
-          "id": "gulu_gentle_trunk",
-          "title": {
-            "en": "Gulu's Gentle Trunk",
-            "ur": "گولو کی پیاری سونڈ"
-          },
-          "value": "kindness",
-          "character": "elephant"
-        },
-        {
-          "id": "mithu_tells_truth",
-          "title": {
-            "en": "Mithu Tells the Truth",
-            "ur": "مٹھو نے سچ بولا"
-          },
-          "value": "honesty",
-          "character": "parrot"
-        },
-        {
-          "id": "tolu_tiny_seed",
-          "title": {
-            "en": "Tolu and the Tiny Seed",
-            "ur": "ٹولو اور ننھا بیج"
-          },
-          "value": "patience",
-          "character": "turtle"
-        },
-        {
-          "id": "chunnu_crosses_river",
-          "title": {
-            "en": "Chunnu Crosses the River",
-            "ur": "چُنّو نے دریا پار کیا"
-          },
-          "value": "courage",
-          "character": "monkey"
-        },
-        {
           "id": "ali_thirsty_sparrow",
           "title": {
             "en": "Ali and the Thirsty Sparrow",
